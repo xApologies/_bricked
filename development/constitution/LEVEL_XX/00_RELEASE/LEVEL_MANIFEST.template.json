@@ -1,0 +1,14 @@
+{
+  "level_id": "M1-LXX",
+  "name": "LEVEL_XX",
+  "module": "MODULE_I_GENESIS",
+  "version": "0.0.0",
+  "status": "DRAFT",
+  "constitution_version": "1.0",
+  "implementation_status": "SPEC_ONLY",
+  "owners": {
+    "project_director": "Genesis",
+    "systems_security": "Astraeus",
+    "audit_provenance": "Vera"
+  }
+}

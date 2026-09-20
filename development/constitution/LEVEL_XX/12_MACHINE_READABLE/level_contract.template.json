@@ -1,0 +1,37 @@
+{
+  "level_id": "M1-LXX",
+  "constitution_version": "1.0",
+  "sandbox": "GENESIS_11D_NORMALIZED",
+  "layers": {
+    "5D": {
+      "activity": "TBD",
+      "visibility": "TBD",
+      "player_access": "TBD"
+    },
+    "6D": {
+      "activity": "TBD",
+      "visibility": "TBD",
+      "player_access": "TBD"
+    },
+    "7D_8D": {
+      "activity": "TBD",
+      "visibility": "TBD",
+      "player_access": "TBD"
+    },
+    "9D_11D": {
+      "activity": "TBD",
+      "visibility": "TBD",
+      "player_access": "TBD"
+    }
+  },
+  "systems": [],
+  "verbs": [],
+  "algorithms": [],
+  "states": [],
+  "flags": [],
+  "keys": [],
+  "recursion": {
+    "used": "TBD",
+    "contract": "03_GENESIS_MODEL/RECURSION_CONTRACT.md"
+  }
+}

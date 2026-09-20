@@ -1,0 +1,229 @@
+PROJECT: _bricked
+REPOSITORY: xApologies/_bricked
+TASK: Bootstrap the canonical game-development repository.
+
+You are the implementation/operator layer. Do not redesign the project.
+
+AUTHORITATIVE RULES
+
+1. main is canonical accepted project state.
+2. Preserve existing repository content unless this task explicitly replaces it.
+3. Specifications and runtime implementation must remain separate.
+4. Every playable level uses the invariant 00–14 Development Constitution.
+5. Shared Genesis concepts are defined once and referenced by levels; levels do not independently redefine shared architecture.
+6. OPEN mathematics/design stays explicitly OPEN. Do not invent missing Genesis rules.
+7. Genesis semantics are upstream of Python, platform adapters, and rendering.
+8. Gameplay-significant visuals represent authoritative computational state.
+9. Every architectural change must have provenance.
+10. Do not implement the actual game runtime yet.
+
+CREATE THIS REPOSITORY ARCHITECTURE:
+
+/
+├── README.md
+├── PROJECT_CONSTITUTION.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+│
+├── docs/
+│   ├── architecture/
+│   ├── design/
+│   ├── cybersecurity/
+│   ├── genesis/
+│   ├── visual_language/
+│   ├── glossary/
+│   └── diagrams/
+│
+├── development/
+│   ├── constitution/
+│   │   └── LEVEL_XX/
+│   ├── modules/
+│   │   ├── M01_GENESIS/
+│   │   ├── M02_CODE/
+│   │   ├── M03_NETWORK/
+│   │   ├── M04_VIRTUALIZE/
+│   │   ├── M05_VIRTUAL_BOXING/
+│   │   ├── M06_RAID/
+│   │   ├── M07_FLEET/
+│   │   └── M08_SOVEREIGN/
+│   ├── systems/
+│   │   ├── BOOT_NAVIGATION/
+│   │   └── SHARED_SYSTEMS/
+│   └── checkpoints/
+│
+├── game/
+│   ├── genesis/
+│   ├── sandbox/
+│   ├── gameplay/
+│   ├── levels/
+│   ├── networking/
+│   ├── security/
+│   ├── persistence/
+│   ├── platform/
+│   └── rendering/
+│
+├── content/
+│   ├── art/
+│   ├── audio/
+│   ├── vfx/
+│   ├── ui/
+│   ├── shaders/
+│   └── blender/
+│
+├── data/
+│   ├── levels/
+│   ├── objects/
+│   ├── states/
+│   ├── algorithms/
+│   └── tests/
+│
+├── tools/
+│   ├── validators/
+│   ├── exporters/
+│   ├── generators/
+│   └── dev/
+│
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   ├── regression/
+│   ├── adversarial/
+│   └── performance/
+│
+├── platform/
+│   ├── ios/
+│   ├── android/
+│   └── desktop/
+│
+└── provenance/
+    ├── decisions/
+    ├── checkpoints/
+    ├── sources/
+    └── audits/
+
+LEVEL DEVELOPMENT CONSTITUTION
+
+Populate:
+
+development/constitution/LEVEL_XX/
+
+with the complete expanded canonical tree from the supplied development package.
+
+It must contain all stages:
+
+00_RELEASE
+01_DESIGN
+02_CYBERSECURITY
+03_GENESIS_MODEL
+04_STATE_MODEL
+05_ALGORITHMS
+06_PSEUDOCODE
+07_VISUALIZATION
+08_INTERACTION
+09_FLAGS_AND_KEYS
+10_TESTING
+11_DIAGRAMS
+12_MACHINE_READABLE
+13_IMPLEMENTATION_HANDOFF
+14_PROVENANCE
+
+Preserve the complete expanded subtree and templates supplied in dev.zip.
+Do not simplify or consolidate it.
+
+MODULE CANON
+
+Record:
+
+M01 GENESIS
+- L000 FIRST LIGHT + L001–L043 ROOT
+- 44 playable scenarios
+
+M02 CODE
+- 11 levels
+
+M03 NETWORK
+- 21 levels
+
+M04 VIRTUALIZE
+- 21 levels
+
+M05 VIRTUAL BOXING
+- 21 levels
+- strictly one Red VM versus one Blue VM
+
+M06 RAID
+- 21 levels
+- one-versus-many Virtual Boxing plus memory/storage resilience
+
+M07 FLEET
+- 21 levels
+- controller/worker orchestration and many-versus-many
+
+M08 SOVEREIGN
+- 11 levels
+- final synthesis/certification
+
+TOTAL = 171 playable scenarios.
+
+SHARED GENESIS DOCUMENT PLACEHOLDERS
+
+Under docs/genesis/, establish canonical placeholders for:
+
+11D_ARCHITECTURE.md
+GENESIS_FIELD.md
+CHIRALITY_FABRIC.md
+CHIRALITY_BYTE.md
+RESOLUTION.md
+BANDWIDTH.md
+RAINBOW_ROAD.md
+PSSP.md
+GHOSTING.md
+DECS.md
+GUARDIAN_CDN.md
+CHIRALITY_CYCLES.md
+GENESIS_LANGUAGE.md
+
+Do not invent their missing mathematics.
+
+REPOSITORY CONSTITUTION
+
+PROJECT_CONSTITUTION.md must explicitly state:
+
+- 00–14 is invariant.
+- Every playable scenario uses it.
+- NOT USED + rationale replaces deletion of irrelevant sections.
+- Shared concepts have one canonical specification.
+- Levels instantiate shared systems rather than redefine them.
+- Every level instantiates the normalized 11D architecture.
+- Recursion requires seed, inheritance, update, invariants, guard,
+  termination, history, and brick behavior.
+- Genesis semantics remain upstream of Python/platform/rendering.
+- Gameplay-significant visuals correspond to authoritative state.
+- OPEN mathematics remains OPEN.
+- A level is not Gold until 00–14 passes.
+- Architectural changes require provenance.
+- GitHub main is canonical.
+- ZIP checkpoints are recovery artifacts.
+
+GIT WORKFLOW
+
+Create the bootstrap on an appropriate working branch if repository policy
+allows it.
+
+Commit with a clear message such as:
+
+bootstrap: establish _bricked development architecture
+
+If the repository workflow supports pull requests, open a PR to main titled:
+
+Bootstrap canonical _bricked architecture
+
+Before finishing:
+
+1. Print the resulting directory tree.
+2. Verify all 15 LEVEL_XX stages exist.
+3. Verify all eight module directories exist.
+4. Verify the documented scenario total equals 171.
+5. Verify no runtime implementation was invented.
+6. Report every file created/modified.
+7. Report any ambiguity instead of resolving it silently.

@@ -1,0 +1,5 @@
+GUARDIAN_EVALUATE(state):
+  observe_admissibility()
+  evaluate_invariants()
+  emit_response_if_required()
+  record_provenance()

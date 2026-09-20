@@ -1,0 +1,15 @@
+# Definition of Done
+- [ ] 00–14 addressed
+- [ ] 11D manifest complete
+- [ ] cybersecurity landscape coherent
+- [ ] Genesis mapping explicit
+- [ ] recursion contract complete
+- [ ] state machine and cycle/provenance model complete
+- [ ] intended, alternate, soft-brick, hard-brick, victory paths complete
+- [ ] algorithms and pseudocode complete
+- [ ] visual and interaction contracts complete
+- [ ] Flag/Key behavior complete
+- [ ] acceptance/adversarial/regression tests complete
+- [ ] diagrams + machine-readable mirrors consistent
+- [ ] implementation handoff requires no new game rules
+- [ ] Vera provenance audit complete

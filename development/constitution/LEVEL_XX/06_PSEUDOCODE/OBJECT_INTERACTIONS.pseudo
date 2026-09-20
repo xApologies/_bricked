@@ -1,0 +1,5 @@
+INTERACT(actor, target, verb):
+  validate_target_and_guards()
+  apply_authoritative_transition()
+  update_relationships_and_cycles()
+  emit_visual_feedback()

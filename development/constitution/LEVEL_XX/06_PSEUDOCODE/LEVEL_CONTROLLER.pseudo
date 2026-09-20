@@ -1,0 +1,19 @@
+BOOT(config):
+ validate_constitution(config)
+ instantiate_11D_sandbox(config)
+ load_state()
+ init_provenance_guardian_decs()
+ emit_visual()
+
+STEP(input):
+ event=normalize(input)
+ validate(event)
+ apply_genesis_transition(event)
+ update_recursion_and_cycles()
+ update_decs_if_triggered()
+ guardian_evaluate()
+ recompute_reachability()
+ classify_brick()
+ evaluate_flag_victory()
+ record_provenance()
+ emit_visual()

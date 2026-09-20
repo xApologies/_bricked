@@ -1,0 +1,5 @@
+FLAG_EVALUATE(state):
+  evaluate_discovery()
+  evaluate_acquisition()
+  evaluate_exfiltration()
+  return objective_state

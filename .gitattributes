@@ -1,0 +1,4 @@
+# Preserve source template bytes exactly, including original line endings.
+/development/constitution/LEVEL_XX/** -text
+/provenance/checkpoints/dev.zip -text
+/provenance/sources/bootstrap-request.txt -text whitespace=cr-at-eol

@@ -1,0 +1,7 @@
+RECURSE(state,depth):
+ assert guard(state,depth)
+ if terminate(state): return state
+ next=recursive_update(state)
+ next.history=inherit(state.history,transition(state,next))
+ assert invariants(next)
+ return RECURSE(next,depth+1)
