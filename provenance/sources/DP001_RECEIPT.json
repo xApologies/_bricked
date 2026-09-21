@@ -1,0 +1,181 @@
+{
+  "pouch_id": "BRICKED-DP-001",
+  "integration_date": "2026-09-21",
+  "repository": "xApologies/_bricked",
+  "branch": "bootstrap/canonical-architecture",
+  "pre_integration_head": "cb96a35ea858b04365efa20f89d507bc4c910b41",
+  "initial_working_tree": "clean",
+  "remote": "https://github.com/xApologies/_bricked.git",
+  "source_zip": "BRICKED_DIPLOMATIC_POUCH_001_2026-09-21.zip",
+  "source_zip_sha256": "2f2d2d201ff9edbc0be5fd9664ae42f834690fc2db0c6a8a477a2fc1388df69e",
+  "inventory": [
+    {
+      "path": "POUCH_MANIFEST.json",
+      "sha256": "ab87abaa60763b6a4a5629b56af57498b78fa4d925988688fe35fb9e4368b022"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "ec5a9fff8317b055acd94b0388a07a00bbc3e882eabc4a9be650c98e5aa4e0a2"
+    },
+    {
+      "path": "audit/VERA_AUDIT.md",
+      "sha256": "cd3d03fe82bd0830f938be6aff131db5e5322fa5a1784f83a312bd9f40df5c59"
+    },
+    {
+      "path": "instructions/CODEX_HANDOFF.md",
+      "sha256": "83012393ba18bf1cecaa19845ce17caa5030e34e0971f85a947939ee6a1b375a"
+    },
+    {
+      "path": "payload/development/checkpoints/2026-09-21_GENESIS_HORIZON_STATUS.md",
+      "sha256": "accc88ba8b086f496bc9b57d23c07e27e737add8e5bb3c6cd4823d4a87ebd218"
+    },
+    {
+      "path": "payload/docs/architecture/GENESIS_BINARY_INTERFACE.md",
+      "sha256": "bd896c8d1a7fbf53610f077583ea03055415f3d3262c0e3dfaeb34b39f81b752"
+    },
+    {
+      "path": "payload/docs/architecture/GENESIS_HORIZON.md",
+      "sha256": "3063d5aecda6cc3b5b2beab9825b469031dfc71954c67d3674a866d0f835ec6e"
+    },
+    {
+      "path": "payload/docs/architecture/GENESIS_MAINFRAME.md",
+      "sha256": "fd451e7287ec2f5372e991ec293fcf75ef62c115a432ea43bc7a62f3b73143c9"
+    },
+    {
+      "path": "payload/docs/architecture/GENESIS_SEA.md",
+      "sha256": "7cb017d22c52fae03534a772a68c2e42ed61f7ef02d72407d9762fc7a09c3d56"
+    },
+    {
+      "path": "payload/docs/architecture/GENESIS_STATE_NEXT.md",
+      "sha256": "43c34a6fc8ef9fa7bcf0feb0a01206357ada2758d5e235a22453492b07d87a85"
+    },
+    {
+      "path": "payload/docs/architecture/PYTHON_GENESIS_HYPERVISOR.md",
+      "sha256": "7bf0910f3159bf2c0aad97bdc56faf88bd9e2aab135ebf9445c013eae54f8399"
+    },
+    {
+      "path": "payload/docs/architecture/SCREEN_ANCHORED_PROJECTION.md",
+      "sha256": "6f6f490273451a182f85881cabcc0b813e8daf0e21ea18533218987d32e264ad"
+    },
+    {
+      "path": "payload/docs/architecture/recovery/GENESIS_HORIZON_ADMIRALS_REPORT_CKPT002_2026-09-21.md",
+      "sha256": "666f09afd454c6db89ea6383afb0cd1b73959a4da3104158dccf21435e716d4c"
+    },
+    {
+      "path": "payload/docs/genesis/11D_ARCHITECTURE.md",
+      "sha256": "70c10335d3ef450a16ce3de28b88b582c157d33f1cdcf9f3487849ff7ed5498a"
+    },
+    {
+      "path": "payload/docs/genesis/CHIRALITY_CYCLES.md",
+      "sha256": "0f945562c009a865babadf5dc3855dfb8cf89cca126f3bf843c3884c3740e70c"
+    },
+    {
+      "path": "payload/provenance/decisions/0002-genesis-horizon-workshop.md",
+      "sha256": "4e581957629f6821a6e1540eb98181c4894276d7a612b215a331687c2c3d63e5"
+    }
+  ],
+  "operations": [
+    {
+      "op": "UPDATE",
+      "path": "docs/genesis/11D_ARCHITECTURE.md",
+      "bytes": 1062,
+      "sha256": "70c10335d3ef450a16ce3de28b88b582c157d33f1cdcf9f3487849ff7ed5498a"
+    },
+    {
+      "op": "UPDATE",
+      "path": "docs/genesis/CHIRALITY_CYCLES.md",
+      "bytes": 1177,
+      "sha256": "0f945562c009a865babadf5dc3855dfb8cf89cca126f3bf843c3884c3740e70c"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/GENESIS_HORIZON.md",
+      "bytes": 695,
+      "sha256": "3063d5aecda6cc3b5b2beab9825b469031dfc71954c67d3674a866d0f835ec6e"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/GENESIS_SEA.md",
+      "bytes": 576,
+      "sha256": "7cb017d22c52fae03534a772a68c2e42ed61f7ef02d72407d9762fc7a09c3d56"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/PYTHON_GENESIS_HYPERVISOR.md",
+      "bytes": 720,
+      "sha256": "7bf0910f3159bf2c0aad97bdc56faf88bd9e2aab135ebf9445c013eae54f8399"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/GENESIS_BINARY_INTERFACE.md",
+      "bytes": 640,
+      "sha256": "bd896c8d1a7fbf53610f077583ea03055415f3d3262c0e3dfaeb34b39f81b752"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/SCREEN_ANCHORED_PROJECTION.md",
+      "bytes": 829,
+      "sha256": "6f6f490273451a182f85881cabcc0b813e8daf0e21ea18533218987d32e264ad"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/GENESIS_MAINFRAME.md",
+      "bytes": 422,
+      "sha256": "fd451e7287ec2f5372e991ec293fcf75ef62c115a432ea43bc7a62f3b73143c9"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/GENESIS_STATE_NEXT.md",
+      "bytes": 635,
+      "sha256": "43c34a6fc8ef9fa7bcf0feb0a01206357ada2758d5e235a22453492b07d87a85"
+    },
+    {
+      "op": "ADD",
+      "path": "provenance/decisions/0002-genesis-horizon-workshop.md",
+      "bytes": 1206,
+      "sha256": "4e581957629f6821a6e1540eb98181c4894276d7a612b215a331687c2c3d63e5"
+    },
+    {
+      "op": "ADD",
+      "path": "development/checkpoints/2026-09-21_GENESIS_HORIZON_STATUS.md",
+      "bytes": 656,
+      "sha256": "accc88ba8b086f496bc9b57d23c07e27e737add8e5bb3c6cd4823d4a87ebd218"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/recovery/GENESIS_HORIZON_ADMIRALS_REPORT_CKPT002_2026-09-21.md",
+      "bytes": 166846,
+      "sha256": "666f09afd454c6db89ea6383afb0cd1b73959a4da3104158dccf21435e716d4c"
+    }
+  ],
+  "unavailable_historical_companion_references": [
+    "history/GENESIS_HORIZON_ARCHITECTURE_CKPT001_2026-09-21.zip",
+    "External: 2_dev_EXPANDED_TREE_v2.zip",
+    "External: _bricked_LIVE_MODEL_CKPT007_FULL_GAME_LEVEL_CANON_2026-09-20.zip",
+    "sources/language/Domains(1).pdf",
+    "sources/language/Grammar(1).pdf",
+    "sources/language/Structure(1).pdf",
+    "sources/language/Root Family(1).pdf",
+    "sources/language/Rules(1).pdf",
+    "sources/language/Rosetta(1).pdf",
+    "sources/language/Phonology(1).pdf",
+    "External: Trinity 3.0 | (2).zip",
+    "sources/trinity/00_README.md",
+    "sources/trinity/13_BRANE_UNIVERSAL_MODULE_CONTRACT.md",
+    "sources/trinity/12_PROVENANCE_AND_STATUS.md",
+    "sources/trinity/15_BRANE_PORTAL_ABI.md",
+    "sources/trinity/14_BRANE_STATE_PLANES.md",
+    "sources/trinity/04_HEART_AND_CHIRALITY_SPEC.md",
+    "sources/trinity/06_RAINBOW_ROAD_BRANE_INTERCONNECT.md",
+    "sources/trinity/07_SENSOR_FABRIC_AND_HARDWARE.md",
+    "sources/trinity/08_GUARDIAN_AND_ASTRAEUS_REALIZATION.md",
+    "sources/trinity/02_QMO_MATHEMATICS_API.md",
+    "sources/rainbow_road/RAINBOW_ROAD_WORKING_MODEL.md",
+    "sources/rainbow_road/PORTAL_INTERCONNECT_ARCHITECTURE.md",
+    "sources/rainbow_road/GUARDIAN_INTELLIGENCE_ARCHITECTURE.md",
+    "sources/pssp/PSSP_FORMALIZATION_v0_1.md",
+    "sources/pssp/CURRENT_PSSP_CLARIFICATIONS_20260901.md",
+    "provenance/SOURCE_RECEIPTS.json"
+  ],
+  "source_reference_scope": "Original report companion-package paths, not repository-local runtime dependencies; sources were not supplied or independently inspected in this integration."
+}

@@ -1,11 +1,18 @@
-# 11D_ARCHITECTURE
+# 11D Architecture
+Status: WORKING CANON; mathematics partially OPEN.
 
-Status: **OPEN — canonical specification placeholder**.
+Functional stack:
+- 9/10/11: Genesis Sea, one coupled containing medium.
+- 7/8: coupled higher-dimensional Shell / command-shell structure.
+- 6: read/write information interface, currently modeled hypercubically.
+- 5: 3+1+1 computational domain; dynamic recursion under topological closure.
+- o: persistent Genesis anchor / singularity modeling abstraction.
 
-This is the single canonical specification location for 11D_ARCHITECTURE. The bootstrap request names this concept but does not supply its mathematics or complete design. No additional definitions, equations, dimensions, behavior or implementation are inferred here.
+The Genesis Horizon is the boundary of the Genesis domain, not another numbered dimension.
 
-Every level must instantiate the normalized 11D architecture. Its missing normalization rules and dimension definitions remain OPEN.
+Genesis Sea working model: a persistent containing framework/lattice plus a mobile field propagating through that framework. The superionic-ice analogy motivates the structural split only; no molecular simulation is implied.
 
-Levels and shared systems must reference this document rather than independently redefine the concept. Genesis semantics remain upstream of Python, platform adapters and rendering.
+Containment:
+Python Genesis Hypervisor -> Genesis Horizon -> Genesis Sea 9:11 -> Shell 7:8 -> I6 -> R5 -> anchor o.
 
-Source: [bootstrap request](../../provenance/sources/bootstrap-request.txt). Establishing or changing semantics requires a provenance record and review against the [Project Constitution](../../PROJECT_CONSTITUTION.md).
+The display exposes lower-dimensional realizations/projections of authoritative higher-dimensional state. Exact 9/10/11 topology, 7/8 coupling, I6 semantics, and formal R5 state space remain OPEN.

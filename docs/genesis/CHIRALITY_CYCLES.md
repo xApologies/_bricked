@@ -1,9 +1,22 @@
-# CHIRALITY_CYCLES
+# Chirality Cycles
+Status: WORKING CANON.
 
-Status: **OPEN — canonical specification placeholder**.
+A Chirality Cycle orders authoritative Genesis configuration evolution. It is not a civil-time second and is not identical to the host clock.
 
-This is the single canonical specification location for CHIRALITY_CYCLES. The bootstrap request names this concept but does not supply its mathematics or complete design. No additional definitions, equations, dimensions, behavior or implementation are inferred here.
+Clock hierarchy:
+1. Host monotonic clock: owned by the Python Hypervisor; schedules physical execution.
+2. Chirality Cycle: Genesis-native ordering of committed configurations.
+3. Local S2 continuity: an S2 domain may derive clock cycles from admitted host timing while maintaining independent epoch/rate/phase/history.
 
-Levels and shared systems must reference this document rather than independently redefine the concept. Genesis semantics remain upstream of Python, platform adapters and rendering.
+A cycle advances configuration; it does not require every constituent to change.
 
-Source: [bootstrap request](../../provenance/sources/bootstrap-request.txt). Establishing or changing semantics requires a provenance record and review against the [Project Constitution](../../PROJECT_CONSTITUTION.md).
+Director correction to preserve for formal reconciliation:
+- T0–T4: intended pre-Time-Shell organization.
+- T5: Time-Shell threshold.
+- T5 onward: persistent recursive topology / matter-class continuity in the project model.
+Older pipeline wording must be reconciled rather than silently overwritten.
+
+Candidate cycle vocabulary:
+inherit -> propagate -> stabilize -> redistribute -> evaluate destabilization -> close -> normalize -> provenance commit.
+
+S2 synchronization is a Genesis relation and need not mean numerical clock equality. Exact synchronization mathematics remains OPEN.

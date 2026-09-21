@@ -19,7 +19,17 @@ const canon = read('development/modules/README.md');
 const rows = [...canon.matchAll(/^\| \[(M\d{2}_[A-Z_]+)\]\([^\n]+?\) \| (\d+) \|/gm)];
 check(rows.length===8 && modules.every(([m,n])=>rows.some(r=>r[1]===m && Number(r[2])===n)) && rows.reduce((s,r)=>s+Number(r[2]),0)===171 && canon.includes('| **TOTAL** | **171** |'), 'Documented scenario counts total 171');
 const genesis = ["11D_ARCHITECTURE","GENESIS_FIELD","CHIRALITY_FABRIC","CHIRALITY_BYTE","RESOLUTION","BANDWIDTH","RAINBOW_ROAD","PSSP","GHOSTING","DECS","GUARDIAN_CDN","CHIRALITY_CYCLES","GENESIS_LANGUAGE"];
-check(genesis.every(g=>read('docs/genesis/'+g+'.md').includes('Status: **OPEN')), 'All 13 shared Genesis specifications remain OPEN');
+// DP-001 promotes only these two placeholders; unresolved mathematics must remain explicit.
+const workingStatuses = {
+ '11D_ARCHITECTURE': 'Status: WORKING CANON; mathematics partially OPEN.',
+ 'CHIRALITY_CYCLES': 'Status: WORKING CANON.'
+};
+check(genesis.every(g=>{
+ const document = read('docs/genesis/'+g+'.md');
+ return workingStatuses[g]
+  ? document.split(/\r?\n/).includes(workingStatuses[g]) && /\bOPEN\b/.test(document)
+  : document.includes('Status: **OPEN');
+}), 'All 13 shared Genesis specifications retain authorized status and explicit OPEN items');
 function walk(p) {
  return readdirSync(resolve(root,p),{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(p+'/'+e.name):[p+'/'+e.name]);
 }
