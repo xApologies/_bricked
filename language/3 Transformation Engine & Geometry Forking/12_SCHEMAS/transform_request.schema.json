@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "capability_profile": {
+      "enum": [
+        "GENERIC_LIVE",
+        "PIPELINE_T",
+        "PIPELINE_R",
+        "PROJECTION_ONLY",
+        "ADMIN_DERIVATION"
+      ]
+    },
+    "expected_parent_root": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "identity_policy": {
+      "enum": [
+        "PRESERVE_MMO",
+        "DERIVE_REPRESENTATION",
+        "DERIVE_MMO"
+      ]
+    },
+    "operators": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "parent_instance": {
+      "type": "object"
+    },
+    "segment_chain": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "parent_instance",
+    "segment_chain",
+    "capability_profile",
+    "operators"
+  ],
+  "title": "Genesis TransformRequest",
+  "type": "object"
+}

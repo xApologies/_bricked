@@ -1,0 +1,2 @@
+# Source Crosswalk
+Section 20 is a release/conformance layer over Sections 01–19. Source Genesis linguistic material remains provenance for the frontend relationship-first surface; Astraeus mathematics, CFP, MK43, API/QMO/MMO, BRANE, Rainbow Road and BLACKGLASS sources remain domain/architecture provenance in their prior packages. Section 20 does not silently promote candidate physical interpretations into established hardware facts.

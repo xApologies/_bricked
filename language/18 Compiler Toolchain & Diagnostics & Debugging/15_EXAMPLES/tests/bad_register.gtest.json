@@ -1,0 +1,1 @@
+{"name":"diagnostic-register","source":"../09_BAD_REGISTER.gen","expected_diagnostic":"SYSTEM_REGISTER_UNDEFINED"}

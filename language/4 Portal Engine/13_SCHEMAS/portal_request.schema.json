@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "bandwidth_required": {
+      "type": "number"
+    },
+    "capacity_units_required": {
+      "type": "integer"
+    },
+    "chirality_class": {
+      "type": "string"
+    },
+    "residue_class": {
+      "type": "string"
+    },
+    "resolution_required": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "source_instance",
+    "source_segment_chain",
+    "source_address",
+    "target_address",
+    "sector",
+    "preservation"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,53 @@
+test_01_controller_exists (__main__.Section19Tests.test_01_controller_exists) ... ok
+test_02_frontier_exists (__main__.Section19Tests.test_02_frontier_exists) ... ok
+test_03_frontier_kind (__main__.Section19Tests.test_03_frontier_kind) ... ok
+test_04_frontier_status (__main__.Section19Tests.test_04_frontier_status) ... ok
+test_05_controller_native (__main__.Section19Tests.test_05_controller_native) ... ok
+test_06_parser_host (__main__.Section19Tests.test_06_parser_host) ... ok
+test_07_verifier_host (__main__.Section19Tests.test_07_verifier_host) ... ok
+test_08_runtime_host (__main__.Section19Tests.test_08_runtime_host) ... ok
+test_09_frontier_root_stable (__main__.Section19Tests.test_09_frontier_root_stable) ... ok
+test_10_false_full_self_host_rejected (__main__.Section19Tests.test_10_false_full_self_host_rejected) ... ok
+test_11_bad_frontier_header (__main__.Section19Tests.test_11_bad_frontier_header) ... ok
+test_12_bad_frontier_status (__main__.Section19Tests.test_12_bad_frontier_status) ... ok
+test_13_controller_compiles (__main__.Section19Tests.test_13_controller_compiles) ... ok
+test_14_controller_version (__main__.Section19Tests.test_14_controller_version) ... ok
+test_15_controller_module (__main__.Section19Tests.test_15_controller_module) ... ok
+test_16_compiler_port_declared (__main__.Section19Tests.test_16_compiler_port_declared) ... ok
+test_17_compiler_role (__main__.Section19Tests.test_17_compiler_role) ... ok
+test_18_compile_capability (__main__.Section19Tests.test_18_compile_capability) ... ok
+test_19_program_deterministic (__main__.Section19Tests.test_19_program_deterministic) ... ok
+test_20_program_roundtrip (__main__.Section19Tests.test_20_program_roundtrip) ... ok
+test_21_compiler_port_mount (__main__.Section19Tests.test_21_compiler_port_mount) ... ok
+test_22_compiler_port_compiles (__main__.Section19Tests.test_22_compiler_port_compiles) ... ok
+test_23_compiler_port_output_exists (__main__.Section19Tests.test_23_compiler_port_output_exists) ... ok
+test_24_compiler_port_hash_matches (__main__.Section19Tests.test_24_compiler_port_hash_matches) ... ok
+test_25_compiler_port_program_id (__main__.Section19Tests.test_25_compiler_port_program_id) ... ok
+test_26_compiler_port_proof (__main__.Section19Tests.test_26_compiler_port_proof) ... ok
+test_27_compiler_port_m6_z (__main__.Section19Tests.test_27_compiler_port_m6_z) ... ok
+test_28_runtime_closes (__main__.Section19Tests.test_28_runtime_closes) ... ok
+test_29_runtime_compiled_register (__main__.Section19Tests.test_29_runtime_compiled_register) ... ok
+test_30_runtime_durable_commit (__main__.Section19Tests.test_30_runtime_durable_commit) ... ok
+test_31_harness_fixed_point (__main__.Section19Tests.test_31_harness_fixed_point) ... ok
+test_32_harness_not_self_hosted (__main__.Section19Tests.test_32_harness_not_self_hosted) ... ok
+test_33_harness_status (__main__.Section19Tests.test_33_harness_status) ... ok
+test_34_harness_three_stages (__main__.Section19Tests.test_34_harness_three_stages) ... ok
+test_35_stage_hash_fixed_point (__main__.Section19Tests.test_35_stage_hash_fixed_point) ... ok
+test_36_stage_proof_fixed_point (__main__.Section19Tests.test_36_stage_proof_fixed_point) ... ok
+test_37_stage_program_id_fixed_point (__main__.Section19Tests.test_37_stage_program_id_fixed_point) ... ok
+test_38_stage_prior_chain (__main__.Section19Tests.test_38_stage_prior_chain) ... ok
+test_39_source_hash_consistent (__main__.Section19Tests.test_39_source_hash_consistent) ... ok
+test_40_receipt_root_stable (__main__.Section19Tests.test_40_receipt_root_stable) ... ok
+test_41_missing_source_rejected (__main__.Section19Tests.test_41_missing_source_rejected) ... ok
+test_42_gboot_builds (__main__.Section19Tests.test_42_gboot_builds) ... ok
+test_43_gboot_verifies (__main__.Section19Tests.test_43_gboot_verifies) ... ok
+test_44_gboot_deterministic (__main__.Section19Tests.test_44_gboot_deterministic) ... ok
+test_45_gboot_manifest_present (__main__.Section19Tests.test_45_gboot_manifest_present) ... ok
+test_46_gboot_detects_payload_tamper (__main__.Section19Tests.test_46_gboot_detects_payload_tamper) ... ok
+test_47_receipt_canonicalizable (__main__.Section19Tests.test_47_receipt_canonicalizable) ... ok
+test_48_frontier_deferred_blackglass (__main__.Section19Tests.test_48_frontier_deferred_blackglass) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.071s
+
+OK

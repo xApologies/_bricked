@@ -1,0 +1,8 @@
+GEOMETRIC_READ
+==============
+01 resolve geom URI -> instance, role, coordinate
+02 calculate fabric index using instance binding formula
+03 newest_delta <- locate newest segment containing index
+04 if found return newest_delta cell
+05 else if base instance segment contains index return segment cell
+06 else return immutable base fabric cell

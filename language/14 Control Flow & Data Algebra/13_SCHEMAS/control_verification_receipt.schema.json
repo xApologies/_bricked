@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "genesis://section14/schema/control-verification-receipt/v0.1",
+  "title": "Genesis Section 14 CFG Path Verification Receipt",
+  "type": "object",
+  "required": ["ok", "verifier", "instructions", "reachable_states", "halting_paths", "max_register", "exports"],
+  "properties": {
+    "ok": {"type": "boolean"},
+    "verifier": {"const": "CFG_PATH_V0_1"},
+    "instructions": {"type": "integer", "minimum": 1},
+    "reachable_states": {"type": "integer", "minimum": 1},
+    "halting_paths": {"type": "integer", "minimum": 1},
+    "max_register": {"type": "integer", "minimum": -1, "maximum": 255},
+    "exports": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": 0, "maximum": 255},
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}

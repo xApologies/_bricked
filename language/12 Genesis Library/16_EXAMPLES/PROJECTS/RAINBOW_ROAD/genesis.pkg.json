@@ -1,0 +1,38 @@
+{
+  "backend_capabilities": [
+    "rainbow_road",
+    "brane_lift"
+  ],
+  "dependencies": {
+    "genesis.std.atomic": "^0.1.0",
+    "genesis.std.brane": "^0.1.0",
+    "genesis.std.provenance": "^0.1.0",
+    "genesis.std.road": "^0.1.0"
+  },
+  "description": "Section 12 reference application.",
+  "effects": [
+    "TRANSPORT",
+    "ADMIT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE",
+    "PROJECT"
+  ],
+  "entry_exports": [
+    "app.rainbow_road::g2",
+    "app.rainbow_road::road_receipt",
+    "app.rainbow_road::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.rainbow_road",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.rainbow_road",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

@@ -1,0 +1,82 @@
+{
+  "FIRST_PORTAL": {
+    "frontend_id": "gfront-5c4da0008edc4c9ec490ddaf",
+    "gvm_sha256": "2a951b0a8239ee7f3be5f17e7093364e4b95c44b9162cf14d1b39da1aa8230aa",
+    "halted": true,
+    "link_id": "glnk-025b0615071113f585398230",
+    "proofs": {
+      "PO-CAPABILITY": "PASS",
+      "PO-CLOSURE": "PASS",
+      "PO-EFFECT-BOUNDS": "PASS",
+      "PO-LINEAR-OWNERSHIP": "PASS",
+      "PO-PROVENANCE": "PASS",
+      "PO-SECTOR-TRANSDUCTION": "PASS",
+      "PO-SYMBOL-RESOLUTION": "PASS",
+      "PO-TYPE-SAFETY": "PASS"
+    }
+  },
+  "MIXED_SECTOR": {
+    "frontend_id": "gfront-3bb23610db5db92e3f523e49",
+    "gvm_sha256": "0d9be45d036cd201d4e6311aead3c90a3222dc8ebfd7cc8bd8a2b868d9ccaddf",
+    "halted": true,
+    "link_id": "glnk-98cc4ddec8af719a2aaf18d2",
+    "proofs": {
+      "PO-CAPABILITY": "PASS",
+      "PO-CLOSURE": "PASS",
+      "PO-EFFECT-BOUNDS": "PASS",
+      "PO-LINEAR-OWNERSHIP": "PASS",
+      "PO-PROVENANCE": "PASS",
+      "PO-SECTOR-TRANSDUCTION": "PASS",
+      "PO-SYMBOL-RESOLUTION": "PASS",
+      "PO-TYPE-SAFETY": "PASS"
+    }
+  },
+  "MODULAR_QFT": {
+    "frontend_id": "gfront-eb049695ed5acf73eef6e130",
+    "gvm_sha256": "a0936dd2c422cd12b8063ccbde491b2d89529c58f65f10b38dbca3f11b2692a4",
+    "halted": true,
+    "link_id": "glnk-2c0eb02c3052811de6d1d983",
+    "proofs": {
+      "PO-CAPABILITY": "PASS",
+      "PO-CLOSURE": "PASS",
+      "PO-EFFECT-BOUNDS": "PASS",
+      "PO-LINEAR-OWNERSHIP": "PASS",
+      "PO-PROVENANCE": "PASS",
+      "PO-SECTOR-TRANSDUCTION": "PASS",
+      "PO-SYMBOL-RESOLUTION": "PASS",
+      "PO-TYPE-SAFETY": "PASS"
+    }
+  },
+  "QUANTUM_EFFECT": {
+    "frontend_id": "gfront-9971244cb945f088b85a46e6",
+    "gvm_sha256": "a49a5d72294569f14e011810625d623ebb5b5d25dead4ced8b1fa5011bfcc9b6",
+    "halted": true,
+    "link_id": "glnk-b05cb257cf064870ddf0e76a",
+    "proofs": {
+      "PO-CAPABILITY": "PASS",
+      "PO-CLOSURE": "PASS",
+      "PO-EFFECT-BOUNDS": "PASS",
+      "PO-LINEAR-OWNERSHIP": "PASS",
+      "PO-PROVENANCE": "PASS",
+      "PO-SECTOR-TRANSDUCTION": "PASS",
+      "PO-SYMBOL-RESOLUTION": "PASS",
+      "PO-TYPE-SAFETY": "PASS"
+    }
+  },
+  "RAINBOW_ROAD": {
+    "frontend_id": "gfront-94fbf2d3731ef56da19ef2b8",
+    "gvm_sha256": "fb46f6588444917c059c62326bb07de29a849c03a1d0dffb08d66cbc6a6ca869",
+    "halted": true,
+    "link_id": "glnk-1615754dd396e778bfd3859a",
+    "proofs": {
+      "PO-CAPABILITY": "PASS",
+      "PO-CLOSURE": "PASS",
+      "PO-EFFECT-BOUNDS": "PASS",
+      "PO-LINEAR-OWNERSHIP": "PASS",
+      "PO-PROVENANCE": "PASS",
+      "PO-SECTOR-TRANSDUCTION": "PASS",
+      "PO-SYMBOL-RESOLUTION": "PASS",
+      "PO-TYPE-SAFETY": "PASS"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"GenesisTrace","type":"object","required":["status","events","receipt_root"],"properties":{"events":{"type":"array","items":{"type":"object","required":["instruction_index","opcode","register_delta","registers","provenance_root"]}}}}

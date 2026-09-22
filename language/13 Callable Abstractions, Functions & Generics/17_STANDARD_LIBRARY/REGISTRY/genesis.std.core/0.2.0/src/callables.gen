@@ -1,0 +1,7 @@
+genesis 0.2.0
+module genesis.std.core.callables {
+  pub fn fork_geometric<G:GEOMETRIC> (source:G) -> G effects [TRANSFORM,INHERIT] {
+    en child : G = fork source
+    return child
+  }
+}

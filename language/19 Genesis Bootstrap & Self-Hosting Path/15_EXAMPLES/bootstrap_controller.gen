@@ -1,0 +1,22 @@
+genesis 0.6.0
+module genesis.bootstrap.controller {
+  capability io.source.read
+  capability cas.put
+  capability brane.mount
+  capability brane.realize
+  capability blackglass.commit.propose
+  capability blackglass.commit.admit
+
+  endpoint source kind SOURCE mode READ root source
+  endpoint heart kind BLACKGLASS mode PROPOSE root blackglass
+
+  port compiler role compiler module genesis.compiler.bootstrap version 0.1.0 dimension 5 contract 2.0 canonical READ_ONLY rewrite DERIVED_ONLY caps compile,verify
+
+  read source "bootstrap/bootstrap_controller.gen" as source_text
+  cas_put source_text as source_ref
+  mount compiler
+  realize compiler capability compile payload source_ref as compiled
+  propose heart compiled as proposal
+  admit heart proposal as committed
+  close
+}

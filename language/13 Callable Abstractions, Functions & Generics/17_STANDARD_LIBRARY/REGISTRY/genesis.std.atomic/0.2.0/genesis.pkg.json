@@ -1,0 +1,38 @@
+{
+  "backend_capabilities": [
+    "geometric_instantiate"
+  ],
+  "dependencies": {
+    "genesis.std.fabric": "0.2.0"
+  },
+  "description": "Mapped-object fixtures available to callable programs.",
+  "effects": [
+    "ALLOCATE",
+    "INHERIT"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.atomic.hydrogen",
+      "path": "src/hydrogen.gen"
+    },
+    {
+      "name": "genesis.std.atomic.oxygen",
+      "path": "src/oxygen.gen"
+    },
+    {
+      "name": "genesis.std.atomic.hsv1",
+      "path": "src/hsv1.gen"
+    },
+    {
+      "name": "genesis.std.atomic.blank",
+      "path": "src/blank.gen"
+    }
+  ],
+  "name": "genesis.std.atomic",
+  "schema_version": "0.1.0",
+  "version": "0.2.0"
+}

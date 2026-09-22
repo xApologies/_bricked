@@ -1,0 +1,27 @@
+{
+  "backend_capabilities": [
+    "quantum_reference"
+  ],
+  "dependencies": {
+    "genesis.std.core": "0.2.0"
+  },
+  "description": "Executable linear quantum-information callables.",
+  "effects": [
+    "QUANTUM_LINEAR",
+    "TRANSFORM",
+    "MEASURE"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.quantum.callables",
+      "path": "src/callables.gen"
+    }
+  ],
+  "name": "genesis.std.quantum",
+  "schema_version": "0.1.0",
+  "version": "0.2.0"
+}

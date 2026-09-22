@@ -1,0 +1,19 @@
+genesis 0.2.0
+module genesis.std.bridge.callables {
+  pub fn gr_to_qft<G:GEOMETRIC> (source:G) -> BRIDGE<GR,QFT> effects [TRANSDUCE,PROVENANCE] {
+    bridge source GR -> QFT as bridge0
+    return bridge0
+  }
+  pub fn qft_to_gr<G:GEOMETRIC> (source:G) -> BRIDGE<QFT,GR> effects [TRANSDUCE,PROVENANCE] {
+    bridge source QFT -> GR as bridge0
+    return bridge0
+  }
+  pub fn qft_to_gr_transfer<G:GEOMETRIC> (source:G) -> GEOMETRIC<CLOSED,GR> effects [TRANSDUCE,PROVENANCE,ADMIT,TRANSPORT,INHERIT,CLOSE] {
+    bridge source QFT -> GR as bridge0
+    admit source as admission @{"admitted":true,"bandwidth":1.0,"resolution":1.0}
+    portal GR source with admission as portal0 corridor "corridor://stdlib/qft-gr" bridge bridge0
+    ve source through portal0 -> "trinity://stdlib/gr-after-qft" as destination
+    tor portal0 with destination as portal_receipt
+    return destination
+  }
+}

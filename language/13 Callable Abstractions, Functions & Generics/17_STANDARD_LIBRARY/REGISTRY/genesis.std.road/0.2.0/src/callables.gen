@@ -1,0 +1,9 @@
+genesis 0.2.0
+module genesis.std.road.callables {
+  pub fn close_single_receipt_road<G:GEOMETRIC,R:RECEIPT> (source:G, leg:R) -> RECEIPT<ROAD_CLOSE> effects [TRANSPORT,INHERIT,CLOSE,PROVENANCE] {
+    road begin source as road0
+    road append road0 leg as road1
+    road close road1 source as road_receipt
+    return road_receipt
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "GENESIS_V1_CONFORMANCE_PROFILE",
+  "physical_hardware_conformance": "NOT_CLAIMED_BY_V1_REFERENCE_RELEASE",
+  "profile_root": "7f5262aa45495549be959b5886f44047f5e2d1cf77afa2e1a2b174c5006a01ca",
+  "required": [
+    "verify frozen section lock",
+    "verify deterministic release roots",
+    "verify Section 19 Stage0/Stage1/Stage2 bootstrap fixed point",
+    "preserve PARTIAL_SELF_HOST status",
+    "preserve Source Genesis / Computational Genesis boundary",
+    "preserve unresolved S0 gate as unresolved",
+    "preserve BRANE M5 -> host-owned Z realization boundary",
+    "reject direct BLACKGLASS durable mutation path",
+    "preserve verifier-before-execution rule",
+    "preserve QFT/GR bridge as explicit typed transduction",
+    "preserve linear/no-cloning quantum ownership",
+    "preserve Portal/Road closure/provenance semantics"
+  ],
+  "version": "1.0.0"
+}

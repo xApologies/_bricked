@@ -1,0 +1,7 @@
+genesis 0.2.0
+module app.section13.nested_callable {
+  use genesis.std.atomic.oxygen::geo as source : GEOMETRIC<CLOSED,UNBOUND>
+  usefn genesis.std.portal.callables::gr_transfer_then_seal as transfer_and_seal
+  call transfer_and_seal<GEOMETRIC<CLOSED,UNBOUND>> (source) as receipt
+  export receipt : RECEIPT<PROVENANCE>
+}

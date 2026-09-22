@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "segment_chain": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "type": "array"
+    }
+  },
+  "required": [
+    "instance_id",
+    "parent_instance_id",
+    "canonical_mmo_id",
+    "fabric_tag",
+    "region",
+    "segment_chain",
+    "history",
+    "provenance",
+    "brane_m5"
+  ],
+  "title": "Transformed Geometric",
+  "type": "object"
+}

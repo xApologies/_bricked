@@ -1,0 +1,9 @@
+genesis 0.2.0
+module app.section13.quantum_generic {
+  use genesis.std.atomic.hydrogen::geo as source : GEOMETRIC<CLOSED,UNBOUND>
+  usefn genesis.std.quantum.callables::prepare_superpose_measure as sample
+  call sample<GEOMETRIC<CLOSED,UNBOUND>> (source) as result
+  seal result as seal @{"stage":"section13-quantum-result"}
+  export result : QRESULT<CLASSICAL>
+  export seal : RECEIPT<PROVENANCE>
+}

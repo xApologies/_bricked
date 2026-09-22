@@ -1,0 +1,77 @@
+[
+  {
+    "call_count": 2,
+    "equivalence": "PASS",
+    "gvm_sha256": "79ee06c73bf241edd7084807ddb5fbc17d70ba7f70d05aee3ba982a1f9b56856",
+    "halted": true,
+    "package": "app.section13.brane_provenance",
+    "package_build_id": "gcpkg-8241c6d2b4add4332c361dc2",
+    "project": "BRANE_PROVENANCE",
+    "specializations": [
+      "gmono-2f46441066fe92fc7d516f19",
+      "gmono-67330c4274181e26d78359ea"
+    ]
+  },
+  {
+    "call_count": 1,
+    "equivalence": "PASS",
+    "gvm_sha256": "3c73eb8407dc51479769dfd16a43f86e8cbd66a043c96bca37971823fa13e3a2",
+    "halted": true,
+    "package": "app.section13.generic_fork",
+    "package_build_id": "gcpkg-e73109d75a03d4731597730e",
+    "project": "GENERIC_FORK",
+    "specializations": [
+      "gmono-65a903fe03a442102ea0a1b0"
+    ]
+  },
+  {
+    "call_count": 2,
+    "equivalence": "PASS",
+    "gvm_sha256": "25ed8614256b441122ce303269e4af9c8b04cdf5e2d98fa79ebf1a298be32943",
+    "halted": true,
+    "package": "app.section13.mixed_sector",
+    "package_build_id": "gcpkg-cd16dff78d0abdae20157264",
+    "project": "MIXED_SECTOR",
+    "specializations": [
+      "gmono-219c2e8cf5f5029e7caf1d50",
+      "gmono-9d332b0763c88092c12d82d7"
+    ]
+  },
+  {
+    "call_count": 2,
+    "equivalence": "PASS",
+    "gvm_sha256": "00a4b63ed9fd43948f36b84b14b63c560d9c0885662031a3e1b25c783191af6c",
+    "halted": true,
+    "package": "app.section13.nested_callable",
+    "package_build_id": "gcpkg-d4e7552d3e6d7938425e8799",
+    "project": "NESTED_CALLABLE",
+    "specializations": [
+      "gmono-13a9823ae234a204950bf6eb",
+      "gmono-82b2b220a9c31a85cb232bc3"
+    ]
+  },
+  {
+    "call_count": 1,
+    "equivalence": "PASS",
+    "gvm_sha256": "89bd941d5a3640444e779a253382b634f03b66789cf1d3a68c87288ab6256ceb",
+    "halted": true,
+    "package": "app.section13.portal_generic",
+    "package_build_id": "gcpkg-fc6b6b417ae1781070707513",
+    "project": "PORTAL_GENERIC",
+    "specializations": [
+      "gmono-82b2b220a9c31a85cb232bc3"
+    ]
+  },
+  {
+    "call_count": 1,
+    "equivalence": "PASS",
+    "gvm_sha256": "82bd6c6650d443029c0aceb2d72febde815376c04dba5b22eaa9b2cf9c27bf78",
+    "halted": true,
+    "package": "app.section13.quantum_generic",
+    "package_build_id": "gcpkg-6f6fb1931326b994000554fa",
+    "project": "QUANTUM_GENERIC",
+    "specializations": [
+      "gmono-e57826b04452f71841a80b85"
+    ]
+  }
+]

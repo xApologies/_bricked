@@ -1,0 +1,53 @@
+{
+  "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+  "canonical_mmo_after": "O:OXYGEN_PHASE5_V1",
+  "canonical_mmo_before": "O:OXYGEN_PHASE5_V1",
+  "capability_profile": "GENERIC_LIVE",
+  "changed_cells": 256,
+  "child_instance_id": "640e97db2023233927e5a18d61763296",
+  "delta_file_sha256": "2153bf23e45a70c8507e8af74f919b61ca8389ea92d6bfdc66a4cc335de17d98",
+  "delta_payload_hash": "0f013a05dc48d558395de8aaf90e992cf0be7f98014e1b93d4593dc73c78f891",
+  "effects": [
+    "PERSISTENCE_WRITE"
+  ],
+  "invariants": [
+    {
+      "invariant": "canonical_mmo_id",
+      "pass": true
+    },
+    {
+      "invariant": "fabric_region",
+      "pass": true
+    },
+    {
+      "invariant": "occupancy_pattern",
+      "pass": true
+    },
+    {
+      "invariant": "complement_pattern",
+      "pass": true
+    },
+    {
+      "invariant": "handedness",
+      "pass": true
+    },
+    {
+      "invariant": "chi",
+      "pass": true
+    },
+    {
+      "invariant": "identity_tag",
+      "pass": true
+    }
+  ],
+  "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+  "parent_instance_id": "0deed435b7c74235037da7ccb8fbf9f2",
+  "parent_segment_hashes": {
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/oxygen.gos": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322"
+  },
+  "plan_id": "5cbf9461e3d9ef890888d70a28bd9a56a718d11b57ba388679713221e5ea477e",
+  "post_state_root": "86cb7d81aea764c2f8839d1927268af3104d41e358326cb75089a810e536292f",
+  "pre_state_root": "ddf13431b6e98cb4c15d285fa59f22d321b3e6362a6999e505a98f097cf77b05",
+  "status": "CLOSED",
+  "timestamp_ns": 1787336934942048817
+}

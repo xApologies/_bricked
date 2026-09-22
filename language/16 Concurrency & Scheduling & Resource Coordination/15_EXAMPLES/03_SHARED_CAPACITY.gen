@@ -1,0 +1,20 @@
+genesis 0.5.0
+module shared_capacity {
+  resource bus capacity 2 kind RAINBOW_BUS
+  task alpha priority 5 quantum 1 {
+    acquire bus shared 1
+    work 2 alpha-read
+    release bus
+    close
+  }
+  task beta priority 5 quantum 1 {
+    acquire bus shared 1
+    work 2 beta-read
+    release bus
+    close
+  }
+  spawn alpha as a
+  spawn beta as b
+  join a b
+  export schedule
+}

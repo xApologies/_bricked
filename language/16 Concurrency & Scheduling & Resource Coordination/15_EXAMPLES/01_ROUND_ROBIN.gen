@@ -1,0 +1,15 @@
+genesis 0.5.0
+module round_robin {
+  task alpha priority 10 quantum 1 {
+    work 3 alpha
+    close
+  }
+  task beta priority 10 quantum 1 {
+    work 3 beta
+    close
+  }
+  spawn alpha as a
+  spawn beta as b
+  join a b
+  export schedule
+}

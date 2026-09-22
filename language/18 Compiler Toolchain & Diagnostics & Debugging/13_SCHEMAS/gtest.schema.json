@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"GenesisTestCase","type":"object","required":["source"],"properties":{"name":{"type":"string"},"source":{"type":"string"},"seeds":{"type":"array"},"expected_status":{"type":"string"},"expected_registers":{"type":"array"},"expected_receipts":{"type":"array"},"expected_diagnostic":{"type":"string"}}}

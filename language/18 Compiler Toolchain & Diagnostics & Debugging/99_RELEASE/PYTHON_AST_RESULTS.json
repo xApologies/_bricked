@@ -1,0 +1,117 @@
+{
+  "files": [
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__init__.py",
+      "sha256": "4a87f28884d4aea11a9debd25c31032deee3a93f22ea16f5359286c1a4b8d367"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__main__.py",
+      "sha256": "f92923bdb0cf8acdd9d60f28d03f9270d464949573a208a3ae4b342334a9d705"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/blackglass.py",
+      "sha256": "d2fdeb66d1fcd2011b01776a42014e89500669be8b3eeec755795cbb8835d5d6"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/brane.py",
+      "sha256": "d03302f7957e29f826f3b51f262ec1d00e817bf3aa6cf5fc155f8cff02abf08f"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/bytecode.py",
+      "sha256": "59d57348c3110a74eca759ce04166113022b6b08c15e02d43b35b9f78e4c2099"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/capabilities.py",
+      "sha256": "5b09cb8b16b5fa716b9818874b518346328a405c23cf8f0031daf4ec1269369b"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/compiler.py",
+      "sha256": "de210c475784633f963ebca14f3ba77643925ea320cd15d10a10a50aaa077ecf"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/device.py",
+      "sha256": "760401492dfee6d7e3b843f414b4e2c6e28ff393a23f3c456f8088c06b9693e2"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/disasm.py",
+      "sha256": "140e6c8be3f9d80640ad6a23fb1fd2580a37f2273f5281ba202c513fbabe650d"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/errors.py",
+      "sha256": "e20738f7cc43cca0b7e26a22e6e70743c7bebb43493bd93063c1788457514ce6"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/model.py",
+      "sha256": "eac84bfbfd1c6c206b173d3f3e4da7c331f79f1689f71bdeee3c572fd8ac9ef1"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/parser.py",
+      "sha256": "98a2ff4c6908a35c725e1635dabc7141620027e52a832e6fd41960b52eab6fe4"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/receipts.py",
+      "sha256": "403eece8b3b3edce7fdb97ea9022ca3426ba5ef5906cb7d510308ab524bbd198"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/runtime.py",
+      "sha256": "452326ca4fc6ffa2d4b27a4d811223e927726c002ab1122ef0f626a5c36bfdbe"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/storage.py",
+      "sha256": "277fde5175cedfeb8d2c8eb5b931460bff8a9b9815c946bc425e63a10e98b0d3"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/util.py",
+      "sha256": "0c4d3fc637c6e6175784e2be37b3c3fa10edf19150d02a83a2d6bb778ff1a2ee"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/verifier.py",
+      "sha256": "4b1eb9ce36ac23be068d5a0d16928f46ce81f28d5f5069d949a0d90075096f92"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/__init__.py",
+      "sha256": "9278728609206a6e033c177d357475296daa98b505799db194d25088ec4828e5"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/build.py",
+      "sha256": "19f3ecfb638125c0b95f4fef48783de1a9327de7b01e5d43518593452199a3a3"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/cli.py",
+      "sha256": "f0f6ca40d3dfa0de4f065df82fd38a8f7336a0fc08cbcaba8f5f45adeb9a76e3"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/debugger.py",
+      "sha256": "012b2d35896669049827fbceed6117283529bc27cedc26428769518a64b9b3e9"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/diagnostics.py",
+      "sha256": "5d861885fda80734f2a4c5e4c0083b0f3962aace56405d26ccbac83e06ce87cd"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/model.py",
+      "sha256": "bfd7d2253744e804e3d26a80d693188c1dd087a16d48f67ad7a9f2b6bdb1a52a"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/source_map.py",
+      "sha256": "70ba2eebab679ef8c5dbbcd7cd4adcf1449c1b048f0d5b467746fcda8f48d679"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/test_runner.py",
+      "sha256": "be1964b5cfed126050bfc0e4cb19ab8b5c5c31c64a7a6beb7dedc7522d1b6ae8"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/tracing.py",
+      "sha256": "b1fecdcec55d52648480ba5e01300924e3bf71bbbd87aca1e031c82313ff0d88"
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/util.py",
+      "sha256": "476755f3f045a8b659e07f53022f50fdd52078065e858eea42fe9149331af623"
+    }
+  ],
+  "pass": true
+}

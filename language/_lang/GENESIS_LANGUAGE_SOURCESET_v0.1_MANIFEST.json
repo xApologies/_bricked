@@ -1,0 +1,41 @@
+{
+  "source_set": "GENESIS_LANGUAGE_SOURCESET_v0.1",
+  "target_directory": "C:\\Users\\rando\\_blackglass\\_inbox\\genesis_language_v0.1",
+  "files": [
+    {
+      "filename": "Rules.pdf",
+      "bytes": 149572,
+      "sha256": "9bb3ca84f0cfacc989d63a852decbf1bc11cb8d10a114ba6187bd5b608df1fb2"
+    },
+    {
+      "filename": "Grammar.pdf",
+      "bytes": 145919,
+      "sha256": "4814e50bbaf5a16c757991c5307d26f47afdc06e8ff6f5de0cfc9637d69d9961"
+    },
+    {
+      "filename": "Domains.pdf",
+      "bytes": 12041,
+      "sha256": "6f1dfc8a72f4996b660b43a08353eee4e6562f93692d0bc85764c826a0035bfd"
+    },
+    {
+      "filename": "Structure.pdf",
+      "bytes": 112105,
+      "sha256": "744d6b14045f345721b7a1eb29322f8f527604909905bed4ce04b595caee4b0b"
+    },
+    {
+      "filename": "Root Family.pdf",
+      "bytes": 120655,
+      "sha256": "5b8d0d82c9b8f5ef13169820f76b0783f4a6b4a284f43735d78b92909b96680c"
+    },
+    {
+      "filename": "Rosetta.pdf",
+      "bytes": 3995,
+      "sha256": "54c24e94a2ac6652fd8a5280f2e6e19c8ad1f532c624f0ec3dfd044a3ac32aa2"
+    },
+    {
+      "filename": "Phonology.pdf",
+      "bytes": 127679,
+      "sha256": "dca0205f0bbcf1fffc41b0f8723f6d7e79a64ddb03c6911125d16996d0047b10"
+    }
+  ]
+}

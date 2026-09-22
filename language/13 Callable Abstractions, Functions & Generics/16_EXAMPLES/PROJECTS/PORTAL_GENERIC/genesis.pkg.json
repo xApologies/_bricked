@@ -1,0 +1,32 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "0.2.0",
+    "genesis.std.portal": "0.2.0"
+  },
+  "description": "Generic Portal callable compiled through Section 09/08.",
+  "effects": [
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE",
+    "PROJECT"
+  ],
+  "entry_exports": [
+    "app.section13.portal_generic::destination",
+    "app.section13.portal_generic::m5"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.section13.portal_generic",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.section13.portal_generic",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

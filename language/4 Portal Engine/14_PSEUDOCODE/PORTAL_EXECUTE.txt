@@ -1,0 +1,25 @@
+PORTAL_EXECUTE(request):
+    freeze source hashes + fabric hash
+    characterize source logical state
+    corridor <- select_admissible_corridor(request)
+    reserve all edge capacity atomically
+    reserve destination fabric region
+    OPEN portal
+    FOR logical_cell IN source_geometric:
+        read composite source cell
+        re-address cell into destination region
+        append to immutable destination segment
+    ARRIVE
+    reopen destination segment
+    recompute content root and invariant residue
+    require target domain closure
+    require source and fabric unchanged
+    commit destination allocation
+    CLOSE portal
+    release route capacity
+    emit closure receipt + BRANE M5 re-lift
+    return destination geometric
+ON FAILURE:
+    release route capacity
+    abort uncommitted destination allocation
+    emit failure receipt

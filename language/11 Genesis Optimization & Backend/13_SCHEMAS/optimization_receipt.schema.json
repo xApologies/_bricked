@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "barriers": {
+      "type": "object"
+    },
+    "kind": {
+      "const": "GENESIS_OPTIMIZATION_RECEIPT"
+    },
+    "level": {
+      "enum": [
+        "O0",
+        "OAUDIT",
+        "O1"
+      ]
+    },
+    "optimization_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "optimization_id",
+    "level",
+    "before_gir_hash",
+    "after_gir_hash",
+    "barriers"
+  ],
+  "title": "Genesis Optimization Receipt",
+  "type": "object"
+}

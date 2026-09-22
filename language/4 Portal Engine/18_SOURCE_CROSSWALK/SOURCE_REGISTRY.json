@@ -1,0 +1,37 @@
+[
+  {
+    "bytes": 14163,
+    "name": "corridor(5).md",
+    "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6"
+  },
+  {
+    "bytes": 10386950,
+    "name": "Rainbow_road(1)(1).zip",
+    "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b"
+  },
+  {
+    "bytes": 1652269,
+    "name": "GENESIS_CHIRALITY_MACHINE_SECTION_01_HARDWARE_ABI_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "5e25b86052d93c2e3d7bef3c46e2d2f183daffa293d21d351c291581497b0b80"
+  },
+  {
+    "bytes": 131989,
+    "name": "GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "bbf6d27eab4b6dcc8d8f4d2c107e501ee4a0d1c56b23cd0bd958ac8676a899a6"
+  },
+  {
+    "bytes": 1217962,
+    "name": "GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "01d9d7b12ddd6264a76818d685e0bff7858b28dcb24f24228c8ed95d1328848f"
+  },
+  {
+    "bytes": 36704726,
+    "name": "CFP_exp.zip",
+    "sha256": "1346d283be75525caf916e4c0bef862365306cf0c9b6b4f54ac64ce5766481db"
+  },
+  {
+    "bytes": 11931854,
+    "name": "1.0 | QFT - GR BRIDGE(1).zip",
+    "sha256": "0d93f8a69782af74fee7309024c372290893ce4133d8009ac8ff284602439ecc"
+  }
+]

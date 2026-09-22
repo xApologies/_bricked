@@ -1,0 +1,74 @@
+{
+  "bytecode": {
+    "deterministic": true,
+    "digest_protected": true
+  },
+  "matched_expected": 6,
+  "reference_scenarios": [
+    {
+      "bytecode_roundtrip": true,
+      "compiled": true,
+      "expected": "CLOSED",
+      "matched": true,
+      "program": "01_ROUND_ROBIN.gen",
+      "receipt_id": "gsched-b5d14c4962fbeaeb785f0e85e1785242",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_roundtrip": true,
+      "compiled": true,
+      "expected": "CLOSED",
+      "matched": true,
+      "program": "02_EXCLUSIVE_RESOURCE.gen",
+      "receipt_id": "gsched-0036a4e438fde54fe393fd0bc045f015",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_roundtrip": true,
+      "compiled": true,
+      "expected": "CLOSED",
+      "matched": true,
+      "program": "03_SHARED_CAPACITY.gen",
+      "receipt_id": "gsched-548ddd201de7612ff33bbfa0614343b8",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_roundtrip": true,
+      "compiled": true,
+      "expected": "CLOSED",
+      "matched": true,
+      "program": "04_PRIORITY.gen",
+      "receipt_id": "gsched-23f7ba4c55637fa5d1afceb3a4c0e2fd",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_roundtrip": true,
+      "compiled": true,
+      "expected": "CLOSED",
+      "matched": true,
+      "program": "05_RECURSIVE_COOPERATIVE.gen",
+      "receipt_id": "gsched-e495b46c536dd3944c842a15f3fd263c",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_roundtrip": true,
+      "compiled": true,
+      "expected": "DEADLOCK",
+      "matched": true,
+      "program": "06_DEADLOCK_WITNESS.gen",
+      "receipt_id": "gsched-d67dbbd0e3e9e1c8dc0c0dec021620ab",
+      "status": "DEADLOCK"
+    }
+  ],
+  "section": 16,
+  "section15_regression": {
+    "failed": 0,
+    "passed": 60
+  },
+  "section16_tests": {
+    "failed": 0,
+    "passed": 64
+  },
+  "title": "Concurrency + Scheduling + Resource Coordination",
+  "total": 6
+}

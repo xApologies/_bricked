@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis Section 16 task closure receipt",
+  "type":"object",
+  "required":["task_id","template","local_steps","history_root","tick","receipt_id"],
+  "properties":{
+    "task_id":{"type":"string"},"template":{"type":"string"},"local_steps":{"type":"integer","minimum":0},
+    "history_root":{"type":"string"},"tick":{"type":"integer","minimum":0},"receipt_id":{"type":"string"}
+  }
+}

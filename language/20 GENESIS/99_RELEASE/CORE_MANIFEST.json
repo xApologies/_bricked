@@ -1,0 +1,552 @@
+{
+  "files": [
+    {
+      "bytes": 75,
+      "path": "00_START_HERE/FOLDER_NAME.txt",
+      "sha256": "d0066e4cf52c2625b07eced5d6a84dee51dc53f59023bc4b081509ecc15441bd"
+    },
+    {
+      "bytes": 723,
+      "path": "00_START_HERE/README.md",
+      "sha256": "e43b4e5c6f87e298febf4e9a54bd9a228a01174dfacd345581eccf36e8f07893"
+    },
+    {
+      "bytes": 484,
+      "path": "00_START_HERE/RECOVERY_ORDER.md",
+      "sha256": "cc697b859be60d811cb501429179cfc0391eacab0d93c4f1042687b6d72af417"
+    },
+    {
+      "bytes": 694,
+      "path": "01_RELEASE_FREEZE/FREEZE_CONSTITUTION.md",
+      "sha256": "86e678993d2d35c104deb0261232ba754db5a6fc8d72b2ee3c6c808ede9bb6a9"
+    },
+    {
+      "bytes": 1035,
+      "path": "01_RELEASE_FREEZE/GENESIS_V1_0_RELEASE_DESCRIPTOR.json",
+      "sha256": "c37aa6addb89b646a8dc20033862508843612db0ab64ffc3a5c47588d0b4cf20"
+    },
+    {
+      "bytes": 22212,
+      "path": "01_RELEASE_FREEZE/SECTION_01_19_CORE_LOCK.json",
+      "sha256": "24f45dcb0be4f5beac45026ca35cb62d937529f6ad342a228efa9f98b119d661"
+    },
+    {
+      "bytes": 751,
+      "path": "02_ABI_FREEZE/FROZEN_ABIS.md",
+      "sha256": "46b51a72c37358d13afedb5b4d2c7f72fba6609280ec098d026d8140bafc1114"
+    },
+    {
+      "bytes": 2328,
+      "path": "02_ABI_FREEZE/GENESIS_V1_0_ABI_FREEZE.json",
+      "sha256": "0b4fbbaf07b00463c330d3a73facff68287d5e97f51a14316c6d59592a652dae"
+    },
+    {
+      "bytes": 358,
+      "path": "03_FORMAT_FREEZE/FROZEN_FORMATS.md",
+      "sha256": "8cf27da9e2709c3dbfaeaad8849da0a67c2b9c0b2f689aab1c6c061c7d465f3c"
+    },
+    {
+      "bytes": 650,
+      "path": "03_FORMAT_FREEZE/GENESIS_V1_0_FORMAT_FREEZE.json",
+      "sha256": "0d725a42186de6cafb7ec9ac5d5678b621f81a220bf38bac29352b6cc0c1ec5c"
+    },
+    {
+      "bytes": 678,
+      "path": "04_CONFORMANCE/CONFORMANCE_RULES.md",
+      "sha256": "f8a58f466906b44e1724c99ded26463045ba1044a2cbdcf136f107dad1f2d081"
+    },
+    {
+      "bytes": 880,
+      "path": "04_CONFORMANCE/GENESIS_V1_0_CONFORMANCE_PROFILE.json",
+      "sha256": "36273771f0e77c9c66016912a8ce01c914bc0121a2b3bff60376f6aa5379dc32"
+    },
+    {
+      "bytes": 3530,
+      "path": "05_LANGUAGE_SPEC/GENESIS_V1_0_LANGUAGE_SPEC.md",
+      "sha256": "11c70e41600958b00bf3143e9d267a1acef7ab014e47ae741195544caeceb0fd"
+    },
+    {
+      "bytes": 360,
+      "path": "06_VERSIONING/VERSIONING.md",
+      "sha256": "5698d46d88e68e7cfdc6e82520aa4db65f9aed0b0f4a15614635f9b83154edc5"
+    },
+    {
+      "bytes": 405,
+      "path": "07_BOOTSTRAP_STATUS/BOOTSTRAP_STATUS.md",
+      "sha256": "a307eb86a1a20383cfb566b0da319ed53208237562425166075b478843e95d75"
+    },
+    {
+      "bytes": 562,
+      "path": "08_BLACKGLASS_V3_HANDOFF/BLACKGLASS_V3_HANDOFF.md",
+      "sha256": "6ca38acdb0aa757a402a40876a2f8488183cf3d1adb473f6af08010d788d39e1"
+    },
+    {
+      "bytes": 390,
+      "path": "09_FAILURE_MODEL/FAILURES.md",
+      "sha256": "97dbdd4f24c1917604ad4bdd2b3e8713a263e4c7cc76c2a061dedee8168f7526"
+    },
+    {
+      "bytes": 510,
+      "path": "10_PSEUDOCODE/CONFORMANCE.txt",
+      "sha256": "9a6c4759d441ec0016577b4ec5cb5cc8a3e972a7c09ac952f0eeff8898be4dc5"
+    },
+    {
+      "bytes": 340,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__init__.py",
+      "sha256": "21d850b598d075c304f1efff17b7d5de2c535a277101c58603c2d26e12f86237"
+    },
+    {
+      "bytes": 1513,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__main__.py",
+      "sha256": "8fbcf1f4bd7bfd6d477cb7e1f0df3d577ed31fa54d152d47a77fd8cd5f760212"
+    },
+    {
+      "bytes": 580,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "6b47e5ba7015bb6704879d831b35b16c665ad627bd6790e9c1643d44e48849a0"
+    },
+    {
+      "bytes": 6341,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/bootstrap.cpython-313.pyc",
+      "sha256": "3e2005b6ebc2ca7dde57b552a2c840a412f05379ba90a2915e17e1b568ba3b35"
+    },
+    {
+      "bytes": 4103,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/compiler_port.cpython-313.pyc",
+      "sha256": "4f80c5296a2eca2a9458febb8a4894f355196c3666bf98661fb324190f445810"
+    },
+    {
+      "bytes": 1026,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/errors.cpython-313.pyc",
+      "sha256": "08e4829351e79838c3da0e02b9310d47bc600b0f14e4b2f3c5f2fba145e6a4b4"
+    },
+    {
+      "bytes": 2529,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/frontier.cpython-313.pyc",
+      "sha256": "b219d7f710e114081e65bcc714a8b8a95e1a0b161ab91c2fdcf332263c584c63"
+    },
+    {
+      "bytes": 3384,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/image.cpython-313.pyc",
+      "sha256": "e53599a5de5c921f7f867ac5b45cab0f027e5de427b27f28a2f408218d6d3a9b"
+    },
+    {
+      "bytes": 1853,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/model.cpython-313.pyc",
+      "sha256": "185529f5865608c5fac285483853ae2bf26d2278e9090d4ad13416fcf039bfd9"
+    },
+    {
+      "bytes": 1112,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/runtime.cpython-313.pyc",
+      "sha256": "54155a9a3e1290b1aaa2a8e5f7ee1e9e508c3e64a6a9262b7d076abdd3cbcaa5"
+    },
+    {
+      "bytes": 1397,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/__pycache__/util.cpython-313.pyc",
+      "sha256": "8ac1ea8f642ece883d55c54b87aac2e3e01450d7970c15fd6c9d817ea763645a"
+    },
+    {
+      "bytes": 3564,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/bootstrap.py",
+      "sha256": "f83c35f55c6258ff5c084e8e83434f61a29aea542f8cc0b50def3278b4d02dad"
+    },
+    {
+      "bytes": 2383,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/compiler_port.py",
+      "sha256": "6154d061598025f7a1921362e476034eddd5496f4aa265cdb5dca8d15609137a"
+    },
+    {
+      "bytes": 256,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/errors.py",
+      "sha256": "964830f6f561d7ae36f0f9b7d2b2e4f1868ce98075a1a27e330903c0c6ac6be7"
+    },
+    {
+      "bytes": 1180,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/frontier.py",
+      "sha256": "8eb3e5ef936f23b6a4901ebd954b606966ee1a03410649b0aa6f478171744f77"
+    },
+    {
+      "bytes": 1447,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/image.py",
+      "sha256": "28fd1032289db9d0c1fbf411e44bb5d33c3e307d99796acb6bcd67c0e8ae2162"
+    },
+    {
+      "bytes": 680,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/model.py",
+      "sha256": "9739f83ad5ece6cd65b9327554086fe95cffa674cd8f67ebb2a6198d94faa271"
+    },
+    {
+      "bytes": 408,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/runtime.py",
+      "sha256": "5d9968b63916a2f45593fdfbbe31ad662c28be8bc98d7999086ba368f84d6427"
+    },
+    {
+      "bytes": 477,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_bootstrap/util.py",
+      "sha256": "e2395d0fbc04822b5925ac3ec73192d86c4856799b89d6b52ee0d5b95e14394b"
+    },
+    {
+      "bytes": 102,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/__init__.py",
+      "sha256": "e5a24bc14e3d4d57b2346f3e7508d595c124ee8ad435c07859042cdff62c27ac"
+    },
+    {
+      "bytes": 196,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/__main__.py",
+      "sha256": "297b6697fee9531149c687ae24d21b5bb0f4abc15049e8da82fcf90dca302317"
+    },
+    {
+      "bytes": 371,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "80dda6a1376a4839eb9e94320f64c79403797fa452f60767264ea4e4216a7bad"
+    },
+    {
+      "bytes": 488,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/__pycache__/errors.cpython-313.pyc",
+      "sha256": "d77c8315550517a69c736983c2e26e996a58bc16c63efdd1b16268374c53e3f5"
+    },
+    {
+      "bytes": 2751,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/__pycache__/harness.cpython-313.pyc",
+      "sha256": "7ff6efac36fbdc9f3a3d6611db03f34d16ca0a9d4b917fdc41bf1e5bfb83a8cf"
+    },
+    {
+      "bytes": 6978,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/__pycache__/release.cpython-313.pyc",
+      "sha256": "34047aab6364d6f417b3751c6eced7eeaf94f5735116fa57bfa6fc2fa9958c0e"
+    },
+    {
+      "bytes": 43,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/errors.py",
+      "sha256": "33fe2733b55a0650a3a76a89de459dd0486d6c7d6f184c4c19cf592e3010b006"
+    },
+    {
+      "bytes": 1450,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/harness.py",
+      "sha256": "a483ec601d8522e8f41f61022456ec4e68a505c9f6e79502881710b5971034ab"
+    },
+    {
+      "bytes": 3345,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_conformance/release.py",
+      "sha256": "285322ee8bcbd1afdb32c9755083bbedfc7235f0a503aee6cba6e3a182d24ed6"
+    },
+    {
+      "bytes": 408,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__init__.py",
+      "sha256": "4a87f28884d4aea11a9debd25c31032deee3a93f22ea16f5359286c1a4b8d367"
+    },
+    {
+      "bytes": 429,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__main__.py",
+      "sha256": "f92923bdb0cf8acdd9d60f28d03f9270d464949573a208a3ae4b342334a9d705"
+    },
+    {
+      "bytes": 783,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "fba02f2f5bd10474b02a85a312cea46a522fbd77039ba9e6739f9afdf3159b3a"
+    },
+    {
+      "bytes": 2765,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/blackglass.cpython-313.pyc",
+      "sha256": "4582d388ea435f9e943180077ee3dbdabd4e2093241ac12fd6c95b7ade1e713c"
+    },
+    {
+      "bytes": 3626,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/brane.cpython-313.pyc",
+      "sha256": "576e8fcdd75ba725c6faec63a1274f6ebe800adde6236322771eeaf46404a034"
+    },
+    {
+      "bytes": 4546,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/bytecode.cpython-313.pyc",
+      "sha256": "1a23e638bc7259e95a17cc6e75823ce778345f06d80fc4b18cee1941c9a74330"
+    },
+    {
+      "bytes": 1686,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/capabilities.cpython-313.pyc",
+      "sha256": "742c58c3f53d6a748b6c98ea6869313300d78f2202fbe30a65e4a1246543c848"
+    },
+    {
+      "bytes": 1872,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/compiler.cpython-313.pyc",
+      "sha256": "8fb050ea40fbeade1dd83c77c5978ce0dfa4b537c1f0b3d683a4c221f21b6b7e"
+    },
+    {
+      "bytes": 1621,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/device.cpython-313.pyc",
+      "sha256": "e7ef9ac5c51592504ebbbe7eb89082c29cc40377683d0c044c233bf7089437a4"
+    },
+    {
+      "bytes": 2498,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/disasm.cpython-313.pyc",
+      "sha256": "ce6fb465d2f50d9d04efe71a97aa4d6affa6a62ce820ea49de9b64d14fd89d9f"
+    },
+    {
+      "bytes": 747,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/errors.cpython-313.pyc",
+      "sha256": "88689a074167f89c431b130d98e06357952085f56e27ee5f55f358173fa50e47"
+    },
+    {
+      "bytes": 5345,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/model.cpython-313.pyc",
+      "sha256": "3949a64dbb651bacf6e4bcf4cb2a2fa77338d7407f0dda7ea1e2bbb02faf45ff"
+    },
+    {
+      "bytes": 8197,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/parser.cpython-313.pyc",
+      "sha256": "b63a9b89a0a70d35850e5a4fac807f1266a96552cabd4f405f1cd7ed7e7d24f8"
+    },
+    {
+      "bytes": 1645,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/receipts.cpython-313.pyc",
+      "sha256": "0381970e5720cf04e19f47236a88a0efcd4de96a1ffbbd1bdba7a7b4f6cc2264"
+    },
+    {
+      "bytes": 10975,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/runtime.cpython-313.pyc",
+      "sha256": "b806edaf8f4aea8accb6abebf74691520f38322360a478394d58d797d31e18a7"
+    },
+    {
+      "bytes": 5840,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/storage.cpython-313.pyc",
+      "sha256": "32213687dc909c62643ed1f1c2a3a0a4fe55cf76c23aeaaf9afff300c001c2c0"
+    },
+    {
+      "bytes": 1276,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/util.cpython-313.pyc",
+      "sha256": "a3aa081482087567c29c9a5a79c684cece1700ae25802b3b5530c5f7805ed8d9"
+    },
+    {
+      "bytes": 6901,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__pycache__/verifier.cpython-313.pyc",
+      "sha256": "510944ae572864aebb04e89e10a566d0f20509748cc1c2108288573c0d25e634"
+    },
+    {
+      "bytes": 1552,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/blackglass.py",
+      "sha256": "d2fdeb66d1fcd2011b01776a42014e89500669be8b3eeec755795cbb8835d5d6"
+    },
+    {
+      "bytes": 1987,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/brane.py",
+      "sha256": "d03302f7957e29f826f3b51f262ec1d00e817bf3aa6cf5fc155f8cff02abf08f"
+    },
+    {
+      "bytes": 1617,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/bytecode.py",
+      "sha256": "59d57348c3110a74eca759ce04166113022b6b08c15e02d43b35b9f78e4c2099"
+    },
+    {
+      "bytes": 842,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/capabilities.py",
+      "sha256": "5b09cb8b16b5fa716b9818874b518346328a405c23cf8f0031daf4ec1269369b"
+    },
+    {
+      "bytes": 582,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/compiler.py",
+      "sha256": "de210c475784633f963ebca14f3ba77643925ea320cd15d10a10a50aaa077ecf"
+    },
+    {
+      "bytes": 743,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/device.py",
+      "sha256": "760401492dfee6d7e3b843f414b4e2c6e28ff393a23f3c456f8088c06b9693e2"
+    },
+    {
+      "bytes": 731,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/disasm.py",
+      "sha256": "140e6c8be3f9d80640ad6a23fb1fd2580a37f2273f5281ba202c513fbabe650d"
+    },
+    {
+      "bytes": 177,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/errors.py",
+      "sha256": "e20738f7cc43cca0b7e26a22e6e70743c7bebb43493bd93063c1788457514ce6"
+    },
+    {
+      "bytes": 2177,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/model.py",
+      "sha256": "eac84bfbfd1c6c206b173d3f3e4da7c331f79f1689f71bdeee3c572fd8ac9ef1"
+    },
+    {
+      "bytes": 4313,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/parser.py",
+      "sha256": "98a2ff4c6908a35c725e1635dabc7141620027e52a832e6fd41960b52eab6fe4"
+    },
+    {
+      "bytes": 883,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/receipts.py",
+      "sha256": "403eece8b3b3edce7fdb97ea9022ca3426ba5ef5906cb7d510308ab524bbd198"
+    },
+    {
+      "bytes": 4872,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/runtime.py",
+      "sha256": "452326ca4fc6ffa2d4b27a4d811223e927726c002ab1122ef0f626a5c36bfdbe"
+    },
+    {
+      "bytes": 2272,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/storage.py",
+      "sha256": "277fde5175cedfeb8d2c8eb5b931460bff8a9b9815c946bc425e63a10e98b0d3"
+    },
+    {
+      "bytes": 461,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/util.py",
+      "sha256": "0c4d3fc637c6e6175784e2be37b3c3fa10edf19150d02a83a2d6bb778ff1a2ee"
+    },
+    {
+      "bytes": 3588,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/verifier.py",
+      "sha256": "4b1eb9ce36ac23be068d5a0d16928f46ce81f28d5f5069d949a0d90075096f92"
+    },
+    {
+      "bytes": 354,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/__init__.py",
+      "sha256": "9278728609206a6e033c177d357475296daa98b505799db194d25088ec4828e5"
+    },
+    {
+      "bytes": 47,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "bytes": 4173,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/build.py",
+      "sha256": "19f3ecfb638125c0b95f4fef48783de1a9327de7b01e5d43518593452199a3a3"
+    },
+    {
+      "bytes": 3081,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/cli.py",
+      "sha256": "f0f6ca40d3dfa0de4f065df82fd38a8f7336a0fc08cbcaba8f5f45adeb9a76e3"
+    },
+    {
+      "bytes": 1644,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/debugger.py",
+      "sha256": "012b2d35896669049827fbceed6117283529bc27cedc26428769518a64b9b3e9"
+    },
+    {
+      "bytes": 2552,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/diagnostics.py",
+      "sha256": "5d861885fda80734f2a4c5e4c0083b0f3962aace56405d26ccbac83e06ce87cd"
+    },
+    {
+      "bytes": 2232,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/model.py",
+      "sha256": "bfd7d2253744e804e3d26a80d693188c1dd087a16d48f67ad7a9f2b6bdb1a52a"
+    },
+    {
+      "bytes": 1023,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/source_map.py",
+      "sha256": "70ba2eebab679ef8c5dbbcd7cd4adcf1449c1b048f0d5b467746fcda8f48d679"
+    },
+    {
+      "bytes": 2150,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/test_runner.py",
+      "sha256": "be1964b5cfed126050bfc0e4cb19ab8b5c5c31c64a7a6beb7dedc7522d1b6ae8"
+    },
+    {
+      "bytes": 5671,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/tracing.py",
+      "sha256": "b1fecdcec55d52648480ba5e01300924e3bf71bbbd87aca1e031c82313ff0d88"
+    },
+    {
+      "bytes": 845,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_toolchain/util.py",
+      "sha256": "476755f3f045a8b659e07f53022f50fdd52078065e858eea42fe9149331af623"
+    },
+    {
+      "bytes": 415,
+      "path": "13_SCHEMAS/conformance_receipt.schema.json",
+      "sha256": "5975f5cd9e4fb74133d3210c52075a9a40e9657a45190b8cf616897c2f829c5b"
+    },
+    {
+      "bytes": 530,
+      "path": "13_SCHEMAS/core_lock.schema.json",
+      "sha256": "35a87af242a24de3cf2a322755d3695d6253412577beaccfeba39cb3f4c70d3b"
+    },
+    {
+      "bytes": 496,
+      "path": "13_SCHEMAS/release_descriptor.schema.json",
+      "sha256": "d2586e86aea54671b9ce893512318430e9c45e2d2066ff70a3fcf9d0581f8c70"
+    },
+    {
+      "bytes": 22502,
+      "path": "14_TESTS/__pycache__/test_section20.cpython-313.pyc",
+      "sha256": "dd93f00e8180f616a98363b15be35e3b875be6c4a1b69a0bb3a340680d6184c7"
+    },
+    {
+      "bytes": 9849,
+      "path": "14_TESTS/test_section20.py",
+      "sha256": "30aaa62ecaa39794fe55bf4948b63805cf7cfce235d829eeab2940aa67cfc147"
+    },
+    {
+      "bytes": 167,
+      "path": "15_EXAMPLES/README.md",
+      "sha256": "af0e35f10ecf367ea368f185da4365cab53d14aa7c5c685fffde3e8f1ebf7621"
+    },
+    {
+      "bytes": 781,
+      "path": "15_EXAMPLES/bootstrap_controller.gen",
+      "sha256": "b191313b78537b64ff38be3d0588ed4540fd69ee850f74aea2b155789a1586c2"
+    },
+    {
+      "bytes": 1400,
+      "path": "15_EXAMPLES/self_host_frontier.json",
+      "sha256": "3b5b8972cccdf46592888e42e1239dd9025814cb5489c97d9b6c2eff12ab3f95"
+    },
+    {
+      "bytes": 551,
+      "path": "16_REFERENCE_RUNS/GENESIS_V1_0_CONFORMANCE_RECEIPT.json",
+      "sha256": "4f58033d650753019c95e1d8290f00094b32c69c8264235fa2fb61541a8fab59"
+    },
+    {
+      "bytes": 12199,
+      "path": "16_REFERENCE_RUNS/GENESIS_V1_0_RELEASE_IMAGE.gboot",
+      "sha256": "d8e3ab9553eae4131f7ddb460414a233379ad72d94a81fa1156dd80a7ca870ca"
+    },
+    {
+      "bytes": 514,
+      "path": "16_REFERENCE_RUNS/GENESIS_V1_0_RELEASE_IMAGE_STATUS.json",
+      "sha256": "8b42f5936e5fc5a76e8361cd0feb090fef9e27e4a3b619f9a4cc3329e9b3d0f0"
+    },
+    {
+      "bytes": 610,
+      "path": "16_REFERENCE_RUNS/GENESIS_V1_FINAL_CONFORMANCE_SUMMARY.json",
+      "sha256": "65190f1399812098b4c62a18f961ee591d2052c9d7769d42458fc359e53a5fba"
+    },
+    {
+      "bytes": 3228,
+      "path": "16_REFERENCE_RUNS/SECTION_01_19_CORE_AUDIT.json",
+      "sha256": "cd45320da4e98cd7d51085dcaafb6ab98345bb791b0e45b8e4539c9c0084e0e3"
+    },
+    {
+      "bytes": 326,
+      "path": "17_COMPATIBILITY/SECTION_01_19_COMPATIBILITY.md",
+      "sha256": "9ab8a4bd0f19fb5aeb369c3a35cf70fa39344baaf454ddfab66ff3cba3cda071"
+    },
+    {
+      "bytes": 440,
+      "path": "18_SOURCE_CROSSWALK/SOURCE_CROSSWALK.md",
+      "sha256": "267149a412bfc93ce6151716c81d82ec1a1a49aaa2a415fd3becc31f0543feea"
+    },
+    {
+      "bytes": 344,
+      "path": "18_SOURCE_CROSSWALK/STATUS_DISCIPLINE.md",
+      "sha256": "1df50a5f70a4410c4d22d6edaa09905cf0f8d6399906d3c042816f02168fccba"
+    },
+    {
+      "bytes": 289,
+      "path": "19_RECOVERY/SECTION_20_STATE.md",
+      "sha256": "1b004a6db66c230b3b73e1381459e68d23c8c890d56782b20f1c404edff0707d"
+    },
+    {
+      "bytes": 5141,
+      "path": "99_RELEASE/SECTION19_REGRESSION.txt",
+      "sha256": "2b776e9e5ef21dab78c33dbb3524ec314081c1c4b269c41e1e9e627efffbacb6"
+    },
+    {
+      "bytes": 6567,
+      "path": "99_RELEASE/SECTION20_TEST_RESULTS.txt",
+      "sha256": "f62e3ecbb1a04c04d30b588a80315137648012bbce99c8ea2267731ece751399"
+    }
+  ],
+  "folder": "GENESIS_CHIRALITY_MACHINE_SECTION_20_V1_CONFORMANCE_FREEZE_v1.0.0_20260821",
+  "kind": "GENESIS_SECTION20_CORE_MANIFEST",
+  "version": "1.0.0"
+}

@@ -1,0 +1,25 @@
+genesis 0.5.0
+module deadlock_witness {
+  resource left capacity 1 kind FABRIC
+  resource right capacity 1 kind FABRIC
+  task alpha priority 10 quantum 1 {
+    acquire left exclusive
+    yield
+    acquire right exclusive
+    release right
+    release left
+    close
+  }
+  task beta priority 10 quantum 1 {
+    acquire right exclusive
+    yield
+    acquire left exclusive
+    release left
+    release right
+    close
+  }
+  spawn alpha as a
+  spawn beta as b
+  join a b
+  export schedule
+}

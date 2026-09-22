@@ -1,0 +1,12 @@
+{
+  "section": 15,
+  "title": "Recursion + Recursive Topology Execution",
+  "section15_tests": {"passed": 60, "failed": 0},
+  "section14_regression": {"passed": 62, "failed": 0},
+  "reference_source_programs": {"compiled": 6, "executed": 6, "failed": 0},
+  "topology_reference": {"executed": true, "cycle_policy": "skip", "status": "CLOSED"},
+  "persistent_reference": {"suspend_resume": true, "final_status": "CLOSED"},
+  "bytecode": {"deterministic": true, "digest_protected": true},
+  "mutual_recursion": "DEFERRED_AND_REJECTED",
+  "linear_resource_capture": "DENY_BY_DEFAULT"
+}

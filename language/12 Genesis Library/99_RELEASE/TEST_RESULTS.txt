@@ -1,0 +1,57 @@
+test_21_audit_first (test_section12.AuditTests.test_21_audit_first) ... /mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_12_STDLIB_PACKAGE_RUNTIME_v0.1.0_20260821/12_REFERENCE_IMPLEMENTATION/genesis_frontend/util.py:31: DeprecationWarning: 'maxsplit' is passed as positional argument
+  return re.split(r'<',str(t).strip(),1)[0].upper()
+ok
+test_22_effects_root (test_section12.AuditTests.test_22_effects_root) ... ok
+test_23_contract_no_effect_use (test_section12.AuditTests.test_23_contract_no_effect_use) ... ok
+test_24_atomic_effects (test_section12.AuditTests.test_24_atomic_effects) ... ok
+test_25_stdlib_sources_lower (test_section12.AuditTests.test_25_stdlib_sources_lower) ... ok
+test_26_first (test_section12.BuildTests.test_26_first) ... ok
+test_27_road (test_section12.BuildTests.test_27_road) ... ok
+test_28_mixed (test_section12.BuildTests.test_28_mixed) ... ok
+test_29_quantum (test_section12.BuildTests.test_29_quantum) ... ok
+test_30_package_chain (test_section12.BuildTests.test_30_package_chain) ... ok
+test_31_receipt_id (test_section12.BuildTests.test_31_receipt_id) ... ok
+test_32_resolution_bound (test_section12.BuildTests.test_32_resolution_bound) ... ok
+test_33_bytecode_deterministic (test_section12.BuildTests.test_33_bytecode_deterministic) ... ok
+test_34_frozen (test_section12.BuildTests.test_34_frozen) ... ok
+test_35_write_build (test_section12.BuildTests.test_35_write_build) ... ok
+test_36_receipt_gvm_hash (test_section12.BuildTests.test_36_receipt_gvm_hash) ... ok
+test_37_package_chain_has_qftleg (test_section12.BuildTests.test_37_package_chain_has_qftleg) ... ok
+test_38_root_exports_only (test_section12.BuildTests.test_38_root_exports_only) ... ok
+test_39_all_stored (test_section12.BuildTests.test_39_all_stored) ... ok
+test_40_audit_capability_metadata (test_section12.BuildTests.test_40_audit_capability_metadata) ... ok
+test_41_effect_budget (test_section12.NegativeTests.test_41_effect_budget) ... ok
+test_42_direct_dependency (test_section12.NegativeTests.test_42_direct_dependency) ... ok
+test_43_frozen_root_drift (test_section12.NegativeTests.test_43_frozen_root_drift) ... ok
+test_44_source_missing (test_section12.NegativeTests.test_44_source_missing) ... ok
+test_45_unsupported_genesis (test_section12.NegativeTests.test_45_unsupported_genesis) ... ok
+test_46_duplicate_module_manifest (test_section12.NegativeTests.test_46_duplicate_module_manifest) ... ok
+test_47_meta_resolves (test_section12.ReleaseTests.test_47_meta_resolves) ... ok
+test_48_module_names_unique_registry (test_section12.ReleaseTests.test_48_module_names_unique_registry) ... ok
+test_49_content_roots_len (test_section12.ReleaseTests.test_49_content_roots_len) ... ok
+test_50_reference_project_count (test_section12.ReleaseTests.test_50_reference_project_count) ... ok
+test_11_names (test_section12.ResolverStoreTests.test_11_names) ... ok
+test_12_highest_candidate (test_section12.ResolverStoreTests.test_12_highest_candidate) ... ok
+test_13_resolve_first (test_section12.ResolverStoreTests.test_13_resolve_first) ... ok
+test_14_dependency_first (test_section12.ResolverStoreTests.test_14_dependency_first) ... ok
+test_15_lock_deterministic (test_section12.ResolverStoreTests.test_15_lock_deterministic) ... ok
+test_16_lock_root_len (test_section12.ResolverStoreTests.test_16_lock_root_len) ... ok
+test_17_store_install (test_section12.ResolverStoreTests.test_17_store_install) ... ok
+test_18_store_tamper (test_section12.ResolverStoreTests.test_18_store_tamper) ... ok
+test_19_missing (test_section12.ResolverStoreTests.test_19_missing) ... ok
+test_20_cycle_detector (test_section12.ResolverStoreTests.test_20_cycle_detector) ... ok
+test_01_version_order (test_section12.SemverManifestTests.test_01_version_order) ... ok
+test_02_exact (test_section12.SemverManifestTests.test_02_exact) ... ok
+test_03_caret (test_section12.SemverManifestTests.test_03_caret) ... ok
+test_04_caret_blocks_major (test_section12.SemverManifestTests.test_04_caret_blocks_major) ... ok
+test_05_tilde (test_section12.SemverManifestTests.test_05_tilde) ... ok
+test_06_wildcard (test_section12.SemverManifestTests.test_06_wildcard) ... ok
+test_07_bad_version (test_section12.SemverManifestTests.test_07_bad_version) ... ok
+test_08_manifest (test_section12.SemverManifestTests.test_08_manifest) ... ok
+test_09_hash_deterministic (test_section12.SemverManifestTests.test_09_hash_deterministic) ... ok
+test_10_all_manifests (test_section12.SemverManifestTests.test_10_all_manifests) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.303s
+
+OK

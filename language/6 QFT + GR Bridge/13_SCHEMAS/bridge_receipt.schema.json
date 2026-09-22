@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "status": {
+      "const": "CLOSED"
+    }
+  },
+  "required": [
+    "bridge_id",
+    "source_sector",
+    "target_sector",
+    "fabric_witness_id",
+    "common_ancestry",
+    "status"
+  ],
+  "title": "BridgeReceipt",
+  "type": "object"
+}

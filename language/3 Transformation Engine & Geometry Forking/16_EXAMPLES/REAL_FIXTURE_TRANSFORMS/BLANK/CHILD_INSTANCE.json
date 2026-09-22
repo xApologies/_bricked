@@ -1,0 +1,254 @@
+{
+  "brane_m5": {
+    "Chi": {
+      "effects": [
+        "LINEAGE_WRITE",
+        "READ"
+      ],
+      "fabric_tag": 5508075522112768044,
+      "post_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+      "region": {
+        "alignment": 128,
+        "count": 32768,
+        "guard_after": 0,
+        "guard_before": 0,
+        "start": 229376
+      }
+    },
+    "D": {
+      "effects": [
+        "LINEAGE_WRITE",
+        "READ"
+      ],
+      "inherited": {
+        "dependencies": [],
+        "parent_instance_id": null,
+        "source_hashes": {
+          "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+          "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+        }
+      },
+      "transformation_plan_id": "dd936588db854b3e9ee3e1211f35986005f4702f2b4036baedc729663095a30b"
+    },
+    "I": {
+      "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+      "instance_id": "3ea26902ff4719fa2d1b65a44c1508d8",
+      "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+      "representation_id": "BLANK_MANIFOLD_V0_1:statecode"
+    },
+    "P": {
+      "inherited": {
+        "adapter_version": "BRANE_M5_ADAPTER_V0_1",
+        "provenance": [
+          {
+            "source_hashes": {
+              "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+              "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+            }
+          }
+        ],
+        "receipts": [
+          {
+            "kind": "INSTANTIATION_PLAN",
+            "plan_id": "0abf92b8538a6b3d6d5a2386f61a9c7d33fe730bbcc798635603accfe5ded016",
+            "timestamp_ns": 1787336439755303156
+          },
+          {
+            "file_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+            "kind": "SEGMENT_COMMIT",
+            "payload_hash": "95f45fab528df4e144c8c8b014d51f99f3a470b6447ad1f34b18e9326a7464cc",
+            "record_count": 32768,
+            "timestamp_ns": 1787336439755304899
+          },
+          {
+            "allocation": {
+              "count": 32768,
+              "guard": 0,
+              "owner": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+              "reservation_id": "351efb46bd814aa7f008a9c1",
+              "start": 229376,
+              "state": "COMMITTED"
+            },
+            "kind": "REGION_COMMIT",
+            "timestamp_ns": 1787336439755305880
+          }
+        ]
+      },
+      "transformation_receipt": {
+        "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+        "canonical_mmo_after": "BLANK_MANIFOLD_V0_1",
+        "canonical_mmo_before": "BLANK_MANIFOLD_V0_1",
+        "capability_profile": "GENERIC_LIVE",
+        "changed_cells": 0,
+        "child_instance_id": "3ea26902ff4719fa2d1b65a44c1508d8",
+        "delta_file_sha256": "53ce1f907638d0a3e9343268c18633ff7868c98bc713c9739526c61d594a689b",
+        "delta_payload_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "effects": [
+          "LINEAGE_WRITE",
+          "READ"
+        ],
+        "invariants": [
+          {
+            "invariant": "canonical_mmo_id",
+            "pass": true
+          },
+          {
+            "invariant": "fabric_region",
+            "pass": true
+          },
+          {
+            "invariant": "occupancy_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "complement_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "handedness",
+            "pass": true
+          },
+          {
+            "invariant": "chi",
+            "pass": true
+          },
+          {
+            "invariant": "identity_tag",
+            "pass": true
+          }
+        ],
+        "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+        "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+        "parent_segment_hashes": {
+          "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/blank.gos": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f"
+        },
+        "plan_id": "dd936588db854b3e9ee3e1211f35986005f4702f2b4036baedc729663095a30b",
+        "post_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+        "pre_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+        "status": "CLOSED",
+        "timestamp_ns": 1787336936065768940
+      }
+    },
+    "R": {
+      "history_tail": [
+        {
+          "event": "LIVE",
+          "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+          "timestamp_ns": 1787336439755315905
+        },
+        {
+          "event": "TRANSFORMATION_CLOSED",
+          "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+          "plan_id": "dd936588db854b3e9ee3e1211f35986005f4702f2b4036baedc729663095a30b",
+          "post_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+          "timestamp_ns": 1787336936065881987
+        }
+      ],
+      "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+      "recursive_depth": 2,
+      "transform_plan_id": "dd936588db854b3e9ee3e1211f35986005f4702f2b4036baedc729663095a30b"
+    }
+  },
+  "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+  "cells_per_voxel": 1,
+  "fabric_tag": 5508075522112768044,
+  "history": [
+    {
+      "event": "LIVE",
+      "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+      "timestamp_ns": 1787336439755315905
+    },
+    {
+      "event": "TRANSFORMATION_CLOSED",
+      "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+      "plan_id": "dd936588db854b3e9ee3e1211f35986005f4702f2b4036baedc729663095a30b",
+      "post_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+      "timestamp_ns": 1787336936065881987
+    }
+  ],
+  "instance_id": "3ea26902ff4719fa2d1b65a44c1508d8",
+  "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+  "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+  "provenance": [
+    {
+      "source_hashes": {
+        "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+        "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+      }
+    },
+    {
+      "transformation_receipt": {
+        "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+        "canonical_mmo_after": "BLANK_MANIFOLD_V0_1",
+        "canonical_mmo_before": "BLANK_MANIFOLD_V0_1",
+        "capability_profile": "GENERIC_LIVE",
+        "changed_cells": 0,
+        "child_instance_id": "3ea26902ff4719fa2d1b65a44c1508d8",
+        "delta_file_sha256": "53ce1f907638d0a3e9343268c18633ff7868c98bc713c9739526c61d594a689b",
+        "delta_payload_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "effects": [
+          "LINEAGE_WRITE",
+          "READ"
+        ],
+        "invariants": [
+          {
+            "invariant": "canonical_mmo_id",
+            "pass": true
+          },
+          {
+            "invariant": "fabric_region",
+            "pass": true
+          },
+          {
+            "invariant": "occupancy_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "complement_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "handedness",
+            "pass": true
+          },
+          {
+            "invariant": "chi",
+            "pass": true
+          },
+          {
+            "invariant": "identity_tag",
+            "pass": true
+          }
+        ],
+        "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+        "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+        "parent_segment_hashes": {
+          "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/blank.gos": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f"
+        },
+        "plan_id": "dd936588db854b3e9ee3e1211f35986005f4702f2b4036baedc729663095a30b",
+        "post_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+        "pre_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+        "status": "CLOSED",
+        "timestamp_ns": 1787336936065768940
+      }
+    }
+  ],
+  "region": {
+    "alignment": 128,
+    "count": 32768,
+    "guard_after": 0,
+    "guard_before": 0,
+    "start": 229376
+  },
+  "representation_id": "BLANK_MANIFOLD_V0_1:statecode",
+  "roles": [
+    "control"
+  ],
+  "segment_chain": [
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/blank.gos",
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/16_EXAMPLES/REAL_FIXTURE_TRANSFORMS/BLANK/3ea26902ff4719fa2d1b65a44c1508d8.gtd"
+  ],
+  "segment_path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/16_EXAMPLES/REAL_FIXTURE_TRANSFORMS/BLANK/3ea26902ff4719fa2d1b65a44c1508d8.gtd",
+  "segment_sha256": "53ce1f907638d0a3e9343268c18633ff7868c98bc713c9739526c61d594a689b",
+  "state": "LIVE"
+}

@@ -1,0 +1,19 @@
+SPECIALIZE(call, function):
+    assert call.generic_arity == function.generic_arity
+    assert call.value_arity == function.value_arity
+    for each (generic, concrete_type):
+        require compatible(generic.bound, concrete_type)
+    specialization_id = HASH(function_definition, concrete_type_arguments)
+    call_id = HASH(caller, source_location, call_serial, specialization_id)
+    bind formal parameters -> caller values
+    alpha_rename all function-local outputs with call namespace
+    bind function return-local -> caller requested output
+    for each body entry:
+        if nested call:
+            recursively SPECIALIZE
+        else:
+            substitute types and values
+            emit ordinary core Genesis statement
+            accumulate underlying effects
+    require actual_effects subset_of declared_effects
+    emit call expansion receipt

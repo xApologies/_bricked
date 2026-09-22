@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis Section 16 resource lease",
+  "type":"object",
+  "required":["resource","task_id","mode","units","lease_id"],
+  "properties":{
+    "resource":{"type":"string"},"task_id":{"type":"string"},"mode":{"enum":["SHARED","EXCLUSIVE"]},
+    "units":{"type":"integer","minimum":1},"lease_id":{"type":"string"}
+  }
+}

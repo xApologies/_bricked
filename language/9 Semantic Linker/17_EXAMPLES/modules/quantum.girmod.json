@@ -1,0 +1,104 @@
+{
+  "effects": [
+    "QUANTUM_LINEAR",
+    "TRANSFORM",
+    "MEASURE",
+    "PROVENANCE"
+  ],
+  "exports": [
+    {
+      "symbol": "result",
+      "type": "QRESULT<CLASSICAL>",
+      "value": "%result"
+    },
+    {
+      "symbol": "seal",
+      "type": "RECEIPT<PROVENANCE>",
+      "value": "%seal"
+    }
+  ],
+  "gir": {
+    "edges": [],
+    "nodes": [
+      {
+        "args": [
+          "%source"
+        ],
+        "attrs": {
+          "basis": [
+            "0",
+            "1"
+          ]
+        },
+        "id": "01_q0",
+        "op": "Q_PREPARE",
+        "out": "%q0",
+        "type": "QSTATE"
+      },
+      {
+        "args": [
+          "%q0"
+        ],
+        "attrs": {
+          "amplitudes": [
+            "1/sqrt(2)",
+            "1/sqrt(2)"
+          ]
+        },
+        "id": "02_q1",
+        "op": "Q_SUPERPOSE",
+        "out": "%q1",
+        "type": "QSTATE"
+      },
+      {
+        "args": [
+          "%q1"
+        ],
+        "attrs": {
+          "channel": "IDENTITY",
+          "preserve_coherence": true
+        },
+        "id": "03_q2",
+        "op": "Q_CHANNEL",
+        "out": "%q2",
+        "type": "QSTATE"
+      },
+      {
+        "args": [
+          "%q2"
+        ],
+        "attrs": {
+          "outcome": 0,
+          "reference_seed": "SECTION09"
+        },
+        "id": "04_measure",
+        "op": "Q_MEASURE",
+        "out": "%result",
+        "type": "QRESULT"
+      },
+      {
+        "args": [
+          "%result"
+        ],
+        "attrs": {
+          "effect": "measurement"
+        },
+        "id": "05_seal",
+        "op": "PROVENANCE_SEAL",
+        "out": "%seal",
+        "type": "RECEIPT"
+      }
+    ]
+  },
+  "imports": [
+    {
+      "from": "fixture",
+      "local": "%source",
+      "symbol": "geo",
+      "type": "GEOMETRIC"
+    }
+  ],
+  "ir": "GIR-MODULE",
+  "module": "quantum",
+  "version": "0.1.0"
+}

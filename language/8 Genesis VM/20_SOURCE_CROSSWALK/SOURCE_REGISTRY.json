@@ -1,0 +1,46 @@
+{
+  "dependencies": [
+    {
+      "role": "fabric hardware ABI / immutable base + overlay contract",
+      "section": "01"
+    },
+    {
+      "role": "Geometric/MMO instantiation",
+      "section": "02"
+    },
+    {
+      "role": "transformation and immutable forking",
+      "section": "03"
+    },
+    {
+      "role": "Portal/Corridor transaction semantics",
+      "section": "04"
+    },
+    {
+      "role": "Rainbow Road composition",
+      "section": "05"
+    },
+    {
+      "role": "QFT/GR typed bridge",
+      "section": "06"
+    },
+    {
+      "role": "quantum information effects and linear ownership",
+      "section": "07"
+    },
+    {
+      "role": "frontend/compiler precursor; noncanonical where superseded",
+      "source": "Computational Genesis handoff"
+    },
+    {
+      "role": "semantic constitution and initial IR/Portal contracts",
+      "source": "Layer Zero"
+    },
+    {
+      "role": "dependency/admissibility/bandwidth/resolution/identity/history/holonomy",
+      "source": "Astraeus mathematics"
+    }
+  ],
+  "section": "08",
+  "status": "software bootstrap execution model"
+}

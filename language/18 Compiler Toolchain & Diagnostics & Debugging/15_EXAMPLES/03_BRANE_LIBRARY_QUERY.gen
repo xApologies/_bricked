@@ -1,0 +1,14 @@
+genesis 0.6.0
+module brane_library_query {
+  capability io.source.read
+  capability cas.put
+  capability brane.mount
+  capability brane.realize
+  endpoint source kind SOURCE mode READ root source
+  port library role library module mk43.library version 1.D.0 dimension 5 contract 2.0 canonical READ_ONLY rewrite DERIVED_ONLY caps recover,recover_batch chirality address-placement-neutral provenance package-and-block-provenance
+  read source "query.bin" as query
+  cas_put query as query_ref
+  mount library
+  realize library capability recover payload query_ref as result
+  close
+}

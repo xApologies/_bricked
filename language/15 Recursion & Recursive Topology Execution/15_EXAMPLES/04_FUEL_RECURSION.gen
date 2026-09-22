@@ -1,0 +1,18 @@
+genesis 0.4.0
+module recursion.fuel {
+  rec fn fuel_count(n: INT) -> INT fuel 32 {
+    let zero : INT = 0
+    let done : BOOL = le n zero
+    if done {
+      return n
+    } else {
+      let one : INT = 1
+      let next : INT = sub n one
+      recur fuel_count(next) as out
+      return out
+    }
+  }
+  let start : INT = 12
+  call fuel_count(start) as result
+  export result : INT
+}

@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "bandwidth": 0.9,
+      "capacity_units": 8,
+      "chirality_classes": [
+        "ANY"
+      ],
+      "closure_supported": true,
+      "color_index": "Red",
+      "cost": 1.0,
+      "edge_id": "red_alpha_orange",
+      "residue_classes": [
+        "ANY"
+      ],
+      "resolution": 0.95,
+      "sectors": [
+        "GENERIC",
+        "QFT",
+        "GR"
+      ],
+      "source_domain": "ALPHA",
+      "target_domain": "ORANGE"
+    },
+    {
+      "bandwidth": 0.85,
+      "capacity_units": 8,
+      "chirality_classes": [
+        "ANY"
+      ],
+      "closure_supported": true,
+      "color_index": "Orange",
+      "cost": 1.0,
+      "edge_id": "orange_green",
+      "residue_classes": [
+        "ANY"
+      ],
+      "resolution": 0.9,
+      "sectors": [
+        "GENERIC",
+        "QFT",
+        "GR"
+      ],
+      "source_domain": "ORANGE",
+      "target_domain": "GREEN"
+    },
+    {
+      "bandwidth": 0.82,
+      "capacity_units": 8,
+      "chirality_classes": [
+        "ANY"
+      ],
+      "closure_supported": true,
+      "color_index": "Green",
+      "cost": 1.0,
+      "edge_id": "green_blue",
+      "residue_classes": [
+        "ANY"
+      ],
+      "resolution": 0.88,
+      "sectors": [
+        "GENERIC",
+        "QFT",
+        "GR"
+      ],
+      "source_domain": "GREEN",
+      "target_domain": "BLUE"
+    },
+    {
+      "bandwidth": 0.8,
+      "capacity_units": 8,
+      "chirality_classes": [
+        "ANY"
+      ],
+      "closure_supported": true,
+      "color_index": "Violet",
+      "cost": 1.0,
+      "edge_id": "blue_violet",
+      "residue_classes": [
+        "ANY"
+      ],
+      "resolution": 0.86,
+      "sectors": [
+        "GENERIC",
+        "QFT",
+        "GR"
+      ],
+      "source_domain": "BLUE",
+      "target_domain": "OMEGA"
+    },
+    {
+      "bandwidth": 0.99,
+      "capacity_units": 2,
+      "chirality_classes": [
+        "ANY"
+      ],
+      "closure_supported": true,
+      "color_index": "White",
+      "cost": 9.0,
+      "edge_id": "alpha_direct",
+      "residue_classes": [
+        "ANY"
+      ],
+      "resolution": 0.99,
+      "sectors": [
+        "GENERIC"
+      ],
+      "source_domain": "ALPHA",
+      "target_domain": "OMEGA"
+    }
+  ],
+  "kind": "SECTION05_REFERENCE_RAINBOW_BUS",
+  "reference_road": [
+    "ALPHA",
+    "GREEN",
+    "OMEGA"
+  ]
+}

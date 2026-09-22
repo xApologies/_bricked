@@ -1,0 +1,72 @@
+{
+  "effects": [
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE"
+  ],
+  "exports": [
+    {
+      "symbol": "receipt",
+      "type": "RECEIPT<ROAD_CLOSE>",
+      "value": "%rr"
+    }
+  ],
+  "gir": {
+    "edges": [],
+    "nodes": [
+      {
+        "args": [
+          "%source"
+        ],
+        "id": "01_begin",
+        "op": "ROAD_BEGIN",
+        "out": "%r0",
+        "type": "ROAD"
+      },
+      {
+        "args": [
+          "%r0",
+          "%leg"
+        ],
+        "id": "02_append",
+        "op": "ROAD_APPEND",
+        "out": "%r1",
+        "type": "ROAD"
+      },
+      {
+        "args": [
+          "%r1",
+          "%dest"
+        ],
+        "id": "03_close",
+        "op": "ROAD_CLOSE",
+        "out": "%rr",
+        "type": "RECEIPT"
+      }
+    ]
+  },
+  "imports": [
+    {
+      "from": "fixture",
+      "local": "%source",
+      "symbol": "geo",
+      "type": "GEOMETRIC"
+    },
+    {
+      "from": "qft_leg",
+      "local": "%leg",
+      "symbol": "receipt",
+      "type": "RECEIPT"
+    },
+    {
+      "from": "qft_leg",
+      "local": "%dest",
+      "symbol": "destination",
+      "type": "GEOMETRIC<CLOSED,QFT>"
+    }
+  ],
+  "ir": "GIR-MODULE",
+  "module": "road",
+  "version": "0.1.0"
+}

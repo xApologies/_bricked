@@ -1,0 +1,68 @@
+{
+  "BLANK": {
+    "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+    "capability": "GENERIC_LIVE",
+    "changed_cells": 0,
+    "child_instance_id": "3ea26902ff4719fa2d1b65a44c1508d8",
+    "delta_bytes": 4096,
+    "delta_sha256": "53ce1f907638d0a3e9343268c18633ff7868c98bc713c9739526c61d594a689b",
+    "effects": [
+      "LINEAGE_WRITE",
+      "READ"
+    ],
+    "fabric_unchanged": true,
+    "parent_instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+    "parent_unchanged": true,
+    "post_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a",
+    "pre_state_root": "eb91337f5f1af6b64cf778b78c95ee2a04b69e855f12a18d32533fbfab8f698a"
+  },
+  "HSV1": {
+    "canonical_mmo_id": "HSV1-REFERENCE-MMO-QMODEL-01",
+    "capability": "GENERIC_LIVE",
+    "changed_cells": 32768,
+    "child_instance_id": "dd7fb7fa4d53f5695e4c8788de131877",
+    "delta_bytes": 1314816,
+    "delta_sha256": "1accd9b535dc89b4ee01f55eeb30e3e0ffd0122bc88dcf12c244b6ac7f50556f",
+    "effects": [
+      "PERSISTENCE_WRITE"
+    ],
+    "fabric_unchanged": true,
+    "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+    "parent_unchanged": true,
+    "post_state_root": "68aae7e5b0e37d06c7527236ccabd2797926191f80943e56bc8cd3610edbf7b3",
+    "pre_state_root": "b3e613167e2fd59e2fcd87b2645f25024812be74d4151b6fafa91b4329c75c52"
+  },
+  "HYDROGEN": {
+    "canonical_mmo_id": "H:HYDROGEN_V2",
+    "capability": "GENERIC_LIVE",
+    "changed_cells": 32768,
+    "child_instance_id": "217fc789e846f8e268f9cb627fa7faa2",
+    "delta_bytes": 1314816,
+    "delta_sha256": "f1406d0ace33b95e18f07aa3f313b63983a3bc5d3ef45b881acbe892e49d50df",
+    "effects": [
+      "TRANSLATION_WRITE"
+    ],
+    "fabric_unchanged": true,
+    "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+    "parent_unchanged": true,
+    "post_state_root": "63c42b3d3feb91b8dfb83daaf63f02e8f1ca4f7c50af892a97840902ac89680f",
+    "pre_state_root": "7eda20684d252d8e31594d31d0154ffa20507262f4ccaeeb3083552e287360d4"
+  },
+  "OXYGEN": {
+    "canonical_mmo_id": "O:OXYGEN_PHASE5_V1",
+    "capability": "GENERIC_LIVE",
+    "changed_cells": 256,
+    "child_instance_id": "640e97db2023233927e5a18d61763296",
+    "delta_bytes": 14336,
+    "delta_sha256": "2153bf23e45a70c8507e8af74f919b61ca8389ea92d6bfdc66a4cc335de17d98",
+    "effects": [
+      "PERSISTENCE_WRITE"
+    ],
+    "fabric_unchanged": true,
+    "parent_instance_id": "0deed435b7c74235037da7ccb8fbf9f2",
+    "parent_unchanged": true,
+    "post_state_root": "86cb7d81aea764c2f8839d1927268af3104d41e358326cb75089a810e536292f",
+    "pre_state_root": "ddf13431b6e98cb4c15d285fa59f22d321b3e6362a6999e505a98f097cf77b05"
+  }
+}
+

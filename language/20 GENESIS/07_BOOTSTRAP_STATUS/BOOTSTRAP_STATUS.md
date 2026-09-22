@@ -1,0 +1,2 @@
+# Bootstrap Status at v1.0 Freeze
+The v1.0 reference release is **PARTIAL_SELF_HOST**. The Genesis bootstrap controller owns the rebuild transaction and reaches the demonstrated deterministic Stage0/Stage1/Stage2 fixed point. Host-resident parser/verifier/encoder/runtime components remain explicit oracle dependencies. This is frozen as truthful status; Section 20 does not promote it to FULL_SELF_HOST.

@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis persistent recursion continuation",
+  "type":"object",
+  "required":["task_id","state","delta","close_at","total_steps","history_root","digest"],
+  "properties":{
+    "task_id":{"type":"string"},
+    "state":{"type":"integer"},
+    "delta":{"type":"integer"},
+    "close_at":{"type":["integer","null"]},
+    "total_steps":{"type":"integer","minimum":0},
+    "history_root":{"type":"string"},
+    "digest":{"type":"string"}
+  }
+}

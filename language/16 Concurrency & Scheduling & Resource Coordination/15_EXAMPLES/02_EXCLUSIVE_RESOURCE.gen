@@ -1,0 +1,20 @@
+genesis 0.5.0
+module exclusive_resource {
+  resource fabric capacity 1 kind FABRIC
+  task alpha priority 10 quantum 1 {
+    acquire fabric exclusive
+    work 2 alpha-critical
+    release fabric
+    close
+  }
+  task beta priority 10 quantum 1 {
+    acquire fabric exclusive
+    work 2 beta-critical
+    release fabric
+    close
+  }
+  spawn alpha as a
+  spawn beta as b
+  join a b
+  export schedule
+}

@@ -1,0 +1,9 @@
+{
+  "required": [
+    "source_instance",
+    "source_address",
+    "waypoints"
+  ],
+  "title": "MixedSectorRoadRequest",
+  "type": "object"
+}

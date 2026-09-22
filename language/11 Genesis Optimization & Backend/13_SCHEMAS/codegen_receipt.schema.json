@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "kind": {
+      "const": "GENESIS_CODEGEN_RECEIPT"
+    },
+    "profile": {
+      "enum": [
+        "reference",
+        "audit",
+        "compact"
+      ]
+    }
+  },
+  "required": [
+    "kind",
+    "codegen_id",
+    "profile",
+    "gvm_sha256"
+  ],
+  "title": "Genesis Codegen Receipt",
+  "type": "object"
+}

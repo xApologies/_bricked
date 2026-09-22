@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "kind": {
+      "const": "GENESIS_PACKAGE_BUILD_RECEIPT"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "package",
+    "resolution_root",
+    "gvm_sha256",
+    "package_build_id"
+  ],
+  "title": "Genesis Package Build Receipt v0.1",
+  "type": "object"
+}

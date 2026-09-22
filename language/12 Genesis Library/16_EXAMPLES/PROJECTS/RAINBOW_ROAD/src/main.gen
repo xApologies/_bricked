@@ -1,0 +1,21 @@
+genesis 0.1.0
+module app.rainbow_road {
+  use genesis.std.atomic.oxygen::geo as g0 : GEOMETRIC<CLOSED,UNBOUND>
+  road begin g0 as road0 @{"name":"RR-PKG-OXYGEN"}
+  admit g0 as a1 @{"admitted":true}
+  portal GR g0 with a1 as p1 corridor "Red->Orange"
+  ve g0 through p1 -> "Orange" as g1
+  tor p1 with g1 as c1
+  road append road0 c1 as road1
+  admit g1 as a2 @{"admitted":true}
+  portal GR g1 with a2 as p2 corridor "Orange->Violet"
+  ve g1 through p2 -> "Violet" as g2
+  tor p2 with g2 as c2
+  road append road1 c2 as road2
+  road close road2 g2 as road_receipt
+  lift g2 as m5 @{"R":"section12-package-road"}
+  emit receipt as receipt
+  export g2 : GEOMETRIC<CLOSED,GR>
+  export road_receipt : RECEIPT<ROAD_CLOSE>
+  export receipt : RECEIPT<EXECUTION>
+}

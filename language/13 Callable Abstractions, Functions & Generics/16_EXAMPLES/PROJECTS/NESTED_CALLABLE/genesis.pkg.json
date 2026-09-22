@@ -1,0 +1,30 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "0.2.0",
+    "genesis.std.portal": "0.2.0"
+  },
+  "description": "Nested callable expansion with deterministic alpha-renaming.",
+  "effects": [
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [
+    "app.section13.nested_callable::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.section13.nested_callable",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.section13.nested_callable",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

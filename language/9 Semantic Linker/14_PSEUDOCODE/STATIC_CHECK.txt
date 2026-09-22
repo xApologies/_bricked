@@ -1,0 +1,13 @@
+CHECK(GIR, seed_types, effect_budget):
+  schedule graph
+  for node in dependency order:
+    infer argument types
+    enforce operation signature
+    infer refined output type
+    update Portal/Road/QSTATE typestate
+    record explicit Bridge witnesses
+    accumulate effects
+  require effects <= budget
+  require no OPEN Portal/Road leaks
+  require no unconsumed non-exported QSTATE
+  return diagnostics + type map + witnesses

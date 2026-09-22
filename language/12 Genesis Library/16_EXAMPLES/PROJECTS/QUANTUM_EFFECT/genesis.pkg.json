@@ -1,0 +1,34 @@
+{
+  "backend_capabilities": [
+    "quantum_reference",
+    "provenance"
+  ],
+  "dependencies": {
+    "genesis.std.atomic": "^0.1.0",
+    "genesis.std.provenance": "^0.1.0",
+    "genesis.std.quantum": "^0.1.0"
+  },
+  "description": "Section 12 reference application.",
+  "effects": [
+    "QUANTUM_LINEAR",
+    "TRANSFORM",
+    "MEASURE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [
+    "app.quantum_effect::qr",
+    "app.quantum_effect::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.quantum_effect",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.quantum_effect",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

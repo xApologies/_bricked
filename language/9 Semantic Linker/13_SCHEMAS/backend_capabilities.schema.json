@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "abi": {
+      "const": "0.1"
+    },
+    "backend_id": {
+      "type": "string"
+    },
+    "effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "features": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "ops": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "sectors": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "backend_id",
+    "abi",
+    "ops",
+    "effects",
+    "sectors",
+    "features"
+  ],
+  "type": "object"
+}

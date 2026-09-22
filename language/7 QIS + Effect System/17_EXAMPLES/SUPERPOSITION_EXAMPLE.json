@@ -1,0 +1,19 @@
+{
+  "amplitudes": [
+    [
+      0.7071067811865476,
+      0
+    ],
+    [
+      0.7071067811865476,
+      0
+    ]
+  ],
+  "basis": [
+    "route:red-orange",
+    "route:red-violet"
+  ],
+  "kind": "GENESIS_QUANTUM_EXAMPLE",
+  "note": "Semantic route superposition example only; not a claim that current Rainbow Road hardware implements coherent path superposition.",
+  "operation": "SUPERPOSE"
+}

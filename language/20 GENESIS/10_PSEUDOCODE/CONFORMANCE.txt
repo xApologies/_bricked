@@ -1,0 +1,12 @@
+LOAD release descriptor
+VERIFY version == 1.0.0 AND status == FROZEN
+VERIFY deterministic release root
+LOAD section core lock
+VERIFY exactly Sections 01..19
+VERIFY each frozen core digest / CRC against supplied release corpus
+VERIFY ABI and format freeze ledgers
+VERIFY Source Genesis boundary and unresolved S0 gate remain explicit
+RUN bootstrap fixed-point witness
+ASSERT PARTIAL_SELF_HOST and NOT FULL_SELF_HOST
+VERIFY BLACKGLASS v3 status == READY_FOR_INTEGRATION_NOT_YET_MIGRATED
+EMIT conformance receipt

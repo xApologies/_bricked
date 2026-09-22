@@ -1,0 +1,7 @@
+{
+  "package": "genesis.recursion",
+  "version": "0.1.0",
+  "kind": "semantic-contract",
+  "exports": ["decreases", "fuel", "visit_once", "persistent", "closure_receipt", "history_root"],
+  "linear_capture_default": "deny"
+}

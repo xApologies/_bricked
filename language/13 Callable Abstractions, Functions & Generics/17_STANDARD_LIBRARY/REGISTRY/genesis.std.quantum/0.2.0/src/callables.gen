@@ -1,0 +1,15 @@
+genesis 0.2.0
+module genesis.std.quantum.callables {
+  pub fn prepare_superpose_measure<G:GEOMETRIC> (source:G) -> QRESULT<CLASSICAL> effects [QUANTUM_LINEAR,MEASURE] {
+    q prepare source as q0
+    q superpose q0 as q1
+    q measure q1 as result
+    return result
+  }
+  pub fn prepare_channel_measure<G:GEOMETRIC> (source:G) -> QRESULT<CLASSICAL> effects [QUANTUM_LINEAR,TRANSFORM,MEASURE] {
+    q prepare source as q0
+    q channel q0 as q1 @{"channel":"reference-dephasing"}
+    q measure q1 as result
+    return result
+  }
+}

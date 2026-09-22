@@ -1,0 +1,8 @@
+OPTIMIZE GIR
+COMPILE optimized GIR using Section 08 GVM lowering
+ATTACH Section 11 certificate metadata
+IF profile == compact: strip instruction source labels
+VERIFY GVM
+ENCODE bytecode
+HASH bytecode
+RETURN artifact + codegen receipt

@@ -1,0 +1,38 @@
+{
+  "alignment": 128,
+  "cell_count": 1048576,
+  "entries": [
+    {
+      "count": 163840,
+      "guard": 0,
+      "owner": "016e2c6a257126cdad5680b4d4a34f60",
+      "reservation_id": "570425a2d448b1c2957397d9",
+      "start": 0,
+      "state": "COMMITTED"
+    },
+    {
+      "count": 32768,
+      "guard": 0,
+      "owner": "a3e6a4d75d5f2ff25837878cfca4d045",
+      "reservation_id": "525cf40f4b0352478eb96152",
+      "start": 163840,
+      "state": "COMMITTED"
+    },
+    {
+      "count": 32768,
+      "guard": 0,
+      "owner": "0deed435b7c74235037da7ccb8fbf9f2",
+      "reservation_id": "41cccf52d9a7f9c9c907fdd3",
+      "start": 196608,
+      "state": "COMMITTED"
+    },
+    {
+      "count": 32768,
+      "guard": 0,
+      "owner": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+      "reservation_id": "351efb46bd814aa7f008a9c1",
+      "start": 229376,
+      "state": "COMMITTED"
+    }
+  ]
+}

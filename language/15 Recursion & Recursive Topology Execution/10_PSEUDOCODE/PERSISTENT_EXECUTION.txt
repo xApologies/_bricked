@@ -1,0 +1,6 @@
+run_slice(task, budget):
+    repeat at most budget steps:
+        if close_guard(state): return CLOSED(receipt)
+        state = step(state)
+        history_root = H(history_root, state)
+    return SUSPENDED(continuation(state, history_root))

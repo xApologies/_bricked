@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "gir_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "gvm_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "kind": {
+      "const": "GENESIS_LINK_RECEIPT"
+    },
+    "link_id": {
+      "type": "string"
+    },
+    "proof_root": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "link_id",
+    "gir_hash",
+    "gvm_sha256",
+    "proof_root"
+  ],
+  "type": "object"
+}

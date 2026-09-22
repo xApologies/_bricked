@@ -1,0 +1,30 @@
+{
+  "backend_capabilities": [
+    "portal"
+  ],
+  "dependencies": {
+    "genesis.std.atomic": "^0.1.0",
+    "genesis.std.portal": "^0.1.0"
+  },
+  "description": "Reference dependency package exporting a QFT Geometric.",
+  "effects": [
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "example.qftleg",
+      "path": "src/qftleg.gen"
+    }
+  ],
+  "name": "example.qftleg",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

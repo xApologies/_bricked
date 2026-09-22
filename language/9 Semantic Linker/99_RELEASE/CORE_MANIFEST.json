@@ -1,0 +1,51 @@
+{
+  "bytes": 295193,
+  "controlled_bytes": 366909,
+  "date": "2026-08-21",
+  "files": 128,
+  "files_controlled": 129,
+  "name": "GENESIS_CHIRALITY_MACHINE_SECTION_09_STATIC_SEMANTICS_LINKER_v0.1.0_20260821",
+  "reference_links": {
+    "FIRST_PORTAL": {
+      "gir_hash": "b5fcbe2635ae96628fa11247f81ed65367eb1fab5359a821e11121217bd24cf9",
+      "gvm_sha256": "c91cb0980338c8ea66fb1e7d073dfb1a53c664ff0f54385d2176a036ef3641e2",
+      "halted": true,
+      "link_id": "glnk-08343cb14268cb9504e78c98",
+      "proof_root": "997625fd1e46976edc73535d65d86aab4f68b6525937c2a2a054e474c3ec2674",
+      "proofs": 8,
+      "run_receipt_id": "receipt-4fac31accd54d05a0e0f"
+    },
+    "MIXED_SECTOR": {
+      "gir_hash": "3cf9a0ed91267c3ce2d5282b56f87cfc4ffc40f075893f94ce35fe1107d72029",
+      "gvm_sha256": "83433d08f1276b939551f0d9b363559a0894c4963dc8d3122b00599b2473121e",
+      "halted": true,
+      "link_id": "glnk-91f93a0f3d58b669e1ae6387",
+      "proof_root": "bc727db9388e4926b83ae2152fffe750db3eceb72811f2607beae57dab5006f9",
+      "proofs": 8,
+      "run_receipt_id": "receipt-0f5be62a7290d653ac7b"
+    },
+    "QUANTUM_EFFECT": {
+      "gir_hash": "e02540f746b04a13cfc50c5641743cf7942e39af400c6912f68ca310a0529e18",
+      "gvm_sha256": "401678858dd38232a389f34e98167b930f898ce0dae9b6938cf4d6d60ac7aae2",
+      "halted": true,
+      "link_id": "glnk-ee623a5f46f1669be3d3e35e",
+      "proof_root": "4b935bf88b093818f654264a13cef78b4a827592336473f8444af97ba492814e",
+      "proofs": 8,
+      "run_receipt_id": "receipt-57e56ef8d809a41fd2ba"
+    },
+    "RAINBOW_ROAD": {
+      "gir_hash": "c43d9fc7770e7983841c13ff0d5a1001d7a5de5b8288eb429b6955fca6e138d9",
+      "gvm_sha256": "a73fdcf7885c79e11a0d6fed8f393771643b72b1373c2ca4f7309f3817528c4d",
+      "halted": true,
+      "link_id": "glnk-adcf734e9c18c2d364c42694",
+      "proof_root": "2af4ce080b817b932b0221b2ab7aca529ec60924de4045451c01e085be7e5ecb",
+      "proofs": 8,
+      "run_receipt_id": "receipt-7e5814c50d93453b06c2"
+    }
+  },
+  "section": 9,
+  "source_parent": "Section 08 GIR/GVM",
+  "tests_passed": 44,
+  "title": "Static Type/Effect Checker + Semantic Linker",
+  "version": "0.1.0"
+}

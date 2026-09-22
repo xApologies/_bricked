@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "kind",
+    "fabric_tag",
+    "cell_count",
+    "data_hash",
+    "overlay_root"
+  ],
+  "title": "FabricMountReceipt",
+  "type": "object"
+}

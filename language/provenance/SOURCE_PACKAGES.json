@@ -1,0 +1,128 @@
+[
+  {
+    "archive": "Genesis/7 QIS + Effect System/GENESIS_CHIRALITY_MACHINE_SECTION_07_QUANTUM_INFORMATION_EFFECTS_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "8e9112a445c0564dfa05fcff33792d3e0eef8cdf970e52346930d76a57dae7d3",
+    "domain": "7 QIS + Effect System",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_07_QUANTUM_INFORMATION_EFFECTS_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/19 Genesis Bootstrap & Self-Hosting Path/GENESIS_CHIRALITY_MACHINE_SECTION_19_BOOTSTRAP_SELF_HOSTING_v0.1.0_20260821_PART_C_IMPLEMENTATION_LINEAGE.zip!/_section19_part_c/GENESIS_CHIRALITY_MACHINE_SECTION_12_STDLIB_PACKAGE_RUNTIME_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "44092476eec432ed797f836d96445f3d4d768841c918aff5b42eccf17342eeeb",
+    "domain": "12 Genesis Library",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_12_STDLIB_PACKAGE_RUNTIME_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/11 Genesis Optimization & Backend/GENESIS_CHIRALITY_MACHINE_SECTION_11_OPTIMIZER_CODEGEN_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "2ab12c1182cfbc86149d236318942b388e314f1c6e3176c2171969677298d281",
+    "domain": "11 Genesis Optimization & Backend",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_11_OPTIMIZER_CODEGEN_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/19 Genesis Bootstrap & Self-Hosting Path/GENESIS_CHIRALITY_MACHINE_SECTION_19_BOOTSTRAP_SELF_HOSTING_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "2f0f693b20de20135eade55ced408018eb438002a7b0c49bb62cdc1bc3388600",
+    "domain": "19 Genesis Bootstrap & Self-Hosting Path",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_19_BOOTSTRAP_SELF_HOSTING_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/15 Recursion & Recursive Topology Execution/GENESIS_CHIRALITY_MACHINE_SECTION_15_RECURSIVE_TOPOLOGY_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "a6d0182b998e26ca3ff3931cfe88b412a8ecb9048434a7a16fa268405e47daa1",
+    "domain": "15 Recursion & Recursive Topology Execution",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_15_RECURSIVE_TOPOLOGY_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/13 Callable Abstractions, Functions & Generics/GENESIS_CHIRALITY_MACHINE_SECTION_13_CALLABLES_GENERICS_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "8e4414c2670c174bf9a1f96f61ba242d378b6cbeaa0a9051b9a36beea1422107",
+    "domain": "13 Callable Abstractions, Functions & Generics",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_13_CALLABLES_GENERICS_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/5 Rainbow Road/GENESIS_CHIRALITY_MACHINE_SECTION_05_RAINBOW_ROAD_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "43ce23329492e44a0501be0eacfd589f9968e158b0a914fb2ab6cf0e1eb31c99",
+    "domain": "5 Rainbow Road",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_05_RAINBOW_ROAD_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/2 Instantiation & Memory/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "bbf6d27eab4b6dcc8d8f4d2c107e501ee4a0d1c56b23cd0bd958ac8676a899a6",
+    "domain": "2 Instantiation & Memory",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/20 GENESIS/GENESIS_CHIRALITY_MACHINE_SECTION_20_V1_CONFORMANCE_FREEZE_v1.0.0_20260821_PART_A_CORE.zip",
+    "sha256": "502636683ad27798952439f20ceae2e9701334e8189fba12244344d661233eee",
+    "domain": "20 GENESIS",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_20_V1_CONFORMANCE_FREEZE_v1.0.0_20260821/"
+  },
+  {
+    "archive": "Genesis/16 Concurrency & Scheduling & Resource Coordination/GENESIS_CHIRALITY_MACHINE_SECTION_16_CONCURRENCY_SCHEDULING_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "53159bee9e249dff25b0c95c5ad34c3d0603594ff212cace8c5116b7352f5d57",
+    "domain": "16 Concurrency & Scheduling & Resource Coordination",
+    "wrapper": ""
+  },
+  {
+    "archive": "Genesis/4 Portal Engine/GENESIS_CHIRALITY_MACHINE_SECTION_04_PORTAL_ENGINE_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "993a952340ac433a273f5a7025e37b765420efca6135688ef5cc006c20a0a98c",
+    "domain": "4 Portal Engine",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_04_PORTAL_ENGINE_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/17 System I:O & BLACKGLASS:BRANE Interface/GENESIS_CHIRALITY_MACHINE_SECTION_17_SYSTEM_IO_BLACKGLASS_BRANE_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "2c2cb714f8929dc34b68608e627a1c80b599c42c93d175c532771ff340e25e8d",
+    "domain": "17 System I-O & BLACKGLASS-BRANE Interface",
+    "wrapper": ""
+  },
+  {
+    "archive": "Genesis/_lang/GENESIS_LANGUAGE_SOURCESET_v0.1.zip",
+    "sha256": "1aad2e5bd3976515ab775c1e22d5271159d82c11fcdb2d663c44cb21ef6deb18",
+    "domain": "_lang",
+    "wrapper": ""
+  },
+  {
+    "archive": "Genesis/1 Packages/GENESIS_CHIRALITY_MACHINE_SECTION_01_HARDWARE_ABI_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "5e25b86052d93c2e3d7bef3c46e2d2f183daffa293d21d351c291581497b0b80",
+    "domain": "1 Packages",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_01_HARDWARE_ABI_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/8 Genesis VM/GENESIS_CHIRALITY_MACHINE_SECTION_08_VM_IR_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "707c302ba9d09e78f423795fcabb933968d007e5abd58501a0dced2492d7b6b7",
+    "domain": "8 Genesis VM",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_08_VM_IR_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/9 Semantic Linker/GENESIS_CHIRALITY_MACHINE_SECTION_09_STATIC_SEMANTICS_LINKER_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "8d2b040af79b7db83046560a6f265b5fd9bf9ccb7f89956e557be1ff417e9e5a",
+    "domain": "9 Semantic Linker",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_09_STATIC_SEMANTICS_LINKER_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/18 Compiler Toolchain & Diagnostics & Debugging/GENESIS_CHIRALITY_MACHINE_SECTION_18_TOOLCHAIN_DIAGNOSTICS_DEBUGGING_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "4b90541103d023b4dd25f9fe5c567962efbd854b676b4a7cdfcb0dbd68cae3b0",
+    "domain": "18 Compiler Toolchain & Diagnostics & Debugging",
+    "wrapper": ""
+  },
+  {
+    "archive": "Genesis/3 Transformation Engine & Geometry Forking/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "01d9d7b12ddd6264a76818d685e0bff7858b28dcb24f24228c8ed95d1328848f",
+    "domain": "3 Transformation Engine & Geometry Forking",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/10 Genesis Surface Language/GENESIS_CHIRALITY_MACHINE_SECTION_10_GENESIS_FRONTEND_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "c6cc776b3f735896ca4dbe16b6a57df0ebe5071a6493199ea03639815322436d",
+    "domain": "10 Genesis Surface Language",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_10_GENESIS_FRONTEND_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/14 Control Flow & Data Algebra/GENESIS_CHIRALITY_MACHINE_SECTION_14_CONTROL_FLOW_DATA_ALGEBRA_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "235f8e3af168625f9d666e6ecace88821eafb5d6f049621c13c52016a76655ea",
+    "domain": "14 Control Flow & Data Algebra",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_14_CONTROL_FLOW_DATA_ALGEBRA_v0.1.0_20260821/"
+  },
+  {
+    "archive": "Genesis/6 QFT + GR Bridge/GENESIS_CHIRALITY_MACHINE_SECTION_06_QFT_GR_TRANSDUCTION_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "3cba0d65eb9453a045d5e2133ffe61cd45242fae66f6ba7570232b1add9a5b80",
+    "domain": "6 QFT + GR Bridge",
+    "wrapper": "GENESIS_CHIRALITY_MACHINE_SECTION_06_QFT_GR_TRANSDUCTION_v0.1.0_20260821/"
+  }
+]

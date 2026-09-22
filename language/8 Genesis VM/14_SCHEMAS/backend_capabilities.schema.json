@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "abi": {
+      "type": "string"
+    },
+    "backend_id": {
+      "type": "string"
+    },
+    "capabilities": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "backend_id",
+    "abi",
+    "capabilities"
+  ],
+  "title": "Genesis backend capabilities",
+  "type": "object"
+}

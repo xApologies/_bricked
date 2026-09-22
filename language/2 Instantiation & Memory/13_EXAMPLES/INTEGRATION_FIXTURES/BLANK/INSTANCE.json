@@ -1,0 +1,113 @@
+{
+  "instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+  "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+  "representation_id": "BLANK_MANIFOLD_V0_1:statecode",
+  "fabric_tag": 5508075522112768044,
+  "region": {
+    "start": 229376,
+    "count": 32768,
+    "alignment": 128,
+    "guard_before": 0,
+    "guard_after": 0
+  },
+  "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+  "roles": [
+    "control"
+  ],
+  "cells_per_voxel": 1,
+  "segment_path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/segments/34c0d4df6b450f0dc62a2901d0f1e3d3.gos",
+  "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+  "state": "LIVE",
+  "parent_instance_id": null,
+  "history": [
+    {
+      "event": "LIVE",
+      "timestamp_ns": 1787336439755315905,
+      "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f"
+    }
+  ],
+  "provenance": [
+    {
+      "source_hashes": {
+        "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+        "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+      }
+    }
+  ],
+  "brane_m5": {
+    "I": {
+      "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+      "instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+      "representation_id": "BLANK_MANIFOLD_V0_1:statecode",
+      "invariant_digest": "0b1befceaf55241f3dbe875b234e1e3cb17c9b919921ef997783f581cae056e3"
+    },
+    "D": {
+      "dependencies": [],
+      "source_hashes": {
+        "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+        "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+      },
+      "parent_instance_id": null
+    },
+    "Chi": {
+      "fabric_tag": 5508075522112768044,
+      "region": {
+        "start": 229376,
+        "count": 32768
+      },
+      "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+      "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+      "roles": [
+        "control"
+      ]
+    },
+    "R": {
+      "state": "LIVE",
+      "history": [
+        {
+          "event": "LIVE",
+          "timestamp_ns": 1787336439755315905,
+          "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f"
+        }
+      ],
+      "parent_instance_id": null
+    },
+    "P": {
+      "provenance": [
+        {
+          "source_hashes": {
+            "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+            "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+          }
+        }
+      ],
+      "receipts": [
+        {
+          "kind": "INSTANTIATION_PLAN",
+          "plan_id": "0abf92b8538a6b3d6d5a2386f61a9c7d33fe730bbcc798635603accfe5ded016",
+          "timestamp_ns": 1787336439755303156
+        },
+        {
+          "kind": "SEGMENT_COMMIT",
+          "payload_hash": "95f45fab528df4e144c8c8b014d51f99f3a470b6447ad1f34b18e9326a7464cc",
+          "file_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+          "record_count": 32768,
+          "timestamp_ns": 1787336439755304899
+        },
+        {
+          "kind": "REGION_COMMIT",
+          "allocation": {
+            "reservation_id": "351efb46bd814aa7f008a9c1",
+            "owner": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+            "start": 229376,
+            "count": 32768,
+            "guard": 0,
+            "state": "COMMITTED"
+          },
+          "timestamp_ns": 1787336439755305880
+        }
+      ],
+      "adapter_version": "BRANE_M5_ADAPTER_V0_1"
+    }
+  }
+}

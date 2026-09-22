@@ -1,0 +1,1 @@
+Set `PYTHONPATH=12_REFERENCE_IMPLEMENTATION` and use `python -m genesis_optimizer ...`. The bundled `genesis_frontend` is the Section 10 reference frontend, including its vendored Section 09/08 dependencies, so Part A is self-contained for the software reference path.

@@ -1,0 +1,13 @@
+LINK(bundle):
+  interface_table <- all declared module exports
+  validate all typed imports
+  order <- topological(module dependency graph)
+  alpha-rename node ids and SSA values by module
+  substitute import aliases with exported global values
+  merge nodes + edges
+  select bundle exports
+  static-check merged GIR
+  capability-check target
+  compile GIR through Section 08
+  verify + encode GVM
+  emit deterministic link receipt + proof ledger

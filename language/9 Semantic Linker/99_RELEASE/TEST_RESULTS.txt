@@ -1,0 +1,50 @@
+
+test_alpha_names (test_section09.TestDeterminism.test_alpha_names) ... ok
+test_input_order_independent (test_section09.TestDeterminism.test_input_order_independent) ... ok
+test_refined_metadata (test_section09.TestDeterminism.test_refined_metadata) ... ok
+test_same_link_id (test_section09.TestDeterminism.test_same_link_id) ... ok
+test_effect_00 (test_section09.TestEffects.test_effect_00) ... ok
+test_effect_01 (test_section09.TestEffects.test_effect_01) ... ok
+test_effect_02 (test_section09.TestEffects.test_effect_02) ... ok
+test_effect_03 (test_section09.TestEffects.test_effect_03) ... ok
+test_effect_04 (test_section09.TestEffects.test_effect_04) ... ok
+test_effect_05 (test_section09.TestEffects.test_effect_05) ... ok
+test_effect_06 (test_section09.TestEffects.test_effect_06) ... ok
+test_effect_07 (test_section09.TestEffects.test_effect_07) ... ok
+test_duplicate_module (test_section09.TestLinkFailures.test_duplicate_module) ... ok
+test_import_type_mismatch (test_section09.TestLinkFailures.test_import_type_mismatch) ... ok
+test_missing_backend_op (test_section09.TestLinkFailures.test_missing_backend_op) ... ok
+test_missing_feature (test_section09.TestLinkFailures.test_missing_feature) ... ok
+test_missing_module (test_section09.TestLinkFailures.test_missing_module) ... ok
+test_missing_sector (test_section09.TestLinkFailures.test_missing_sector) ... ok
+test_module_cycle (test_section09.TestLinkFailures.test_module_cycle) ... ok
+test_link_execute_00 (test_section09.TestLinker.test_link_execute_00) ... ok
+test_link_execute_01 (test_section09.TestLinker.test_link_execute_01) ... ok
+test_link_execute_02 (test_section09.TestLinker.test_link_execute_02) ... ok
+test_link_execute_03 (test_section09.TestLinker.test_link_execute_03) ... ok
+test_effect_budget_failure (test_section09.TestModules.test_effect_budget_failure) ... ok
+test_fixture_module (test_section09.TestModules.test_fixture_module) ... ok
+test_qft_module_seeded (test_section09.TestModules.test_qft_module_seeded) ... ok
+test_qstate_double_use (test_section09.TestModules.test_qstate_double_use) ... ok
+test_qstate_generic_move (test_section09.TestModules.test_qstate_generic_move) ... ok
+test_quantum_module (test_section09.TestModules.test_quantum_module) ... ok
+test_unclosed_portal (test_section09.TestModules.test_unclosed_portal) ... ok
+test_unknown_value (test_section09.TestModules.test_unknown_value) ... ok
+test_compat_00 (test_section09.TestTypes.test_compat_00) ... ok
+test_compat_01 (test_section09.TestTypes.test_compat_01) ... ok
+test_compat_02 (test_section09.TestTypes.test_compat_02) ... ok
+test_compat_03 (test_section09.TestTypes.test_compat_03) ... ok
+test_compat_04 (test_section09.TestTypes.test_compat_04) ... ok
+test_compat_05 (test_section09.TestTypes.test_compat_05) ... ok
+test_parse_00 (test_section09.TestTypes.test_parse_00) ... ok
+test_parse_01 (test_section09.TestTypes.test_parse_01) ... ok
+test_parse_02 (test_section09.TestTypes.test_parse_02) ... ok
+test_parse_03 (test_section09.TestTypes.test_parse_03) ... ok
+test_parse_04 (test_section09.TestTypes.test_parse_04) ... ok
+test_parse_05 (test_section09.TestTypes.test_parse_05) ... ok
+test_parse_06 (test_section09.TestTypes.test_parse_06) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.010s
+
+OK

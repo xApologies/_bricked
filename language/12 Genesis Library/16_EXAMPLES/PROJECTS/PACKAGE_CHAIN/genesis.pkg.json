@@ -1,0 +1,32 @@
+{
+  "backend_capabilities": [
+    "brane_lift",
+    "provenance"
+  ],
+  "dependencies": {
+    "example.qftleg": "^0.1.0",
+    "genesis.std.brane": "^0.1.0",
+    "genesis.std.provenance": "^0.1.0"
+  },
+  "description": "Section 12 reference application.",
+  "effects": [
+    "PROJECT",
+    "PROVENANCE"
+  ],
+  "entry_exports": [
+    "app.package_chain::m5",
+    "app.package_chain::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.package_chain",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.package_chain",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

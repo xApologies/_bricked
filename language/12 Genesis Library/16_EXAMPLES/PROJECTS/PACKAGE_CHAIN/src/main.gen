@@ -1,0 +1,9 @@
+genesis 0.1.0
+module app.package_chain {
+  use example.qftleg::dest as source : GEOMETRIC<CLOSED,QFT>
+  lift source as m5 @{"P":"section12-package-chain"}
+  seal m5 as seal @{"stage":"readout"}
+  emit receipt as receipt
+  export m5 : M5
+  export receipt : RECEIPT<EXECUTION>
+}

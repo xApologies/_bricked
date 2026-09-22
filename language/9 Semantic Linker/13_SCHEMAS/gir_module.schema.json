@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "exports": {
+      "items": {
+        "required": [
+          "symbol",
+          "value",
+          "type"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "gir": {
+      "required": [
+        "nodes",
+        "edges"
+      ],
+      "type": "object"
+    },
+    "imports": {
+      "items": {
+        "required": [
+          "local",
+          "from",
+          "symbol",
+          "type"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "ir": {
+      "const": "GIR-MODULE"
+    },
+    "module": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "ir",
+    "module",
+    "version",
+    "gir"
+  ],
+  "type": "object"
+}

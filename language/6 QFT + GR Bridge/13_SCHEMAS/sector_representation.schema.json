@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "physics_status": {
+      "const": "SOFTWARE_REFERENCE_READOUT"
+    },
+    "sector": {
+      "enum": [
+        "QFT",
+        "GR"
+      ]
+    }
+  },
+  "required": [
+    "representation_view_id",
+    "sector",
+    "source_instance_id",
+    "content_root",
+    "residue_root",
+    "fabric_witness_id"
+  ],
+  "title": "SectorRepresentation",
+  "type": "object"
+}

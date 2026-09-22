@@ -1,0 +1,9 @@
+genesis 0.2.0
+module app.section13.portal_generic {
+  use genesis.std.atomic.hydrogen::geo as source : GEOMETRIC<CLOSED,UNBOUND>
+  usefn genesis.std.portal.callables::gr_transfer as transfer
+  call transfer<GEOMETRIC<CLOSED,UNBOUND>> (source) as destination
+  lift destination as m5 @{"P":"section13-portal-generic"}
+  export destination : GEOMETRIC<CLOSED,GR>
+  export m5 : M5
+}

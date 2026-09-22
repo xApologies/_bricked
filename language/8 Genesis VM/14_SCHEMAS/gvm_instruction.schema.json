@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "args": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "attrs": {
+      "type": "object"
+    },
+    "op": {
+      "type": "string"
+    },
+    "out": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "result_type": {
+      "type": "string"
+    },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "op"
+  ],
+  "title": "GVM instruction JSON assembly",
+  "type": "object"
+}

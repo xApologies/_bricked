@@ -1,0 +1,10 @@
+GEOMETRIC_FORK
+==============
+01 assert parent LIVE
+02 derive child instance identity(parent, transform request)
+03 preserve parent manifest hash in child dependency/history
+04 materialize changed cells into child delta segment only
+05 verify declared invariants and closure policy
+06 commit child receipt
+07 parent remains unchanged
+08 return child

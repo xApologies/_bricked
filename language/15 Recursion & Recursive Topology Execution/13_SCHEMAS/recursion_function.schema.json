@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis recursion function contract",
+  "type":"object",
+  "required":["name","mode","return_type"],
+  "properties":{
+    "name":{"type":"string"},
+    "mode":{"enum":["DECREASING","FUEL","VISIT_ONCE"]},
+    "metric_param":{"type":["string","null"]},
+    "max_depth":{"type":["integer","null"],"minimum":1,"maximum":4096},
+    "fuel":{"type":["integer","null"],"minimum":1,"maximum":4096},
+    "visit_key":{"type":["string","null"]},
+    "return_type":{"type":"string"}
+  }
+}

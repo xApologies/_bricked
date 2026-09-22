@@ -1,0 +1,8 @@
+worklist = [(pc=0, empty_state)]
+while worklist:
+  validate current instruction under path state
+  transfer QSTATE / Portal / Road typestate
+  BRANCH -> enqueue both successors
+  JUMP -> enqueue target
+  HALT -> require no OPEN Portal/Road
+accept iff every reachable path is valid

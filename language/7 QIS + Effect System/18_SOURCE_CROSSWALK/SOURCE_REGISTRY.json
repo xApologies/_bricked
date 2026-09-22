@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "name": "MK Ultra Tome",
+      "path": "/mnt/data/MK Ultra(2).pdf",
+      "role": "quantum/information architecture"
+    },
+    {
+      "name": "QFT-GR Bridge v1",
+      "path": "/mnt/data/1.0 | QFT - GR BRIDGE(1).zip",
+      "role": "sector/common-chirality transduction"
+    },
+    {
+      "name": "Section 06 core",
+      "path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_06_QFT_GR_TRANSDUCTION_v0.1.0_20260821_PART_A_CORE.zip",
+      "role": "parent execution layer"
+    },
+    {
+      "name": "MK43 Tome information live model",
+      "path": "/mnt/data/BLACKGLASS_ACTIVE_MOUNT_20260821/LIVE_MODELS/MK43_TOME_QFT_GR_INFORMATION/LIVE/MK43_TOME_QFT_GR_INFORMATION_LIVE_MODEL_v0.1.md",
+      "role": "targeted source interpretation"
+    }
+  ],
+  "status_rule": "source-derived, established mathematics, and Section-07 design additions remain labeled separately"
+}

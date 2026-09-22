@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "content_sha256": "ff7ce7f9c2aff5f769dc3ba00fd8663b72c8d6a722c44b9d928befbefb30ba18",
+      "dependencies": {
+        "genesis.std.atomic": "^0.1.0",
+        "genesis.std.portal": "^0.1.0"
+      },
+      "kind": "library",
+      "modules": [
+        "example.qftleg"
+      ],
+      "name": "example.qftleg",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "2481f40560e1d2e84c84c556db337c0c2f6494027bdcdc1574dd141315497a2d",
+      "dependencies": {
+        "genesis.std.atomic": "^0.1.0",
+        "genesis.std.brane": "^0.1.0",
+        "genesis.std.bridge": "^0.1.0",
+        "genesis.std.portal": "^0.1.0",
+        "genesis.std.provenance": "^0.1.0",
+        "genesis.std.quantum": "^0.1.0",
+        "genesis.std.road": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "9460294d2298f8122fe1e64fc7296078a7170cd84aea2cd98eac9d031509e880",
+      "dependencies": {
+        "genesis.std.fabric": "^0.1.0"
+      },
+      "kind": "library",
+      "modules": [
+        "genesis.std.atomic.hydrogen",
+        "genesis.std.atomic.oxygen",
+        "genesis.std.atomic.hsv1",
+        "genesis.std.atomic.blank"
+      ],
+      "name": "genesis.std.atomic",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "e6fa57da4e6e2dc60413800360bea979a0287ece44a29308d4771b2f3c66753c",
+      "dependencies": {
+        "genesis.std.core": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.brane",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "741646021e33e5d4042a63956e4deb513173b00a23e75f10e09823312e71ff12",
+      "dependencies": {
+        "genesis.std.portal": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.bridge",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "d91673a86c2e8b033765566759b94e2f371a666553ad1c6522ed451ad2ace9f9",
+      "dependencies": {},
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.core",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "0a2162aeaa2693a1bb7556411f4aed2368b4b28ba3d57a2ee8d3166bf4869952",
+      "dependencies": {
+        "genesis.std.core": "^0.1.0"
+      },
+      "kind": "library",
+      "modules": [
+        "genesis.std.fabric.reference"
+      ],
+      "name": "genesis.std.fabric",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "fbe931deebb8927f0a9a70b5882e3db63ef79d6f0ebd649e81edb3263050497d",
+      "dependencies": {
+        "genesis.std.core": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.portal",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "5b59deb6e21b294e1633e54065943c2afb48ec0755b0fa90648250f6d6616d65",
+      "dependencies": {
+        "genesis.std.core": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.provenance",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "5409aacc8f84514372d92802ce2cb588086bc6e7e6909c78237c6a497e40db07",
+      "dependencies": {
+        "genesis.std.core": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.quantum",
+      "version": "0.1.0"
+    },
+    {
+      "content_sha256": "4bfbb18825e269a55d7fc23ea8e0b997f15d17d9d6142157187839bc35c1af36",
+      "dependencies": {
+        "genesis.std.portal": "^0.1.0"
+      },
+      "kind": "contract",
+      "modules": [],
+      "name": "genesis.std.road",
+      "version": "0.1.0"
+    }
+  ],
+  "kind": "GENESIS_LOCAL_REGISTRY_INDEX",
+  "version": "0.1.0"
+}

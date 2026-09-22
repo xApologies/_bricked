@@ -1,0 +1,1 @@
+{"name":"source-read-roundtrip","source":"../01_SOURCE_READ.gen","seeds":[{"endpoint":"source","path":"input.bin","text":"section18-source"}],"expected_status":"CLOSED","expected_registers":["raw","ref","restored"],"expected_receipts":["READ","CAS_PUT","CAS_GET","ASSERT_EQ","SYS_CLOSE"]}

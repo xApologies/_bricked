@@ -1,0 +1,19 @@
+test_address_roundtrip (test_hardware_abi.HardwareABITests.test_address_roundtrip) ... ok
+test_base_immutable_after_overlay (test_hardware_abi.HardwareABITests.test_base_immutable_after_overlay) ... ok
+test_cell_32_bytes (test_hardware_abi.HardwareABITests.test_cell_32_bytes) ... ok
+test_codec_roundtrip (test_hardware_abi.HardwareABITests.test_codec_roundtrip) ... ok
+test_commit_receipt (test_hardware_abi.HardwareABITests.test_commit_receipt) ... ok
+test_fabric_address_wrong_tag_rejected (test_hardware_abi.HardwareABITests.test_fabric_address_wrong_tag_rejected) ... ok
+test_geometric_region (test_hardware_abi.HardwareABITests.test_geometric_region) ... ok
+test_mirror_involution (test_hardware_abi.HardwareABITests.test_mirror_involution) ... ok
+test_mount_identity (test_hardware_abi.HardwareABITests.test_mount_identity) ... ok
+test_occupancy_3d_shape (test_hardware_abi.HardwareABITests.test_occupancy_3d_shape) ... ok
+test_overlay_precedence (test_hardware_abi.HardwareABITests.test_overlay_precedence) ... ok
+test_q16 (test_hardware_abi.HardwareABITests.test_q16) ... ok
+test_read_cell (test_hardware_abi.HardwareABITests.test_read_cell) ... ok
+test_right_left_witnesses (test_hardware_abi.HardwareABITests.test_right_left_witnesses) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.027s
+
+OK

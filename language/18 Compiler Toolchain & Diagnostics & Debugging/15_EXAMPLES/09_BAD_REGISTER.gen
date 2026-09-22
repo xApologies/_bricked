@@ -1,0 +1,6 @@
+genesis 0.6.0
+module bad_register {
+  capability cas.put
+  cas_put missing as ref
+  close
+}

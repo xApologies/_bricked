@@ -1,0 +1,78 @@
+{
+  "count": 18,
+  "pass": 18,
+  "results": [
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/errors.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/runtime.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/bytecode.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/storage.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/disasm.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/util.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/verifier.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__init__.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/device.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/parser.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/brane.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/compiler.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/blackglass.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/model.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/receipts.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/capabilities.py",
+      "status": "PASS"
+    },
+    {
+      "file": "12_REFERENCE_IMPLEMENTATION/genesis_system_io/__main__.py",
+      "status": "PASS"
+    },
+    {
+      "file": "14_TESTS/test_section17.py",
+      "status": "PASS"
+    }
+  ]
+}

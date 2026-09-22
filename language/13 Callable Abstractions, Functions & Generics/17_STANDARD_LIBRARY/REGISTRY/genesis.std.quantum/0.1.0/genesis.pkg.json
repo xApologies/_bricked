@@ -1,0 +1,22 @@
+{
+  "backend_capabilities": [
+    "quantum_reference"
+  ],
+  "dependencies": {
+    "genesis.std.core": "^0.1.0"
+  },
+  "description": "Quantum-information effect contract.",
+  "effects": [
+    "QUANTUM_LINEAR",
+    "TRANSFORM",
+    "MEASURE"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "contract",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [],
+  "name": "genesis.std.quantum",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

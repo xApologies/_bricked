@@ -1,0 +1,4 @@
+HSV1 QFT PASS portal=f3d5efa2f960a2b4270fc2fa582d3b32f45f0928dadb87004b216443ea4e41af route=red_alpha_orange->orange_green->green_blue->blue_violet
+HYDROGEN GR PASS portal=fbc78917b1a2070db589d6ceea881a5e065a49487091996577da2dda05a6fb7a route=red_alpha_orange->orange_green->green_blue->blue_violet
+OXYGEN GR PASS portal=ec2ebe7dc1481747c203c170b1336fe797a908003f03cfc45d703282bc9dd089 route=red_alpha_orange->orange_green->green_blue->blue_violet
+BLANK GENERIC PASS portal=42c0441d096648dbfe39bb677f275b88f212e98df13a4ff2956e5f48ae2b1ebd route=red_alpha_orange->orange_green->green_blue->blue_violet\n

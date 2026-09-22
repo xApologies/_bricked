@@ -1,0 +1,39 @@
+{
+  "capability_profile": "GENERIC_LIVE",
+  "child_instance_id": "640e97db2023233927e5a18d61763296",
+  "derived_mmo_id": null,
+  "derived_representation_id": null,
+  "effects": [
+    "PERSISTENCE_WRITE"
+  ],
+  "identity_policy": "PRESERVE_MMO",
+  "invariants": {
+    "name": "STRICT_IDENTITY",
+    "preserve_adjacency": false,
+    "preserve_canonical_mmo": true,
+    "preserve_chi": true,
+    "preserve_fabric_region": true,
+    "preserve_handedness": true,
+    "preserve_identity_tags": true,
+    "preserve_lambda": false,
+    "preserve_occupancy": true,
+    "preserve_rho": false,
+    "preserve_sigma": false,
+    "preserve_tau": false,
+    "require_no_changes": false
+  },
+  "operators": [
+    {
+      "delta": 16,
+      "op": "STABILIZE_RHO",
+      "selector": {
+        "end": 256,
+        "start": 0,
+        "type": "range"
+      }
+    }
+  ],
+  "parent_instance_id": "0deed435b7c74235037da7ccb8fbf9f2",
+  "plan_id": "5cbf9461e3d9ef890888d70a28bd9a56a718d11b57ba388679713221e5ea477e",
+  "pre_state_root": "ddf13431b6e98cb4c15d285fa59f22d321b3e6362a6999e505a98f097cf77b05"
+}

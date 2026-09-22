@@ -1,0 +1,47 @@
+{
+  "section": "06",
+  "sources": [
+    {
+      "name": "QFT_GR_BRIDGE",
+      "path": "/mnt/data/1.0 | QFT - GR BRIDGE(1).zip",
+      "role": "PRIMARY_FORMAL_BRIDGE"
+    },
+    {
+      "name": "SECTION_05",
+      "path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_05_RAINBOW_ROAD_v0.1.0_20260821",
+      "role": "EXECUTION_PARENT"
+    },
+    {
+      "name": "MK_ULTRA_TOME",
+      "path": "/mnt/data/MK Ultra(2).pdf",
+      "role": "LARGE_REFERENCE_INFORMATION_QFT_GR"
+    },
+    {
+      "name": "TRANSDUCTION_GEOMETRY",
+      "path": "/mnt/data/TRANSDUCTION_GEOMETRY_v1.0.zip",
+      "role": "PRIMARY_MATH"
+    },
+    {
+      "name": "BANDWIDTH_ALGEBRA",
+      "path": "/mnt/data/Bandwidth Algebra.zip",
+      "role": "PRIMARY_MATH"
+    },
+    {
+      "name": "RESOLUTION_READOUT",
+      "path": "/mnt/data/Resolution Readout.zip",
+      "role": "PRIMARY_MATH"
+    },
+    {
+      "name": "IDENTITY_HISTORY",
+      "path": "/mnt/data/Identity Through History.zip",
+      "role": "PRIMARY_MATH"
+    },
+    {
+      "name": "HOLONOMY_CHIRALITY",
+      "path": "/mnt/data/Holonomy and Chirality.zip",
+      "role": "PRIMARY_MATH"
+    }
+  ],
+  "status_note": "Software implementation does not promote source OPEN_TYPING physical bridge claims.",
+  "version": "0.1.0"
+}

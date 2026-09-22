@@ -1,0 +1,28 @@
+{
+  "backend_capabilities": [
+    "rainbow_road"
+  ],
+  "dependencies": {
+    "genesis.std.core": "0.2.0"
+  },
+  "description": "Executable Rainbow Road helper callables.",
+  "effects": [
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.road.callables",
+      "path": "src/callables.gen"
+    }
+  ],
+  "name": "genesis.std.road",
+  "schema_version": "0.1.0",
+  "version": "0.2.0"
+}

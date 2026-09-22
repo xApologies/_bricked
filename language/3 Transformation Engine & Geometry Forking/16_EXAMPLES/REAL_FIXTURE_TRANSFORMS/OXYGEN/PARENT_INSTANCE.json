@@ -1,0 +1,113 @@
+{
+  "brane_m5": {
+    "Chi": {
+      "fabric_tag": 5508075522112768044,
+      "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+      "region": {
+        "count": 32768,
+        "start": 196608
+      },
+      "roles": [
+        "control"
+      ],
+      "segment_sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322"
+    },
+    "D": {
+      "dependencies": [],
+      "parent_instance_id": null,
+      "source_hashes": {
+        "MK43U_Oxygen_Manifold_Phase5_v1/manifest.json": "74d2d11c4fa1f6990a93f1330bc02d61dd16c53b9888ef1799bd305d271f1906",
+        "MK43U_Oxygen_Manifold_Phase5_v1/oxygen_phase5_chirality.npy": "c03ca349f35b3f02650396060be33fe066c640d24423093e5fb912ff4b65caa5"
+      }
+    },
+    "I": {
+      "canonical_mmo_id": "O:OXYGEN_PHASE5_V1",
+      "instance_id": "0deed435b7c74235037da7ccb8fbf9f2",
+      "invariant_digest": "79e06e61f9a014a0145450a538da8143f8780f117a39b752c6e91d8fe5b10a73",
+      "representation_id": "O:OXYGEN_PHASE5_V1:scalar"
+    },
+    "P": {
+      "adapter_version": "BRANE_M5_ADAPTER_V0_1",
+      "provenance": [
+        {
+          "source_hashes": {
+            "MK43U_Oxygen_Manifold_Phase5_v1/manifest.json": "74d2d11c4fa1f6990a93f1330bc02d61dd16c53b9888ef1799bd305d271f1906",
+            "MK43U_Oxygen_Manifold_Phase5_v1/oxygen_phase5_chirality.npy": "c03ca349f35b3f02650396060be33fe066c640d24423093e5fb912ff4b65caa5"
+          }
+        }
+      ],
+      "receipts": [
+        {
+          "kind": "INSTANTIATION_PLAN",
+          "plan_id": "6ca207ef8bcdacd154e6a91f3d982ab8a7f47c544883cfdcd1d6146c603d3f3f",
+          "timestamp_ns": 1787336439612043230
+        },
+        {
+          "file_sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322",
+          "kind": "SEGMENT_COMMIT",
+          "payload_hash": "68bf3fe814697880b49479c5482db6fd701ae5a1b589a88ae417ffe147472ff5",
+          "record_count": 32768,
+          "timestamp_ns": 1787336439612044272
+        },
+        {
+          "allocation": {
+            "count": 32768,
+            "guard": 0,
+            "owner": "0deed435b7c74235037da7ccb8fbf9f2",
+            "reservation_id": "41cccf52d9a7f9c9c907fdd3",
+            "start": 196608,
+            "state": "COMMITTED"
+          },
+          "kind": "REGION_COMMIT",
+          "timestamp_ns": 1787336439612045143
+        }
+      ]
+    },
+    "R": {
+      "history": [
+        {
+          "event": "LIVE",
+          "segment_sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322",
+          "timestamp_ns": 1787336439612052384
+        }
+      ],
+      "parent_instance_id": null,
+      "state": "LIVE"
+    }
+  },
+  "canonical_mmo_id": "O:OXYGEN_PHASE5_V1",
+  "cells_per_voxel": 1,
+  "fabric_tag": 5508075522112768044,
+  "history": [
+    {
+      "event": "LIVE",
+      "segment_sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322",
+      "timestamp_ns": 1787336439612052384
+    }
+  ],
+  "instance_id": "0deed435b7c74235037da7ccb8fbf9f2",
+  "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+  "parent_instance_id": null,
+  "provenance": [
+    {
+      "source_hashes": {
+        "MK43U_Oxygen_Manifold_Phase5_v1/manifest.json": "74d2d11c4fa1f6990a93f1330bc02d61dd16c53b9888ef1799bd305d271f1906",
+        "MK43U_Oxygen_Manifold_Phase5_v1/oxygen_phase5_chirality.npy": "c03ca349f35b3f02650396060be33fe066c640d24423093e5fb912ff4b65caa5"
+      }
+    }
+  ],
+  "region": {
+    "alignment": 128,
+    "count": 32768,
+    "guard_after": 0,
+    "guard_before": 0,
+    "start": 196608
+  },
+  "representation_id": "O:OXYGEN_PHASE5_V1:scalar",
+  "roles": [
+    "control"
+  ],
+  "segment_path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/oxygen.gos",
+  "segment_sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322",
+  "state": "LIVE"
+}

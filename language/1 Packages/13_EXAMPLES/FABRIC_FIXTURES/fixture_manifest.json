@@ -1,0 +1,14 @@
+{
+  "large_external_part_b": {
+    "cells": 1048576,
+    "file": "GENESIS_GCM_REFERENCE_FABRIC_1M_CELLS.gcf",
+    "sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+    "size": 33558528
+  },
+  "small": {
+    "cells": 65536,
+    "file": "reference_fabric_65536_cells.gcf",
+    "sha256": "ee144dcb41ce686bee94a001d7f8168a561b82fc06fa3879779d61af1615c653",
+    "size": 2101248
+  }
+}

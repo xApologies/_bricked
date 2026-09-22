@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "frontend_id": {
+      "type": "string"
+    },
+    "gvm_sha256": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "GENESIS_FRONTEND_RECEIPT"
+    },
+    "link_id": {
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "frontend_id",
+    "link_id",
+    "gvm_sha256"
+  ],
+  "title": "Genesis Frontend Receipt",
+  "type": "object"
+}

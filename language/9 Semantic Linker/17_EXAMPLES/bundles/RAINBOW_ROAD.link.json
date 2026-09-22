@@ -1,0 +1,229 @@
+{
+  "exports": [
+    "qft_leg::destination",
+    "road::receipt"
+  ],
+  "link": "GENESIS-LINK",
+  "modules": [
+    {
+      "effects": [
+        "READ_FABRIC",
+        "ALLOCATE",
+        "INHERIT"
+      ],
+      "exports": [
+        {
+          "symbol": "geo",
+          "type": "GEOMETRIC<CLOSED,UNBOUND>",
+          "value": "%geo"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "attrs": {
+              "uri": "fabric://chirality/reference-v1"
+            },
+            "id": "01_mount",
+            "op": "FABRIC_MOUNT",
+            "out": "%fabric",
+            "type": "FABRIC"
+          },
+          {
+            "args": [
+              "%fabric"
+            ],
+            "attrs": {
+              "cells": 4096
+            },
+            "id": "02_alloc",
+            "op": "FABRIC_ALLOC",
+            "out": "%region",
+            "type": "REGION"
+          },
+          {
+            "args": [
+              "%fabric",
+              "%region"
+            ],
+            "attrs": {
+              "mmo": {
+                "class": "MMO",
+                "handle": "@hydrogen_reference"
+              }
+            },
+            "id": "03_geo",
+            "op": "GEO_INSTANTIATE",
+            "out": "%geo",
+            "type": "GEOMETRIC"
+          }
+        ]
+      },
+      "imports": [],
+      "ir": "GIR-MODULE",
+      "module": "fixture",
+      "version": "0.1.0"
+    },
+    {
+      "effects": [
+        "ADMIT",
+        "TRANSPORT",
+        "INHERIT",
+        "CLOSE",
+        "PROVENANCE"
+      ],
+      "exports": [
+        {
+          "symbol": "destination",
+          "type": "GEOMETRIC<CLOSED,QFT>",
+          "value": "%dest"
+        },
+        {
+          "symbol": "receipt",
+          "type": "RECEIPT<PORTAL_CLOSE>",
+          "value": "%receipt"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "args": [
+              "%source"
+            ],
+            "attrs": {
+              "admitted": true
+            },
+            "id": "01_admit",
+            "op": "ADMIT",
+            "out": "%a",
+            "type": "ADMISSION"
+          },
+          {
+            "args": [
+              "%source",
+              "%a"
+            ],
+            "attrs": {
+              "corridor": "QFT-A",
+              "sector": "QFT"
+            },
+            "id": "02_open",
+            "op": "PORTAL_OPEN",
+            "out": "%p",
+            "type": "PORTAL"
+          },
+          {
+            "args": [
+              "%p",
+              "%source"
+            ],
+            "attrs": {
+              "destination": "QFT-B"
+            },
+            "id": "03_transport",
+            "op": "PORTAL_TRANSPORT",
+            "out": "%dest",
+            "type": "GEOMETRIC"
+          },
+          {
+            "args": [
+              "%p",
+              "%dest"
+            ],
+            "id": "04_close",
+            "op": "PORTAL_CLOSE",
+            "out": "%receipt",
+            "type": "RECEIPT"
+          }
+        ]
+      },
+      "imports": [
+        {
+          "from": "fixture",
+          "local": "%source",
+          "symbol": "geo",
+          "type": "GEOMETRIC"
+        }
+      ],
+      "ir": "GIR-MODULE",
+      "module": "qft_leg",
+      "version": "0.1.0"
+    },
+    {
+      "effects": [
+        "TRANSPORT",
+        "INHERIT",
+        "CLOSE",
+        "PROVENANCE"
+      ],
+      "exports": [
+        {
+          "symbol": "receipt",
+          "type": "RECEIPT<ROAD_CLOSE>",
+          "value": "%rr"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "args": [
+              "%source"
+            ],
+            "id": "01_begin",
+            "op": "ROAD_BEGIN",
+            "out": "%r0",
+            "type": "ROAD"
+          },
+          {
+            "args": [
+              "%r0",
+              "%leg"
+            ],
+            "id": "02_append",
+            "op": "ROAD_APPEND",
+            "out": "%r1",
+            "type": "ROAD"
+          },
+          {
+            "args": [
+              "%r1",
+              "%dest"
+            ],
+            "id": "03_close",
+            "op": "ROAD_CLOSE",
+            "out": "%rr",
+            "type": "RECEIPT"
+          }
+        ]
+      },
+      "imports": [
+        {
+          "from": "fixture",
+          "local": "%source",
+          "symbol": "geo",
+          "type": "GEOMETRIC"
+        },
+        {
+          "from": "qft_leg",
+          "local": "%leg",
+          "symbol": "receipt",
+          "type": "RECEIPT"
+        },
+        {
+          "from": "qft_leg",
+          "local": "%dest",
+          "symbol": "destination",
+          "type": "GEOMETRIC<CLOSED,QFT>"
+        }
+      ],
+      "ir": "GIR-MODULE",
+      "module": "road",
+      "version": "0.1.0"
+    }
+  ],
+  "name": "section09_rainbow_road",
+  "version": "0.1.0"
+}

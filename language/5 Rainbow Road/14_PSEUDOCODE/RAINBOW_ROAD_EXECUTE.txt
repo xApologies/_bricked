@@ -1,0 +1,22 @@
+RAINBOW_ROAD_EXECUTE(request):
+    plan <- PREFLIGHT(request)
+    hold <- RAINBOW_BUS_HOLD(plan.edge_capacity_requirements)
+    current <- source Geometric
+    FOR leg IN plan.ordered_legs:
+        portal <- create Portal(current, leg.target, shared preservation contract)
+        result <- PORTAL_EXECUTE(portal)
+        require result.corridor == leg.preflighted_corridor
+        append immutable Portal receipt
+        current <- result.destination Geometric
+    audit end-to-end content + identity + residue + source/fabric immutability
+    calculate ordered transport-holonomy witness
+    CLOSE Road
+    inherit Road receipt into final Geometric + BRANE M^5
+    release Rainbow Bus hold
+    return final Geometric + Road receipt
+
+ON LEG FAILURE:
+    retain all previously closed Portal outputs/receipts
+    emit FAILED_PARTIAL when any leg closed
+    release Rainbow Bus hold
+    never destructively rollback closed history

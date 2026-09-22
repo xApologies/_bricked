@@ -1,0 +1,23 @@
+test_01_allocator_non_overlap (test_section02.T.test_01_allocator_non_overlap) ... ok
+test_02_allocator_exhaustion (test_section02.T.test_02_allocator_exhaustion) ... ok
+test_03_required_cells_3p1p1 (test_section02.T.test_03_required_cells_3p1p1) ... ok
+test_04_materialize_and_live (test_section02.T.test_04_materialize_and_live) ... ok
+test_05_base_immutable (test_section02.T.test_05_base_immutable) ... ok
+test_06_segment_count (test_section02.T.test_06_segment_count) ... ok
+test_07_read_overlay_precedence (test_section02.T.test_07_read_overlay_precedence) ... ok
+test_08_formulaic_addressing (test_section02.T.test_08_formulaic_addressing) ... ok
+test_09_m5_has_no_z (test_section02.T.test_09_m5_has_no_z) ... ok
+test_10_scientific_shape_not_m5 (test_section02.T.test_10_scientific_shape_not_m5) ... ok
+test_11_scalar_profile (test_section02.T.test_11_scalar_profile) ... ok
+test_12_release_and_reuse (test_section02.T.test_12_release_and_reuse) ... ok
+test_13_source_hashes_in_m5 (test_section02.T.test_13_source_hashes_in_m5) ... ok
+test_14_segment_hash_stable (test_section02.T.test_14_segment_hash_stable) ... ok
+test_15_control_persistence (test_section02.T.test_15_control_persistence) ... ok
+test_16_committed_segment_immutable_by_api (test_section02.T.test_16_committed_segment_immutable_by_api) ... ok
+test_17_distinct_instances (test_section02.T.test_17_distinct_instances) ... ok
+test_18_role_group_count (test_section02.T.test_18_role_group_count) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.274s
+
+OK

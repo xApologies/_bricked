@@ -1,0 +1,15 @@
+acquire(task, resource, SHARED, units):
+    admit iff no exclusive holder and used + units <= capacity
+
+acquire(task, resource, EXCLUSIVE):
+    admit iff holders == empty
+    lease consumes full capacity
+
+release(task, resource):
+    remove lease
+    consider deterministic waiter wake-up
+
+cancel(task):
+    release all leases
+    remove all wait entries
+    emit cancellation receipt/event

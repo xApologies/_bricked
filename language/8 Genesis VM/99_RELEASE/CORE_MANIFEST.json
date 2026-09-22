@@ -1,0 +1,459 @@
+{
+  "date": "2026-08-21",
+  "files": [
+    {
+      "bytes": 59,
+      "path": "00_START_HERE/FOLDER_NAME.txt",
+      "sha256": "8c80fde0882d300c71aee5cdfbf0f826a1238336e15926f1d03208f3f467c025"
+    },
+    {
+      "bytes": 2365,
+      "path": "00_START_HERE/README.md",
+      "sha256": "a9fb43a5e3742c8d8f699721aced0187563acc0548341a475d6df4f5734efdfd"
+    },
+    {
+      "bytes": 817,
+      "path": "00_START_HERE/RECOVERY_ORDER.md",
+      "sha256": "d3f8ddaa080196082012d22754bb137dc65be212603aa917ac53b068b20f4bf6"
+    },
+    {
+      "bytes": 1541,
+      "path": "01_ARCHITECTURE/ARCHITECTURE.md",
+      "sha256": "902fda59103839b82dbd5bd57e94a2203ec778fbbfc559710ad3e383fe7c8a1e"
+    },
+    {
+      "bytes": 1096,
+      "path": "01_ARCHITECTURE/DESIGN_INVARIANTS.md",
+      "sha256": "119a3bb175cb75660dad8670cd4ed4b21b59f3708bd7243f9bd724204d93f448"
+    },
+    {
+      "bytes": 1274,
+      "path": "02_GIR_GRAPH_IR/GIR_SPEC.md",
+      "sha256": "5792847e3173a8e42b62d948b2d7043f66d1b59649d76720eb2113ea76fd00bd"
+    },
+    {
+      "bytes": 644,
+      "path": "02_GIR_GRAPH_IR/LOWERING_RULES.md",
+      "sha256": "c27c57ad7de23ee0106a4be60d412e2668d92baffc7d5467f1fa4d1801abb89b"
+    },
+    {
+      "bytes": 664,
+      "path": "02_GIR_GRAPH_IR/RELATIONSHIP_EDGES.md",
+      "sha256": "62923660df6451d58be5ad5fa1f4a66886192529e9c0fb598d8c14242d2b3083"
+    },
+    {
+      "bytes": 388,
+      "path": "03_GVM_MACHINE_MODEL/DETERMINISM.md",
+      "sha256": "ec13dea1ac8c8ae7f93c35286383bcadf0acad78c0a78bbcc0cdc2ea3b9e5406"
+    },
+    {
+      "bytes": 1176,
+      "path": "03_GVM_MACHINE_MODEL/GVM_SPEC.md",
+      "sha256": "9e6bdab657aaad991b3339335807060f870b9e55f8d5a6f9588d54babfcb8d04"
+    },
+    {
+      "bytes": 460,
+      "path": "03_GVM_MACHINE_MODEL/RESOURCE_TABLE.md",
+      "sha256": "677b5c6093e7106d678a3c22659c753d3d8f9f5d461c36fffe8e0c523f22fd38"
+    },
+    {
+      "bytes": 483,
+      "path": "04_TYPE_SYSTEM/TYPES.md",
+      "sha256": "9506e819df8560df9c634befbceb059b150c549e258776100f56f3f66c403827"
+    },
+    {
+      "bytes": 887,
+      "path": "04_TYPE_SYSTEM/TYPE_RULES.md",
+      "sha256": "d13fe3aa6c02621031c9a476cc3a0fb5c6c85c0b4782a90c2a3d3a46ec85946c"
+    },
+    {
+      "bytes": 510,
+      "path": "05_EFFECT_SYSTEM/EFFECTS.md",
+      "sha256": "3676fd835c02afbf33021dcfd3b77e6a8f0d67b774dbaeaf520343d295e7ce77"
+    },
+    {
+      "bytes": 781,
+      "path": "05_EFFECT_SYSTEM/LINEAR_AND_CLOSURE_RULES.md",
+      "sha256": "5498484fc0fcad9a612224848989b2a55f367fa3a03b28e06c58bc6dd5dd73db"
+    },
+    {
+      "bytes": 1237,
+      "path": "06_ISA/INSTRUCTION_SEMANTICS.md",
+      "sha256": "2d64b5f9c02d3dfd7b27a0b5a2d40094e28c09d9ff465b165562ead672477db0"
+    },
+    {
+      "bytes": 2485,
+      "path": "06_ISA/ISA_TABLE.md",
+      "sha256": "b47e2130cd8bd50eba8aa4b6e31061a2ed76c3690aa3da6d3f0cce6128fcc1af"
+    },
+    {
+      "bytes": 374,
+      "path": "07_MEMORY_MODEL/FABRIC_ADDRESSING.md",
+      "sha256": "5d118910a54c8ecf0def58ebfd73e91316422067b1063f5240fd7ea530752763"
+    },
+    {
+      "bytes": 653,
+      "path": "07_MEMORY_MODEL/MEMORY_MODEL.md",
+      "sha256": "46d0ba8f168b00c225df627e41a6884d4504b047b9e63f1820614d85f30a0cbb"
+    },
+    {
+      "bytes": 384,
+      "path": "08_GRAPH_SCHEDULER/OPTIMIZATION_BOUNDARY.md",
+      "sha256": "52a66f9a370db0c0b32694d2c5af65b6b896b2a29f96b27363058cee34f50ce0"
+    },
+    {
+      "bytes": 485,
+      "path": "08_GRAPH_SCHEDULER/SCHEDULER.md",
+      "sha256": "39eb4bb65c149dc6dea6676c5bfe92d1a94bc2caa8afe92a7591f918c3f29687"
+    },
+    {
+      "bytes": 747,
+      "path": "09_BYTECODE/BYTECODE_FORMAT.md",
+      "sha256": "f1254a0e78be2c2131c43cb0666616d87719df16e171dcd842079a221a701623"
+    },
+    {
+      "bytes": 262,
+      "path": "09_BYTECODE/CONTENT_ADDRESSING.md",
+      "sha256": "29393e7b80ebd654cfc50bce0877fc43fb7a265eb063b3f515bce9760666fbb6"
+    },
+    {
+      "bytes": 545,
+      "path": "10_VERIFIER/PROOF_OBLIGATIONS.md",
+      "sha256": "ffed8b2e7fce1725aa7bcd4d8a3971e7f0bd1b0f88b1fec8f0c45f2e323cbc9e"
+    },
+    {
+      "bytes": 680,
+      "path": "10_VERIFIER/VERIFIER_RULES.md",
+      "sha256": "610c2182a8a01ad32619531d4ed46774a01dd40de425c567852e5f59a09ede11"
+    },
+    {
+      "bytes": 556,
+      "path": "11_RUNTIME/EXECUTION_LOOP.md",
+      "sha256": "e8ba7f9548c84831694de83f83337ba56f21623f687a594731af7c79e4fc7059"
+    },
+    {
+      "bytes": 415,
+      "path": "11_RUNTIME/EXECUTION_RECEIPT.md",
+      "sha256": "51540d3db4f1288702c665a903aec8eb9e1d0163e6f86e9925bedad7ad2aec8b"
+    },
+    {
+      "bytes": 711,
+      "path": "12_BACKEND_ABI/BACKEND_ABI.md",
+      "sha256": "b89f1ac878f8c93ab87d75738ade029df2ce8c2283aa2fe4f12060db55b34280"
+    },
+    {
+      "bytes": 399,
+      "path": "12_BACKEND_ABI/BACKEND_TARGETS.md",
+      "sha256": "f86900140edf99905dfef74149e5734b9ec1d064d49d82647ea2dd94d59a3cb0"
+    },
+    {
+      "bytes": 494,
+      "path": "13_REFERENCE_IMPLEMENTATION/README.md",
+      "sha256": "26a9a72ed9e0c27356364427b67757ede8316479da170c59a9f61f3d00a1ef73"
+    },
+    {
+      "bytes": 247,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__init__.py",
+      "sha256": "33fba7a3fae7ae58be7fc63a7c9282885e362ac5a30c3243a00bfb4c133d8fa9"
+    },
+    {
+      "bytes": 1015,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__main__.py",
+      "sha256": "ed9f8cc3851d18ffdd08cb3ec5764c479226040a07221c8428498750f4563a25"
+    },
+    {
+      "bytes": 555,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "392f7c15115252c5dfe64e9b030e87a68288021c174a55eb072825530b70fc29"
+    },
+    {
+      "bytes": 1366,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/assembler.cpython-313.pyc",
+      "sha256": "19ac42412cb230b5528ebb0aeaffbe13ae728bec722f8e5f0b9d8c1cedbcf544"
+    },
+    {
+      "bytes": 12024,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/backend.cpython-313.pyc",
+      "sha256": "298cd0a67c11f9b6edd6f9fe1737aa7b29b5028b3726acd318ac9c468531ab1c"
+    },
+    {
+      "bytes": 5081,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/bytecode.cpython-313.pyc",
+      "sha256": "dc49a82d289e62cee68ac79091b479db115746221df48b7775b055642174b551"
+    },
+    {
+      "bytes": 3581,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/compiler.cpython-313.pyc",
+      "sha256": "d8bab752768a8103bab0b45428cd418539811a40ce08972c307572f1cf2fc1db"
+    },
+    {
+      "bytes": 1503,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/disasm.cpython-313.pyc",
+      "sha256": "8310fceafe8fda1a3c9c3a50d6ba469c5f5d373e44794303fe5954ca33aa3f33"
+    },
+    {
+      "bytes": 1590,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/errors.cpython-313.pyc",
+      "sha256": "0fbd49d5f921f027349627ab8923e65c5ef6b57bde507eb5eb0299a03672d73e"
+    },
+    {
+      "bytes": 3061,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/graph.cpython-313.pyc",
+      "sha256": "0b30403284b6317cf9cfd49c8429645c031e256d522c4b0bf059656c3ab5ec89"
+    },
+    {
+      "bytes": 6678,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/isa.cpython-313.pyc",
+      "sha256": "4af87c9837d645236a05953a38034ca20608221d5d1922761a94921bf575568f"
+    },
+    {
+      "bytes": 4468,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/model.cpython-313.pyc",
+      "sha256": "ff5a44f96176009fc94d62a7e06cc6aebb9fbdac8d9e0f2974fef82e2809c714"
+    },
+    {
+      "bytes": 15138,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/runtime.cpython-313.pyc",
+      "sha256": "bfaf2fed5499bb088563a43b73b6b9a6658cc411f727f097a9cd6c7ae2d0fc98"
+    },
+    {
+      "bytes": 972,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/util.cpython-313.pyc",
+      "sha256": "1e47017a25b33f9050686e202b2f79f63a1bc439980bc601ef49a897116aa19c"
+    },
+    {
+      "bytes": 6561,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/__pycache__/verifier.cpython-313.pyc",
+      "sha256": "c560500d252628b384ff560fe34413583b102e9125424ea36a7455a89c05222a"
+    },
+    {
+      "bytes": 442,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/assembler.py",
+      "sha256": "734fa2db039453a44f27ac762b2c5766f7280c2052a4015180e7ceda256dcfcd"
+    },
+    {
+      "bytes": 6716,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/backend.py",
+      "sha256": "e55b03908137bd18f5734d167cff332f7aafde315f89a0297b61cb77db62118d"
+    },
+    {
+      "bytes": 2308,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/bytecode.py",
+      "sha256": "a401dfd6d15e41a8347018c3da28a2da1205c14a38c164bf0a1de60fbc90ec22"
+    },
+    {
+      "bytes": 1876,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/compiler.py",
+      "sha256": "19a36545de85e5debc5181730c143ec6a20909404c5dfb77b1690de73da2d527"
+    },
+    {
+      "bytes": 454,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/disasm.py",
+      "sha256": "a307bb72b9ee8df9e44723b23202f199978ee512fef027d8bfddf615be20d68d"
+    },
+    {
+      "bytes": 328,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/errors.py",
+      "sha256": "450a87adca6dd4b910b8ab02853bcc4531dc489c7a6e4c3e8a2f7be74f2768fc"
+    },
+    {
+      "bytes": 1622,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/graph.py",
+      "sha256": "a0335810eb72d2112b0061d2728e76d1bd186c3f08c184bcc9adc811ac9be16e"
+    },
+    {
+      "bytes": 2673,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/isa.py",
+      "sha256": "0e646975428d09282eed3a4815fb41dc1068b9ae3c9510b7244bed3e968a3302"
+    },
+    {
+      "bytes": 2344,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/model.py",
+      "sha256": "90f8c4a8484e37f21eb40b5244fb9c5040da08cc4ac2ddb64dc61960c9e9075c"
+    },
+    {
+      "bytes": 6723,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/runtime.py",
+      "sha256": "7818b1cb7a56f99c4418c2e6f1abeb7930840250174f3fcfd0bb391a1dec8a37"
+    },
+    {
+      "bytes": 306,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/util.py",
+      "sha256": "3a5076a106c7259cedd1f80085a7670ffe2874c786fc6a4bbfc06686620aa39d"
+    },
+    {
+      "bytes": 3562,
+      "path": "13_REFERENCE_IMPLEMENTATION/genesis_vm/verifier.py",
+      "sha256": "3804c6d3598458f5e98e22cb5c463a04acdd83ad5eee6a2f63394fcdc6cce977"
+    },
+    {
+      "bytes": 412,
+      "path": "14_SCHEMAS/backend_capabilities.schema.json",
+      "sha256": "d2632c8adc6f8aa85110d18df232172e2c18732a98fcce0be6c5ce2c3cc2ec3c"
+    },
+    {
+      "bytes": 423,
+      "path": "14_SCHEMAS/execution_receipt.schema.json",
+      "sha256": "6d4c9f02bb1e01aed68180633aa87ed77768185b66b3931315a15518529fa002"
+    },
+    {
+      "bytes": 1037,
+      "path": "14_SCHEMAS/gir.schema.json",
+      "sha256": "9bdb14498d1612d5470af4842cc73d490c535529d345929c17cef01e901b8710"
+    },
+    {
+      "bytes": 570,
+      "path": "14_SCHEMAS/gvm_instruction.schema.json",
+      "sha256": "2a3a3ca62d025c7ddedba638fc294734524fcaa0b98cc8f17fbeaa148c15966a"
+    },
+    {
+      "bytes": 412,
+      "path": "15_PSEUDOCODE/COMPILE_GIR.txt",
+      "sha256": "6de1f76a67a6a5e32c0061fc08d80f110beea0bbfdda1e46da9655ca152e7edd"
+    },
+    {
+      "bytes": 310,
+      "path": "15_PSEUDOCODE/FIRST_PORTAL.txt",
+      "sha256": "f83c506667bb6bb5804ecdd71d6c6b1a4c23ca37b54774687b793849f6be8a90"
+    },
+    {
+      "bytes": 425,
+      "path": "15_PSEUDOCODE/GVM_EXECUTE.txt",
+      "sha256": "4cd7f1260d4c8da02016f7fea4e44c72494395e2f766b1bfc39bce738d87c231"
+    },
+    {
+      "bytes": 727,
+      "path": "16_FAILURES/FAILURE_TAXONOMY.md",
+      "sha256": "b73dfc8bf948844fa767b45164550b6c6e3f1199f07a10bf9ade83b105f4e601"
+    },
+    {
+      "bytes": 751,
+      "path": "17_TESTS/TEST_MATRIX.md",
+      "sha256": "56ff22a41dc8200100db237ef9becba886ae9343eb6fdcb33bb7b3e491c889d2"
+    },
+    {
+      "bytes": 22654,
+      "path": "17_TESTS/__pycache__/test_section08.cpython-313.pyc",
+      "sha256": "8003d2446de4633430de48280712f204788ff732d12280259b1e25e022f6ab83"
+    },
+    {
+      "bytes": 8590,
+      "path": "17_TESTS/test_section08.py",
+      "sha256": "40d023bec26d13c7b99654976d1ed6c8861602d187d3259e810831b81bbb74ef"
+    },
+    {
+      "bytes": 3318,
+      "path": "18_EXAMPLES/FIRST_PORTAL.gir.json",
+      "sha256": "85b75838abc2f2ce8feef18cdc8f4c294f84ab683e729d73495f286f7e3f48e9"
+    },
+    {
+      "bytes": 3336,
+      "path": "18_EXAMPLES/MIXED_SECTOR.gir.json",
+      "sha256": "3388e0d8bc44b8ec36d06ae7b1909ccde3a939e936db45d1e41845557da1207e"
+    },
+    {
+      "bytes": 2218,
+      "path": "18_EXAMPLES/QUANTUM_EFFECT.gir.json",
+      "sha256": "29682e44c7c34118a22eb75cecd148b039061f3b72cf2dd31dc3e0574e241d95"
+    },
+    {
+      "bytes": 3614,
+      "path": "18_EXAMPLES/RAINBOW_ROAD.gir.json",
+      "sha256": "136b67e581c17256cb4b7f79cb08d01ac69cac90e50c48614d9811250929df6f"
+    },
+    {
+      "bytes": 490,
+      "path": "18_EXAMPLES/README.md",
+      "sha256": "189370e0ce45020de235279add1d4510a3051f4aa801cf52df6156cad424027b"
+    },
+    {
+      "bytes": 1364,
+      "path": "19_REFERENCE_PROGRAMS/FIRST_PORTAL.disasm.txt",
+      "sha256": "c2be49a9d5ae542cdf0b1de773f18eae5af2081efbe4f0a80731cc6fae972cc1"
+    },
+    {
+      "bytes": 1963,
+      "path": "19_REFERENCE_PROGRAMS/FIRST_PORTAL.gvm",
+      "sha256": "24c8fe13b0fc9f4faf70009ff036cccb3e380c14a8558445fb5b4bee662427d1"
+    },
+    {
+      "bytes": 6097,
+      "path": "19_REFERENCE_PROGRAMS/FIRST_PORTAL.run.json",
+      "sha256": "1f8077a176c6fb03cc532efd50f1d6330b24a6f8a2eaf4ef67b9ac3f3aa5bb88"
+    },
+    {
+      "bytes": 1276,
+      "path": "19_REFERENCE_PROGRAMS/MIXED_SECTOR.disasm.txt",
+      "sha256": "f2156a39a8989988a80768ac776db3acb3f468de7f7fa5a2da4866a19865e5e4"
+    },
+    {
+      "bytes": 1911,
+      "path": "19_REFERENCE_PROGRAMS/MIXED_SECTOR.gvm",
+      "sha256": "bc2689534ff5c13bfe98ba5ce0cc08b96a55f0939e539bd45e15b032a215aa43"
+    },
+    {
+      "bytes": 7070,
+      "path": "19_REFERENCE_PROGRAMS/MIXED_SECTOR.run.json",
+      "sha256": "2da7e69d374358f5911e17d8ccc0dedd99f90de58ad91c34b7b1e6ddbe7a8d24"
+    },
+    {
+      "bytes": 858,
+      "path": "19_REFERENCE_PROGRAMS/QUANTUM_EFFECT.disasm.txt",
+      "sha256": "5f929e0c8b38b9e2d483eb71481c79f5c4d02e1594eaaa2c4dfd2522d15751ad"
+    },
+    {
+      "bytes": 1388,
+      "path": "19_REFERENCE_PROGRAMS/QUANTUM_EFFECT.gvm",
+      "sha256": "b0012eed9ba4edcf1e35a6c92a241f9095b1890aef92bef24401ce1a2b949209"
+    },
+    {
+      "bytes": 4601,
+      "path": "19_REFERENCE_PROGRAMS/QUANTUM_EFFECT.run.json",
+      "sha256": "d3d50c1555038d39b50728b562d827fad12efd0650548f47b668c02be0a3c878"
+    },
+    {
+      "bytes": 1424,
+      "path": "19_REFERENCE_PROGRAMS/RAINBOW_ROAD.disasm.txt",
+      "sha256": "ad125413d56c7a8459cd486ae1c428fd99d79eec509ee750aca8f5590191ea9a"
+    },
+    {
+      "bytes": 2134,
+      "path": "19_REFERENCE_PROGRAMS/RAINBOW_ROAD.gvm",
+      "sha256": "23e89ad3d3f3dd798f24bae9362aed50459aea5e52f003b745516b17a000f442"
+    },
+    {
+      "bytes": 6878,
+      "path": "19_REFERENCE_PROGRAMS/RAINBOW_ROAD.run.json",
+      "sha256": "29a480c13fd5489090328eba608ff8ad447c71017490a2e3addbf72f731c42e6"
+    },
+    {
+      "bytes": 912,
+      "path": "20_SOURCE_CROSSWALK/SOURCE_CROSSWALK.md",
+      "sha256": "66f440100574aed6cf2a4672dc4eb6dc5fabfd7bb0c76c0e93ad173999a236fd"
+    },
+    {
+      "bytes": 1103,
+      "path": "20_SOURCE_CROSSWALK/SOURCE_REGISTRY.json",
+      "sha256": "f491b84fd3cd5be40827aef2ee74efe19cd5b42cbaa2684bbc643c9789111e1c"
+    },
+    {
+      "bytes": 1299,
+      "path": "21_RECOVERY/SECTION_08_STATE.md",
+      "sha256": "69aa02241257a5d974a497e1105526da3d158fc6f07c744b864dc9a22117fa29"
+    },
+    {
+      "bytes": 1094,
+      "path": "99_RELEASE/REFERENCE_PROGRAM_RESULTS.json",
+      "sha256": "18cb618c4f28e4875c49f1804fb0c8e08ea370914faf524d4b88a1caefec0b01"
+    },
+    {
+      "bytes": 4139,
+      "path": "99_RELEASE/TEST_RESULTS.txt",
+      "sha256": "740bec15ad4c5eacdca008d8a282f9d08e98bdc559714da00fdd2014221af9ba"
+    }
+  ],
+  "reference_programs": "4/4 PASS",
+  "section": "08",
+  "tests": "40/40 PASS",
+  "version": "0.1.0"
+}

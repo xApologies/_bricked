@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "lock": {
+      "const": "GENESIS-LOCK"
+    },
+    "resolution_root": {
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "lock",
+    "version",
+    "root",
+    "packages",
+    "order",
+    "resolution_root"
+  ],
+  "title": "Genesis Lockfile v0.1",
+  "type": "object"
+}

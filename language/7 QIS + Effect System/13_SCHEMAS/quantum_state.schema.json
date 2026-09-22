@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "amplitudes": {
+      "type": "array"
+    },
+    "basis": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "canonical_mmo_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "density": {
+      "type": "array"
+    },
+    "kind": {
+      "enum": [
+        "CLASSICAL",
+        "PURE",
+        "DENSITY",
+        "JOINT",
+        "MEASURED",
+        "DECOHERED",
+        "CONSUMED"
+      ]
+    },
+    "members": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "sector": {
+      "const": "QFT"
+    },
+    "source_instance_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "state_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "state_id",
+    "kind",
+    "basis",
+    "sector"
+  ],
+  "title": "Genesis Quantum Information State",
+  "type": "object"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "audit": {
+      "type": "object"
+    },
+    "channel_id": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "QUANTUM_PORTAL_CLOSURE_RECEIPT"
+    },
+    "source_state_id": {
+      "type": "string"
+    },
+    "status": {
+      "const": "CLOSED"
+    },
+    "target_state_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "kind",
+    "status",
+    "source_state_id",
+    "target_state_id",
+    "channel_id",
+    "audit"
+  ],
+  "title": "Quantum Portal Receipt",
+  "type": "object"
+}

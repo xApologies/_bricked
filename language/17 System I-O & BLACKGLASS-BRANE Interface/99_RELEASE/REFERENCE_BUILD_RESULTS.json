@@ -1,0 +1,84 @@
+{
+  "all_reference_expected": "PASS",
+  "closed": 7,
+  "policy_rejection_witnesses": [
+    {
+      "case": "DIRECT_HEART_WRITE",
+      "expected": "BLACKGLASS_DIRECT_WRITE_FORBIDDEN",
+      "observed": "BLACKGLASS_DIRECT_WRITE_FORBIDDEN",
+      "status": "PASS"
+    },
+    {
+      "case": "BAD_BRANE_DIMENSION",
+      "expected": "BRANE_PORT_INVALID",
+      "observed": "BRANE_PORT_INVALID: internal_dimension",
+      "status": "PASS"
+    }
+  ],
+  "reference_scenarios": 7,
+  "runs": [
+    {
+      "bytecode_sha256": "sha256:f55ef5d5e0c73d88d3ec5f3c5d2d40fb0d3150505e8a881f6dba65156f6ad747",
+      "durable_count": 0,
+      "program_id": "sysprog:f9bca234e15a715f385817c6b4d3b773a98df77f213ddfceac498e9a25858776",
+      "receipt_count": 5,
+      "receipt_root": "4e8455b6aae7362eabfdcafd5eb8f6800b36fabaeb6dacb91f2929f5996236ad",
+      "scenario": "01_SOURCE_READ",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_sha256": "sha256:4c91be5d2c35a2d9f1275b5ace0778d31306d796dd482a926708b5971926d999",
+      "durable_count": 0,
+      "program_id": "sysprog:d6a44314c396213301e913c9c48ac62f1eee44dbf06f57257a88f95e64bd1be7",
+      "receipt_count": 8,
+      "receipt_root": "9ce4eaf69272fb8cf7f260a246282fec4649bacb65373c9415640380650930f9",
+      "scenario": "02_DERIVED_WRITE_CAS",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_sha256": "sha256:640e01515df8d08c9d2c983a8721368ae54b9027310ddee7f8fd8e7fefa62b8d",
+      "durable_count": 0,
+      "program_id": "sysprog:cebc4d95d528157d278d7523fa56edb295c907aedc074325852ce5d9bd157226",
+      "receipt_count": 5,
+      "receipt_root": "0a8d955fac2b2d1db04e800e4ee962f3b524f18bf8434e3043cc24577de8b1f3",
+      "scenario": "03_BRANE_LIBRARY_QUERY",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_sha256": "sha256:736f407f6b097ec83a5ca5464c31b846a2d7f508cfe271003dd1d124c15ff9dc",
+      "durable_count": 1,
+      "program_id": "sysprog:a38528764ad3e78c8f2f9cc1c1276412ef120572c0056a5eef84b104e428ebb2",
+      "receipt_count": 4,
+      "receipt_root": "1bfdfaf30b8612fecfd6de1fe38e9a18bab77777da475796f92d1d9346c64099",
+      "scenario": "04_BLACKGLASS_COMMIT",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_sha256": "sha256:551c1e3927e4231ac9af846c989fe68725944414ea8f716f413420539bbdb701",
+      "durable_count": 0,
+      "program_id": "sysprog:98e3e6c0e9f39fa7c3cc4bc803db7c541412a922fa16be198da9e96dc6e2ad38",
+      "receipt_count": 3,
+      "receipt_root": "607b70157ccf429df4c79a11367ceac98a18f3579dae42f2cc8df9158d150a6f",
+      "scenario": "05_DEVICE_CAPABILITY",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_sha256": "sha256:9ce33b7613def02831f81179cb792705462c4e865ddcc4db342e964256ef818f",
+      "durable_count": 1,
+      "program_id": "sysprog:bba5ddbfb1e6bbb45750fd9cdf8d992fda3b005cc10919a030a9c1114a9d52c5",
+      "receipt_count": 12,
+      "receipt_root": "d9e7627513369010c328616838ce6f47a129bf6a902130f8a0bb514155135c4b",
+      "scenario": "06_END_TO_END_MAINFRAME",
+      "status": "CLOSED"
+    },
+    {
+      "bytecode_sha256": "sha256:d81270ced91d272473b99de8a5f7f556caa70f378935de30ee2203c33eeef318",
+      "durable_count": 0,
+      "program_id": "sysprog:bb4971dc4d38ac92dc4702e2a6b120ead512277835e44065b90cffbb0d73febf",
+      "receipt_count": 5,
+      "receipt_root": "5c18ab0d23e64ed524e30cf3f0830d92219838b627b2d24b531593783a37fe41",
+      "scenario": "07_API_PORT_QUERY",
+      "status": "CLOSED"
+    }
+  ]
+}

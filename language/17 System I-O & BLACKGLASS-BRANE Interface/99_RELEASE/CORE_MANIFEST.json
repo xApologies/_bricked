@@ -1,0 +1,25 @@
+{
+  "architecture": {
+    "blackglass_role": "operations base/mainframe host",
+    "brane_role": "5D module validation + request-relative 6D realization",
+    "host_contract": "B^6 = I x D x Chi x R x P x Z",
+    "io_authority": "explicit capability only",
+    "module_contract": "M^5 = I x D x Chi x R x P",
+    "persistent_write": "proposal -> admission -> durable CAS reference"
+  },
+  "date_anchor": "20260821",
+  "folder_name": "GENESIS_CHIRALITY_MACHINE_SECTION_17_SYSTEM_IO_BLACKGLASS_BRANE_v0.1.0_20260821",
+  "language_reference_version": "0.6.0",
+  "negative_policy_witnesses": "2/2 PASS",
+  "next_section": "Section 18 \u2014 Compiler Toolchain + Diagnostics + Debugging",
+  "reference_scenarios": "7/7 CLOSED",
+  "section": 17,
+  "section16_regression": "64/64 PASS",
+  "section17_tests": "80/80 PASS",
+  "system_opcode_window": [
+    "0x00B0",
+    "0x00BB"
+  ],
+  "title": "System I/O + BLACKGLASS/BRANE Interface",
+  "version": "0.1.0"
+}

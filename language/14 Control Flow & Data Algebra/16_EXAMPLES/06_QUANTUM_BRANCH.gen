@@ -1,0 +1,14 @@
+genesis 0.3.0
+module example.quantum_branch {
+  let cond : BOOL = true
+  en fab : FABRIC = mount "fabric://reference"
+  en reg : REGION = alloc fab cells 32
+  en g : GEOMETRIC = instantiate fab reg mmo @fixture
+  q prepare g as q0
+  if cond {
+    q measure q0 as m1
+  } else {
+    q measure q0 as m2
+  }
+  export g : GEOMETRIC
+}

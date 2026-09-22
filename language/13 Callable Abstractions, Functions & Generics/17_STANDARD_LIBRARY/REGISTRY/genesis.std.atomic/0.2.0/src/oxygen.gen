@@ -1,0 +1,7 @@
+genesis 0.1.0
+module genesis.std.atomic.oxygen {
+  use genesis.std.fabric.reference::fabric as fabric : FABRIC
+  en region : REGION = alloc fabric cells 8192
+  en geo : GEOMETRIC = instantiate fabric region mmo @oxygen_reference
+  export geo : GEOMETRIC<CLOSED,UNBOUND>
+}

@@ -1,0 +1,28 @@
+genesis 0.4.0
+module recursion.nested {
+  rec fn down(n: INT) -> INT decreases n max_depth 64 {
+    let zero : INT = 0
+    let done : BOOL = le n zero
+    if done {
+      return n
+    } else {
+      let one : INT = 1
+      let next : INT = sub n one
+      recur down(next) as out
+      return out
+    }
+  }
+  rec fn twice(n: INT) -> INT decreases n max_depth 64 {
+    let zero : INT = 0
+    let done : BOOL = le n zero
+    if done {
+      return n
+    } else {
+      call down(n) as first
+      return first
+    }
+  }
+  let start : INT = 4
+  call twice(start) as result
+  export result : INT
+}

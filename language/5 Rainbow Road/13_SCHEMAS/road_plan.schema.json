@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "road_id",
+    "source_instance_id",
+    "leg_plans",
+    "hold_requirements",
+    "transport_holonomy_witness"
+  ],
+  "type": "object"
+}

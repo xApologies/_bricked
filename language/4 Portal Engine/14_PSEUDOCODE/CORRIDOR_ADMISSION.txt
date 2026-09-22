@@ -1,0 +1,11 @@
+CORRIDOR_ADMISSION(source, target, payload, requirements):
+    paths <- enumerate simple paths source -> target
+    FOR path IN paths:
+        reject if any edge lacks sector support
+        reject if any edge rejects chirality/residue class
+        reject if min Resolution < R_min
+        reject if min Bandwidth < B_min
+        reject if any edge available capacity < required units
+        reject if target edge cannot close
+    rank survivors deterministically
+    return best path with complete witness

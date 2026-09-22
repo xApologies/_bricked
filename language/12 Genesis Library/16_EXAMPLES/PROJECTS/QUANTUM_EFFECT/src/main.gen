@@ -1,0 +1,12 @@
+genesis 0.1.0
+module app.quantum_effect {
+  use genesis.std.atomic.hydrogen::geo as g0 : GEOMETRIC<CLOSED,UNBOUND>
+  q prepare g0 as q0 @{"basis":["0","1"]}
+  q superpose q0 as q1 @{"amplitudes":["1/sqrt(2)","1/sqrt(2)"]}
+  q channel q1 as q2 @{"channel":"IDENTITY","preserve_coherence":true}
+  q measure q2 as qr @{"outcome":0,"reference_seed":"GENESIS-SECTION12"}
+  seal qr as seal @{"effect":"measurement"}
+  emit receipt as receipt
+  export qr : QRESULT<CLASSICAL>
+  export receipt : RECEIPT<EXECUTION>
+}

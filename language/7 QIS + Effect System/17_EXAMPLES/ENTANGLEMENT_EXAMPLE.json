@@ -1,0 +1,10 @@
+{
+  "kind": "GENESIS_QUANTUM_EXAMPLE",
+  "members": [
+    "MMO_A:view",
+    "MMO_B:view"
+  ],
+  "operation": "ENTANGLE",
+  "rule": "relationship is not transportation; Portal remains required for controllable payload transfer",
+  "state": "(|00>+|11>)/sqrt(2)"
+}

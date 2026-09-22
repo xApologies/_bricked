@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "actual_effects": {
+      "type": "array"
+    },
+    "call_id": {
+      "pattern": "^gcall-",
+      "type": "string"
+    },
+    "declared_effects": {
+      "type": "array"
+    },
+    "function": {
+      "type": "string"
+    },
+    "output": {
+      "type": "string"
+    },
+    "specialization_id": {
+      "pattern": "^gmono-",
+      "type": "string"
+    },
+    "type_args": {
+      "type": "array"
+    },
+    "value_args": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "call_id",
+    "function",
+    "specialization_id",
+    "type_args",
+    "value_args",
+    "output",
+    "declared_effects",
+    "actual_effects"
+  ],
+  "title": "Genesis Call Expansion",
+  "type": "object"
+}

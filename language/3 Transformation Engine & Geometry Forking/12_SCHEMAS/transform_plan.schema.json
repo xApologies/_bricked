@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "plan_id": {
+      "maxLength": 64,
+      "minLength": 64,
+      "type": "string"
+    }
+  },
+  "required": [
+    "plan_id",
+    "parent_instance_id",
+    "child_instance_id",
+    "pre_state_root",
+    "capability_profile",
+    "effects",
+    "operators"
+  ],
+  "title": "TransformPlan",
+  "type": "object"
+}

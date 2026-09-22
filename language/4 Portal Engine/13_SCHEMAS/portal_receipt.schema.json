@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "status": {
+      "enum": [
+        "CLOSED",
+        "FAILED"
+      ]
+    }
+  },
+  "required": [
+    "kind",
+    "status",
+    "portal_id",
+    "source_instance_id",
+    "destination_instance_id",
+    "corridor",
+    "source_content_root",
+    "destination_content_root"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "canonical_mmo_id": {
+      "type": "string"
+    },
+    "fabric_tag": {
+      "type": "integer"
+    },
+    "instance_id": {
+      "type": "string"
+    },
+    "mapping_profile": {
+      "type": "string"
+    },
+    "region": {
+      "type": "object"
+    },
+    "representation_id": {
+      "type": "string"
+    },
+    "segment_sha256": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "instance_id",
+    "canonical_mmo_id",
+    "representation_id",
+    "fabric_tag",
+    "region",
+    "mapping_profile",
+    "segment_sha256",
+    "state"
+  ],
+  "type": "object"
+}

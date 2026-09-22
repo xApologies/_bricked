@@ -1,0 +1,114 @@
+{
+  "BLANK": {
+    "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+    "grid_shape": [
+      32,
+      32,
+      32
+    ],
+    "m5_keys": [
+      "Chi",
+      "D",
+      "I",
+      "P",
+      "R"
+    ],
+    "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+    "region": {
+      "alignment": 128,
+      "count": 32768,
+      "guard_after": 0,
+      "guard_before": 0,
+      "start": 229376
+    },
+    "required_cells": 32768,
+    "segment_bytes": 1314816,
+    "segment_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+    "source_kind": "BLANK_MANIFOLD_V0_1",
+    "state": "LIVE"
+  },
+  "HSV1": {
+    "canonical_mmo_id": "HSV1-REFERENCE-MMO-QMODEL-01",
+    "grid_shape": [
+      32,
+      32,
+      32
+    ],
+    "m5_keys": [
+      "Chi",
+      "D",
+      "I",
+      "P",
+      "R"
+    ],
+    "mapping_profile": "MMO_3P1P1_DENSE_V1",
+    "region": {
+      "alignment": 128,
+      "count": 163840,
+      "guard_after": 0,
+      "guard_before": 0,
+      "start": 0
+    },
+    "required_cells": 163840,
+    "segment_bytes": 6557696,
+    "segment_sha256": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d",
+    "source_kind": "HSV1_V028",
+    "state": "LIVE"
+  },
+  "HYDROGEN": {
+    "canonical_mmo_id": "H:HYDROGEN_V2",
+    "grid_shape": [
+      32,
+      32,
+      32
+    ],
+    "m5_keys": [
+      "Chi",
+      "D",
+      "I",
+      "P",
+      "R"
+    ],
+    "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+    "region": {
+      "alignment": 128,
+      "count": 32768,
+      "guard_after": 0,
+      "guard_before": 0,
+      "start": 163840
+    },
+    "required_cells": 32768,
+    "segment_bytes": 1314816,
+    "segment_sha256": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682",
+    "source_kind": "HYDROGEN_V2",
+    "state": "LIVE"
+  },
+  "OXYGEN": {
+    "canonical_mmo_id": "O:OXYGEN_PHASE5_V1",
+    "grid_shape": [
+      32,
+      32,
+      32
+    ],
+    "m5_keys": [
+      "Chi",
+      "D",
+      "I",
+      "P",
+      "R"
+    ],
+    "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+    "region": {
+      "alignment": 128,
+      "count": 32768,
+      "guard_after": 0,
+      "guard_before": 0,
+      "start": 196608
+    },
+    "required_cells": 32768,
+    "segment_bytes": 1314816,
+    "segment_sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322",
+    "source_kind": "OXYGEN_PHASE5_V1",
+    "state": "LIVE"
+  }
+}

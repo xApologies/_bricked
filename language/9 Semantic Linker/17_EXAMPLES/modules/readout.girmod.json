@@ -1,0 +1,64 @@
+{
+  "effects": [
+    "PROJECT",
+    "PROVENANCE"
+  ],
+  "exports": [
+    {
+      "symbol": "m5",
+      "type": "M5",
+      "value": "%m5"
+    },
+    {
+      "symbol": "receipt",
+      "type": "RECEIPT",
+      "value": "%receipt"
+    }
+  ],
+  "gir": {
+    "edges": [],
+    "nodes": [
+      {
+        "args": [
+          "%source"
+        ],
+        "attrs": {
+          "P": "section09-link"
+        },
+        "id": "01_m5",
+        "op": "BRANE_LIFT",
+        "out": "%m5",
+        "type": "M5"
+      },
+      {
+        "args": [
+          "%m5"
+        ],
+        "attrs": {
+          "stage": "readout"
+        },
+        "id": "02_seal",
+        "op": "PROVENANCE_SEAL",
+        "out": "%seal",
+        "type": "RECEIPT"
+      },
+      {
+        "id": "03_emit",
+        "op": "EMIT_RECEIPT",
+        "out": "%receipt",
+        "type": "RECEIPT"
+      }
+    ]
+  },
+  "imports": [
+    {
+      "from": "qft_leg",
+      "local": "%source",
+      "symbol": "destination",
+      "type": "GEOMETRIC<CLOSED,QFT>"
+    }
+  ],
+  "ir": "GIR-MODULE",
+  "module": "readout",
+  "version": "0.1.0"
+}

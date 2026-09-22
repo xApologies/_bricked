@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "pattern": "^[A-Za-z_][A-Za-z0-9_]*(<[^<>]+>)?$",
+  "title": "Genesis refined type expression",
+  "type": "string"
+}

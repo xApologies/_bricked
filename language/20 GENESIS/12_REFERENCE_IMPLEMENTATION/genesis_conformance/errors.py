@@ -1,0 +1,1 @@
+class ConformanceError(RuntimeError): pass

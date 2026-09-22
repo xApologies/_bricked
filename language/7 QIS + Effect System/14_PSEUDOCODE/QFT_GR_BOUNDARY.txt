@@ -1,0 +1,7 @@
+CROSS_QFT_GR(state, bridge):
+    if request says preserve live quantum coherence/entanglement:
+        reject: bridge is structural transduction, not quantum channel
+    choose:
+        measure/classicalize before bridge
+        OR construct StructuralInvariantCapsule and bridge structural information
+        OR use future explicitly registered quantum bridge channel

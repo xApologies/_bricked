@@ -1,0 +1,21 @@
+genesis 0.4.0
+module recursion.fibonacci {
+  rec fn fib(n: INT) -> INT decreases n max_depth 64 {
+    let one : INT = 1
+    let base : BOOL = le n one
+    if base {
+      return n
+    } else {
+      let two : INT = 2
+      let n1 : INT = sub n one
+      let n2 : INT = sub n two
+      recur fib(n1) as a
+      recur fib(n2) as b
+      let out : INT = add a b
+      return out
+    }
+  }
+  let start : INT = 10
+  call fib(start) as result
+  export result : INT
+}

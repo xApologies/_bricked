@@ -1,0 +1,1 @@
+Section 11 reuses the five executable Section 10 reference source programs and adds a synthetic pure-GIR optimizer fixture in the test suite. The five source programs are copied into the reference build corpus with optimized GIR, GVM, disassembly, receipts, and differential-equivalence reports.

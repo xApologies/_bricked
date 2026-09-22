@@ -1,0 +1,32 @@
+{
+  "backend_capabilities": [
+    "corridor",
+    "portal",
+    "qft_gr_bridge"
+  ],
+  "dependencies": {
+    "genesis.std.core": "0.2.0"
+  },
+  "description": "Executable explicit sector-bridge callables.",
+  "effects": [
+    "ADMIT",
+    "CLOSE",
+    "INHERIT",
+    "PROVENANCE",
+    "TRANSDUCE",
+    "TRANSPORT"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.bridge.callables",
+      "path": "src/callables.gen"
+    }
+  ],
+  "name": "genesis.std.bridge",
+  "schema_version": "0.1.0",
+  "version": "0.2.0"
+}

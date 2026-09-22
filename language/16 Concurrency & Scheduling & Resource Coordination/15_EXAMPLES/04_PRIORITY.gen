@@ -1,0 +1,15 @@
+genesis 0.5.0
+module priority {
+  task high priority 20 quantum 1 {
+    work 2 high
+    close
+  }
+  task low priority 1 quantum 1 {
+    work 2 low
+    close
+  }
+  spawn low as l
+  spawn high as h
+  join l h
+  export schedule
+}

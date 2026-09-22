@@ -1,0 +1,12 @@
+ROAD_PREFLIGHT(request):
+    require >= 1 waypoint
+    require homogeneous sector in Section 05
+    source <- request.source_address
+    FOR target IN request.waypoints:
+        corridor <- CORRIDOR_ADMISSION(source,target,requirements)
+        append corridor witness
+        accumulate min Resolution / min Bandwidth / cost / colors
+        hold_requirements[edge] <- max(existing, request.capacity_units)
+        source <- target
+    road_id <- digest(source identity + ordered waypoints + ordered corridor witnesses + constraints)
+    return immutable RoadPlan

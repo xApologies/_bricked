@@ -1,0 +1,18 @@
+{
+  "channel": "IDENTITY",
+  "kind": "QUANTUM_PORTAL_REQUEST_EXAMPLE",
+  "preserve": {
+    "coherence": true,
+    "entanglement": false,
+    "norm": true,
+    "trace": true
+  },
+  "source": {
+    "domain_id": "RED",
+    "sector": "QFT"
+  },
+  "target": {
+    "domain_id": "GREEN",
+    "sector": "QFT"
+  }
+}

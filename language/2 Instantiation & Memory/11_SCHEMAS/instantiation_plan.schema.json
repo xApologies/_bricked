@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "plan_id",
+    "instance_id",
+    "canonical_mmo_id",
+    "fabric_tag",
+    "mapping_profile",
+    "required_cells",
+    "region"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,4 @@
+HSV1 QFT PASS road=b29b910c7353ae25ec10df65b8027fd39556f3638e60c635133b7e38ff8d5761 portals=2 colors=Red->Orange->Green->Violet
+HYDROGEN GR PASS road=a6c863383d4b0c6467d283d75092de5aee6a9efe57c112cec877e5a28f23b2ed portals=2 colors=Red->Orange->Green->Violet
+OXYGEN GR PASS road=b6df576de37fb3b8d95319fd02e4b2111c1aaf6a42f7ad26f7ebd5da621ed0f4 portals=2 colors=Red->Orange->Green->Violet
+BLANK GENERIC PASS road=2c6c9d810e8be70783e3bb5714f3777a3e58a38f05064b92893a6bfaaca4db10 portals=2 colors=Red->Orange->Green->Violet

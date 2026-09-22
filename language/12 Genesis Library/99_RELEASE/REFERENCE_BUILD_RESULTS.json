@@ -1,0 +1,47 @@
+{
+  "FIRST_PORTAL": {
+    "equivalence": "PASS",
+    "gvm_sha256": "4f1c5ba8ee54e54f224fb2cd370cf4e47de32d37ebcc68e032af26600ff51c25",
+    "halted": true,
+    "package_build_id": "gpkg-638b3c126af3794263e3e43c",
+    "packages": 6,
+    "resolution_root": "a9dfce638b920add577cc0109198483937d3fdc421b1a13585dc27caae3dde4f",
+    "steps": null
+  },
+  "MIXED_SECTOR": {
+    "equivalence": "PASS",
+    "gvm_sha256": "79d89ae0afbda49b5f42582ca3cbdb71d29187e5c9d41fb17dc5a0991a1308cb",
+    "halted": true,
+    "package_build_id": "gpkg-92aee9b4a1fc05554785cd64",
+    "packages": 7,
+    "resolution_root": "f53b73e1b0f863223789849610f830614ef940282f98c77505eb8991766af275",
+    "steps": null
+  },
+  "PACKAGE_CHAIN": {
+    "equivalence": "PASS",
+    "gvm_sha256": "4834334d097d9c6f3b91965994fa02f67da8af85a7594e02dcca98637b3d6f02",
+    "halted": true,
+    "package_build_id": "gpkg-b1b737e7e8b8afa18eae4a8d",
+    "packages": 7,
+    "resolution_root": "ec44a1b83b3daa75ce0227b6fd041f971541b89fa99a79b16e9b6910fea82c35",
+    "steps": null
+  },
+  "QUANTUM_EFFECT": {
+    "equivalence": "PASS",
+    "gvm_sha256": "f57deb8764660a578c3ed411693cf236d5077c8ff6399affbe1f3987c4dea931",
+    "halted": true,
+    "package_build_id": "gpkg-46c4cd150a114f04f0755d58",
+    "packages": 5,
+    "resolution_root": "60800415b1e84daf180b7a5028bec3374cc2ef58d6ca2925ce6dfb6774f68a67",
+    "steps": null
+  },
+  "RAINBOW_ROAD": {
+    "equivalence": "PASS",
+    "gvm_sha256": "65ab8d08ed4840aa921919853d40cfb0e5bde3536a1c9f57c898667b5fd93ffe",
+    "halted": true,
+    "package_build_id": "gpkg-18a50c1e1a2a74cfdcba5f46",
+    "packages": 7,
+    "resolution_root": "92fb6e732584af1fc4238f8850a3d274c0a153e5642638fd7a204add8ba5da8d",
+    "steps": null
+  }
+}

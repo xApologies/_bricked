@@ -1,0 +1,18 @@
+genesis 0.6.0
+module derived_write {
+  capability io.source.read
+  capability io.derived.read
+  capability io.derived.write
+  capability cas.put
+  capability cas.get
+  endpoint source kind SOURCE mode READ root source
+  endpoint derived kind DERIVED mode READ_WRITE root derived
+  read source "input.bin" as raw
+  write derived "copies/output.bin" from raw
+  read derived "copies/output.bin" as reread
+  assert_eq raw reread
+  cas_put reread as ref
+  cas_get ref as restored
+  assert_eq raw restored
+  close
+}

@@ -1,0 +1,29 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "0.2.0",
+    "genesis.std.core": "0.2.0"
+  },
+  "description": "Generic callable monomorphization over a closed Geometric.",
+  "effects": [
+    "TRANSFORM",
+    "INHERIT",
+    "PROVENANCE"
+  ],
+  "entry_exports": [
+    "app.section13.generic_fork::child",
+    "app.section13.generic_fork::seal"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.section13.generic_fork",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.section13.generic_fork",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

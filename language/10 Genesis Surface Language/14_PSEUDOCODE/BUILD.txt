@@ -1,0 +1,9 @@
+for each .gen file:
+    parse
+    lower
+    static-check module
+collect modules
+construct GENESIS-LINK bundle
+Section09.link_bundle(bundle)
+Section08.verify(GVM)
+emit bytecode + frontend receipt

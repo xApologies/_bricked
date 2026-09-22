@@ -1,0 +1,60 @@
+{
+  "effects": [
+    "READ_FABRIC",
+    "ALLOCATE",
+    "INHERIT"
+  ],
+  "exports": [
+    {
+      "symbol": "geo",
+      "type": "GEOMETRIC<CLOSED,UNBOUND>",
+      "value": "%geo"
+    }
+  ],
+  "gir": {
+    "edges": [],
+    "nodes": [
+      {
+        "attrs": {
+          "uri": "fabric://chirality/reference-v1"
+        },
+        "id": "01_mount",
+        "op": "FABRIC_MOUNT",
+        "out": "%fabric",
+        "type": "FABRIC"
+      },
+      {
+        "args": [
+          "%fabric"
+        ],
+        "attrs": {
+          "cells": 4096
+        },
+        "id": "02_alloc",
+        "op": "FABRIC_ALLOC",
+        "out": "%region",
+        "type": "REGION"
+      },
+      {
+        "args": [
+          "%fabric",
+          "%region"
+        ],
+        "attrs": {
+          "mmo": {
+            "class": "MMO",
+            "handle": "@hydrogen_reference"
+          }
+        },
+        "id": "03_geo",
+        "op": "GEO_INSTANTIATE",
+        "out": "%geo",
+        "type": "GEOMETRIC"
+      }
+    ]
+  },
+  "imports": [],
+  "ir": "GIR-MODULE",
+  "module": "fixture",
+  "version": "0.1.0"
+}

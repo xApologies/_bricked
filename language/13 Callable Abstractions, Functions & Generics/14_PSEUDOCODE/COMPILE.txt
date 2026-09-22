@@ -1,0 +1,22 @@
+COMPILE_CALLABLE_SOURCES(sources):
+    parse every source as extended Genesis module
+    build global callable table
+    validate public imports
+    reject recursive call graph
+    expand every top-level call deterministically
+    normalize expanded modules to Genesis 0.1 core source
+    invoke Section 10 frontend
+    invoke Section 09 linker/static proof
+    verify each specialized return contract against refined linked type
+    record callable proof ledger
+    return callable receipt + ordinary frontend build
+
+PACKAGE_BUILD(project):
+    resolve Section 12 package graph and lockfile
+    audit value imports and callable imports against direct dependencies
+    audit package effect budgets including function contracts
+    compile callable sources
+    optimize expanded core sources through Section 11
+    require differential equivalence PASS
+    encode and execute GVM through Section 08 reference VM
+    write lockfile, bytecode, disassembly, callable receipts, proof ledger, expansion ledger

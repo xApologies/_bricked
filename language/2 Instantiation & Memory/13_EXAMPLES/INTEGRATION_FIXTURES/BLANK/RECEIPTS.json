@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "INSTANTIATION_PLAN",
+    "plan_id": "0abf92b8538a6b3d6d5a2386f61a9c7d33fe730bbcc798635603accfe5ded016",
+    "timestamp_ns": 1787336439755303156
+  },
+  {
+    "kind": "SEGMENT_COMMIT",
+    "payload_hash": "95f45fab528df4e144c8c8b014d51f99f3a470b6447ad1f34b18e9326a7464cc",
+    "file_sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f",
+    "record_count": 32768,
+    "timestamp_ns": 1787336439755304899
+  },
+  {
+    "kind": "REGION_COMMIT",
+    "allocation": {
+      "reservation_id": "351efb46bd814aa7f008a9c1",
+      "owner": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+      "start": 229376,
+      "count": 32768,
+      "guard": 0,
+      "state": "COMMITTED"
+    },
+    "timestamp_ns": 1787336439755305880
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "required": [
+      "node",
+      "file",
+      "line",
+      "surface"
+    ],
+    "type": "object"
+  },
+  "title": "Genesis Source Map",
+  "type": "array"
+}

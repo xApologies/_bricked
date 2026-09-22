@@ -1,0 +1,5 @@
+EFFECT_ADMISSION(program, capability):
+    effects = UNION(operator.effects for operator in program)
+    if effects not subset capability.allowed:
+        fail TRANSFORM_EFFECT_DENIED
+    return admitted

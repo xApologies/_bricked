@@ -1,0 +1,20 @@
+genesis 0.4.0
+module recursion.sum_accumulator {
+  rec fn sum_to(n: INT, acc: INT) -> INT decreases n max_depth 128 {
+    let zero : INT = 0
+    let done : BOOL = le n zero
+    if done {
+      return acc
+    } else {
+      let one : INT = 1
+      let next : INT = sub n one
+      let next_acc : INT = add acc n
+      recur sum_to(next, next_acc) as out
+      return out
+    }
+  }
+  let start : INT = 100
+  let zero : INT = 0
+  call sum_to(start, zero) as result
+  export result : INT
+}

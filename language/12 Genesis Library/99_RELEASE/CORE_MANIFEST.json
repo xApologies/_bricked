@@ -1,0 +1,750 @@
+{
+  "controlled_files": 148,
+  "files": [
+    {
+      "path": "00_START_HERE/FOLDER_NAME.txt",
+      "sha256": "d9f99002cc701e60e31f5eee51d6283a97104fa4efbe98a148673fd41b467be7",
+      "size": 76
+    },
+    {
+      "path": "00_START_HERE/README.md",
+      "sha256": "de4cc6068dcb99d6f0272765dfb088b427e8085df3ecbb573e40a6a921fd9bcf",
+      "size": 1348
+    },
+    {
+      "path": "00_START_HERE/RECOVERY_ORDER.md",
+      "sha256": "a2f2fb77c8cee5ab6b028d8fa9b013cc4c13ade76a5e5acc26c8d8b685c89e9f",
+      "size": 483
+    },
+    {
+      "path": "01_ARCHITECTURE/ARCHITECTURE.md",
+      "sha256": "1d7523c08354d7bfce5ae51fb6ca16f9d031022c035b409064b3fc7c6e152475",
+      "size": 1421
+    },
+    {
+      "path": "01_ARCHITECTURE/DESIGN_INVARIANTS.md",
+      "sha256": "bf239a441ecefae86c2269060a3d71e9b8e15149ccd724288ee94143f008bda9",
+      "size": 1306
+    },
+    {
+      "path": "02_PACKAGE_CONSTITUTION/PACKAGE_CONSTITUTION.md",
+      "sha256": "dac1adfc82980922d5ec451cadf7f43bbc41fdd557200c6380b4862648bededc",
+      "size": 599
+    },
+    {
+      "path": "02_PACKAGE_CONSTITUTION/SEMVER_PROFILE.md",
+      "sha256": "73e31bd70ab5d249e129b115c23c8766df9563d546b1ee2084bde7184451fa74",
+      "size": 343
+    },
+    {
+      "path": "03_MANIFEST_AND_LOCK/MANIFEST.md",
+      "sha256": "4f9eb4b8e9238a6ce8341bab6a10deedc569a09ef0fc90945777f2de944fa3a4",
+      "size": 384
+    },
+    {
+      "path": "04_REGISTRY/REGISTRY.md",
+      "sha256": "ab66980830c2ebe7c6c7891582a4792b6a4161a0867f16f7ea3df101ab44d7a1",
+      "size": 331
+    },
+    {
+      "path": "05_CONTENT_STORE/STORE.md",
+      "sha256": "3974c9aee115efa53d94ad39d998b8854d28375f2d8cdcd84d2b7d4f5bad379c",
+      "size": 277
+    },
+    {
+      "path": "06_DEPENDENCY_RESOLUTION/RESOLUTION.md",
+      "sha256": "28722dc7ba40960ae9b020e53618eb7c62d138fe175543c0758a111fd0e1fe83",
+      "size": 471
+    },
+    {
+      "path": "07_MODULE_OWNERSHIP/IMPORT_DISCIPLINE.md",
+      "sha256": "b9c0288ee9455d221d19d9b4161b04dfb7d6afd3823ef751eb14251362156177",
+      "size": 437
+    },
+    {
+      "path": "08_EFFECT_CAPABILITY_CONTRACTS/EFFECTS.md",
+      "sha256": "7501f408c513855a8bfeaf461080f0f29df59db8bad366f2e64b90678b7cf9db",
+      "size": 425
+    },
+    {
+      "path": "09_STANDARD_LIBRARY/STDLIB.md",
+      "sha256": "17ff0688ed3abd1c26ca53bed214f139b078393cd67fcb3be2e0e7d617917ccc",
+      "size": 955
+    },
+    {
+      "path": "10_BUILD_RUNTIME/BUILD_PIPELINE.md",
+      "sha256": "904f8beeb69951b1c8534185326c13adcc829bec5bb23e926bc4c89751d4c0a2",
+      "size": 580
+    },
+    {
+      "path": "11_FAILURE_MODEL/FAILURES.md",
+      "sha256": "08f74aebb82f1d004f89ff3268dd982934c3d65e28ae90656ee9213ac8a19247",
+      "size": 516
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/README.md",
+      "sha256": "7e714a4ade21a70a94e14339da365224fd363e107610b08078ada8c0514ed29d",
+      "size": 269
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__init__.py",
+      "sha256": "fae7e6b263917e9114b7228e925bf994e560f8278ce59ee74396135e34e3c848",
+      "size": 220
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__main__.py",
+      "sha256": "0064ebf1345fac89bc61cdd9f4059927234a8a997717968656f8d5e48c41ae63",
+      "size": 1622
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/compiler.py",
+      "sha256": "a92ecf17e1202e64267f0ddb2734d1a6749d3179bae0e5d067c44d96cac2533e",
+      "size": 1827
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/formatter.py",
+      "sha256": "ec605c87e72101962a08202a47a64a61415ea1a7e2e9f7605618350cf1b2eabc",
+      "size": 343
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/lower.py",
+      "sha256": "2db6b66afea39c8993761ca75005dc39b69d3b1a29da1df262ae98b5d2a2eb1b",
+      "size": 2910
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/model.py",
+      "sha256": "192bf19ed4fc9c9257f04a688e731a3701c6fed4babc6e2852805d0b0bdb39f4",
+      "size": 1658
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/parser.py",
+      "sha256": "d116062723dde2854218c07dd7fc4424487594b13ef18049d612d912061be4ef",
+      "size": 7550
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/util.py",
+      "sha256": "834a89effc43c038d510e83f648810b4c9cbb6bc26722124d4e1191f994a51d3",
+      "size": 1287
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__init__.py",
+      "sha256": "c0dc76a97c928296ac4db7ebeb514088368730cfc0756c89c66196beff9b6685",
+      "size": 301
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__main__.py",
+      "sha256": "a647f017ed1d7e92031290ad2da66069643be169c2946db6442ca8399749e8e2",
+      "size": 850
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/capabilities.py",
+      "sha256": "507465cdeb13da35f6f11ef5a537668dd41158555acc9780d129b2f2e13c3b17",
+      "size": 2556
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/checker.py",
+      "sha256": "e52fd356d2b2cccad8858547cf4511d361d4f9196cf2e63012c1e53b5889b613",
+      "size": 10583
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/effects.py",
+      "sha256": "62c3f6196db7440c791cb986742c4295482f46dd09d3931c5d809bfd146850b7",
+      "size": 1099
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/errors.py",
+      "sha256": "94cc2751be9b7144006eaec4507d9eb5c1ce5db7f3940f1dfcc98e40195f5e1b",
+      "size": 187
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/linker.py",
+      "sha256": "da96e14c7919e7ee72de25cb498bc16a53afcea2125523db91493812fe325d0f",
+      "size": 6505
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/model.py",
+      "sha256": "64698c099b3366db29647545616a013ecdb7fb48a8715c8c2cab4f2152d984e9",
+      "size": 1191
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/proofs.py",
+      "sha256": "db9abd007c16c4174e4986e528167cdf44635b66a46034c8f989fd0f2f798b0f",
+      "size": 1678
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/typesys.py",
+      "sha256": "d05fd7bdfaf24048c68228e5d99b6364ff536abd0338c10cd3c1e389400b0f19",
+      "size": 1532
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/util.py",
+      "sha256": "3a7ddd90bf939e8026a62d9643a97191f90326473de40c5c11dd110de7b3cbf1",
+      "size": 283
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__init__.py",
+      "sha256": "33fba7a3fae7ae58be7fc63a7c9282885e362ac5a30c3243a00bfb4c133d8fa9",
+      "size": 247
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__main__.py",
+      "sha256": "ed9f8cc3851d18ffdd08cb3ec5764c479226040a07221c8428498750f4563a25",
+      "size": 1015
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/assembler.py",
+      "sha256": "734fa2db039453a44f27ac762b2c5766f7280c2052a4015180e7ceda256dcfcd",
+      "size": 442
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/backend.py",
+      "sha256": "e55b03908137bd18f5734d167cff332f7aafde315f89a0297b61cb77db62118d",
+      "size": 6716
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/bytecode.py",
+      "sha256": "a401dfd6d15e41a8347018c3da28a2da1205c14a38c164bf0a1de60fbc90ec22",
+      "size": 2308
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/compiler.py",
+      "sha256": "19a36545de85e5debc5181730c143ec6a20909404c5dfb77b1690de73da2d527",
+      "size": 1876
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/disasm.py",
+      "sha256": "a307bb72b9ee8df9e44723b23202f199978ee512fef027d8bfddf615be20d68d",
+      "size": 454
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/errors.py",
+      "sha256": "450a87adca6dd4b910b8ab02853bcc4531dc489c7a6e4c3e8a2f7be74f2768fc",
+      "size": 328
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/graph.py",
+      "sha256": "a0335810eb72d2112b0061d2728e76d1bd186c3f08c184bcc9adc811ac9be16e",
+      "size": 1622
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/isa.py",
+      "sha256": "0e646975428d09282eed3a4815fb41dc1068b9ae3c9510b7244bed3e968a3302",
+      "size": 2673
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/model.py",
+      "sha256": "90f8c4a8484e37f21eb40b5244fb9c5040da08cc4ac2ddb64dc61960c9e9075c",
+      "size": 2344
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/runtime.py",
+      "sha256": "7818b1cb7a56f99c4418c2e6f1abeb7930840250174f3fcfd0bb391a1dec8a37",
+      "size": 6723
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/util.py",
+      "sha256": "3a5076a106c7259cedd1f80085a7670ffe2874c786fc6a4bbfc06686620aa39d",
+      "size": 306
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/verifier.py",
+      "sha256": "3804c6d3598458f5e98e22cb5c463a04acdd83ad5eee6a2f63394fcdc6cce977",
+      "size": 3562
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__init__.py",
+      "sha256": "b5b6b54887466bb20d57cf7838993dcc604b6877250d7d06bf12fb89292b9faa",
+      "size": 239
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__main__.py",
+      "sha256": "ab487f23096acef4498f4be79e623d0cf0fd39876f2362d6ea23e021a12818e1",
+      "size": 1355
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/analysis.py",
+      "sha256": "4f45772a3536b3698e825a0f361433851ccaee9e823c4edd0d8fe866ac2c6a1a",
+      "size": 1345
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/codegen.py",
+      "sha256": "1a9cd7ac8d073af1b1b1fedf9a6d12ebeb48c2fb2219af0fe93c328ad7ca5db4",
+      "size": 1476
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/effects.py",
+      "sha256": "87a36d21e8fd6767b4a188523fa7d11d51ad106626f59df92f3c2ed102851387",
+      "size": 532
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/equivalence.py",
+      "sha256": "c7e0138875f92ffc0cad3e54df002387e099e6f62179e5596816ef0fba93d465",
+      "size": 838
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/frontend.py",
+      "sha256": "fa16d57a4046f9cebd2a4ccaada236dee98263d7ea986c5340c4e67e5debb0ad",
+      "size": 711
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/optimizer.py",
+      "sha256": "db82aa24dfd5bc7ae233c95dcf06d584a932f26bb9e0223ec5b23b9bd5d3d15f",
+      "size": 2252
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/passes.py",
+      "sha256": "96e0806a935f7a176b20c29c8c89157b1e559999bda8be9174047d4c7ecbaec8",
+      "size": 4255
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/util.py",
+      "sha256": "aea3eb2869a8907ddc664e92d5bae597a2c42e3bd937b279635041b44e645ee2",
+      "size": 451
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__init__.py",
+      "sha256": "5181ff9be7cf4f8cc0ba570aaff112810f88508d71a1f4382806feda8687aaf9",
+      "size": 347
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__main__.py",
+      "sha256": "ad0c3ddabb0e6fae0f02e7c9a14d47df6c548ec0550a148024b716bd6e33d6f7",
+      "size": 843
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/errors.py",
+      "sha256": "000901c0e4cc25b9ee66c974136385ee7d72c87612e62df3b03cf4807f9474c4",
+      "size": 396
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/lockfile.py",
+      "sha256": "0262ffa22a4a9de0787ef5dfe0a9bfd603a97d02b48db84398d7617a50a46759",
+      "size": 1164
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/manifest.py",
+      "sha256": "d29bac6a7e1d1e63f55fe4e68941bc4e75284bf204560e9f2ab4d854f6abd341",
+      "size": 3098
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/registry.py",
+      "sha256": "cadffb9036cdfd2214355f7f3124dc1ceda8b7eabf827ca582be99d31762f0a3",
+      "size": 1467
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/resolver.py",
+      "sha256": "2fcc4753ce1d5140e38b012366596c76ed039f815d5db127b978c4f35787185f",
+      "size": 2354
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/runtime.py",
+      "sha256": "766485e6ac305f7f8b5cc994cfa661ccaa9ac177e4b95fe1aaa8fea6bad5e544",
+      "size": 7804
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/semver.py",
+      "sha256": "2caff67f3c401331d059ab734d870043d81c6a0742dcd49fdfcc1295fa19aac5",
+      "size": 1465
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/store.py",
+      "sha256": "958c1e670eec133fee63ac0558d381cbfeae52c7d94aab3583f6873b56cebed1",
+      "size": 842
+    },
+    {
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/util.py",
+      "sha256": "e51614d14ba6cbc67fee6cb30e79436a862a8ed0103e95575b1c2a913ab418ad",
+      "size": 904
+    },
+    {
+      "path": "13_SCHEMAS/lockfile.schema.json",
+      "sha256": "153dd3b8ebd1917573fc42f9796a7cc3ed5989f2bac2c5f655b9d072a76346b9",
+      "size": 406
+    },
+    {
+      "path": "13_SCHEMAS/package_build_receipt.schema.json",
+      "sha256": "0f00089a236840fd8f27e3715f5ca65972356e51a74d9067b3d2e8fc58d65257",
+      "size": 397
+    },
+    {
+      "path": "13_SCHEMAS/package_manifest.schema.json",
+      "sha256": "668b525e6799830222893676bf34a57ded2fc001237f2bce120ac1630435c790",
+      "size": 1026
+    },
+    {
+      "path": "14_PSEUDOCODE/BUILD.txt",
+      "sha256": "34437d0e8ca1ba6d072b1e03a9e676a044e994ccfaea9af3e499f51d728ae7e0",
+      "size": 534
+    },
+    {
+      "path": "14_PSEUDOCODE/RESOLVE.txt",
+      "sha256": "4c4e1ac110bc5fc2d71ddd40d58ec5301ce8a2d042d51bd55de066709aac286b",
+      "size": 292
+    },
+    {
+      "path": "15_TESTS/test_section12.py",
+      "sha256": "1203698f2e5e7c0962627e9a86806f4722dd3e5d04dba0ae8d1b20d3e2579aee",
+      "size": 11448
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/FIRST_PORTAL/genesis.pkg.json",
+      "sha256": "a5f648d59a0d906f551f903dcb2321dfb419610a8e0ec0f88258031158735f94",
+      "size": 849
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/FIRST_PORTAL/src/main.gen",
+      "sha256": "a289260bdbf93aa6e7c4fccd35ecf52013b8c3ae6feaf02eec6c98cad46e2237",
+      "size": 851
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/MIXED_SECTOR/genesis.pkg.json",
+      "sha256": "a70ee50a5a06882b5fcec820a4130ec4659eb7d91b7c3c0f68c79810cb89aa55",
+      "size": 845
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/MIXED_SECTOR/src/main.gen",
+      "sha256": "0dbf712c699a9ffc63dd3a0910df37bf762e0e91997f8eb45b3c818503bb711a",
+      "size": 685
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/PACKAGE_CHAIN/genesis.pkg.json",
+      "sha256": "930f3cb0e4e149a4d81968243ad7db49d2f6ab899b0d53c156b2ca74d06d243f",
+      "size": 654
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/PACKAGE_CHAIN/src/main.gen",
+      "sha256": "bedeffbc9b40c4bb8a2b36e7b04647f1bc44a50cf4ccc367ee5440c2b08963c2",
+      "size": 277
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/QUANTUM_EFFECT/genesis.pkg.json",
+      "sha256": "4f6ded1a6fe57d7fdb21dd81c2450f3e79790786b3da721e00b2948381f7ba7c",
+      "size": 710
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/QUANTUM_EFFECT/src/main.gen",
+      "sha256": "1e9bb5b16f623eab3ea14d305c0648259aa45635bcd21cbaf9e6ccafec691327",
+      "size": 509
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/RAINBOW_ROAD/genesis.pkg.json",
+      "sha256": "62d0f71a679024fa547dd967172a435e7165535b26c61b84123f933c4c2efba4",
+      "size": 786
+    },
+    {
+      "path": "16_EXAMPLES/PROJECTS/RAINBOW_ROAD/src/main.gen",
+      "sha256": "335208fd9784a933ea62447dafd545e5d1f179331251e14f37f7a03fbc45368e",
+      "size": 756
+    },
+    {
+      "path": "16_EXAMPLES/README.md",
+      "sha256": "da919fa131f93be5b0279af9ae96ffbf84014844385eea3371fcfd75fc729873",
+      "size": 178
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/README.md",
+      "sha256": "748df20a24635be4286e366dd4610bafc978b6ab916a9f12e890dd902b12e625",
+      "size": 202
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/example.qftleg/0.1.0/genesis.pkg.json",
+      "sha256": "cb6f5b88ff16a81924b07da30b8e655faada76ebbd306a4e60247d64c4e9545f",
+      "size": 589
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/example.qftleg/0.1.0/src/qftleg.gen",
+      "sha256": "ec62605e6fb98551bee299c4b4c86d435c40fb7197511caaba92e0305953a54b",
+      "size": 354
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std/0.1.0/genesis.pkg.json",
+      "sha256": "2d1ed65acc0ba202ef826185c8eb5abbec78c737f14ca8e47ec3c7756dd7988c",
+      "size": 580
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/genesis.pkg.json",
+      "sha256": "a6da425cc1f587a16604e37a42077afbfe8ab6d509ac83fe0ccf935820177f39",
+      "size": 783
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/blank.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201",
+      "size": 279
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/hsv1.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524",
+      "size": 275
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/hydrogen.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2",
+      "size": 276
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/oxygen.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57",
+      "size": 272
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.brane/0.1.0/genesis.pkg.json",
+      "sha256": "b5104568a9eff26b3097f67e5ef02740f8d455a9bb23024209c08a2e66b0a07c",
+      "size": 399
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.bridge/0.1.0/genesis.pkg.json",
+      "sha256": "0279f20c2175a26620ff8a12e4ffda4873c1a322968377647c489f35fe0a17a2",
+      "size": 429
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.core/0.1.0/genesis.pkg.json",
+      "sha256": "31b45be76cca72de80d635fe4d833e5bfbb308da7c337467a54e75fc87f29808",
+      "size": 322
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.fabric/0.1.0/genesis.pkg.json",
+      "sha256": "85787911e7851e7b5dec517d2e9e52cb5fe4b4147abded522d4fc140e4b7bb31",
+      "size": 510
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.fabric/0.1.0/src/reference.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0",
+      "size": 142
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.portal/0.1.0/genesis.pkg.json",
+      "sha256": "ff8a41024f5c553286b0eb084f834d98a8f88042d5750041d89ab5102ff735b9",
+      "size": 473
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.provenance/0.1.0/genesis.pkg.json",
+      "sha256": "7c4f254296f2ee7ab94ff9049539025c69a75760028d5da7e24cfbba75dab30c",
+      "size": 437
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.quantum/0.1.0/genesis.pkg.json",
+      "sha256": "536199dac6422a4833bf655a6791042c16f35cc04f0edab8d5c7545d983e370d",
+      "size": 449
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.road/0.1.0/genesis.pkg.json",
+      "sha256": "63f5434aa38ce5a2e97a07a4ee59aa949aedee7cd7bea6ff899e98942cdb5d2c",
+      "size": 450
+    },
+    {
+      "path": "17_STANDARD_LIBRARY/REGISTRY_INDEX.json",
+      "sha256": "39a1b3424045d7a0bed7a66293ef86bad58d8686151c50f004434b5369d10b0d",
+      "size": 3664
+    },
+    {
+      "path": "18_SOURCE_CROSSWALK/SOURCE_CROSSWALK.md",
+      "sha256": "3558be11403e763a37590c2abf3b87f2b4bd3b093d1afc34b7cc702101e50693",
+      "size": 1230
+    },
+    {
+      "path": "18_SOURCE_CROSSWALK/STATUS_DISCIPLINE.md",
+      "sha256": "45491fb53f9045633077a5f1aef0081a4648bf876d39d6b93fdbb7e7de458469",
+      "size": 638
+    },
+    {
+      "path": "19_RECOVERY/SECTION_12_STATE.md",
+      "sha256": "b050ccd03914b8e24ccf66e9ed91ffd210b3c0c2c6d5ca3dc5b2949a55a5ec55",
+      "size": 942
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/CODEGEN_RECEIPT.json",
+      "sha256": "6b9c2b1dcbde14b7508cd739edd48aa2917fc0097340e96ca7c74380dffded2a",
+      "size": 320
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/EXECUTION_SUMMARY.json",
+      "sha256": "403a017f3de3adbb66bcdaef862e93096b713dbecce40d93e1a54c4c3538839e",
+      "size": 86
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/OPTIMIZATION_RECEIPT.json",
+      "sha256": "737fb5bf0230b0a35416f5c26ac8f1a80561dd5971ee4841644b2dd21da888d8",
+      "size": 1830
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "c90bf6bb2290352ac3aed481a6eb3ee7488dd77e36693607f20b16e2d63d0770",
+      "size": 4601
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/genesis.lock.json",
+      "sha256": "3ff1f792d748e7877cf3b83e000a878fa2846c19a02a3fb8b6347b13402fd158",
+      "size": 2413
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/program.disasm.txt",
+      "sha256": "5ba28fefb48a07de9a7298cafbb6438aab7eb3b904d14425cb1b2fba06229fea",
+      "size": 2544
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/FIRST_PORTAL/program.gvm",
+      "sha256": "4f1c5ba8ee54e54f224fb2cd370cf4e47de32d37ebcc68e032af26600ff51c25",
+      "size": 3916
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/CODEGEN_RECEIPT.json",
+      "sha256": "2ac962403141c60a681665ba72090dac2cc562761ed45d5e759e467b9db811ad",
+      "size": 320
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/EXECUTION_SUMMARY.json",
+      "sha256": "7383e2f9124b66ca6776f018695091e933923e6656755d11e1664f1f1dd3b96c",
+      "size": 86
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/OPTIMIZATION_RECEIPT.json",
+      "sha256": "8e29cf54a4c29a8d4b8c038dd8f2de09c977217a1f6075875d088ef0136ffdd8",
+      "size": 1830
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "98a30c822701054849085ff06f648e8e1a752b9468423921b995aa3b0a5074f6",
+      "size": 4908
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/genesis.lock.json",
+      "sha256": "b10f8caf70ce42baa6e8f575d883d068ebe022ae03ad73d76177e76edc6b23f6",
+      "size": 2736
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/program.disasm.txt",
+      "sha256": "9d17612af3f9c28e38e020c8dd6f5b6791b42b397537b937f6be3d04917a9603",
+      "size": 2575
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/program.gvm",
+      "sha256": "79d89ae0afbda49b5f42582ca3cbdb71d29187e5c9d41fb17dc5a0991a1308cb",
+      "size": 3970
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/CODEGEN_RECEIPT.json",
+      "sha256": "84309bae077194ccc73635704616e63c745bd6bdf72140ba3f624c73e7491eb2",
+      "size": 320
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/EXECUTION_SUMMARY.json",
+      "sha256": "002437f14ec3b9989cf3c735f64b22cdbccd897f2b0f979ed796920a6933aab8",
+      "size": 86
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/OPTIMIZATION_RECEIPT.json",
+      "sha256": "288794d144ccaecdd9f54f8845e6f7d84ebc0962c82a6dbb73aae68bf70f8eb2",
+      "size": 1830
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "a2541d61ddc11469986501054a0bf8f55ef783272d963f68ce159412146e8bc4",
+      "size": 5126
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/genesis.lock.json",
+      "sha256": "a70f501c9b0a5d2e529ee22a7cf13ae44168505715421f637bd30ad3194b7676",
+      "size": 2721
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/program.disasm.txt",
+      "sha256": "d9c39daeb3a989d7b8f4035c00ac4b8da292518fb6942676418cde7836a4a3db",
+      "size": 1995
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/PACKAGE_CHAIN/program.gvm",
+      "sha256": "4834334d097d9c6f3b91965994fa02f67da8af85a7594e02dcca98637b3d6f02",
+      "size": 3234
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/CODEGEN_RECEIPT.json",
+      "sha256": "08511587467cb36f2d2b87f01be699f6647264c81e61119c532a4b4e2f266e9f",
+      "size": 320
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/EXECUTION_SUMMARY.json",
+      "sha256": "b0bf4a9471b3b4e17eab4300a5c9f9cb73128ffc500bbc8c1c508250af367515",
+      "size": 86
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/OPTIMIZATION_RECEIPT.json",
+      "sha256": "8efe6bd7f4649e44b218e63c9edd7ae787c984c6f6872a91078f46dd57966c56",
+      "size": 1830
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "68d3dc3c111bf386f6d4224f60cd5b6ebea542cd0fdc89ed3f32dabdaaeb4a36",
+      "size": 4230
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/genesis.lock.json",
+      "sha256": "32c689d6037197b9c594e3c81db3bd55897f8693326815f07e66417494484ad3",
+      "size": 2100
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/program.disasm.txt",
+      "sha256": "b9701451904dfcdc91bccd756bcc6f8d2b23dbb8454439f454bb0a863119a5ab",
+      "size": 1963
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/QUANTUM_EFFECT/program.gvm",
+      "sha256": "f57deb8764660a578c3ed411693cf236d5077c8ff6399affbe1f3987c4dea931",
+      "size": 3178
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/CODEGEN_RECEIPT.json",
+      "sha256": "f8e583a126a90243a7459b50abde1c2483c8885437a9fc546936b02dcddd192f",
+      "size": 320
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/EXECUTION_SUMMARY.json",
+      "sha256": "e87b832eed6eaaf46bdfc0aaa57e4ccf1872343746e44e7fad2b47e2fc35feeb",
+      "size": 86
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/OPTIMIZATION_RECEIPT.json",
+      "sha256": "c83400ec7f24ee28f30c63ff68e2afd7e488d0632d305d65819f1f19250196b5",
+      "size": 1830
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "ee891b53bc0aaddbc9dbf7983ea6a9f9e5e0a08daafa3ab73337ec01056d55dd",
+      "size": 4863
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/genesis.lock.json",
+      "sha256": "54445d0ad470599677c72f293fca652f6f48884171ff09e7674c73299879ad0d",
+      "size": 2692
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/program.disasm.txt",
+      "sha256": "e9ed6f5606f693c19548543fe007182d448a4d329c44793a3f1bf655d16e7af2",
+      "size": 2752
+    },
+    {
+      "path": "20_REFERENCE_BUILDS/RAINBOW_ROAD/program.gvm",
+      "sha256": "65ab8d08ed4840aa921919853d40cfb0e5bde3536a1c9f57c898667b5fd93ffe",
+      "size": 4277
+    },
+    {
+      "path": "99_RELEASE/REFERENCE_BUILD_RESULTS.json",
+      "sha256": "9f32037a215582a4020ea575dc84e0ec130e77fa36c755bae8ca7208f6012305",
+      "size": 1721
+    },
+    {
+      "path": "99_RELEASE/TEST_RESULTS.txt",
+      "sha256": "e7c132e6b5a881447180868c4bde4fc9a1d4e61c98bf194fad98eed7d48e01e9",
+      "size": 4580
+    }
+  ],
+  "reference_builds": 5,
+  "release": "GENESIS_CHIRALITY_MACHINE_SECTION_12_STDLIB_PACKAGE_RUNTIME_v0.1.0_20260821",
+  "test_count": 50,
+  "title": "Genesis Standard Library + Package/Dependency Runtime",
+  "version": "0.1.0"
+}

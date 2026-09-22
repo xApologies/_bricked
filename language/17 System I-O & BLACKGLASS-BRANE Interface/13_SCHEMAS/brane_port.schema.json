@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"BRANE M5 Port Manifest","type":"object","required":["role","module_id","internal_dimension","contract_version","canonical_state_policy","rewrite_policy","capabilities"]}

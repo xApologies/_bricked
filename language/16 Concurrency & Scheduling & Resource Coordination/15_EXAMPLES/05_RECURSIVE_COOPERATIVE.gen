@@ -1,0 +1,14 @@
+genesis 0.5.0
+module recursive_cooperative {
+  recursive_task walker priority 8 quantum 1 slice 2 state 0 delta 1 close_at 7 {
+    close
+  }
+  task observer priority 8 quantum 1 {
+    work 4 observer
+    close
+  }
+  spawn walker as r
+  spawn observer as o
+  join r o
+  export schedule
+}

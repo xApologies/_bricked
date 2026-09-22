@@ -1,0 +1,26 @@
+TRANSFORM_EXECUTE(request):
+    plan = PLAN(request)
+    assert parent_root == plan.pre_state_root
+    assert effects(plan) subset capability(request.capability)
+
+    staged = {}
+    for operator in plan.operators:
+        addresses = RESOLVE_SELECTOR(operator.selector)
+        APPLY(operator, addresses, parent_plus_staged, staged)
+
+    changed = DROP_UNCHANGED(staged)
+    VERIFY_INVARIANTS(parent, changed, request.invariants)
+    post_root = STATE_ROOT(parent + changed)
+
+    delta = WRITE_GTD_TEMP(changed, pre_root, post_root)
+    ATOMIC_COMMIT(delta)
+    VERIFY_REOPEN(delta)
+    assert STATE_ROOT(parent + delta) == post_root
+    assert HASH(parent_segments) unchanged
+    assert HASH(base_fabric) unchanged
+
+    child = FORK_INSTANCE(parent, delta)
+    receipt = CLOSE_TRANSFORMATION(parent, child, plan, roots)
+    APPEND_LEDGER(receipt)
+    child.M5 = BRANE_RELIFT(child, receipt)
+    return child, receipt

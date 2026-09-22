@@ -1,0 +1,21 @@
+{
+  "backend_capabilities": [
+    "qft_gr_bridge"
+  ],
+  "dependencies": {
+    "genesis.std.portal": "^0.1.0"
+  },
+  "description": "Explicit QFT/GR transduction contract.",
+  "effects": [
+    "TRANSDUCE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "contract",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [],
+  "name": "genesis.std.bridge",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

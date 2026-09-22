@@ -1,0 +1,11 @@
+{
+  "package": "genesis.system",
+  "version": "0.1.0",
+  "kind": "CONTRACT_PACKAGE",
+  "capabilities": [
+    "io.source.read", "io.derived.read", "io.derived.write", "io.audit.append",
+    "cas.put", "cas.get", "brane.mount", "brane.realize",
+    "blackglass.commit.propose", "blackglass.commit.admit", "device.request"
+  ],
+  "note": "System authority is explicit; package import alone grants no host authority."
+}

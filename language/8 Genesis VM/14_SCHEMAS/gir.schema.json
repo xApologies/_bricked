@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "edges": {
+      "type": "array"
+    },
+    "exports": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "ir": {
+      "const": "GIR"
+    },
+    "name": {
+      "type": "string"
+    },
+    "nodes": {
+      "items": {
+        "properties": {
+          "args": {
+            "type": "array"
+          },
+          "attrs": {
+            "type": "object"
+          },
+          "id": {
+            "type": "string"
+          },
+          "op": {
+            "type": "string"
+          },
+          "out": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "op"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ir",
+    "version",
+    "name",
+    "nodes"
+  ],
+  "title": "Genesis GIR 0.1",
+  "type": "object"
+}

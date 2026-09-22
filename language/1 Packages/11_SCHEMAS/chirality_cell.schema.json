@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "adjacency_index": {
+      "type": "integer"
+    },
+    "chi": {
+      "type": "integer"
+    },
+    "complement_pattern": {
+      "type": "integer"
+    },
+    "flags": {
+      "type": "integer"
+    },
+    "handedness": {
+      "type": "integer"
+    },
+    "identity_tag": {
+      "type": "integer"
+    },
+    "lambda_": {
+      "type": "integer"
+    },
+    "lineage_index": {
+      "type": "integer"
+    },
+    "occupancy_pattern": {
+      "type": "integer"
+    },
+    "rho": {
+      "type": "integer"
+    },
+    "sigma": {
+      "type": "integer"
+    },
+    "state_class": {
+      "type": "integer"
+    },
+    "tau": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "occupancy_pattern",
+    "handedness",
+    "state_class"
+  ],
+  "title": "ChiralityCell32",
+  "type": "object"
+}

@@ -1,0 +1,9 @@
+genesis 0.2.0
+module app.section13.generic_fork {
+  use genesis.std.atomic.hydrogen::geo as source : GEOMETRIC<CLOSED,UNBOUND>
+  usefn genesis.std.core.callables::fork_geometric as fork_geo
+  call fork_geo<GEOMETRIC<CLOSED,UNBOUND>> (source) as child
+  seal child as seal @{"stage":"section13-generic-fork"}
+  export child : GEOMETRIC<CLOSED,UNBOUND>
+  export seal : RECEIPT<PROVENANCE>
+}

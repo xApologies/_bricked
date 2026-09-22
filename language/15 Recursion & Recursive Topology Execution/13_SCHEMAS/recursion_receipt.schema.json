@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis recursive execution receipt",
+  "type":"object",
+  "required":["program_id","module","steps","frames_closed","history_root","status","receipt_id"],
+  "properties":{
+    "program_id":{"type":"string"},
+    "module":{"type":"string"},
+    "steps":{"type":"integer","minimum":0},
+    "frames_closed":{"type":"integer","minimum":0},
+    "max_depth":{"type":"integer","minimum":0},
+    "history_root":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+    "status":{"enum":["HALTED","SUSPENDED","CLOSED"]},
+    "receipt_id":{"type":"string"}
+  }
+}

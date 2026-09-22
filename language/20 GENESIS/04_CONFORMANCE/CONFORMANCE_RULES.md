@@ -1,0 +1,3 @@
+# Genesis v1.0 Conformance Rules
+
+A conformant v1.0 implementation must preserve the frozen semantics rather than merely parse the syntax. Deterministic operations must remain deterministic; invalid typestates/effects must be rejected before execution; linear quantum resources cannot be cloned; QFT/GR crossings require explicit typed transduction; Portals and Roads must close with receipts; persistent recursion may suspend rather than falsely terminate; concurrency cannot bypass resource coordination; system I/O requires capabilities; BRANE owns realization Z; BLACKGLASS durable state changes require admitted proposals; bootstrap status must remain accurately reported.

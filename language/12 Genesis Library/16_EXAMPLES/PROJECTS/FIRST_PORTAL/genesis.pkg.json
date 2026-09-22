@@ -1,0 +1,42 @@
+{
+  "backend_capabilities": [
+    "portal",
+    "provenance",
+    "brane_lift"
+  ],
+  "dependencies": {
+    "genesis.std.atomic": "^0.1.0",
+    "genesis.std.brane": "^0.1.0",
+    "genesis.std.portal": "^0.1.0",
+    "genesis.std.provenance": "^0.1.0"
+  },
+  "description": "Section 12 reference application.",
+  "effects": [
+    "RELATE",
+    "ADMIT",
+    "TRANSFORM",
+    "INHERIT",
+    "TRANSPORT",
+    "CLOSE",
+    "PROVENANCE",
+    "PROJECT"
+  ],
+  "entry_exports": [
+    "app.first_portal::g2",
+    "app.first_portal::pc",
+    "app.first_portal::m5",
+    "app.first_portal::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.first_portal",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.first_portal",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

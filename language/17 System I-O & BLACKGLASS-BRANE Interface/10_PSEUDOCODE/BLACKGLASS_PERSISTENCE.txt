@@ -1,0 +1,7 @@
+proposal <- BLACKGLASS.propose(payload_ref, provenance)
+assert proposal is staged and immutable
+if admission authority is present and policy passes:
+    durable_ref <- Heart.admit(proposal)
+    emit admission receipt
+else:
+    emit rejection witness

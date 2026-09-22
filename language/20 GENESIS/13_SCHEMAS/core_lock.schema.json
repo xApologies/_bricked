@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "core_lock_root": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "kind": {
+      "const": "GENESIS_V1_CORE_LOCK"
+    },
+    "language_version": {
+      "const": "1.0.0"
+    },
+    "sections": {
+      "maxItems": 19,
+      "minItems": 19,
+      "type": "array"
+    }
+  },
+  "required": [
+    "kind",
+    "language_version",
+    "sections",
+    "core_lock_root"
+  ],
+  "title": "Genesis v1 Core Lock",
+  "type": "object"
+}

@@ -1,0 +1,4 @@
+HSV1 QFT->GR PASS actions=BRIDGE bridges=1 portals=0
+HYDROGEN GR->QFT PASS actions=PORTAL,BRIDGE bridges=1 portals=1
+OXYGEN GR->QFT PASS actions=BRIDGE,PORTAL bridges=1 portals=1
+BLANK QFT->QFT PASS actions=BRIDGE,PORTAL,BRIDGE bridges=2 portals=1

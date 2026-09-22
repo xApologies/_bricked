@@ -1,0 +1,10 @@
+validate module manifest
+assert dimension == 5
+assert canonical == READ_ONLY
+assert rewrite == DERIVED_ONLY
+assert requested capability in module capabilities
+assert caller did not supply Z
+construct M5 envelope
+validate payload reference and provenance
+Z <- BRANE-owned request-relative realization
+return M6 envelope + receipt

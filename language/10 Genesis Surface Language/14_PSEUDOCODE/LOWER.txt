@@ -1,0 +1,11 @@
+parse source -> AST
+for statement in source order:
+    choose exactly one GIR opcode from lowering table
+    lower local identifiers to SSA names
+    retain literals as typed attrs
+    derive effects from Section 09 opcode/effect table
+    add source-map witness
+    chain source effect order
+construct GIR-MODULE
+run Section 09 check_module
+reject on any diagnostic

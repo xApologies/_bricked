@@ -1,0 +1,68 @@
+[
+  {
+    "name": "CFP_exp.zip",
+    "path": "/mnt/data/CFP_exp.zip",
+    "sha256": "1346d283be75525caf916e4c0bef862365306cf0c9b6b4f54ac64ce5766481db",
+    "size": 36704726
+  },
+  {
+    "name": "Trinity 3.0 | (2).zip",
+    "path": "/mnt/data/Trinity 3.0 | (2).zip",
+    "sha256": "90aac6f92525cd72f7a2d5716d2968f8bc0d7fa5a64a84d66259027e8a6b1065",
+    "size": 76239712
+  },
+  {
+    "name": "Rainbow_road(1)(1).zip",
+    "path": "/mnt/data/Rainbow_road(1)(1).zip",
+    "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b",
+    "size": 10386950
+  },
+  {
+    "name": "TRANSDUCTION_GEOMETRY_v1.0.zip",
+    "path": "/mnt/data/TRANSDUCTION_GEOMETRY_v1.0.zip",
+    "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77",
+    "size": 3398136
+  },
+  {
+    "name": "Bandwidth Algebra.zip",
+    "path": "/mnt/data/Bandwidth Algebra.zip",
+    "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53",
+    "size": 1163433
+  },
+  {
+    "name": "Resolution Readout.zip",
+    "path": "/mnt/data/Resolution Readout.zip",
+    "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab",
+    "size": 327280
+  },
+  {
+    "name": "Identity Through History.zip",
+    "path": "/mnt/data/Identity Through History.zip",
+    "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2",
+    "size": 224934
+  },
+  {
+    "name": "Holonomy and Chirality.zip",
+    "path": "/mnt/data/Holonomy and Chirality.zip",
+    "sha256": "433e9a4ff681ddf33839530a67551db58d08ad99ea012f76adf00fc2d72d74a6",
+    "size": 686047
+  },
+  {
+    "name": "1.0 | QFT - GR BRIDGE(1).zip",
+    "path": "/mnt/data/1.0 | QFT - GR BRIDGE(1).zip",
+    "sha256": "0d93f8a69782af74fee7309024c372290893ce4133d8009ac8ff284602439ecc",
+    "size": 11931854
+  },
+  {
+    "name": "GENESIS_LAYER_ZERO_IMPLEMENTATION_v0.1.0_20260821_PART_A.zip",
+    "path": "/mnt/data/GENESIS_LAYER_ZERO_IMPLEMENTATION_v0.1.0_20260821_PART_A.zip",
+    "sha256": "995a21900b0a29a40fbcb385ee140442e00484a7a197c41ff823cf39f824af30",
+    "size": 90859
+  },
+  {
+    "name": "MK43_API_4.3_SOURCE_20260819.zip",
+    "path": "/mnt/data/BLACKGLASS_ACTIVE_MOUNT_20260821/EXTRACTED/CFP_exp/ASTRAEUS_VERA_CHIRAL_FRACTAL_PROJECTION_v1.1_20260819/07_SOURCE_PROVENANCE/MK43_API_4.3_SOURCE_20260819.zip",
+    "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752",
+    "size": 7630835
+  }
+]

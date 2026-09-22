@@ -1,0 +1,31 @@
+genesis 0.6.0
+module end_to_end_mainframe {
+  capability io.source.read
+  capability io.derived.write
+  capability io.audit.append
+  capability cas.put
+  capability cas.get
+  capability brane.mount
+  capability brane.realize
+  capability blackglass.commit.propose
+  capability blackglass.commit.admit
+  capability device.request
+  endpoint source kind SOURCE mode READ root source
+  endpoint derived kind DERIVED mode READ_WRITE root derived
+  endpoint audit kind AUDIT mode APPEND root audit
+  endpoint heart kind BLACKGLASS mode PROPOSE root heart
+  endpoint device kind DEVICE mode REQUEST root device
+  port library role library module mk43.library version 1.D.0 dimension 5 contract 2.0 canonical READ_ONLY rewrite DERIVED_ONLY caps recover,recover_batch chirality address-placement-neutral provenance package-and-block-provenance
+  read source "payload.bin" as payload
+  cas_put payload as payload_ref
+  cas_get payload_ref as restored
+  assert_eq payload restored
+  write derived "materialized/payload.bin" from restored
+  mount library
+  realize library capability recover payload payload_ref as realized
+  propose heart realized as proposal
+  admit heart proposal as durable
+  device device target speaker capability speech.output payload payload as request
+  append audit "system.log" from payload
+  close
+}

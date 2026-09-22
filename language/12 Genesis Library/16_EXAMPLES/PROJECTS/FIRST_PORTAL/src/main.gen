@@ -1,0 +1,18 @@
+genesis 0.1.0
+module app.first_portal {
+  use genesis.std.atomic.hydrogen::geo as g0 : GEOMETRIC<CLOSED,UNBOUND>
+  rel g0 -> "environment://trinity" as relation
+  admit g0 as adm @{"admitted":true,"bandwidth":1.0,"resolution":1.0}
+  transform g0 with adm as g1 @{"kind":"identity-preserving-reference-transform"}
+  portal GR g1 with adm as p corridor "corridor://red-violet"
+  ve g1 through p -> "trinity://node-B" as g2
+  tor p with g2 as pc
+  lift g2 as m5 @{"Chi":"preserved","D":"package-portal-history","P":"receipt-ledger","R":"closed"}
+  seal g2 as seal @{"label":"section12-first-portal"}
+  assert closure g2 as closed @{"required":true}
+  emit receipt as receipt @{"label":"Section 12 First Portal package build"}
+  export g2 : GEOMETRIC<CLOSED,GR>
+  export pc : RECEIPT<PORTAL_CLOSE>
+  export m5 : M5
+  export receipt : RECEIPT<EXECUTION>
+}

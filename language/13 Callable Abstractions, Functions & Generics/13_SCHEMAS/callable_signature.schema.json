@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "generics": {
+      "type": "array"
+    },
+    "module": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "params": {
+      "type": "array"
+    },
+    "public": {
+      "type": "boolean"
+    },
+    "return_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "module",
+    "name",
+    "generics",
+    "params",
+    "return_type",
+    "effects",
+    "public"
+  ],
+  "title": "Genesis Callable Signature",
+  "type": "object"
+}

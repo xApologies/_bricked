@@ -1,0 +1,24 @@
+{
+  "blackglass_v3_status": "READY_FOR_INTEGRATION_NOT_YET_MIGRATED",
+  "core_lock_root": "8fd7f41b8cdd7f19392c8c4a7cf7ba352581b9a017363c9506f27bdd992a155f",
+  "freeze_policy": {
+    "abi_change": "requires explicit ABI version increment",
+    "breaking_semantic_change": "requires Genesis 2.0",
+    "compatible_addition": "Genesis 1.x only if frozen invariants remain valid",
+    "silent_source_reconciliation": "forbidden"
+  },
+  "full_self_host": false,
+  "hardware_status": "CHIRALITY_MACHINE_REFERENCE_EMULATION",
+  "implementation_status": "REFERENCE_BOOTSTRAP_PARTIAL_SELF_HOST",
+  "kind": "GENESIS_V1_RELEASE_DESCRIPTOR",
+  "known_unresolved_semantic_gates": [
+    "S0_STRUCTURAL_ZERO_VS_EXISTENCE_CONFLICT"
+  ],
+  "language": "Genesis",
+  "release_root": "c2f52177f22bd9fdcf41abab59d3fb29fb821a1f9b2890e9958a067a39538657",
+  "release_status": "FROZEN",
+  "section_range": "01-20",
+  "semantic_status": "V1_SEMANTICS_FROZEN",
+  "source_genesis_boundary": "PRESERVED_DISTINCT_FROM_COMPUTATIONAL_GENESIS",
+  "version": "1.0.0"
+}

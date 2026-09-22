@@ -1,0 +1,9 @@
+ANALYZE linked GIR
+FOR each pass allowed by optimization level:
+    APPLY local rewrite
+    RECORD before/after hash
+ANALYZE optimized GIR
+ASSERT effectful, quantum, portal/road, bridge, provenance order witnesses unchanged
+RUN Section 09 static checker again
+RUN backend capability gate again
+RETURN optimized GIR + optimization receipt

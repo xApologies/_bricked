@@ -1,0 +1,10 @@
+genesis 0.3.0
+module example.records {
+  record Pair { left: INT, right: INT }
+  let a : INT = 7
+  let b : INT = 11
+  let p : Pair = record Pair { left=a, right=b }
+  let x : INT = field p left
+  let y : INT = add x b
+  export y : INT
+}

@@ -1,0 +1,22 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {},
+  "description": "Generic core callable abstractions.",
+  "effects": [
+    "TRANSFORM",
+    "INHERIT"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.core.callables",
+      "path": "src/callables.gen"
+    }
+  ],
+  "name": "genesis.std.core",
+  "schema_version": "0.1.0",
+  "version": "0.2.0"
+}

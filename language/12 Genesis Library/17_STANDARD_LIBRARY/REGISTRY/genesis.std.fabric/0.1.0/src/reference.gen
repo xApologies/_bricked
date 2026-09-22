@@ -1,0 +1,5 @@
+genesis 0.1.0
+module genesis.std.fabric.reference {
+  en fabric : FABRIC = mount "fabric://chirality/reference-v1"
+  export fabric : FABRIC
+}

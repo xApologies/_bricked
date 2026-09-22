@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "bandwidth": {
+      "type": "number"
+    },
+    "capacity_units": {
+      "type": "integer"
+    },
+    "chirality_classes": {
+      "type": "array"
+    },
+    "closure_supported": {
+      "type": "boolean"
+    },
+    "color_index": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "edge_id": {
+      "type": "string"
+    },
+    "residue_classes": {
+      "type": "array"
+    },
+    "resolution": {
+      "type": "number"
+    },
+    "sectors": {
+      "type": "array"
+    },
+    "source_domain": {
+      "type": "string"
+    },
+    "target_domain": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "edge_id",
+    "source_domain",
+    "target_domain",
+    "sectors",
+    "resolution",
+    "bandwidth",
+    "capacity_units"
+  ],
+  "type": "object"
+}

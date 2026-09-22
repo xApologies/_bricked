@@ -1,0 +1,12 @@
+COMPILE_GIR(gir):
+  validate schema
+  producers := map output value -> node
+  dependencies := explicit dependencies + inferred data dependencies
+  schedule := deterministic_topological_sort(dependencies)
+  for node in schedule:
+      allocate fresh typed register for node.out
+      lower node.op -> GVM opcode
+      preserve source node id
+  verify GVM
+  encode bytecode
+  return bytecode + source map + hashes

@@ -1,0 +1,41 @@
+{
+  "backend_capabilities": [
+    "portal",
+    "qft_gr_bridge",
+    "brane_lift"
+  ],
+  "dependencies": {
+    "genesis.std.atomic": "^0.1.0",
+    "genesis.std.brane": "^0.1.0",
+    "genesis.std.bridge": "^0.1.0",
+    "genesis.std.portal": "^0.1.0",
+    "genesis.std.provenance": "^0.1.0"
+  },
+  "description": "Section 12 reference application.",
+  "effects": [
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE",
+    "TRANSDUCE",
+    "PROJECT"
+  ],
+  "entry_exports": [
+    "app.mixed_sector::gg",
+    "app.mixed_sector::b",
+    "app.mixed_sector::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.mixed_sector",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.mixed_sector",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

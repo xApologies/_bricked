@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "not": {
+    "required": [
+      "Z"
+    ]
+  },
+  "properties": {
+    "Chi": {
+      "type": "object"
+    },
+    "D": {
+      "type": "object"
+    },
+    "I": {
+      "type": "object"
+    },
+    "P": {
+      "type": "object"
+    },
+    "R": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "I",
+    "D",
+    "Chi",
+    "R",
+    "P"
+  ],
+  "type": "object"
+}

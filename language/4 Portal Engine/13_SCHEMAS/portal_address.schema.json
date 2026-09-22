@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "boundary_id": {
+      "type": "string"
+    },
+    "domain_id": {
+      "type": "string"
+    },
+    "fabric_tag": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "logical_location": {
+      "type": "string"
+    },
+    "recursive_order": {
+      "type": "integer"
+    },
+    "sector": {
+      "enum": [
+        "GENERIC",
+        "QFT",
+        "GR"
+      ]
+    }
+  },
+  "required": [
+    "domain_id",
+    "sector"
+  ],
+  "type": "object"
+}

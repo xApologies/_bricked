@@ -1,0 +1,175 @@
+{
+  "exports": [
+    "quantum::result",
+    "quantum::seal"
+  ],
+  "link": "GENESIS-LINK",
+  "modules": [
+    {
+      "effects": [
+        "READ_FABRIC",
+        "ALLOCATE",
+        "INHERIT"
+      ],
+      "exports": [
+        {
+          "symbol": "geo",
+          "type": "GEOMETRIC<CLOSED,UNBOUND>",
+          "value": "%geo"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "attrs": {
+              "uri": "fabric://chirality/reference-v1"
+            },
+            "id": "01_mount",
+            "op": "FABRIC_MOUNT",
+            "out": "%fabric",
+            "type": "FABRIC"
+          },
+          {
+            "args": [
+              "%fabric"
+            ],
+            "attrs": {
+              "cells": 4096
+            },
+            "id": "02_alloc",
+            "op": "FABRIC_ALLOC",
+            "out": "%region",
+            "type": "REGION"
+          },
+          {
+            "args": [
+              "%fabric",
+              "%region"
+            ],
+            "attrs": {
+              "mmo": {
+                "class": "MMO",
+                "handle": "@hydrogen_reference"
+              }
+            },
+            "id": "03_geo",
+            "op": "GEO_INSTANTIATE",
+            "out": "%geo",
+            "type": "GEOMETRIC"
+          }
+        ]
+      },
+      "imports": [],
+      "ir": "GIR-MODULE",
+      "module": "fixture",
+      "version": "0.1.0"
+    },
+    {
+      "effects": [
+        "QUANTUM_LINEAR",
+        "TRANSFORM",
+        "MEASURE",
+        "PROVENANCE"
+      ],
+      "exports": [
+        {
+          "symbol": "result",
+          "type": "QRESULT<CLASSICAL>",
+          "value": "%result"
+        },
+        {
+          "symbol": "seal",
+          "type": "RECEIPT<PROVENANCE>",
+          "value": "%seal"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "args": [
+              "%source"
+            ],
+            "attrs": {
+              "basis": [
+                "0",
+                "1"
+              ]
+            },
+            "id": "01_q0",
+            "op": "Q_PREPARE",
+            "out": "%q0",
+            "type": "QSTATE"
+          },
+          {
+            "args": [
+              "%q0"
+            ],
+            "attrs": {
+              "amplitudes": [
+                "1/sqrt(2)",
+                "1/sqrt(2)"
+              ]
+            },
+            "id": "02_q1",
+            "op": "Q_SUPERPOSE",
+            "out": "%q1",
+            "type": "QSTATE"
+          },
+          {
+            "args": [
+              "%q1"
+            ],
+            "attrs": {
+              "channel": "IDENTITY",
+              "preserve_coherence": true
+            },
+            "id": "03_q2",
+            "op": "Q_CHANNEL",
+            "out": "%q2",
+            "type": "QSTATE"
+          },
+          {
+            "args": [
+              "%q2"
+            ],
+            "attrs": {
+              "outcome": 0,
+              "reference_seed": "SECTION09"
+            },
+            "id": "04_measure",
+            "op": "Q_MEASURE",
+            "out": "%result",
+            "type": "QRESULT"
+          },
+          {
+            "args": [
+              "%result"
+            ],
+            "attrs": {
+              "effect": "measurement"
+            },
+            "id": "05_seal",
+            "op": "PROVENANCE_SEAL",
+            "out": "%seal",
+            "type": "RECEIPT"
+          }
+        ]
+      },
+      "imports": [
+        {
+          "from": "fixture",
+          "local": "%source",
+          "symbol": "geo",
+          "type": "GEOMETRIC"
+        }
+      ],
+      "ir": "GIR-MODULE",
+      "module": "quantum",
+      "version": "0.1.0"
+    }
+  ],
+  "name": "section09_quantum_effect",
+  "version": "0.1.0"
+}

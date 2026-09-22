@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "exports": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "link": {
+      "const": "GENESIS-LINK"
+    },
+    "modules": {
+      "minItems": 1,
+      "type": "array"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "link",
+    "version",
+    "name",
+    "modules",
+    "exports"
+  ],
+  "type": "object"
+}

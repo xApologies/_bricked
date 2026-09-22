@@ -1,0 +1,82 @@
+{
+  "FIRST_PORTAL": {
+    "after_nodes": 13,
+    "audit_gvm_bytes": 2590,
+    "barriers": {
+      "bridge_order": true,
+      "effectful_order": true,
+      "portal_road_order": true,
+      "provenance_order": true,
+      "quantum_order": true
+    },
+    "before_nodes": 13,
+    "codegen_id": "gcg-69d3f497af97a30de3da1f73",
+    "compact_gvm_bytes": 2235,
+    "optimization_id": "gopt-67f0e3b617c408ebed886631",
+    "status": "PASS"
+  },
+  "MIXED_SECTOR": {
+    "after_nodes": 14,
+    "audit_gvm_bytes": 2647,
+    "barriers": {
+      "bridge_order": true,
+      "effectful_order": true,
+      "portal_road_order": true,
+      "provenance_order": true,
+      "quantum_order": true
+    },
+    "before_nodes": 14,
+    "codegen_id": "gcg-3fdce764931288152d605ac2",
+    "compact_gvm_bytes": 2263,
+    "optimization_id": "gopt-ef87bf7b30c24f468f242576",
+    "status": "PASS"
+  },
+  "MODULAR_QFT": {
+    "after_nodes": 10,
+    "audit_gvm_bytes": 1861,
+    "barriers": {
+      "bridge_order": true,
+      "effectful_order": true,
+      "portal_road_order": true,
+      "provenance_order": true,
+      "quantum_order": true
+    },
+    "before_nodes": 10,
+    "codegen_id": "gcg-6e86c40c88aa0ad49b6560fd",
+    "compact_gvm_bytes": 1633,
+    "optimization_id": "gopt-ae64065819631863d7f0f364",
+    "status": "PASS"
+  },
+  "QUANTUM_EFFECT": {
+    "after_nodes": 9,
+    "audit_gvm_bytes": 1920,
+    "barriers": {
+      "bridge_order": true,
+      "effectful_order": true,
+      "portal_road_order": true,
+      "provenance_order": true,
+      "quantum_order": true
+    },
+    "before_nodes": 9,
+    "codegen_id": "gcg-3dc07a8405d6c3cc2455ce94",
+    "compact_gvm_bytes": 1656,
+    "optimization_id": "gopt-ed4e045c4349b8f6ff3d8797",
+    "status": "PASS"
+  },
+  "RAINBOW_ROAD": {
+    "after_nodes": 17,
+    "audit_gvm_bytes": 2932,
+    "barriers": {
+      "bridge_order": true,
+      "effectful_order": true,
+      "portal_road_order": true,
+      "provenance_order": true,
+      "quantum_order": true
+    },
+    "before_nodes": 17,
+    "codegen_id": "gcg-901e16d075e9924c6c9b4d20",
+    "compact_gvm_bytes": 2471,
+    "optimization_id": "gopt-bdff55fc06f9eab7389e8c14",
+    "status": "PASS"
+  }
+}

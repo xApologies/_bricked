@@ -1,0 +1,29 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "0.2.0",
+    "genesis.std.brane": "0.2.0",
+    "genesis.std.provenance": "0.2.0"
+  },
+  "description": "Cross-package generic BRANE/provenance callables.",
+  "effects": [
+    "PROJECT",
+    "PROVENANCE"
+  ],
+  "entry_exports": [
+    "app.section13.brane_provenance::projection",
+    "app.section13.brane_provenance::receipt"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.section13.brane_provenance",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.section13.brane_provenance",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "template_id",
+    "source_domain",
+    "waypoint_domains",
+    "sector"
+  ],
+  "type": "object"
+}

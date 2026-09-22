@@ -1,0 +1,130 @@
+{
+  "edges": [
+    {
+      "from": "08_seal",
+      "kind": "effect_order",
+      "to": "09_receipt"
+    }
+  ],
+  "exports": [
+    "%qr",
+    "%seal",
+    "%receipt"
+  ],
+  "ir": "GIR",
+  "name": "quantum_effect_program",
+  "nodes": [
+    {
+      "attrs": {
+        "uri": "fabric://chirality/reference-v1"
+      },
+      "id": "01_mount",
+      "op": "FABRIC_MOUNT",
+      "out": "%fabric",
+      "type": "FABRIC"
+    },
+    {
+      "args": [
+        "%fabric"
+      ],
+      "attrs": {
+        "cells": 2048
+      },
+      "id": "02_alloc",
+      "op": "FABRIC_ALLOC",
+      "out": "%region",
+      "type": "REGION"
+    },
+    {
+      "args": [
+        "%fabric",
+        "%region"
+      ],
+      "attrs": {
+        "mmo": {
+          "class": "MMO",
+          "handle": "@hydrogen_reference"
+        }
+      },
+      "id": "03_g0",
+      "op": "GEO_INSTANTIATE",
+      "out": "%g0",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%g0"
+      ],
+      "attrs": {
+        "basis": [
+          "0",
+          "1"
+        ]
+      },
+      "id": "04_q0",
+      "op": "Q_PREPARE",
+      "out": "%q0",
+      "type": "QSTATE"
+    },
+    {
+      "args": [
+        "%q0"
+      ],
+      "attrs": {
+        "amplitudes": [
+          "1/sqrt(2)",
+          "1/sqrt(2)"
+        ]
+      },
+      "id": "05_q1",
+      "op": "Q_SUPERPOSE",
+      "out": "%q1",
+      "type": "QSTATE"
+    },
+    {
+      "args": [
+        "%q1"
+      ],
+      "attrs": {
+        "channel": "IDENTITY",
+        "preserve_coherence": true
+      },
+      "id": "06_q2",
+      "op": "Q_CHANNEL",
+      "out": "%q2",
+      "type": "QSTATE"
+    },
+    {
+      "args": [
+        "%q2"
+      ],
+      "attrs": {
+        "outcome": 0,
+        "reference_seed": "GENESIS-SECTION08"
+      },
+      "id": "07_measure",
+      "op": "Q_MEASURE",
+      "out": "%qr",
+      "type": "QRESULT"
+    },
+    {
+      "args": [
+        "%qr"
+      ],
+      "attrs": {
+        "effect": "measurement"
+      },
+      "id": "08_seal",
+      "op": "PROVENANCE_SEAL",
+      "out": "%seal",
+      "type": "RECEIPT"
+    },
+    {
+      "id": "09_receipt",
+      "op": "EMIT_RECEIPT",
+      "out": "%receipt",
+      "type": "RECEIPT"
+    }
+  ],
+  "version": "0.1.0"
+}

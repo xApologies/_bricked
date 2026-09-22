@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Genesis Section 17 SystemProgram","type":"object","required":["module","version","capabilities","endpoints","ports","instructions"]}

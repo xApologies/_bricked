@@ -1,0 +1,198 @@
+{
+  "edges": [
+    {
+      "from": "08_bridge",
+      "kind": "effect_order",
+      "to": "09_ag"
+    },
+    {
+      "from": "12_cg",
+      "kind": "effect_order",
+      "to": "14_receipt"
+    }
+  ],
+  "exports": [
+    "%gg",
+    "%b",
+    "%cg",
+    "%m5",
+    "%receipt"
+  ],
+  "ir": "GIR",
+  "name": "mixed_sector_bridge",
+  "nodes": [
+    {
+      "attrs": {
+        "uri": "fabric://chirality/reference-v1"
+      },
+      "id": "01_mount",
+      "op": "FABRIC_MOUNT",
+      "out": "%fabric",
+      "type": "FABRIC"
+    },
+    {
+      "args": [
+        "%fabric"
+      ],
+      "attrs": {
+        "cells": 16384
+      },
+      "id": "02_alloc",
+      "op": "FABRIC_ALLOC",
+      "out": "%region",
+      "type": "REGION"
+    },
+    {
+      "args": [
+        "%fabric",
+        "%region"
+      ],
+      "attrs": {
+        "mmo": {
+          "class": "MMO",
+          "handle": "@virus_hsv1_reference"
+        }
+      },
+      "id": "03_g0",
+      "op": "GEO_INSTANTIATE",
+      "out": "%g0",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%g0"
+      ],
+      "attrs": {
+        "admitted": true
+      },
+      "id": "04_aq",
+      "op": "ADMIT",
+      "out": "%aq",
+      "type": "ADMISSION"
+    },
+    {
+      "args": [
+        "%g0",
+        "%aq"
+      ],
+      "attrs": {
+        "corridor": "QFT-A",
+        "sector": "QFT"
+      },
+      "id": "05_pq",
+      "op": "PORTAL_OPEN",
+      "out": "%pq",
+      "type": "PORTAL"
+    },
+    {
+      "args": [
+        "%pq",
+        "%g0"
+      ],
+      "attrs": {
+        "destination": "QFT-B"
+      },
+      "id": "06_tq",
+      "op": "PORTAL_TRANSPORT",
+      "out": "%gq",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%pq",
+        "%gq"
+      ],
+      "id": "07_cq",
+      "op": "PORTAL_CLOSE",
+      "out": "%cq",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%gq"
+      ],
+      "attrs": {
+        "from": "QFT",
+        "preserve": [
+          "identity",
+          "chirality_ancestry",
+          "provenance"
+        ],
+        "to": "GR"
+      },
+      "id": "08_bridge",
+      "op": "BRIDGE_SECTOR",
+      "out": "%b",
+      "type": "BRIDGE"
+    },
+    {
+      "args": [
+        "%gq"
+      ],
+      "attrs": {
+        "admitted": true,
+        "bridge": "%b"
+      },
+      "id": "09_ag",
+      "op": "ADMIT",
+      "out": "%ag",
+      "type": "ADMISSION"
+    },
+    {
+      "args": [
+        "%gq",
+        "%ag"
+      ],
+      "attrs": {
+        "corridor": "GR-B",
+        "sector": "GR"
+      },
+      "id": "10_pg",
+      "op": "PORTAL_OPEN",
+      "out": "%pg",
+      "type": "PORTAL"
+    },
+    {
+      "args": [
+        "%pg",
+        "%gq"
+      ],
+      "attrs": {
+        "destination": "GR-C"
+      },
+      "id": "11_tg",
+      "op": "PORTAL_TRANSPORT",
+      "out": "%gg",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%pg",
+        "%gg"
+      ],
+      "id": "12_cg",
+      "op": "PORTAL_CLOSE",
+      "out": "%cg",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%gg"
+      ],
+      "attrs": {
+        "P": "mixed-sector-ledger"
+      },
+      "id": "13_m5",
+      "op": "BRANE_LIFT",
+      "out": "%m5",
+      "type": "M5"
+    },
+    {
+      "id": "14_receipt",
+      "op": "EMIT_RECEIPT",
+      "out": "%receipt",
+      "type": "RECEIPT"
+    }
+  ],
+  "version": "0.1.0"
+}

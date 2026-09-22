@@ -1,0 +1,9 @@
+MEASURE(state, owner_token, observable/basis):
+    require unique live ownership
+    calculate outcome probabilities
+    sample outcome
+    consume coherent parent handle
+    construct normalized measured successor
+    emit classical result + Measurement Receipt
+    classical result may now be copied
+    return (outcome, measured_successor, receipt)

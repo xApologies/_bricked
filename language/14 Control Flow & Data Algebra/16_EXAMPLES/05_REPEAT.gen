@@ -1,0 +1,8 @@
+genesis 0.3.0
+module example.repeat {
+  let n : INT = 1
+  repeat 4 {
+    emit receipt as tick
+  }
+  export n : INT
+}

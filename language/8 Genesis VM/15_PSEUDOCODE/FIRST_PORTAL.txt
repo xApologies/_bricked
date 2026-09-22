@@ -1,0 +1,13 @@
+mount fabric
+allocate region
+instantiate MMO -> Geometric
+relate Geometric to environment
+admit transformation/transport
+transform -> child Geometric
+open Portal
+transport child -> destination Geometric
+close Portal -> receipt
+lift destination -> BRANE M5
+seal provenance
+assert closure
+emit execution receipt

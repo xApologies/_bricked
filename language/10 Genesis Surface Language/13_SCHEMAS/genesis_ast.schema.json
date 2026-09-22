@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "ast": {
+      "const": "GENESIS-AST"
+    },
+    "exports": {
+      "type": "array"
+    },
+    "imports": {
+      "type": "array"
+    },
+    "module": {
+      "type": "string"
+    },
+    "statements": {
+      "type": "array"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "ast",
+    "version",
+    "module",
+    "statements"
+  ],
+  "title": "Genesis AST v0.1",
+  "type": "object"
+}

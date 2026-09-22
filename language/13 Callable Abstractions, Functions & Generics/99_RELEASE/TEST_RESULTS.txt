@@ -1,0 +1,55 @@
+test_01_parse_legacy_version (__main__.Section13Tests.test_01_parse_legacy_version) ... ok
+test_02_parse_extended_version (__main__.Section13Tests.test_02_parse_extended_version) ... ok
+test_03_parse_generic_function (__main__.Section13Tests.test_03_parse_generic_function) ... ok
+test_04_parse_public_function (__main__.Section13Tests.test_04_parse_public_function) ... ok
+test_05_parse_usefn (__main__.Section13Tests.test_05_parse_usefn) ... ok
+test_06_duplicate_generic_rejected (__main__.Section13Tests.test_06_duplicate_generic_rejected) ... ok
+test_07_duplicate_param_rejected (__main__.Section13Tests.test_07_duplicate_param_rejected) ... ok
+test_08_missing_return_rejected (__main__.Section13Tests.test_08_missing_return_rejected) ... ok
+test_09_multiple_return_rejected (__main__.Section13Tests.test_09_multiple_return_rejected) ... ok
+test_10_nested_fn_rejected (__main__.Section13Tests.test_10_nested_fn_rejected) ... ok
+test_11_private_cross_module_rejected (__main__.Section13Tests.test_11_private_cross_module_rejected) ... ok
+test_12_public_cross_module_accepted (__main__.Section13Tests.test_12_public_cross_module_accepted) ... /mnt/data/_section13_build/GENESIS_CHIRALITY_MACHINE_SECTION_13_CALLABLES_GENERICS_v0.1.0_20260821/12_REFERENCE_IMPLEMENTATION/genesis_frontend/util.py:31: DeprecationWarning: 'maxsplit' is passed as positional argument
+  return re.split(r'<',str(t).strip(),1)[0].upper()
+ok
+test_13_generic_arity_rejected (__main__.Section13Tests.test_13_generic_arity_rejected) ... ok
+test_14_generic_bound_rejected (__main__.Section13Tests.test_14_generic_bound_rejected) ... ok
+test_15_value_arity_rejected (__main__.Section13Tests.test_15_value_arity_rejected) ... ok
+test_16_return_must_be_local_v01 (__main__.Section13Tests.test_16_return_must_be_local_v01) ... ok
+test_17_effect_containment_rejected (__main__.Section13Tests.test_17_effect_containment_rejected) ... ok
+test_18_direct_recursion_rejected (__main__.Section13Tests.test_18_direct_recursion_rejected) ... ok
+test_19_indirect_recursion_rejected (__main__.Section13Tests.test_19_indirect_recursion_rejected) ... ok
+test_20_simple_monomorphization (__main__.Section13Tests.test_20_simple_monomorphization) ... ok
+test_21_deterministic_specialization (__main__.Section13Tests.test_21_deterministic_specialization) ... ok
+test_22_deterministic_bytecode (__main__.Section13Tests.test_22_deterministic_bytecode) ... ok
+test_23_function_boundary_erased_before_gir (__main__.Section13Tests.test_23_function_boundary_erased_before_gir) ... ok
+test_24_callable_receipt_has_call_count (__main__.Section13Tests.test_24_callable_receipt_has_call_count) ... ok
+test_25_return_type_proof (__main__.Section13Tests.test_25_return_type_proof) ... ok
+test_26_runtime_halts (__main__.Section13Tests.test_26_runtime_halts) ... ok
+test_27_linear_qstate_valid (__main__.Section13Tests.test_27_linear_qstate_valid) ... ok
+test_28_linear_qstate_alias_rejected (__main__.Section13Tests.test_28_linear_qstate_alias_rejected) ... ok
+test_29_nested_call_expands (__main__.Section13Tests.test_29_nested_call_expands) ... ok
+test_30_alpha_renames_nested_locals (__main__.Section13Tests.test_30_alpha_renames_nested_locals) ... ok
+test_31_mixed_sector_callable_executes (__main__.Section13Tests.test_31_mixed_sector_callable_executes) ... ok
+test_32_quantum_callable_executes (__main__.Section13Tests.test_32_quantum_callable_executes) ... ok
+test_33_portal_callable_executes (__main__.Section13Tests.test_33_portal_callable_executes) ... ok
+test_34_brane_callable_executes (__main__.Section13Tests.test_34_brane_callable_executes) ... ok
+test_35_package_build_has_callable_receipt (__main__.Section13Tests.test_35_package_build_has_callable_receipt) ... ok
+test_36_package_lock_reproducible (__main__.Section13Tests.test_36_package_lock_reproducible) ... ok
+test_37_optimizer_equivalence (__main__.Section13Tests.test_37_optimizer_equivalence) ... ok
+test_38_explicit_generic_type_preserved (__main__.Section13Tests.test_38_explicit_generic_type_preserved) ... ok
+test_39_no_recursion_in_stdlib (__main__.Section13Tests.test_39_no_recursion_in_stdlib) ... ok
+test_40_registry_has_callable_core (__main__.Section13Tests.test_40_registry_has_callable_core) ... ok
+test_41_registry_has_callable_portal (__main__.Section13Tests.test_41_registry_has_callable_portal) ... ok
+test_42_registry_has_callable_quantum (__main__.Section13Tests.test_42_registry_has_callable_quantum) ... ok
+test_43_registry_has_callable_bridge (__main__.Section13Tests.test_43_registry_has_callable_bridge) ... ok
+test_44_registry_has_callable_brane (__main__.Section13Tests.test_44_registry_has_callable_brane) ... ok
+test_45_registry_has_callable_provenance (__main__.Section13Tests.test_45_registry_has_callable_provenance) ... ok
+test_46_registry_has_callable_road (__main__.Section13Tests.test_46_registry_has_callable_road) ... ok
+test_47_registry_has_atomic_02 (__main__.Section13Tests.test_47_registry_has_atomic_02) ... ok
+test_48_registry_has_fabric_02 (__main__.Section13Tests.test_48_registry_has_fabric_02) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 1.514s
+
+OK

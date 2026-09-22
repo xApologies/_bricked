@@ -1,0 +1,6 @@
+genesis 0.6.0
+module bad_unclosed {
+  capability io.source.read
+  endpoint source kind SOURCE mode READ root source
+  read source "x.bin" as x
+}

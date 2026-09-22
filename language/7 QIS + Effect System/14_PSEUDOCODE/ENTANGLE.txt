@@ -1,0 +1,8 @@
+ENTANGLE(A, B):
+    require QFT semantics
+    require unique ownership of A and B
+    move/consume component ownership into joint relationship
+    construct JOINT state over tensor basis
+    register entanglement relation
+    do not expose independent pure member state
+    return joint_state

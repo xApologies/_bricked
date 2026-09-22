@@ -1,0 +1,1643 @@
+{
+  "bytes": 664945,
+  "entries": [
+    {
+      "bytes": 72,
+      "path": "00_START_HERE/FOLDER_NAME.txt",
+      "sha256": "736608af2e2a190838ff2f3937199d65bfcf0e841e89c1d84e276cd0deb73d4b"
+    },
+    {
+      "bytes": 2495,
+      "path": "00_START_HERE/README.md",
+      "sha256": "721df3039a1e17d3c4e44831fb4884cdbf03a0f31fe53527a3a40b4dc199da4d"
+    },
+    {
+      "bytes": 776,
+      "path": "00_START_HERE/RECOVERY_ORDER.md",
+      "sha256": "79949e1fee2ab5ba3ec39d53d29cecbfd6b7a6bbb39c2bf2894ec845ff42f954"
+    },
+    {
+      "bytes": 2693,
+      "path": "01_ARCHITECTURE/ARCHITECTURE.md",
+      "sha256": "870bc3014466259a4b047ad69bf9ea5442e3b2d0e1ddebe1e70ce120390516c1"
+    },
+    {
+      "bytes": 1359,
+      "path": "01_ARCHITECTURE/DESIGN_INVARIANTS.md",
+      "sha256": "c91e1592c415b4acd3dfcc06cead6cfe2387ffaa39cc7cfadf005959a0820ba8"
+    },
+    {
+      "bytes": 1550,
+      "path": "02_CALLABLE_CONSTITUTION/CALLABLE_CONSTITUTION.md",
+      "sha256": "7e89cb327ed80708506414b51c409cf57ac2c8f552fbcad30a468d1eab826868"
+    },
+    {
+      "bytes": 1629,
+      "path": "03_FUNCTION_GRAMMAR/FUNCTION_GRAMMAR.md",
+      "sha256": "0fdc207e80825a664d6691924b7393bf1d0cf3f0ec5fd61f7fc29f719c1d0c2e"
+    },
+    {
+      "bytes": 1183,
+      "path": "04_GENERIC_TYPE_SYSTEM/GENERICS.md",
+      "sha256": "8593726fefdf0bd3246d1fbb82468b66b8ffce04ca713db495a3dcb96ec82438"
+    },
+    {
+      "bytes": 1483,
+      "path": "05_MONOMORPHIZATION/MONOMORPHIZATION.md",
+      "sha256": "8aab014e27de60d6e7c785c3f95d19eed64b9eed5daecab367c6dfc46abeb8f4"
+    },
+    {
+      "bytes": 1362,
+      "path": "06_EFFECTS_OWNERSHIP/EFFECTS_AND_OWNERSHIP.md",
+      "sha256": "fadebefdd559fa98b06c4cfbd3b43046dc31bcdd44493f7fd1b49cdfa9f82570"
+    },
+    {
+      "bytes": 1134,
+      "path": "07_CALLABLE_LINKING/CALLABLE_LINKING.md",
+      "sha256": "3526c81ab92e1565e1f05e1c39ce00cc59e4d738cff69513f82315058141f95b"
+    },
+    {
+      "bytes": 955,
+      "path": "08_RUNTIME_ABI/RUNTIME_ABI.md",
+      "sha256": "8df4a21ad1b8ae9a97b97e01c4b415a066cacac619f92e587d8e6cd33405e743"
+    },
+    {
+      "bytes": 1403,
+      "path": "09_STANDARD_LIBRARY/STDLIB_V0_2.md",
+      "sha256": "79b466d7043a9536c3f536e93ff1da5d0420f65e67f049c4da8ea2c798efa0d8"
+    },
+    {
+      "bytes": 934,
+      "path": "10_PACKAGE_RUNTIME/PACKAGE_RUNTIME.md",
+      "sha256": "2c4b5e751c08c6a39080738b77f1a1495b1c06ee93516326325912e281265d05"
+    },
+    {
+      "bytes": 1399,
+      "path": "11_FAILURE_MODEL/FAILURES.md",
+      "sha256": "29b54c2d6e86131b59270a226a21cdd6fbd4e4f2e2e526709be930821320efd6"
+    },
+    {
+      "bytes": 269,
+      "path": "12_REFERENCE_IMPLEMENTATION/README.md",
+      "sha256": "7e714a4ade21a70a94e14339da365224fd363e107610b08078ada8c0514ed29d"
+    },
+    {
+      "bytes": 724,
+      "path": "12_REFERENCE_IMPLEMENTATION/README_SECTION13.md",
+      "sha256": "2b7cb1b3240bf3ff650194129e4ef3c2fa8dcb44ebf9217f690978ede23a18b8"
+    },
+    {
+      "bytes": 135,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callable_packages/__init__.py",
+      "sha256": "3d81f4733450117eeb015ae80b439f29a213ef470b33a8d5d83ced9e32af8f86"
+    },
+    {
+      "bytes": 393,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callable_packages/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "d987494771d4f2f0431c1e23deea9451c6910e6a2540ee7d968c1752cbdca3cb"
+    },
+    {
+      "bytes": 17726,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callable_packages/__pycache__/runtime.cpython-313.pyc",
+      "sha256": "c24e0811c24fdb6f774a6cba4c3176c83955d63f87fb4f1a2c7ba7ed3f4cd4a2"
+    },
+    {
+      "bytes": 10231,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callable_packages/runtime.py",
+      "sha256": "06484a31ec258aedf30be636ef6915bda488215c3b47917dae9f635d6e575895"
+    },
+    {
+      "bytes": 222,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__init__.py",
+      "sha256": "fa962c0b7ed5974495efc9d21395d6374bcf5967b0f095eb442bfeaf84fc985c"
+    },
+    {
+      "bytes": 832,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__main__.py",
+      "sha256": "9939b6f70aa8b07f94b9bcfecf3063a59b1301ccfd94500d52b0d0c8bf55a433"
+    },
+    {
+      "bytes": 475,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "0f46c395007b2af767955ef74d95828b6c69d7eaa42cb1e6da372d22950f41f3"
+    },
+    {
+      "bytes": 6694,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/compiler.cpython-313.pyc",
+      "sha256": "e15532eadf6347125dc7dc8f0bd9fb3e7c36167d1e798f37747dd5888c968711"
+    },
+    {
+      "bytes": 1006,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/errors.cpython-313.pyc",
+      "sha256": "b784b305713bd2ff0968b32da7532eca4c17de37f339720fca03629bbfe12fe1"
+    },
+    {
+      "bytes": 18157,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/expander.cpython-313.pyc",
+      "sha256": "7a27085b10502980cb85022b5139fdb50a5b16449fdb221ab0da9e4ae68cee93"
+    },
+    {
+      "bytes": 6300,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/model.cpython-313.pyc",
+      "sha256": "3039f8a28f9aa7e947433a069c69b8f1bc36a12e404d9c293a9f510bfd0b4ab2"
+    },
+    {
+      "bytes": 8238,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/parser.cpython-313.pyc",
+      "sha256": "8400d192584470b7072b1d962ce39270e05b28e03e93d96d0a9df4eb038943e8"
+    },
+    {
+      "bytes": 5859,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__pycache__/util.cpython-313.pyc",
+      "sha256": "a9aa5d07ee3f574dffc0dcdaa07b44a7a5422c95dd85f837c5470483abbed863"
+    },
+    {
+      "bytes": 3632,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/compiler.py",
+      "sha256": "fccd43a538d3e1fd3ef312a95bcbdb00c74dde193d1c384681c5fcc7e45116c8"
+    },
+    {
+      "bytes": 302,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/errors.py",
+      "sha256": "1ff6e82aaf6696eb0992137216214ca7d21b3b45de34cb11b33fcf8332f34c6c"
+    },
+    {
+      "bytes": 9729,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/expander.py",
+      "sha256": "d49f4f6f8c1084672f0f382e4fc610722ad54a3b8f1c949fb1c4598c301f47c2"
+    },
+    {
+      "bytes": 2738,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/model.py",
+      "sha256": "d0c2cb7a4020e15619be179687988884741e48d839823e8d68405fa3bf793907"
+    },
+    {
+      "bytes": 4792,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/parser.py",
+      "sha256": "d201b89a3086423dfe023678094dd9dccdd80c398bf91e54c07d1f97eef8c493"
+    },
+    {
+      "bytes": 3301,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/util.py",
+      "sha256": "6d6379912b534eaa92148402f85770266248ad89d434cc3d2a618e1a53235ad5"
+    },
+    {
+      "bytes": 220,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__init__.py",
+      "sha256": "fae7e6b263917e9114b7228e925bf994e560f8278ce59ee74396135e34e3c848"
+    },
+    {
+      "bytes": 1622,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__main__.py",
+      "sha256": "0064ebf1345fac89bc61cdd9f4059927234a8a997717968656f8d5e48c41ae63"
+    },
+    {
+      "bytes": 575,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "33da440c97f7241bf881f73433fd26c0fe18d994ab5fb69685d671e9a697e902"
+    },
+    {
+      "bytes": 3768,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/compiler.cpython-313.pyc",
+      "sha256": "6b6d678d846bae5310c67a1f8b0d3229b769bcbb2bb786eaf73240a85f68f1d2"
+    },
+    {
+      "bytes": 1033,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/formatter.cpython-313.pyc",
+      "sha256": "a7e43e04c621195aad9c17f57cc06be22daaf4c2db5077a7747b5af4262ba8ff"
+    },
+    {
+      "bytes": 5406,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/lower.cpython-313.pyc",
+      "sha256": "55105c8092888e7837c4b0e801bef862fcdd7de7c287453bcbb70c7dbbb9559b"
+    },
+    {
+      "bytes": 5192,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/model.cpython-313.pyc",
+      "sha256": "408823ddedc0d5bbf2394a5d20f55618f68168a737dd5030d0a10fe051b9a8f8"
+    },
+    {
+      "bytes": 13470,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/parser.cpython-313.pyc",
+      "sha256": "f0c01c3a9f82f102e64d6070f24fe62c6f063a2815e6e5b5a1b0ceeed89ec13f"
+    },
+    {
+      "bytes": 3236,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__pycache__/util.cpython-313.pyc",
+      "sha256": "f85054803677d9442a499b8fd0a1105e66e815daf5258a1114e6ccef326e403b"
+    },
+    {
+      "bytes": 1827,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/compiler.py",
+      "sha256": "a92ecf17e1202e64267f0ddb2734d1a6749d3179bae0e5d067c44d96cac2533e"
+    },
+    {
+      "bytes": 343,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/formatter.py",
+      "sha256": "ec605c87e72101962a08202a47a64a61415ea1a7e2e9f7605618350cf1b2eabc"
+    },
+    {
+      "bytes": 2910,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/lower.py",
+      "sha256": "2db6b66afea39c8993761ca75005dc39b69d3b1a29da1df262ae98b5d2a2eb1b"
+    },
+    {
+      "bytes": 1658,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/model.py",
+      "sha256": "192bf19ed4fc9c9257f04a688e731a3701c6fed4babc6e2852805d0b0bdb39f4"
+    },
+    {
+      "bytes": 7550,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/parser.py",
+      "sha256": "d116062723dde2854218c07dd7fc4424487594b13ef18049d612d912061be4ef"
+    },
+    {
+      "bytes": 1287,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/util.py",
+      "sha256": "834a89effc43c038d510e83f648810b4c9cbb6bc26722124d4e1191f994a51d3"
+    },
+    {
+      "bytes": 301,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__init__.py",
+      "sha256": "c0dc76a97c928296ac4db7ebeb514088368730cfc0756c89c66196beff9b6685"
+    },
+    {
+      "bytes": 850,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__main__.py",
+      "sha256": "a647f017ed1d7e92031290ad2da66069643be169c2946db6442ca8399749e8e2"
+    },
+    {
+      "bytes": 703,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "af10d4968c81c3bf0502c38ffb2868d4406f1a0204bbb3c4c733cf4642b08588"
+    },
+    {
+      "bytes": 5338,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/capabilities.cpython-313.pyc",
+      "sha256": "168bd65c61ff3e150d3b5e1ee6c893dc75758bc13059ddbc83a43cee4d0032a0"
+    },
+    {
+      "bytes": 19915,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/checker.cpython-313.pyc",
+      "sha256": "cbde18460ef85862e9e53394a2e6bc2c49b76d637a96a172c3cfad1d25fbddb8"
+    },
+    {
+      "bytes": 1989,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/effects.cpython-313.pyc",
+      "sha256": "4f0b213069877a9b2b21560219a5539cf95f9ee7eb7a1e7e0429a880de82b6c2"
+    },
+    {
+      "bytes": 1009,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/errors.cpython-313.pyc",
+      "sha256": "83002bcd56ddf4fe7219e51c28d1dfd5ec9f8ca89ea44fe9da9674dcfd4c8ba8"
+    },
+    {
+      "bytes": 11455,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/linker.cpython-313.pyc",
+      "sha256": "6bb7394dbd34956acf570e8dd9bc5da6b1053b2e600c3915caba81027ada41d4"
+    },
+    {
+      "bytes": 3519,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/model.cpython-313.pyc",
+      "sha256": "6dfcae92847c3c4008791a10a2fcdc96f3b2aee6703ba353ffd6a8c3f5fb89e1"
+    },
+    {
+      "bytes": 2855,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/proofs.cpython-313.pyc",
+      "sha256": "68296e82e25d28f64e2792a5ce34e7658f46f541b5de9ffd206203000003996c"
+    },
+    {
+      "bytes": 4035,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/typesys.cpython-313.pyc",
+      "sha256": "04a04229fd7eef0c1e3ffe80b5eeb24bfdda9af78a33a9ed54cfc165aac2af5a"
+    },
+    {
+      "bytes": 1053,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__pycache__/util.cpython-313.pyc",
+      "sha256": "8ac32eaf79be433e152206b0e3139ec135f8af26b5a91c48b0f1b263801fe0f5"
+    },
+    {
+      "bytes": 2556,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/capabilities.py",
+      "sha256": "507465cdeb13da35f6f11ef5a537668dd41158555acc9780d129b2f2e13c3b17"
+    },
+    {
+      "bytes": 10583,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/checker.py",
+      "sha256": "e52fd356d2b2cccad8858547cf4511d361d4f9196cf2e63012c1e53b5889b613"
+    },
+    {
+      "bytes": 1099,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/effects.py",
+      "sha256": "62c3f6196db7440c791cb986742c4295482f46dd09d3931c5d809bfd146850b7"
+    },
+    {
+      "bytes": 187,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/errors.py",
+      "sha256": "94cc2751be9b7144006eaec4507d9eb5c1ce5db7f3940f1dfcc98e40195f5e1b"
+    },
+    {
+      "bytes": 6505,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/linker.py",
+      "sha256": "da96e14c7919e7ee72de25cb498bc16a53afcea2125523db91493812fe325d0f"
+    },
+    {
+      "bytes": 1191,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/model.py",
+      "sha256": "64698c099b3366db29647545616a013ecdb7fb48a8715c8c2cab4f2152d984e9"
+    },
+    {
+      "bytes": 1678,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/proofs.py",
+      "sha256": "db9abd007c16c4174e4986e528167cdf44635b66a46034c8f989fd0f2f798b0f"
+    },
+    {
+      "bytes": 1532,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/typesys.py",
+      "sha256": "d05fd7bdfaf24048c68228e5d99b6364ff536abd0338c10cd3c1e389400b0f19"
+    },
+    {
+      "bytes": 283,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/util.py",
+      "sha256": "3a7ddd90bf939e8026a62d9643a97191f90326473de40c5c11dd110de7b3cbf1"
+    },
+    {
+      "bytes": 0,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 284,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "689be1e0295b6cc36b182804c2d5a42812f9e8aec3dcd927b6701ef9fd651e77"
+    },
+    {
+      "bytes": 247,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__init__.py",
+      "sha256": "33fba7a3fae7ae58be7fc63a7c9282885e362ac5a30c3243a00bfb4c133d8fa9"
+    },
+    {
+      "bytes": 1015,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__main__.py",
+      "sha256": "ed9f8cc3851d18ffdd08cb3ec5764c479226040a07221c8428498750f4563a25"
+    },
+    {
+      "bytes": 634,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "013a7bfbbf6b0c7e2550aa786af6ad953e29a950dce02c42c4fd4b74ae8fa91e"
+    },
+    {
+      "bytes": 1445,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/assembler.cpython-313.pyc",
+      "sha256": "13de9535ae14c5ec0f4b3c7170e71738a6a1efc37fa0f6fe5d51d671b4191e5f"
+    },
+    {
+      "bytes": 12103,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/backend.cpython-313.pyc",
+      "sha256": "eb90c4b0e5e5e5347e7b0446d4dfeb8fe883b5f272768f3614f50694d196914e"
+    },
+    {
+      "bytes": 5160,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/bytecode.cpython-313.pyc",
+      "sha256": "0bb36a841ca5ad8945e558b7150dc175bfb4b3821a1b4d4e779073ee8f05d25a"
+    },
+    {
+      "bytes": 3660,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/compiler.cpython-313.pyc",
+      "sha256": "1c4291dc32fc46858781d90865ef9aa1b7a5f8e3531cf6534ad990d05958f348"
+    },
+    {
+      "bytes": 1582,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/disasm.cpython-313.pyc",
+      "sha256": "9e9d040a6b11dc41bd491c095679259c1ae4d70b37921bf152295c1a4951ee97"
+    },
+    {
+      "bytes": 1669,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/errors.cpython-313.pyc",
+      "sha256": "e1a5915c713806a8999a9e90bd306ba0bfe0699750a3b91f08da3451b156cf30"
+    },
+    {
+      "bytes": 3140,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/graph.cpython-313.pyc",
+      "sha256": "a7d03cb7d7d60d772306f9673a5a710e138bd9ee09fd38f71fd7731ca4955946"
+    },
+    {
+      "bytes": 6757,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/isa.cpython-313.pyc",
+      "sha256": "5c1feaf22ffcde40c6e8e4caf0c29f2e344073be8b1e72675f0fa626385f39b8"
+    },
+    {
+      "bytes": 4547,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/model.cpython-313.pyc",
+      "sha256": "82d7db150a658a932203082b8eb37bcd1ccd9516a552a8d319544626245f3d16"
+    },
+    {
+      "bytes": 15217,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/runtime.cpython-313.pyc",
+      "sha256": "4844421d8812f965a3a0ac3d4e278c9bc616bbddeaeec646bc2e90b4163ecfb7"
+    },
+    {
+      "bytes": 1051,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/util.cpython-313.pyc",
+      "sha256": "64b803a931597e217f9cde9eafb409a704714c79996a2ba3f66bf9ae557e0a95"
+    },
+    {
+      "bytes": 6640,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__pycache__/verifier.cpython-313.pyc",
+      "sha256": "b63f447aff303f01ba09512af9b1ad99c36853f1121863fbb7709908c71b6702"
+    },
+    {
+      "bytes": 442,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/assembler.py",
+      "sha256": "734fa2db039453a44f27ac762b2c5766f7280c2052a4015180e7ceda256dcfcd"
+    },
+    {
+      "bytes": 6716,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/backend.py",
+      "sha256": "e55b03908137bd18f5734d167cff332f7aafde315f89a0297b61cb77db62118d"
+    },
+    {
+      "bytes": 2308,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/bytecode.py",
+      "sha256": "a401dfd6d15e41a8347018c3da28a2da1205c14a38c164bf0a1de60fbc90ec22"
+    },
+    {
+      "bytes": 1876,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/compiler.py",
+      "sha256": "19a36545de85e5debc5181730c143ec6a20909404c5dfb77b1690de73da2d527"
+    },
+    {
+      "bytes": 454,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/disasm.py",
+      "sha256": "a307bb72b9ee8df9e44723b23202f199978ee512fef027d8bfddf615be20d68d"
+    },
+    {
+      "bytes": 328,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/errors.py",
+      "sha256": "450a87adca6dd4b910b8ab02853bcc4531dc489c7a6e4c3e8a2f7be74f2768fc"
+    },
+    {
+      "bytes": 1622,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/graph.py",
+      "sha256": "a0335810eb72d2112b0061d2728e76d1bd186c3f08c184bcc9adc811ac9be16e"
+    },
+    {
+      "bytes": 2673,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/isa.py",
+      "sha256": "0e646975428d09282eed3a4815fb41dc1068b9ae3c9510b7244bed3e968a3302"
+    },
+    {
+      "bytes": 2344,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/model.py",
+      "sha256": "90f8c4a8484e37f21eb40b5244fb9c5040da08cc4ac2ddb64dc61960c9e9075c"
+    },
+    {
+      "bytes": 6723,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/runtime.py",
+      "sha256": "7818b1cb7a56f99c4418c2e6f1abeb7930840250174f3fcfd0bb391a1dec8a37"
+    },
+    {
+      "bytes": 306,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/util.py",
+      "sha256": "3a5076a106c7259cedd1f80085a7670ffe2874c786fc6a4bbfc06686620aa39d"
+    },
+    {
+      "bytes": 3562,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/verifier.py",
+      "sha256": "3804c6d3598458f5e98e22cb5c463a04acdd83ad5eee6a2f63394fcdc6cce977"
+    },
+    {
+      "bytes": 239,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__init__.py",
+      "sha256": "b5b6b54887466bb20d57cf7838993dcc604b6877250d7d06bf12fb89292b9faa"
+    },
+    {
+      "bytes": 1355,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__main__.py",
+      "sha256": "ab487f23096acef4498f4be79e623d0cf0fd39876f2362d6ea23e021a12818e1"
+    },
+    {
+      "bytes": 576,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "46cb81d185cf1566246d8a584fbfba44bd53d1e06249be0b4b21b41811bde682"
+    },
+    {
+      "bytes": 2800,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/analysis.cpython-313.pyc",
+      "sha256": "2f9d3a90ce61ac1f5ae1cec857eb9010375bb7432059be2cd5931261094838c6"
+    },
+    {
+      "bytes": 3193,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/codegen.cpython-313.pyc",
+      "sha256": "cd66edc75c18767a9dec9b7029baa8fc0e80af1dda5a7154e846139ec9564ee2"
+    },
+    {
+      "bytes": 1046,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/effects.cpython-313.pyc",
+      "sha256": "65be505b5b89f2ebfd09edd1fb3f78a764a32fc933c162208ad2566ec73d5401"
+    },
+    {
+      "bytes": 1852,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/equivalence.cpython-313.pyc",
+      "sha256": "0eae4b448239fed05f29753b3f9b3ac872b2a79a7a3db3aed282bea869488e70"
+    },
+    {
+      "bytes": 1370,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/frontend.cpython-313.pyc",
+      "sha256": "b553c99698da2377f370a0bfa9824b15acd2e5150ec75504bafb62e046147026"
+    },
+    {
+      "bytes": 3910,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/optimizer.cpython-313.pyc",
+      "sha256": "f7bc7752d59d4903eeea4b94965951da7e7db44f52a1ea1d8e0dc7e7f2652d9a"
+    },
+    {
+      "bytes": 9031,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/passes.cpython-313.pyc",
+      "sha256": "a784407bf758fffbbd253ad1ab90bbda5fd93f4ad1c1d27e0dca23f13bce99f1"
+    },
+    {
+      "bytes": 1532,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__pycache__/util.cpython-313.pyc",
+      "sha256": "cdaf7781ab80a099ae606e8f9c7fd9d7426705a76e272e479f54156525282d8f"
+    },
+    {
+      "bytes": 1345,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/analysis.py",
+      "sha256": "4f45772a3536b3698e825a0f361433851ccaee9e823c4edd0d8fe866ac2c6a1a"
+    },
+    {
+      "bytes": 1476,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/codegen.py",
+      "sha256": "1a9cd7ac8d073af1b1b1fedf9a6d12ebeb48c2fb2219af0fe93c328ad7ca5db4"
+    },
+    {
+      "bytes": 532,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/effects.py",
+      "sha256": "87a36d21e8fd6767b4a188523fa7d11d51ad106626f59df92f3c2ed102851387"
+    },
+    {
+      "bytes": 838,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/equivalence.py",
+      "sha256": "c7e0138875f92ffc0cad3e54df002387e099e6f62179e5596816ef0fba93d465"
+    },
+    {
+      "bytes": 711,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/frontend.py",
+      "sha256": "fa16d57a4046f9cebd2a4ccaada236dee98263d7ea986c5340c4e67e5debb0ad"
+    },
+    {
+      "bytes": 2252,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/optimizer.py",
+      "sha256": "db82aa24dfd5bc7ae233c95dcf06d584a932f26bb9e0223ec5b23b9bd5d3d15f"
+    },
+    {
+      "bytes": 4255,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/passes.py",
+      "sha256": "96e0806a935f7a176b20c29c8c89157b1e559999bda8be9174047d4c7ecbaec8"
+    },
+    {
+      "bytes": 451,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/util.py",
+      "sha256": "aea3eb2869a8907ddc664e92d5bae597a2c42e3bd937b279635041b44e645ee2"
+    },
+    {
+      "bytes": 347,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__init__.py",
+      "sha256": "5181ff9be7cf4f8cc0ba570aaff112810f88508d71a1f4382806feda8687aaf9"
+    },
+    {
+      "bytes": 843,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__main__.py",
+      "sha256": "ad0c3ddabb0e6fae0f02e7c9a14d47df6c548ec0550a148024b716bd6e33d6f7"
+    },
+    {
+      "bytes": 747,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "d0c3bae39136299749820edd4a2980ce7277b5209f36ffcbe5084cd6732eecd1"
+    },
+    {
+      "bytes": 1486,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/errors.cpython-313.pyc",
+      "sha256": "ebc6e0dda6e7436715615962fe7b887fbccc45e8e38a88ac871874f432e03bd2"
+    },
+    {
+      "bytes": 2786,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/lockfile.cpython-313.pyc",
+      "sha256": "50f14c878bacf9a0ffd61441428bc4587a58805bb247aa3555249c986230dd14"
+    },
+    {
+      "bytes": 6308,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/manifest.cpython-313.pyc",
+      "sha256": "2641edf5427577e18e43e741da062db17a1f14b1b0fe70a9c53ffddcb02e0fc1"
+    },
+    {
+      "bytes": 3851,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/registry.cpython-313.pyc",
+      "sha256": "c4b125cf06983b4d79c6bb9611cce7bddd1310e8fdabd36938ed817eaad6f881"
+    },
+    {
+      "bytes": 5844,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/resolver.cpython-313.pyc",
+      "sha256": "4ce8e8a8e0950786e0c6eded3581e7dbbf3b2938a166440af351429d7928dba4"
+    },
+    {
+      "bytes": 13787,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/runtime.cpython-313.pyc",
+      "sha256": "9aa94143d53c0db4ba32adef80a0cc63e08bce7e4d15eb789e7ec7e6a1fd023a"
+    },
+    {
+      "bytes": 3846,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/semver.cpython-313.pyc",
+      "sha256": "bbc03afcd9462d5eb48dc080eecb268cf3e0fddaef9a75c88ba5fb3e3bbec03e"
+    },
+    {
+      "bytes": 2159,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/store.cpython-313.pyc",
+      "sha256": "31fed7f4068243e8e2a0d3e03538fc1a7a8e62a2744aecbc82a068e48de98d26"
+    },
+    {
+      "bytes": 3138,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__pycache__/util.cpython-313.pyc",
+      "sha256": "d9e226e04880627764e06395353b27fb911c485e95ec477fb44ea575e4d60272"
+    },
+    {
+      "bytes": 396,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/errors.py",
+      "sha256": "000901c0e4cc25b9ee66c974136385ee7d72c87612e62df3b03cf4807f9474c4"
+    },
+    {
+      "bytes": 1164,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/lockfile.py",
+      "sha256": "0262ffa22a4a9de0787ef5dfe0a9bfd603a97d02b48db84398d7617a50a46759"
+    },
+    {
+      "bytes": 3098,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/manifest.py",
+      "sha256": "d29bac6a7e1d1e63f55fe4e68941bc4e75284bf204560e9f2ab4d854f6abd341"
+    },
+    {
+      "bytes": 1467,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/registry.py",
+      "sha256": "cadffb9036cdfd2214355f7f3124dc1ceda8b7eabf827ca582be99d31762f0a3"
+    },
+    {
+      "bytes": 2354,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/resolver.py",
+      "sha256": "2fcc4753ce1d5140e38b012366596c76ed039f815d5db127b978c4f35787185f"
+    },
+    {
+      "bytes": 7804,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/runtime.py",
+      "sha256": "766485e6ac305f7f8b5cc994cfa661ccaa9ac177e4b95fe1aaa8fea6bad5e544"
+    },
+    {
+      "bytes": 1465,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/semver.py",
+      "sha256": "2caff67f3c401331d059ab734d870043d81c6a0742dcd49fdfcc1295fa19aac5"
+    },
+    {
+      "bytes": 842,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/store.py",
+      "sha256": "958c1e670eec133fee63ac0558d381cbfeae52c7d94aab3583f6873b56cebed1"
+    },
+    {
+      "bytes": 904,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/util.py",
+      "sha256": "e51614d14ba6cbc67fee6cb30e79436a862a8ed0103e95575b1c2a913ab418ad"
+    },
+    {
+      "bytes": 773,
+      "path": "13_SCHEMAS/call_expansion.schema.json",
+      "sha256": "7825c25469a45822772893e6eb3892072a31bb70ff33f0192240e00c53819697"
+    },
+    {
+      "bytes": 926,
+      "path": "13_SCHEMAS/callable_frontend_receipt.schema.json",
+      "sha256": "bc289017c05a37f3f1d780073e470b2e413fa516773b8984a31480a1e4180c5e"
+    },
+    {
+      "bytes": 648,
+      "path": "13_SCHEMAS/callable_signature.schema.json",
+      "sha256": "909f3ac394acdd65f6dc954282656db2432b5927370939c366c4176bbf19c6a1"
+    },
+    {
+      "bytes": 1004,
+      "path": "14_PSEUDOCODE/COMPILE.txt",
+      "sha256": "e3f1fb9c3cbab4e2718fc49548fc66233edb22c6b510be86707ffc56e94ade80"
+    },
+    {
+      "bytes": 864,
+      "path": "14_PSEUDOCODE/SPECIALIZE.txt",
+      "sha256": "3227888305087242b96c1afa38324fb0b76b41161aada18a15a4fa6c803d5078"
+    },
+    {
+      "bytes": 13040,
+      "path": "15_TESTS/test_section13.py",
+      "sha256": "b19376f4e14e7eb2b291c0cf1c6905c256215d850d32b7eb243ecf47fa6dde1e"
+    },
+    {
+      "bytes": 693,
+      "path": "16_EXAMPLES/PROJECTS/BRANE_PROVENANCE/genesis.pkg.json",
+      "sha256": "4efa0b4ad0a2ce28ffb11d3aa6d2bc5089630d6e1be815f7c1d0f84475531f8e"
+    },
+    {
+      "bytes": 440,
+      "path": "16_EXAMPLES/PROJECTS/BRANE_PROVENANCE/src/main.gen",
+      "sha256": "01e0ee405fa4e1174f196a30e1d88fc6cbeb0831bdc732951867d2bcf225db61"
+    },
+    {
+      "bytes": 655,
+      "path": "16_EXAMPLES/PROJECTS/GENERIC_FORK/genesis.pkg.json",
+      "sha256": "46c3483c850de7aab89bc7615ef0448ea463790f164597782aea3cfa2e122b0a"
+    },
+    {
+      "bytes": 389,
+      "path": "16_EXAMPLES/PROJECTS/GENERIC_FORK/src/main.gen",
+      "sha256": "5cf03889ec21e3a8545ace82a92ab8f727c95674d62e249d5c838bf9ef380e2b"
+    },
+    {
+      "bytes": 697,
+      "path": "16_EXAMPLES/PROJECTS/MIXED_SECTOR/genesis.pkg.json",
+      "sha256": "08676a40a8548b7ee7587093d75ae4f290dada517fba0459b05ffab56271d5b2"
+    },
+    {
+      "bytes": 412,
+      "path": "16_EXAMPLES/PROJECTS/MIXED_SECTOR/src/main.gen",
+      "sha256": "33b298a99ad789f72f6ec26574d97fb2a95f09e6e5ff6863358d20e1298a4646"
+    },
+    {
+      "bytes": 656,
+      "path": "16_EXAMPLES/PROJECTS/NESTED_CALLABLE/genesis.pkg.json",
+      "sha256": "813efce650412036b3fb94c3d470e2ed58925fe4cbc2e490bf7ba43f6555ce17"
+    },
+    {
+      "bytes": 322,
+      "path": "16_EXAMPLES/PROJECTS/NESTED_CALLABLE/src/main.gen",
+      "sha256": "0d770bf3b0868f804e2f76a227abd6f38bf3b42445db910fb96243c823b65c46"
+    },
+    {
+      "bytes": 707,
+      "path": "16_EXAMPLES/PROJECTS/PORTAL_GENERIC/genesis.pkg.json",
+      "sha256": "2bddd8735ae6e39661942749909f0527f916757cf37a711d2423aa5970e7890b"
+    },
+    {
+      "bytes": 380,
+      "path": "16_EXAMPLES/PROJECTS/PORTAL_GENERIC/src/main.gen",
+      "sha256": "844782af3a38488d726560f4d7b6f84eff61233b6629d3c638aa12b56533afed"
+    },
+    {
+      "bytes": 689,
+      "path": "16_EXAMPLES/PROJECTS/QUANTUM_GENERIC/genesis.pkg.json",
+      "sha256": "11c5ab9806307e766f36233e14512a78a47b3176acdd3a7a5b9555fdc7d3df06"
+    },
+    {
+      "bytes": 400,
+      "path": "16_EXAMPLES/PROJECTS/QUANTUM_GENERIC/src/main.gen",
+      "sha256": "272bc8a3b25597cf49040bc13ff43a751ffec5812d6804bfce3fc772bb698749"
+    },
+    {
+      "bytes": 611,
+      "path": "16_EXAMPLES/README.md",
+      "sha256": "1f3c84cf867824422f14b9c82f652ed3f9b336425efd0d78b87900e0a4119ba3"
+    },
+    {
+      "bytes": 252,
+      "path": "17_STANDARD_LIBRARY/README.md",
+      "sha256": "634bd53375894bd696de0f422ede0765e53537357b4ef0264e2f81019dc4237f"
+    },
+    {
+      "bytes": 589,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/example.qftleg/0.1.0/genesis.pkg.json",
+      "sha256": "cb6f5b88ff16a81924b07da30b8e655faada76ebbd306a4e60247d64c4e9545f"
+    },
+    {
+      "bytes": 354,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/example.qftleg/0.1.0/src/qftleg.gen",
+      "sha256": "ec62605e6fb98551bee299c4b4c86d435c40fb7197511caaba92e0305953a54b"
+    },
+    {
+      "bytes": 580,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std/0.1.0/genesis.pkg.json",
+      "sha256": "2d1ed65acc0ba202ef826185c8eb5abbec78c737f14ca8e47ec3c7756dd7988c"
+    },
+    {
+      "bytes": 783,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/genesis.pkg.json",
+      "sha256": "a6da425cc1f587a16604e37a42077afbfe8ab6d509ac83fe0ccf935820177f39"
+    },
+    {
+      "bytes": 279,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/blank.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 275,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/hsv1.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/hydrogen.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 272,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.1.0/src/oxygen.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 795,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.2.0/genesis.pkg.json",
+      "sha256": "803b923108a2cdfa24e786572f5d844dc3223d1162349cfbef0b8ce68275fe38"
+    },
+    {
+      "bytes": 279,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.2.0/src/blank.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 275,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.2.0/src/hsv1.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.2.0/src/hydrogen.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 272,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.atomic/0.2.0/src/oxygen.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 399,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.brane/0.1.0/genesis.pkg.json",
+      "sha256": "b5104568a9eff26b3097f67e5ef02740f8d455a9bb23024209c08a2e66b0a07c"
+    },
+    {
+      "bytes": 494,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.brane/0.2.0/genesis.pkg.json",
+      "sha256": "5989643d067cb27296c9593816364d37e63156f49c151ff61c0848f349f94618"
+    },
+    {
+      "bytes": 183,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.brane/0.2.0/src/callables.gen",
+      "sha256": "9c59055f14cf041ad44cfc3f61a62365c3956048b1fb440bb345d0b55ac3bc33"
+    },
+    {
+      "bytes": 429,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.bridge/0.1.0/genesis.pkg.json",
+      "sha256": "0279f20c2175a26620ff8a12e4ffda4873c1a322968377647c489f35fe0a17a2"
+    },
+    {
+      "bytes": 614,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.bridge/0.2.0/genesis.pkg.json",
+      "sha256": "7fbc3c09ee64730ec2c499d2733825b8e00c38c95e6013490bd7310cabc477b3"
+    },
+    {
+      "bytes": 882,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.bridge/0.2.0/src/callables.gen",
+      "sha256": "28dd274587caeaf5fec850aef723782b8c431502e598e963ceef062764fe0e9f"
+    },
+    {
+      "bytes": 322,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.core/0.1.0/genesis.pkg.json",
+      "sha256": "31b45be76cca72de80d635fe4d833e5bfbb308da7c337467a54e75fc87f29808"
+    },
+    {
+      "bytes": 452,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.core/0.2.0/genesis.pkg.json",
+      "sha256": "c647d9c2c3922d820e2da1a42c956c30a7e051c512b040f13726f0c41f6b1f46"
+    },
+    {
+      "bytes": 187,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.core/0.2.0/src/callables.gen",
+      "sha256": "650ca78f1dd5ea9db6f816d50964a134089cb6c4c2418653d85a196382a55bdb"
+    },
+    {
+      "bytes": 510,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.fabric/0.1.0/genesis.pkg.json",
+      "sha256": "85787911e7851e7b5dec517d2e9e52cb5fe4b4147abded522d4fc140e4b7bb31"
+    },
+    {
+      "bytes": 142,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.fabric/0.1.0/src/reference.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 528,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.fabric/0.2.0/genesis.pkg.json",
+      "sha256": "c52abe79f67f616e438d2c5422cbb56fdcf423a90e12c8dd485315c9b33ae397"
+    },
+    {
+      "bytes": 142,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.fabric/0.2.0/src/reference.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 473,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.portal/0.1.0/genesis.pkg.json",
+      "sha256": "ff8a41024f5c553286b0eb084f834d98a8f88042d5750041d89ab5102ff735b9"
+    },
+    {
+      "bytes": 577,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.portal/0.2.0/genesis.pkg.json",
+      "sha256": "f6bfc0099ce7738f23385102cd6f1af4043201020b1f854fae9db405467e402d"
+    },
+    {
+      "bytes": 1179,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.portal/0.2.0/src/callables.gen",
+      "sha256": "1dcfefe99ff26ca7283874ca1bb9bf2cb33a3d2c13f3b014590d95a13c9917f4"
+    },
+    {
+      "bytes": 437,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.provenance/0.1.0/genesis.pkg.json",
+      "sha256": "7c4f254296f2ee7ab94ff9049539025c69a75760028d5da7e24cfbba75dab30c"
+    },
+    {
+      "bytes": 527,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.provenance/0.2.0/genesis.pkg.json",
+      "sha256": "177fd52d83b9e0f2e4203826d82ba7cc615b0a3edf793725261c14cc56ec66fa"
+    },
+    {
+      "bytes": 347,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.provenance/0.2.0/src/callables.gen",
+      "sha256": "4ebf70497fe13993601a2d5da77c02e4384dccd36085fb9cf5af5add83dfa48e"
+    },
+    {
+      "bytes": 449,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.quantum/0.1.0/genesis.pkg.json",
+      "sha256": "536199dac6422a4833bf655a6791042c16f35cc04f0edab8d5c7545d983e370d"
+    },
+    {
+      "bytes": 555,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.quantum/0.2.0/genesis.pkg.json",
+      "sha256": "939ee5ac66ed77d339aa67e1486177da706cfb3268554a0ecec5f02cc58de7bf"
+    },
+    {
+      "bytes": 530,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.quantum/0.2.0/src/callables.gen",
+      "sha256": "9d7a76abc33ebb5762989a716239fc59e9df1b6852f5aaab08246452a11256d4"
+    },
+    {
+      "bytes": 450,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.road/0.1.0/genesis.pkg.json",
+      "sha256": "63f5434aa38ce5a2e97a07a4ee59aa949aedee7cd7bea6ff899e98942cdb5d2c"
+    },
+    {
+      "bytes": 546,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.road/0.2.0/genesis.pkg.json",
+      "sha256": "871d7862b41b8e633a2895f03f7bff56d5798731c7115c9e5684e22841a3a836"
+    },
+    {
+      "bytes": 336,
+      "path": "17_STANDARD_LIBRARY/REGISTRY/genesis.std.road/0.2.0/src/callables.gen",
+      "sha256": "82695b807fa25a99ee2aac6102f03b193013b92d7dce0cb45732d8129b29a94b"
+    },
+    {
+      "bytes": 4652,
+      "path": "17_STANDARD_LIBRARY/REGISTRY_INDEX.json",
+      "sha256": "07886d009cbf8c56a643568881489070b90447775d5e8a591e03e258ad7ddad8"
+    },
+    {
+      "bytes": 1247,
+      "path": "18_SOURCE_CROSSWALK/SOURCE_CROSSWALK.md",
+      "sha256": "843fe92dafa892d04081237f45c8af96e45fa91d4a6f3a771edca1d44045f08b"
+    },
+    {
+      "bytes": 703,
+      "path": "18_SOURCE_CROSSWALK/STATUS_DISCIPLINE.md",
+      "sha256": "61c7ebe00bc19c1e92c08c867dd9b446afd59a3b94cd99eb70cedc13b6ec044a"
+    },
+    {
+      "bytes": 1048,
+      "path": "19_RECOVERY/SECTION_13_STATE.md",
+      "sha256": "bc49538ee4c7ed98fe164b58c7e390871b58186ac56221109b38fb4a7eea264e"
+    },
+    {
+      "bytes": 6057,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/CALLABLE_FRONTEND_RECEIPT.json",
+      "sha256": "d51f35de7647fa632a4aa403fb39be44cd1a8553ae766426679b2a3cc8fe9ce4"
+    },
+    {
+      "bytes": 2097,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/CALLABLE_PROOFS.json",
+      "sha256": "95e4f36815d0f546f217c0100fe3c264e914135d57d034f1339f43543c242a38"
+    },
+    {
+      "bytes": 1400,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/CALL_EXPANSIONS.json",
+      "sha256": "83f3c774e6806011d7dbaa22f06ba95f6b0ec4c02757a71bdc45b858aa112af4"
+    },
+    {
+      "bytes": 320,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/CODEGEN_RECEIPT.json",
+      "sha256": "5c8a618787810f237072eebf9c63d21111802199fc6323801b784e785791a31b"
+    },
+    {
+      "bytes": 86,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/EXECUTION_SUMMARY.json",
+      "sha256": "ff6a8f3e5668240008406b22923a48ffd1a2a37975f494a012b4d46875b01175"
+    },
+    {
+      "bytes": 1830,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/OPTIMIZATION_RECEIPT.json",
+      "sha256": "55dabde439af37535d428a93177659046ff9700a336bc2e94028eaaf9aea66e4"
+    },
+    {
+      "bytes": 5335,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "8fe7b55f9bfde94dda3265d08ff905bf1b6296e90ba656092b56cf26c6509a17"
+    },
+    {
+      "bytes": 279,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/blank.gen.expanded.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 58,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/callables.gen.expanded.gen",
+      "sha256": "d1e047b4be4acbe33555af0690d599b22eb62dc92eb0d81f46a3beeb179776ea"
+    },
+    {
+      "bytes": 275,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/hsv1.gen.expanded.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/hydrogen.gen.expanded.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 251,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/main.gen.expanded.gen",
+      "sha256": "b7c762003a2eb0aaaac40e0f4b6015a2d9c116dc56c6b29a6b23a797248d7a4f"
+    },
+    {
+      "bytes": 272,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/oxygen.gen.expanded.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 142,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/expanded/reference.gen.expanded.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 2238,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/genesis.lock.json",
+      "sha256": "def729e52ec4c1690673cad66ab3b2e34e8b14fddd698bb3e55ffc988c023a24"
+    },
+    {
+      "bytes": 1448,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/program.disasm.txt",
+      "sha256": "8beaaef38665f82c5d051c242b18693b8b0756828eba4b30dd394896e098f60a"
+    },
+    {
+      "bytes": 2544,
+      "path": "20_REFERENCE_BUILDS/BRANE_PROVENANCE/program.gvm",
+      "sha256": "79ee06c73bf241edd7084807ddb5fbc17d70ba7f70d05aee3ba982a1f9b56856"
+    },
+    {
+      "bytes": 4776,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/CALLABLE_FRONTEND_RECEIPT.json",
+      "sha256": "3504dc5ed5b034102ff3c064df9f500b05a5b5f751dd7410980b327808a9e05e"
+    },
+    {
+      "bytes": 1783,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/CALLABLE_PROOFS.json",
+      "sha256": "2fb77dbab45fbb25f9e8e881f9f6a19a74f8489680f0fb001f54944e8cc99019"
+    },
+    {
+      "bytes": 728,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/CALL_EXPANSIONS.json",
+      "sha256": "05d661b62829da0c6ededbb5e08e2e5c8e8c286071b5c44a5dd9ddf7bf4baecb"
+    },
+    {
+      "bytes": 320,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/CODEGEN_RECEIPT.json",
+      "sha256": "b525335328f702b8d1a91e58778589bc18fe76c67eb52f8286e2a1d86fbffcf7"
+    },
+    {
+      "bytes": 86,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/EXECUTION_SUMMARY.json",
+      "sha256": "3b9efba4cb3ac186116305b930438a717ed632e00eac84afb2001170892d7675"
+    },
+    {
+      "bytes": 1830,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/OPTIMIZATION_RECEIPT.json",
+      "sha256": "c54b68c8f8a384b4e631b1fb224ab9294b775b39555a9993998eb65c0f985669"
+    },
+    {
+      "bytes": 4017,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "67b98e61c0e3a40aa812181d38dab6f9722133acf082fe637742e0059bd81e75"
+    },
+    {
+      "bytes": 279,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/blank.gen.expanded.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 52,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/callables.gen.expanded.gen",
+      "sha256": "2b86652cec5335f07275215e6e5dc457d7ad6b025c6d695483c7389463aeb2f0"
+    },
+    {
+      "bytes": 275,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/hsv1.gen.expanded.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/hydrogen.gen.expanded.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 318,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/main.gen.expanded.gen",
+      "sha256": "754f6b11f0dd9dfba520a1b7cc6e2776aa46a1a33d762a719049c6465bbdaaf4"
+    },
+    {
+      "bytes": 272,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/oxygen.gen.expanded.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 142,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/expanded/reference.gen.expanded.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 1527,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/genesis.lock.json",
+      "sha256": "9cffd70b6bef04e930e4ba09caa45915fdb40c1384f94f190fc58fb4b55d4bdf"
+    },
+    {
+      "bytes": 1470,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/program.disasm.txt",
+      "sha256": "1371c7d57e862bf073f51c26a6e9f70a6db091b4d79f77b4ea145cc139b51ccf"
+    },
+    {
+      "bytes": 2549,
+      "path": "20_REFERENCE_BUILDS/GENERIC_FORK/program.gvm",
+      "sha256": "3c73eb8407dc51479769dfd16a43f86e8cbd66a043c96bca37971823fa13e3a2"
+    },
+    {
+      "bytes": 6032,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/CALLABLE_FRONTEND_RECEIPT.json",
+      "sha256": "d622e252373ecfca048e4e0b8083605b853b71fe6a9071229d837fae1b008d7d"
+    },
+    {
+      "bytes": 3358,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/CALLABLE_PROOFS.json",
+      "sha256": "523114cbe62a5a896abbc9a8caaf911849f6db672fed07980b0ac8efb9ccf66b"
+    },
+    {
+      "bytes": 1987,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/CALL_EXPANSIONS.json",
+      "sha256": "23791737d4c540f44a3c5ebb9caf7f5e53d96a82f826fdf0090a5dc9cd2f36a8"
+    },
+    {
+      "bytes": 320,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/CODEGEN_RECEIPT.json",
+      "sha256": "14a34a314b028d157eb36580699686a232c45dd609198e15ce31daeac2bbeb67"
+    },
+    {
+      "bytes": 86,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/EXECUTION_SUMMARY.json",
+      "sha256": "eb8412b9a7c479074b4314a4d5c198d9b53aadc3748a427929185a5a757ad0c6"
+    },
+    {
+      "bytes": 1830,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/OPTIMIZATION_RECEIPT.json",
+      "sha256": "54f6bbbf4a76c2b29abd76765b71313f4fbc0dcdfcde7810edb9832a5ecc1dcd"
+    },
+    {
+      "bytes": 5548,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "db3a14b9f2785e8918da151ef72f652749db1d3821d2bed22d2867534e982ad4"
+    },
+    {
+      "bytes": 279,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/blank.gen.expanded.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 54,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/callables.gen.expanded.gen",
+      "sha256": "9104afc3b886150fac35332637ca98d87bd3680939bff752b354b582b2638d64"
+    },
+    {
+      "bytes": 275,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/hsv1.gen.expanded.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/hydrogen.gen.expanded.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 1083,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/main.gen.expanded.gen",
+      "sha256": "ec971b128b5bf39361dfdccecea9b3a23c66a6d0e414c3687090c8890c2dfec0"
+    },
+    {
+      "bytes": 272,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/oxygen.gen.expanded.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 142,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/expanded/reference.gen.expanded.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 2222,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/genesis.lock.json",
+      "sha256": "eab8b411ab0770d9139b9a65154728583b8be088c4d7b76e148cf7fb5f1d5165"
+    },
+    {
+      "bytes": 2552,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/program.disasm.txt",
+      "sha256": "bc610f5b9994905c70ec169f21fabf7f62478e77502d69963a2792e6cbf84aea"
+    },
+    {
+      "bytes": 4184,
+      "path": "20_REFERENCE_BUILDS/MIXED_SECTOR/program.gvm",
+      "sha256": "25ed8614256b441122ce303269e4af9c8b04cdf5e2d98fa79ebf1a298be32943"
+    },
+    {
+      "bytes": 5435,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/CALLABLE_FRONTEND_RECEIPT.json",
+      "sha256": "b33eb8bc54ce6468cc971eda3d7cca2525838e117ebf39a351c064f2e739418c"
+    },
+    {
+      "bytes": 2753,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/CALLABLE_PROOFS.json",
+      "sha256": "13e4b0b00cb9b087e1f768cc5f45397b9fd26769d4820e1bdd5324b78811ff5e"
+    },
+    {
+      "bytes": 2013,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/CALL_EXPANSIONS.json",
+      "sha256": "603efcac4f304f56ba2ebd20ecc2b9171f861050f3526809fc741ad2e990bc20"
+    },
+    {
+      "bytes": 320,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/CODEGEN_RECEIPT.json",
+      "sha256": "730e6d27d88d6915ef1bd299545aaecd6261a6b1844243d65593d7019b04fd3d"
+    },
+    {
+      "bytes": 86,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/EXECUTION_SUMMARY.json",
+      "sha256": "a7abafb1b6b0e6a47e3724fbb12a288a0b468f5432e54bb664d47bca785ba4aa"
+    },
+    {
+      "bytes": 1830,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/OPTIMIZATION_RECEIPT.json",
+      "sha256": "855b8eeab334fe73c3a77b9d1ed6cc70c82c252b393d600d7a0a724e7cc022bf"
+    },
+    {
+      "bytes": 4804,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "513cad37d8324ebb122a53551234d52be97b8e560b6d22645a225ff833923ea1"
+    },
+    {
+      "bytes": 279,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/blank.gen.expanded.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 54,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/callables.gen.expanded.gen",
+      "sha256": "9104afc3b886150fac35332637ca98d87bd3680939bff752b354b582b2638d64"
+    },
+    {
+      "bytes": 275,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/hsv1.gen.expanded.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/hydrogen.gen.expanded.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 668,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/main.gen.expanded.gen",
+      "sha256": "ca59d54a0da6fca59b78bde276295bcba54cfb065dad1fccc214945272294f8b"
+    },
+    {
+      "bytes": 272,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/oxygen.gen.expanded.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 142,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/expanded/reference.gen.expanded.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 1860,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/genesis.lock.json",
+      "sha256": "1df78169b517e644ab0d4c460955dda904e21475be2da67b3f26092d537ce1c7"
+    },
+    {
+      "bytes": 1914,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/program.disasm.txt",
+      "sha256": "f5df1227b3a129acace518b00342b575d49c4f3529248d917fb7b33d8a5e8407"
+    },
+    {
+      "bytes": 3272,
+      "path": "20_REFERENCE_BUILDS/NESTED_CALLABLE/program.gvm",
+      "sha256": "00a4b63ed9fd43948f36b84b14b63c560d9c0885662031a3e1b25c783191af6c"
+    },
+    {
+      "bytes": 5393,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/CALLABLE_FRONTEND_RECEIPT.json",
+      "sha256": "76894c890e3d1bce2d0df58562070aaf56e3a7cf11a9ed3143bfb5982b5a72d5"
+    },
+    {
+      "bytes": 2179,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/CALLABLE_PROOFS.json",
+      "sha256": "95de5711067032fb2b3ef5f883b834e8cd2ead446989e9a3810069af59a0b336"
+    },
+    {
+      "bytes": 954,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/CALL_EXPANSIONS.json",
+      "sha256": "45729fd7bf212a9baf50385e746cc1e8decfdd63ce82979d47ee32bf8600df99"
+    },
+    {
+      "bytes": 320,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/CODEGEN_RECEIPT.json",
+      "sha256": "66a978f0637265501d1d45dd99342c36d156a421da843708bca5bf65db967488"
+    },
+    {
+      "bytes": 86,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/EXECUTION_SUMMARY.json",
+      "sha256": "eb43c24fcaa38bc281287621f8d427319e679b01292e87a80ef670e7595d7284"
+    },
+    {
+      "bytes": 1830,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/OPTIMIZATION_RECEIPT.json",
+      "sha256": "b8cb8af83fb831b89e1c1ff15a12ce6bec198af93dae000124178788c8311393"
+    },
+    {
+      "bytes": 4777,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "d440c02d1617785ff92df5894f10e86b6d93cb2dfac1ed79f919458d154a7800"
+    },
+    {
+      "bytes": 279,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/blank.gen.expanded.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 54,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/callables.gen.expanded.gen",
+      "sha256": "9104afc3b886150fac35332637ca98d87bd3680939bff752b354b582b2638d64"
+    },
+    {
+      "bytes": 275,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/hsv1.gen.expanded.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/hydrogen.gen.expanded.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 639,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/main.gen.expanded.gen",
+      "sha256": "c6d18fbc75b85f22d7c13b5a843f35a8eed92a4878c8710dc099e2b8c9572ac2"
+    },
+    {
+      "bytes": 272,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/oxygen.gen.expanded.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 142,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/expanded/reference.gen.expanded.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 1859,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/genesis.lock.json",
+      "sha256": "fa78fbfbaa347e1c2cc02b559609afd47299ccbd4e0b7996640054953abf1aae"
+    },
+    {
+      "bytes": 1931,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/program.disasm.txt",
+      "sha256": "34acad76740d76dc11c2b8aec4b98e05fd05f0ccc212493f9215018c629dec6e"
+    },
+    {
+      "bytes": 3247,
+      "path": "20_REFERENCE_BUILDS/PORTAL_GENERIC/program.gvm",
+      "sha256": "89bd941d5a3640444e779a253382b634f03b66789cf1d3a68c87288ab6256ceb"
+    },
+    {
+      "bytes": 5400,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/CALLABLE_FRONTEND_RECEIPT.json",
+      "sha256": "121d37992b4da1945b598bbf53884ba23863f7276b13bcd26e675e8a08edf5f0"
+    },
+    {
+      "bytes": 1991,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/CALLABLE_PROOFS.json",
+      "sha256": "b50b233e7c26e28b1875567b3913356aaf607ea0f80268b8b45f189602615493"
+    },
+    {
+      "bytes": 846,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/CALL_EXPANSIONS.json",
+      "sha256": "e63d0628379022f71ecb9b99b0b4fc151ef9250147a49736a22207f9474b1359"
+    },
+    {
+      "bytes": 320,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/CODEGEN_RECEIPT.json",
+      "sha256": "f7fba94c45efe2f2417534b5eb76a2acce31689ae9e9312e5554c47c7ffc59d6"
+    },
+    {
+      "bytes": 86,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/EXECUTION_SUMMARY.json",
+      "sha256": "42406f0245cedce92ceda0de3d627369b2a902a9d350f335c88e6af2c0cd1287"
+    },
+    {
+      "bytes": 1830,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/OPTIMIZATION_RECEIPT.json",
+      "sha256": "01bd92b12237446119b6f4e9388b29fcbe2fe962e415cc647c2bacfc2bce4e84"
+    },
+    {
+      "bytes": 4715,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/PACKAGE_BUILD_RECEIPT.json",
+      "sha256": "9144641f4f3dad0eb740e19bd7b22e2d577011658c112a7549c44a0ce6263725"
+    },
+    {
+      "bytes": 279,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/blank.gen.expanded.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 55,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/callables.gen.expanded.gen",
+      "sha256": "52181f172f6a48e219cb23bd7080697520ba6756bef6fd28fa4c2550369bac30"
+    },
+    {
+      "bytes": 275,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/hsv1.gen.expanded.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/hydrogen.gen.expanded.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 462,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/main.gen.expanded.gen",
+      "sha256": "b128b11df3796ec37677d9748cad43d97b251aeaa68928875fe6ff0d33124178"
+    },
+    {
+      "bytes": 272,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/oxygen.gen.expanded.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 142,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/expanded/reference.gen.expanded.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 1864,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/genesis.lock.json",
+      "sha256": "aa4b1f92636cf909d843e42c00624657ffc455ffc907ddafff915192d5e27175"
+    },
+    {
+      "bytes": 1686,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/program.disasm.txt",
+      "sha256": "7661369941c04f67bba28b0107eb1686f9e6d4eb2cf57144493a959441989cbe"
+    },
+    {
+      "bytes": 2943,
+      "path": "20_REFERENCE_BUILDS/QUANTUM_GENERIC/program.gvm",
+      "sha256": "82bd6c6650d443029c0aceb2d72febde815376c04dba5b22eaa9b2cf9c27bf78"
+    },
+    {
+      "bytes": 2349,
+      "path": "99_RELEASE/REFERENCE_BUILD_RESULTS.json",
+      "sha256": "b4ee83aed18cef6d67054f123192fa513da9ea5a01b8b658ff10e9581c6ace41"
+    },
+    {
+      "bytes": 5163,
+      "path": "99_RELEASE/TEST_RESULTS.txt",
+      "sha256": "df7d4ed27f07a7cfd1d98d95f6a76883dcc82a32e3ddb621a2ba746b2ff5c6aa"
+    },
+    {
+      "bytes": 528,
+      "path": "_store/2ec2aa480fd0616be0528ed6b839da29f6f02c96ca3de989876b4a42003732c1/genesis.pkg.json",
+      "sha256": "c52abe79f67f616e438d2c5422cbb56fdcf423a90e12c8dd485315c9b33ae397"
+    },
+    {
+      "bytes": 142,
+      "path": "_store/2ec2aa480fd0616be0528ed6b839da29f6f02c96ca3de989876b4a42003732c1/src/reference.gen",
+      "sha256": "8d843f9137c9b0405d3410cd502f95f057039c2e1cfc551d41f52869b138eab0"
+    },
+    {
+      "bytes": 614,
+      "path": "_store/38802ef20bd47283842fba39694c9a740f02b33d7cec97075d1369470527d86d/genesis.pkg.json",
+      "sha256": "7fbc3c09ee64730ec2c499d2733825b8e00c38c95e6013490bd7310cabc477b3"
+    },
+    {
+      "bytes": 882,
+      "path": "_store/38802ef20bd47283842fba39694c9a740f02b33d7cec97075d1369470527d86d/src/callables.gen",
+      "sha256": "28dd274587caeaf5fec850aef723782b8c431502e598e963ceef062764fe0e9f"
+    },
+    {
+      "bytes": 795,
+      "path": "_store/3bdd6023300930feb25c35ed3a51cfab3dd2af044bfde6b96336dbf6431f99b9/genesis.pkg.json",
+      "sha256": "803b923108a2cdfa24e786572f5d844dc3223d1162349cfbef0b8ce68275fe38"
+    },
+    {
+      "bytes": 279,
+      "path": "_store/3bdd6023300930feb25c35ed3a51cfab3dd2af044bfde6b96336dbf6431f99b9/src/blank.gen",
+      "sha256": "dce66fe74539d620178bee4c790d7d2cdc227da9535c4f4c25b1c0f7d628e201"
+    },
+    {
+      "bytes": 275,
+      "path": "_store/3bdd6023300930feb25c35ed3a51cfab3dd2af044bfde6b96336dbf6431f99b9/src/hsv1.gen",
+      "sha256": "a9cb48bea09d45ac1f4aacdbbb0b3048c2ac132bece15e4c0c50c43959197524"
+    },
+    {
+      "bytes": 276,
+      "path": "_store/3bdd6023300930feb25c35ed3a51cfab3dd2af044bfde6b96336dbf6431f99b9/src/hydrogen.gen",
+      "sha256": "71d6be0f01a806162d432c3b148632a00114abed5010e07b64e037999db275a2"
+    },
+    {
+      "bytes": 272,
+      "path": "_store/3bdd6023300930feb25c35ed3a51cfab3dd2af044bfde6b96336dbf6431f99b9/src/oxygen.gen",
+      "sha256": "42cafa8f4378cb7d4a75c83b8c59f32054dad1672d5985168c4f5f74f729cb57"
+    },
+    {
+      "bytes": 527,
+      "path": "_store/4fbe988065958c04f8b0297120c78e8c7c539452987415a9f265d7abd12086f3/genesis.pkg.json",
+      "sha256": "177fd52d83b9e0f2e4203826d82ba7cc615b0a3edf793725261c14cc56ec66fa"
+    },
+    {
+      "bytes": 347,
+      "path": "_store/4fbe988065958c04f8b0297120c78e8c7c539452987415a9f265d7abd12086f3/src/callables.gen",
+      "sha256": "4ebf70497fe13993601a2d5da77c02e4384dccd36085fb9cf5af5add83dfa48e"
+    },
+    {
+      "bytes": 555,
+      "path": "_store/8722b6c0efd203e6f53e570d09926625984bb68419a60a80328f4b632bddccce/genesis.pkg.json",
+      "sha256": "939ee5ac66ed77d339aa67e1486177da706cfb3268554a0ecec5f02cc58de7bf"
+    },
+    {
+      "bytes": 530,
+      "path": "_store/8722b6c0efd203e6f53e570d09926625984bb68419a60a80328f4b632bddccce/src/callables.gen",
+      "sha256": "9d7a76abc33ebb5762989a716239fc59e9df1b6852f5aaab08246452a11256d4"
+    },
+    {
+      "bytes": 452,
+      "path": "_store/8da42f768dea46688590014cec4f23db75114bf4c4fd492308093992074c65e0/genesis.pkg.json",
+      "sha256": "c647d9c2c3922d820e2da1a42c956c30a7e051c512b040f13726f0c41f6b1f46"
+    },
+    {
+      "bytes": 187,
+      "path": "_store/8da42f768dea46688590014cec4f23db75114bf4c4fd492308093992074c65e0/src/callables.gen",
+      "sha256": "650ca78f1dd5ea9db6f816d50964a134089cb6c4c2418653d85a196382a55bdb"
+    },
+    {
+      "bytes": 494,
+      "path": "_store/a1ec6087d0e72575eadd46661b7042f0d8bd7523f3e9b4a947cd8875a3b8679b/genesis.pkg.json",
+      "sha256": "5989643d067cb27296c9593816364d37e63156f49c151ff61c0848f349f94618"
+    },
+    {
+      "bytes": 183,
+      "path": "_store/a1ec6087d0e72575eadd46661b7042f0d8bd7523f3e9b4a947cd8875a3b8679b/src/callables.gen",
+      "sha256": "9c59055f14cf041ad44cfc3f61a62365c3956048b1fb440bb345d0b55ac3bc33"
+    },
+    {
+      "bytes": 577,
+      "path": "_store/e9d6bd795f827fd43657ae159af15a6452726c50973f02e426d360b9ca33ed26/genesis.pkg.json",
+      "sha256": "f6bfc0099ce7738f23385102cd6f1af4043201020b1f854fae9db405467e402d"
+    },
+    {
+      "bytes": 1179,
+      "path": "_store/e9d6bd795f827fd43657ae159af15a6452726c50973f02e426d360b9ca33ed26/src/callables.gen",
+      "sha256": "1dcfefe99ff26ca7283874ca1bb9bf2cb33a3d2c13f3b014590d95a13c9917f4"
+    }
+  ],
+  "files": 326,
+  "folder": "GENESIS_CHIRALITY_MACHINE_SECTION_13_CALLABLES_GENERICS_v0.1.0_20260821",
+  "reference_projects": 6,
+  "reference_tests": 48,
+  "section": "13",
+  "status": "PASS",
+  "title": "Callable Abstractions, Functions + Generics",
+  "version": "0.1.0"
+}

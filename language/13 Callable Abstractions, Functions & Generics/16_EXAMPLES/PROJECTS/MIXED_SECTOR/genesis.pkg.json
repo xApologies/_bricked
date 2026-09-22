@@ -1,0 +1,32 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "0.2.0",
+    "genesis.std.bridge": "0.2.0",
+    "genesis.std.portal": "0.2.0"
+  },
+  "description": "Mixed QFT-to-GR path expressed as reusable typed functions.",
+  "effects": [
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE",
+    "TRANSDUCE"
+  ],
+  "entry_exports": [
+    "app.section13.mixed_sector::gr_geo"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.section13.mixed_sector",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.section13.mixed_sector",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

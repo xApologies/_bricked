@@ -1,0 +1,8 @@
+for instruction in verified_program:
+    required = capability_for(instruction)
+    assert required in declared_capabilities
+    request = freeze(instruction, input_registers, sequence)
+    result = selected_boundary_service.execute(request)
+    receipt = append_receipt(request, result)
+    bind_output_register_if_any(result)
+close only when all boundary resources are released and receipt chain is valid

@@ -1,0 +1,8 @@
+RESOLVE(root, registry):
+  requirements <- root.dependencies
+  selected <- BACKTRACK(requirements, {})
+  reject if no solution
+  reject dependency cycles
+  order <- dependency-first topological order
+  lock <- bind each selected name/version to content SHA-256
+  return selected, order, lock

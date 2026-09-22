@@ -1,0 +1,25 @@
+{
+  "backend_capabilities": [
+    "brane_lift"
+  ],
+  "dependencies": {
+    "genesis.std.core": "0.2.0"
+  },
+  "description": "Executable BRANE projection callable.",
+  "effects": [
+    "PROJECT"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.brane.callables",
+      "path": "src/callables.gen"
+    }
+  ],
+  "name": "genesis.std.brane",
+  "schema_version": "0.1.0",
+  "version": "0.2.0"
+}

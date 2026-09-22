@@ -1,0 +1,16 @@
+while join scope not terminal:
+    if ready tasks exist:
+        select min((-priority, ready_sequence, task_id))
+        dispatch for at most task.quantum semantic actions
+        on yield: requeue
+        on block: record resource wait edge
+        on suspend: preserve continuation, requeue on a later logical turn
+        on close: require no live leases, emit task closure receipt
+    else if suspended tasks exist:
+        advance logical turn and requeue them
+    else if blocked tasks exist:
+        derive wait-for graph
+        if cycle: emit DEADLOCK witness
+        else: emit BLOCKED
+    else:
+        close schedule

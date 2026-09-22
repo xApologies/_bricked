@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "status": {
+      "enum": [
+        "CLOSED",
+        "FAILED",
+        "FAILED_PARTIAL"
+      ]
+    }
+  },
+  "required": [
+    "kind",
+    "status",
+    "road_id",
+    "portal_receipts",
+    "source_content_root",
+    "final_content_root",
+    "transport_holonomy_witness"
+  ],
+  "type": "object"
+}

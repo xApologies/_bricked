@@ -1,0 +1,16 @@
+stage0 = HOST_ORACLE.compile(controller_source)
+run0   = GENESIS.execute(stage0, compiler_port=HOST_ORACLE)
+stage1 = CAS.get(run0.compiled_ref)
+
+run1   = GENESIS.execute(stage1, compiler_port=HOST_ORACLE)
+stage2 = CAS.get(run1.compiled_ref)
+
+require sha256(stage0) == sha256(stage1)
+require sha256(stage1) == sha256(stage2)
+require proof(stage0) == proof(stage1) == proof(stage2)
+
+emit BootstrapReceipt(
+    status = BOOTSTRAP_FIXED_POINT,
+    self_hosted = false,
+    frontier = declared_component_frontier
+)

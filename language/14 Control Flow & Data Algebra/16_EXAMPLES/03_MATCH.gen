@@ -1,0 +1,18 @@
+genesis 0.3.0
+module example.matching {
+  enum Choice { Left(INT), Right(TEXT), Empty }
+  let n : INT = 5
+  let c : Choice = variant Choice::Left n
+  match c {
+    Left(v) => {
+      let z : INT = add v n
+    }
+    Right(t) => {
+      let q : BOOL = eq t t
+    }
+    Empty => {
+      let q : BOOL = true
+    }
+  }
+  export n : INT
+}

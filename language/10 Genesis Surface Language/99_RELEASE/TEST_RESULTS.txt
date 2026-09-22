@@ -1,0 +1,53 @@
+test_01_parse_header (test_section10.Section10.test_01_parse_header) ... ok
+test_02_parse_module (test_section10.Section10.test_02_parse_module) ... ok
+test_03_first_statement_en (test_section10.Section10.test_03_first_statement_en) ... ok
+test_04_rel_mnemonic (test_section10.Section10.test_04_rel_mnemonic) ... ok
+test_05_ve_mnemonic (test_section10.Section10.test_05_ve_mnemonic) ... ok
+test_06_tor_mnemonic (test_section10.Section10.test_06_tor_mnemonic) ... ok
+test_07_attrs_json (test_section10.Section10.test_07_attrs_json) ... ok
+test_08_lower_ir (test_section10.Section10.test_08_lower_ir) ... /mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_10_GENESIS_FRONTEND_v0.1.0_20260821/12_REFERENCE_IMPLEMENTATION/genesis_frontend/util.py:31: DeprecationWarning: 'maxsplit' is passed as positional argument
+  return re.split(r'<',str(t).strip(),1)[0].upper()
+ok
+test_09_lower_mount (test_section10.Section10.test_09_lower_mount) ... ok
+test_10_lower_portal (test_section10.Section10.test_10_lower_portal) ... ok
+test_11_effect_order_edges (test_section10.Section10.test_11_effect_order_edges) ... ok
+test_12_source_map (test_section10.Section10.test_12_source_map) ... ok
+test_13_effect_budget_derived (test_section10.Section10.test_13_effect_budget_derived) ... ok
+test_14_first_build (test_section10.Section10.test_14_first_build) ... ok
+test_15_first_vm_verify (test_section10.Section10.test_15_first_vm_verify) ... ok
+test_16_first_run (test_section10.Section10.test_16_first_run) ... ok
+test_17_road_build (test_section10.Section10.test_17_road_build) ... ok
+test_18_road_run (test_section10.Section10.test_18_road_run) ... ok
+test_19_mixed_build (test_section10.Section10.test_19_mixed_build) ... ok
+test_20_mixed_run (test_section10.Section10.test_20_mixed_run) ... ok
+test_21_quantum_build (test_section10.Section10.test_21_quantum_build) ... ok
+test_22_quantum_run (test_section10.Section10.test_22_quantum_run) ... ok
+test_23_modular_parse_use (test_section10.Section10.test_23_modular_parse_use) ... ok
+test_24_modular_build (test_section10.Section10.test_24_modular_build) ... ok
+test_25_modular_run (test_section10.Section10.test_25_modular_run) ... ok
+test_26_deterministic_bytecode (test_section10.Section10.test_26_deterministic_bytecode) ... ok
+test_27_deterministic_receipt (test_section10.Section10.test_27_deterministic_receipt) ... ok
+test_28_formatter (test_section10.Section10.test_28_formatter) ... ok
+test_29_comments (test_section10.Section10.test_29_comments) ... ok
+test_30_bad_version (test_section10.Section10.test_30_bad_version) ... ok
+test_31_missing_close (test_section10.Section10.test_31_missing_close) ... ok
+test_32_unknown_stmt (test_section10.Section10.test_32_unknown_stmt) ... ok
+test_33_duplicate_value (test_section10.Section10.test_33_duplicate_value) ... ok
+test_34_unknown_export (test_section10.Section10.test_34_unknown_export) ... ok
+test_35_unclosed_portal_semantic_error (test_section10.Section10.test_35_unclosed_portal_semantic_error) ... ok
+test_36_bridge_required_semantic_error (test_section10.Section10.test_36_bridge_required_semantic_error) ... ok
+test_37_linear_use_after_move (test_section10.Section10.test_37_linear_use_after_move) ... ok
+test_38_export_refinement (test_section10.Section10.test_38_export_refinement) ... ok
+test_39_module_effect_exactness (test_section10.Section10.test_39_module_effect_exactness) ... ok
+test_40_mixed_contains_bridge (test_section10.Section10.test_40_mixed_contains_bridge) ... ok
+test_41_road_contains_append (test_section10.Section10.test_41_road_contains_append) ... ok
+test_42_frontend_id (test_section10.Section10.test_42_frontend_id) ... ok
+test_43_link_id_preserved (test_section10.Section10.test_43_link_id_preserved) ... ok
+test_44_gvm_hash_preserved (test_section10.Section10.test_44_gvm_hash_preserved) ... ok
+test_45_import_lowered_percent (test_section10.Section10.test_45_import_lowered_percent) ... ok
+test_46_source_map_line_positive (test_section10.Section10.test_46_source_map_line_positive) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.043s
+
+OK

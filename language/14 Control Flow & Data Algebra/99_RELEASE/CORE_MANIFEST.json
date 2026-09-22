@@ -1,0 +1,750 @@
+{
+  "artifact": "GENESIS_CHIRALITY_MACHINE_SECTION_14_CONTROL_FLOW_DATA_ALGEBRA",
+  "date_label": "20260821",
+  "file_count": 144,
+  "files": [
+    {
+      "bytes": 79,
+      "path": "00_START_HERE/FOLDER_NAME.txt",
+      "sha256": "e613ccf077d2bf5471bda80601c5d279397530eb918b367ea1e10d3bb9d08685"
+    },
+    {
+      "bytes": 718,
+      "path": "00_START_HERE/README.md",
+      "sha256": "71320b88514feb41593f5a47580598360b3b748795810fe8f30f8b4b081a44db"
+    },
+    {
+      "bytes": 388,
+      "path": "01_ARCHITECTURE/ARCHITECTURE.md",
+      "sha256": "b97fe3e3de6f68e8d0e65009b438e8330ae3b491f1a35926af13089216250e50"
+    },
+    {
+      "bytes": 560,
+      "path": "01_ARCHITECTURE/DESIGN_INVARIANTS.md",
+      "sha256": "d65e36f0c36fde26eb702cc2d97f4b3ddc108cb5106dc0803fbf7442e3479d3e"
+    },
+    {
+      "bytes": 390,
+      "path": "02_CONTROL_FLOW_CONSTITUTION/CONTROL_FLOW_CONSTITUTION.md",
+      "sha256": "ce503a933ae5f3118212ede3759f359d763ec5e43b6e570355060457de2919c5"
+    },
+    {
+      "bytes": 618,
+      "path": "03_DATA_ALGEBRA/DATA_ALGEBRA.md",
+      "sha256": "116fc10c5914cea876d13a9bbc0c22bc75f47640e151693efb89e20117cb5ff2"
+    },
+    {
+      "bytes": 940,
+      "path": "04_CFG_VERIFICATION/CFG_PATH_VERIFIER.md",
+      "sha256": "80819994a7dc70342c678c401c96d4594816056347e899bb822c025817d6ad55"
+    },
+    {
+      "bytes": 448,
+      "path": "05_GVM_CF_EXTENSION/ISA_EXTENSION.md",
+      "sha256": "1db61022be7bd757f58ec24a5f851b18d7eac51131b25a80698a05a07da33c9d"
+    },
+    {
+      "bytes": 330,
+      "path": "06_SURFACE_GRAMMAR/CONTROL_DATA_GRAMMAR.md",
+      "sha256": "ee1caf5ef54ca7af67bff0a9fe365370d3820efdc019a9517aa1dfec68de940a"
+    },
+    {
+      "bytes": 346,
+      "path": "07_STATIC_SEMANTICS/STATIC_RULES.md",
+      "sha256": "0e548a3ba617e7451b82499f3def403b9a4cc42cb12575e8e40caad324b3260a"
+    },
+    {
+      "bytes": 235,
+      "path": "08_RUNTIME_ABI/RUNTIME_ABI.md",
+      "sha256": "b15bf8bc2e304511b1b206e732ad79619a756c724af7d734cab938c6615e089b"
+    },
+    {
+      "bytes": 269,
+      "path": "09_FAILURE_MODEL/FAILURES.md",
+      "sha256": "1feaeb331398e58ac62352c524dca3b37473ec79f48a6c11ee41ec2034777fc1"
+    },
+    {
+      "bytes": 315,
+      "path": "10_PSEUDOCODE/LOWER_CONTROL.txt",
+      "sha256": "4f6d26d0812d2e525dc8af27664650f2f70aad669e2a734cb7c781e2ade12ee6"
+    },
+    {
+      "bytes": 352,
+      "path": "11_COMPATIBILITY/SECTION_01_13_COMPATIBILITY.md",
+      "sha256": "29b2bdc959f7f7f9382a1c5a28f96ac354d182b5483caf1619ffc2f8f10a5e81"
+    },
+    {
+      "bytes": 269,
+      "path": "12_REFERENCE_IMPLEMENTATION/README.md",
+      "sha256": "7e714a4ade21a70a94e14339da365224fd363e107610b08078ada8c0514ed29d"
+    },
+    {
+      "bytes": 724,
+      "path": "12_REFERENCE_IMPLEMENTATION/README_SECTION13.md",
+      "sha256": "2b7cb1b3240bf3ff650194129e4ef3c2fa8dcb44ebf9217f690978ede23a18b8"
+    },
+    {
+      "bytes": 161,
+      "path": "12_REFERENCE_IMPLEMENTATION/README_SECTION14.md",
+      "sha256": "2fc8d783d078ac7c1546f80158451a117d0762a83945077201c41bf2e906f3ca"
+    },
+    {
+      "bytes": 135,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callable_packages/__init__.py",
+      "sha256": "3d81f4733450117eeb015ae80b439f29a213ef470b33a8d5d83ced9e32af8f86"
+    },
+    {
+      "bytes": 10231,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callable_packages/runtime.py",
+      "sha256": "06484a31ec258aedf30be636ef6915bda488215c3b47917dae9f635d6e575895"
+    },
+    {
+      "bytes": 222,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__init__.py",
+      "sha256": "fa962c0b7ed5974495efc9d21395d6374bcf5967b0f095eb442bfeaf84fc985c"
+    },
+    {
+      "bytes": 832,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/__main__.py",
+      "sha256": "9939b6f70aa8b07f94b9bcfecf3063a59b1301ccfd94500d52b0d0c8bf55a433"
+    },
+    {
+      "bytes": 3632,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/compiler.py",
+      "sha256": "fccd43a538d3e1fd3ef312a95bcbdb00c74dde193d1c384681c5fcc7e45116c8"
+    },
+    {
+      "bytes": 302,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/errors.py",
+      "sha256": "1ff6e82aaf6696eb0992137216214ca7d21b3b45de34cb11b33fcf8332f34c6c"
+    },
+    {
+      "bytes": 9729,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/expander.py",
+      "sha256": "d49f4f6f8c1084672f0f382e4fc610722ad54a3b8f1c949fb1c4598c301f47c2"
+    },
+    {
+      "bytes": 2738,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/model.py",
+      "sha256": "d0c2cb7a4020e15619be179687988884741e48d839823e8d68405fa3bf793907"
+    },
+    {
+      "bytes": 4792,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/parser.py",
+      "sha256": "d201b89a3086423dfe023678094dd9dccdd80c398bf91e54c07d1f97eef8c493"
+    },
+    {
+      "bytes": 3301,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_callables/util.py",
+      "sha256": "6d6379912b534eaa92148402f85770266248ad89d434cc3d2a618e1a53235ad5"
+    },
+    {
+      "bytes": 452,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/__init__.py",
+      "sha256": "ad9b75bc2d00d2b166be267d4ba3bbaac7ba15b2f5db50ee5a68a8bf5a96cc66"
+    },
+    {
+      "bytes": 420,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/__main__.py",
+      "sha256": "d25ca710581e68147df3c92a02af28dc2e3305cceba0d99e7534cb5100d5d651"
+    },
+    {
+      "bytes": 1902,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/bytecode.py",
+      "sha256": "bd9e478be61e39c5addf9a87c5af98eb08309c901e8b3305f8012092b333b3fd"
+    },
+    {
+      "bytes": 16797,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/compiler.py",
+      "sha256": "188b85e4e5bdea3fdc3c2507fd3d8fc4585b2acccf4f2ebd3400aa90ebfe935f"
+    },
+    {
+      "bytes": 439,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/disasm.py",
+      "sha256": "fecb7588b5a0464d92c186d9d376c3ccfdb1c9ccb8028b7038cb21a5a969c1dd"
+    },
+    {
+      "bytes": 338,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/errors.py",
+      "sha256": "22a0bc5e1814a0898e98af8a9b451ea0f62feef01c98aaf69b456f3da9dcd199"
+    },
+    {
+      "bytes": 1599,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/isa.py",
+      "sha256": "3382a851fdfd337b28f5e38909ee231b9c7aaec10f14385803a6f4683806c2f2"
+    },
+    {
+      "bytes": 3019,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/model.py",
+      "sha256": "b2baca6e1430df2df0a186f621f8b9a1e15fd843d438f20f8ce507932590d256"
+    },
+    {
+      "bytes": 4645,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/parser.py",
+      "sha256": "a5a077f45e55fc940731410ce3109fd88be667c832e0b36ca6e0dd5035cf91b4"
+    },
+    {
+      "bytes": 6906,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/runtime.py",
+      "sha256": "3c604ee4614c4acb53ed440f18765ee8fb7212988aad89781e1312f289f57524"
+    },
+    {
+      "bytes": 1454,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/util.py",
+      "sha256": "dce5fe443a7b5bfa0dd8ca512ffdffdd52d740a284df580a0eb71ce35b081556"
+    },
+    {
+      "bytes": 5681,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_control/verifier.py",
+      "sha256": "6b40e768579e4a377a9c972ff6f15148fd1b257e7dadbc04872016b2b4157472"
+    },
+    {
+      "bytes": 220,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__init__.py",
+      "sha256": "fae7e6b263917e9114b7228e925bf994e560f8278ce59ee74396135e34e3c848"
+    },
+    {
+      "bytes": 1622,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/__main__.py",
+      "sha256": "0064ebf1345fac89bc61cdd9f4059927234a8a997717968656f8d5e48c41ae63"
+    },
+    {
+      "bytes": 1827,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/compiler.py",
+      "sha256": "a92ecf17e1202e64267f0ddb2734d1a6749d3179bae0e5d067c44d96cac2533e"
+    },
+    {
+      "bytes": 343,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/formatter.py",
+      "sha256": "ec605c87e72101962a08202a47a64a61415ea1a7e2e9f7605618350cf1b2eabc"
+    },
+    {
+      "bytes": 2910,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/lower.py",
+      "sha256": "2db6b66afea39c8993761ca75005dc39b69d3b1a29da1df262ae98b5d2a2eb1b"
+    },
+    {
+      "bytes": 1658,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/model.py",
+      "sha256": "192bf19ed4fc9c9257f04a688e731a3701c6fed4babc6e2852805d0b0bdb39f4"
+    },
+    {
+      "bytes": 7550,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/parser.py",
+      "sha256": "d116062723dde2854218c07dd7fc4424487594b13ef18049d612d912061be4ef"
+    },
+    {
+      "bytes": 1287,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/util.py",
+      "sha256": "834a89effc43c038d510e83f648810b4c9cbb6bc26722124d4e1191f994a51d3"
+    },
+    {
+      "bytes": 301,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__init__.py",
+      "sha256": "c0dc76a97c928296ac4db7ebeb514088368730cfc0756c89c66196beff9b6685"
+    },
+    {
+      "bytes": 850,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/__main__.py",
+      "sha256": "a647f017ed1d7e92031290ad2da66069643be169c2946db6442ca8399749e8e2"
+    },
+    {
+      "bytes": 2556,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/capabilities.py",
+      "sha256": "507465cdeb13da35f6f11ef5a537668dd41158555acc9780d129b2f2e13c3b17"
+    },
+    {
+      "bytes": 10583,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/checker.py",
+      "sha256": "e52fd356d2b2cccad8858547cf4511d361d4f9196cf2e63012c1e53b5889b613"
+    },
+    {
+      "bytes": 1099,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/effects.py",
+      "sha256": "62c3f6196db7440c791cb986742c4295482f46dd09d3931c5d809bfd146850b7"
+    },
+    {
+      "bytes": 187,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/errors.py",
+      "sha256": "94cc2751be9b7144006eaec4507d9eb5c1ce5db7f3940f1dfcc98e40195f5e1b"
+    },
+    {
+      "bytes": 6505,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/linker.py",
+      "sha256": "da96e14c7919e7ee72de25cb498bc16a53afcea2125523db91493812fe325d0f"
+    },
+    {
+      "bytes": 1191,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/model.py",
+      "sha256": "64698c099b3366db29647545616a013ecdb7fb48a8715c8c2cab4f2152d984e9"
+    },
+    {
+      "bytes": 1678,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/proofs.py",
+      "sha256": "db9abd007c16c4174e4986e528167cdf44635b66a46034c8f989fd0f2f798b0f"
+    },
+    {
+      "bytes": 1532,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/typesys.py",
+      "sha256": "d05fd7bdfaf24048c68228e5d99b6364ff536abd0338c10cd3c1e389400b0f19"
+    },
+    {
+      "bytes": 283,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/util.py",
+      "sha256": "3a7ddd90bf939e8026a62d9643a97191f90326473de40c5c11dd110de7b3cbf1"
+    },
+    {
+      "bytes": 0,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 247,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__init__.py",
+      "sha256": "33fba7a3fae7ae58be7fc63a7c9282885e362ac5a30c3243a00bfb4c133d8fa9"
+    },
+    {
+      "bytes": 1015,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/__main__.py",
+      "sha256": "ed9f8cc3851d18ffdd08cb3ec5764c479226040a07221c8428498750f4563a25"
+    },
+    {
+      "bytes": 442,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/assembler.py",
+      "sha256": "734fa2db039453a44f27ac762b2c5766f7280c2052a4015180e7ceda256dcfcd"
+    },
+    {
+      "bytes": 6716,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/backend.py",
+      "sha256": "e55b03908137bd18f5734d167cff332f7aafde315f89a0297b61cb77db62118d"
+    },
+    {
+      "bytes": 2308,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/bytecode.py",
+      "sha256": "a401dfd6d15e41a8347018c3da28a2da1205c14a38c164bf0a1de60fbc90ec22"
+    },
+    {
+      "bytes": 1876,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/compiler.py",
+      "sha256": "19a36545de85e5debc5181730c143ec6a20909404c5dfb77b1690de73da2d527"
+    },
+    {
+      "bytes": 454,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/disasm.py",
+      "sha256": "a307bb72b9ee8df9e44723b23202f199978ee512fef027d8bfddf615be20d68d"
+    },
+    {
+      "bytes": 328,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/errors.py",
+      "sha256": "450a87adca6dd4b910b8ab02853bcc4531dc489c7a6e4c3e8a2f7be74f2768fc"
+    },
+    {
+      "bytes": 1622,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/graph.py",
+      "sha256": "a0335810eb72d2112b0061d2728e76d1bd186c3f08c184bcc9adc811ac9be16e"
+    },
+    {
+      "bytes": 2673,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/isa.py",
+      "sha256": "0e646975428d09282eed3a4815fb41dc1068b9ae3c9510b7244bed3e968a3302"
+    },
+    {
+      "bytes": 2344,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/model.py",
+      "sha256": "90f8c4a8484e37f21eb40b5244fb9c5040da08cc4ac2ddb64dc61960c9e9075c"
+    },
+    {
+      "bytes": 6723,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/runtime.py",
+      "sha256": "7818b1cb7a56f99c4418c2e6f1abeb7930840250174f3fcfd0bb391a1dec8a37"
+    },
+    {
+      "bytes": 306,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/util.py",
+      "sha256": "3a5076a106c7259cedd1f80085a7670ffe2874c786fc6a4bbfc06686620aa39d"
+    },
+    {
+      "bytes": 3562,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_frontend/vendor/genesis_semantics/vendor/genesis_vm/verifier.py",
+      "sha256": "3804c6d3598458f5e98e22cb5c463a04acdd83ad5eee6a2f63394fcdc6cce977"
+    },
+    {
+      "bytes": 239,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__init__.py",
+      "sha256": "b5b6b54887466bb20d57cf7838993dcc604b6877250d7d06bf12fb89292b9faa"
+    },
+    {
+      "bytes": 1355,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/__main__.py",
+      "sha256": "ab487f23096acef4498f4be79e623d0cf0fd39876f2362d6ea23e021a12818e1"
+    },
+    {
+      "bytes": 1345,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/analysis.py",
+      "sha256": "4f45772a3536b3698e825a0f361433851ccaee9e823c4edd0d8fe866ac2c6a1a"
+    },
+    {
+      "bytes": 1476,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/codegen.py",
+      "sha256": "1a9cd7ac8d073af1b1b1fedf9a6d12ebeb48c2fb2219af0fe93c328ad7ca5db4"
+    },
+    {
+      "bytes": 532,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/effects.py",
+      "sha256": "87a36d21e8fd6767b4a188523fa7d11d51ad106626f59df92f3c2ed102851387"
+    },
+    {
+      "bytes": 838,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/equivalence.py",
+      "sha256": "c7e0138875f92ffc0cad3e54df002387e099e6f62179e5596816ef0fba93d465"
+    },
+    {
+      "bytes": 711,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/frontend.py",
+      "sha256": "fa16d57a4046f9cebd2a4ccaada236dee98263d7ea986c5340c4e67e5debb0ad"
+    },
+    {
+      "bytes": 2252,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/optimizer.py",
+      "sha256": "db82aa24dfd5bc7ae233c95dcf06d584a932f26bb9e0223ec5b23b9bd5d3d15f"
+    },
+    {
+      "bytes": 4255,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/passes.py",
+      "sha256": "96e0806a935f7a176b20c29c8c89157b1e559999bda8be9174047d4c7ecbaec8"
+    },
+    {
+      "bytes": 451,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_optimizer/util.py",
+      "sha256": "aea3eb2869a8907ddc664e92d5bae597a2c42e3bd937b279635041b44e645ee2"
+    },
+    {
+      "bytes": 347,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__init__.py",
+      "sha256": "5181ff9be7cf4f8cc0ba570aaff112810f88508d71a1f4382806feda8687aaf9"
+    },
+    {
+      "bytes": 843,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/__main__.py",
+      "sha256": "ad0c3ddabb0e6fae0f02e7c9a14d47df6c548ec0550a148024b716bd6e33d6f7"
+    },
+    {
+      "bytes": 396,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/errors.py",
+      "sha256": "000901c0e4cc25b9ee66c974136385ee7d72c87612e62df3b03cf4807f9474c4"
+    },
+    {
+      "bytes": 1164,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/lockfile.py",
+      "sha256": "0262ffa22a4a9de0787ef5dfe0a9bfd603a97d02b48db84398d7617a50a46759"
+    },
+    {
+      "bytes": 3098,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/manifest.py",
+      "sha256": "d29bac6a7e1d1e63f55fe4e68941bc4e75284bf204560e9f2ab4d854f6abd341"
+    },
+    {
+      "bytes": 1467,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/registry.py",
+      "sha256": "cadffb9036cdfd2214355f7f3124dc1ceda8b7eabf827ca582be99d31762f0a3"
+    },
+    {
+      "bytes": 2354,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/resolver.py",
+      "sha256": "2fcc4753ce1d5140e38b012366596c76ed039f815d5db127b978c4f35787185f"
+    },
+    {
+      "bytes": 7804,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/runtime.py",
+      "sha256": "766485e6ac305f7f8b5cc994cfa661ccaa9ac177e4b95fe1aaa8fea6bad5e544"
+    },
+    {
+      "bytes": 1465,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/semver.py",
+      "sha256": "2caff67f3c401331d059ab734d870043d81c6a0742dcd49fdfcc1295fa19aac5"
+    },
+    {
+      "bytes": 842,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/store.py",
+      "sha256": "958c1e670eec133fee63ac0558d381cbfeae52c7d94aab3583f6873b56cebed1"
+    },
+    {
+      "bytes": 904,
+      "path": "12_REFERENCE_IMPLEMENTATION/genesis_packages/util.py",
+      "sha256": "e51614d14ba6cbc67fee6cb30e79436a862a8ed0103e95575b1c2a913ab418ad"
+    },
+    {
+      "bytes": 275,
+      "path": "13_SCHEMAS/README.md",
+      "sha256": "c9de17a99c3d7f9ada055c282eb6044d2be6d068a15d2b2d2b69bdb399bf70d4"
+    },
+    {
+      "bytes": 845,
+      "path": "13_SCHEMAS/control_verification_receipt.schema.json",
+      "sha256": "e188296874550d4bf532a57b845222abb97dc58fd4dfc6752c20d5e9db5b99da"
+    },
+    {
+      "bytes": 888,
+      "path": "13_SCHEMAS/data_type_decl.schema.json",
+      "sha256": "c03468c72956641bf8eb979e43ae31aa8f7f08d5b868236d299ea0167d6a71f3"
+    },
+    {
+      "bytes": 777,
+      "path": "13_SCHEMAS/execution_summary.schema.json",
+      "sha256": "0926e8c33e42d6a457d2ff4b52f01e0bb877868da176252567d644dbd5107073"
+    },
+    {
+      "bytes": 281,
+      "path": "14_PSEUDOCODE/VERIFY_PATHS.txt",
+      "sha256": "d0ea0080aa4baed549aaf31da1f731f918a4cabf9944321d666763c054b2449e"
+    },
+    {
+      "bytes": 11976,
+      "path": "15_TESTS/test_section14.py",
+      "sha256": "0c0168646c0104a0efb7f10c27e04339899bf434fcf29b7684d7adc7cedf2bd9"
+    },
+    {
+      "bytes": 237,
+      "path": "16_EXAMPLES/01_RECORDS.gen",
+      "sha256": "b33a5917823f818ddb512834251f0cef66497cc2876bd23fdd8e49ed3f5318cd"
+    },
+    {
+      "bytes": 407,
+      "path": "16_EXAMPLES/02_IF_PORTAL.gen",
+      "sha256": "94608e581f0506a2d1ae209a669f1e0fa8d7f3ffb3c7ebfbd19fc25f71db2080"
+    },
+    {
+      "bytes": 333,
+      "path": "16_EXAMPLES/03_MATCH.gen",
+      "sha256": "bada8df3b9416e06dc69b8b893fd7199f689225356ae011ab0598552d85c47c7"
+    },
+    {
+      "bytes": 255,
+      "path": "16_EXAMPLES/04_OPTION_RESULT.gen",
+      "sha256": "081980ef1987d2098a33f8fbad49a054cf988f933130b53af35dc2e5e1f85128"
+    },
+    {
+      "bytes": 117,
+      "path": "16_EXAMPLES/05_REPEAT.gen",
+      "sha256": "fda536ef4946024bb878920ef4080e0c65bd3e036165951c60175308ff780317"
+    },
+    {
+      "bytes": 329,
+      "path": "16_EXAMPLES/06_QUANTUM_BRANCH.gen",
+      "sha256": "5f8cde0fa879c89d4da45833bf6e2dec11f68177930e3bd70bb85082546e33ab"
+    },
+    {
+      "bytes": 174,
+      "path": "16_EXAMPLES/README.md",
+      "sha256": "6411ce5762664fdade4d23a68ec94d78b6145249ed062e77222d6aba8cefd430"
+    },
+    {
+      "bytes": 3148,
+      "path": "17_SOURCE_CROSSWALK/SOURCE_CROSSWALK.md",
+      "sha256": "be34dfa8158dce4abcdf3944814a647927e26299edd637a4db02309c757d38cb"
+    },
+    {
+      "bytes": 338,
+      "path": "17_SOURCE_CROSSWALK/STATUS_DISCIPLINE.md",
+      "sha256": "3d8a5f64b5e65d716397307370f66e70fa0682f273fbf7b636d5a1ee87ad3625"
+    },
+    {
+      "bytes": 401,
+      "path": "18_RECOVERY/SECTION_14_STATE.md",
+      "sha256": "92b123c5eb279c2c30363efa7c341c160444d0ea8dfef496e3492a7f2ba09c9a"
+    },
+    {
+      "bytes": 237,
+      "path": "20_REFERENCE_BUILDS/01_RECORDS/01_RECORDS.gen",
+      "sha256": "b33a5917823f818ddb512834251f0cef66497cc2876bd23fdd8e49ed3f5318cd"
+    },
+    {
+      "bytes": 1013,
+      "path": "20_REFERENCE_BUILDS/01_RECORDS/EXECUTION_SUMMARY.json",
+      "sha256": "cb783e89316e6546314a1e83c6c1c7cb6f9ec72b03c4cf10f8a2f90d8bbc9255"
+    },
+    {
+      "bytes": 163,
+      "path": "20_REFERENCE_BUILDS/01_RECORDS/VERIFICATION_RECEIPT.json",
+      "sha256": "cade69f197fa663ca6d6e4b6017f0e098a0e409c07b600672e02757066ab8939"
+    },
+    {
+      "bytes": 475,
+      "path": "20_REFERENCE_BUILDS/01_RECORDS/program.disasm.txt",
+      "sha256": "7f03d9441af14036c67f08f668ecae3c495e754465bde51388f1234c460b7de9"
+    },
+    {
+      "bytes": 963,
+      "path": "20_REFERENCE_BUILDS/01_RECORDS/program.gvc",
+      "sha256": "40e4a8ab4940348b18ec075521e84fcee08502a22016165726a910b0a400be3b"
+    },
+    {
+      "bytes": 407,
+      "path": "20_REFERENCE_BUILDS/02_IF_PORTAL/02_IF_PORTAL.gen",
+      "sha256": "94608e581f0506a2d1ae209a669f1e0fa8d7f3ffb3c7ebfbd19fc25f71db2080"
+    },
+    {
+      "bytes": 1633,
+      "path": "20_REFERENCE_BUILDS/02_IF_PORTAL/EXECUTION_SUMMARY.json",
+      "sha256": "7e12798ba3232b16cc349e043ea79a4f3ba4ce61cc8ccdb62d64e7125be76927"
+    },
+    {
+      "bytes": 165,
+      "path": "20_REFERENCE_BUILDS/02_IF_PORTAL/VERIFICATION_RECEIPT.json",
+      "sha256": "292b9a4c558b30018765c9eaca926c77b4cb19485bb382c7a4c4bb3a38886ddf"
+    },
+    {
+      "bytes": 942,
+      "path": "20_REFERENCE_BUILDS/02_IF_PORTAL/program.disasm.txt",
+      "sha256": "2cd64dc264c16c5649e4e8821010dee2b994523dbcee1a5ee7c1b17c49c37fde"
+    },
+    {
+      "bytes": 1629,
+      "path": "20_REFERENCE_BUILDS/02_IF_PORTAL/program.gvc",
+      "sha256": "f4d799c6b4b51696b8ea03f4c0b9a9b75065ef3d69300d1f9334b51324a483c3"
+    },
+    {
+      "bytes": 333,
+      "path": "20_REFERENCE_BUILDS/03_MATCH/03_MATCH.gen",
+      "sha256": "bada8df3b9416e06dc69b8b893fd7199f689225356ae011ab0598552d85c47c7"
+    },
+    {
+      "bytes": 1012,
+      "path": "20_REFERENCE_BUILDS/03_MATCH/EXECUTION_SUMMARY.json",
+      "sha256": "ce8f8d39b2f35c33c9b2580aefe61d12afed7dfb6ae07307e972466c151ea957"
+    },
+    {
+      "bytes": 165,
+      "path": "20_REFERENCE_BUILDS/03_MATCH/VERIFICATION_RECEIPT.json",
+      "sha256": "1da89105094572f2e34de7bea42e7f5c1578a49352f5a4df8709a039e6beb771"
+    },
+    {
+      "bytes": 1069,
+      "path": "20_REFERENCE_BUILDS/03_MATCH/program.disasm.txt",
+      "sha256": "44418a1d11787f12c72d530209bcc0250abf82579a110d9d1435634752f19960"
+    },
+    {
+      "bytes": 1721,
+      "path": "20_REFERENCE_BUILDS/03_MATCH/program.gvc",
+      "sha256": "55d15c78e2f9ab4d544037809e630472c3ca0d324e300543144a0bf6f6d824b9"
+    },
+    {
+      "bytes": 255,
+      "path": "20_REFERENCE_BUILDS/04_OPTION_RESULT/04_OPTION_RESULT.gen",
+      "sha256": "081980ef1987d2098a33f8fbad49a054cf988f933130b53af35dc2e5e1f85128"
+    },
+    {
+      "bytes": 1033,
+      "path": "20_REFERENCE_BUILDS/04_OPTION_RESULT/EXECUTION_SUMMARY.json",
+      "sha256": "1c97b0c26d8cff8d3573641c01568f033bd21ad39b0496067887b779471e62e7"
+    },
+    {
+      "bytes": 165,
+      "path": "20_REFERENCE_BUILDS/04_OPTION_RESULT/VERIFICATION_RECEIPT.json",
+      "sha256": "d1f465d5716ba9bcac50c9ffb6c9a0f9988dbd3c3313f6989eb745ef8c98fabd"
+    },
+    {
+      "bytes": 810,
+      "path": "20_REFERENCE_BUILDS/04_OPTION_RESULT/program.disasm.txt",
+      "sha256": "1bd9944fbd5514b418130f39c48066b0f521c6b1daf9fd83ac7f1bf0d46c48a3"
+    },
+    {
+      "bytes": 1452,
+      "path": "20_REFERENCE_BUILDS/04_OPTION_RESULT/program.gvc",
+      "sha256": "5767c527111d7ce841359184b1cd0264f676958b43eb983cbe86607fb72325aa"
+    },
+    {
+      "bytes": 117,
+      "path": "20_REFERENCE_BUILDS/05_REPEAT/05_REPEAT.gen",
+      "sha256": "fda536ef4946024bb878920ef4080e0c65bd3e036165951c60175308ff780317"
+    },
+    {
+      "bytes": 1009,
+      "path": "20_REFERENCE_BUILDS/05_REPEAT/EXECUTION_SUMMARY.json",
+      "sha256": "f59c5791e3dbf7f8594ddd584737d6ac9b729f15fc46474b12b30b41aaedd9f1"
+    },
+    {
+      "bytes": 163,
+      "path": "20_REFERENCE_BUILDS/05_REPEAT/VERIFICATION_RECEIPT.json",
+      "sha256": "39ccd8217a3618a8a16c312a33b12347e18a8aa4e4eca82097fd1e307c95c8f0"
+    },
+    {
+      "bytes": 404,
+      "path": "20_REFERENCE_BUILDS/05_REPEAT/program.disasm.txt",
+      "sha256": "7d9ed49e6b4c7a8458a3bdcb2ff6246dd617b6492c8263ef60f63620ddc27ec2"
+    },
+    {
+      "bytes": 892,
+      "path": "20_REFERENCE_BUILDS/05_REPEAT/program.gvc",
+      "sha256": "329ad3b70497247b5c264ebbd28e0035cfb6734f6ee552a4cc639ce6b52f3f85"
+    },
+    {
+      "bytes": 329,
+      "path": "20_REFERENCE_BUILDS/06_QUANTUM_BRANCH/06_QUANTUM_BRANCH.gen",
+      "sha256": "5f8cde0fa879c89d4da45833bf6e2dec11f68177930e3bd70bb85082546e33ab"
+    },
+    {
+      "bytes": 1647,
+      "path": "20_REFERENCE_BUILDS/06_QUANTUM_BRANCH/EXECUTION_SUMMARY.json",
+      "sha256": "aedf887d0c39627063c237e6f32b54f8c57806ce1728597a67d593e378c08ce9"
+    },
+    {
+      "bytes": 165,
+      "path": "20_REFERENCE_BUILDS/06_QUANTUM_BRANCH/VERIFICATION_RECEIPT.json",
+      "sha256": "16ae68bc32456e4ef28a1e58ad3429ab59382162714f8b79bcf583db8e9a9af9"
+    },
+    {
+      "bytes": 764,
+      "path": "20_REFERENCE_BUILDS/06_QUANTUM_BRANCH/program.disasm.txt",
+      "sha256": "c4608b2f6fa8f6a4a14e7909d6924bc7fc48612d6b12faac608fe9d632f1a66a"
+    },
+    {
+      "bytes": 1433,
+      "path": "20_REFERENCE_BUILDS/06_QUANTUM_BRANCH/program.gvc",
+      "sha256": "f32b501417a69b74fd867b5b5d099bb429fa255a9078f69c6ed3964b3ec4ea18"
+    },
+    {
+      "bytes": 1352,
+      "path": "99_RELEASE/REFERENCE_BUILD_RESULTS.json",
+      "sha256": "cc8551c8e8bb7b523c86e17b76a42d1566c38859adbf4db457c14b9654dac12e"
+    },
+    {
+      "bytes": 5170,
+      "path": "99_RELEASE/SECTION13_REGRESSION.txt",
+      "sha256": "02b56ca085a21e76e3b911624c4b8d4c8e30203a80e6336b45fd3c336587e953"
+    },
+    {
+      "bytes": 1083,
+      "path": "99_RELEASE/SECTION_14_RELEASE_NOTES.md",
+      "sha256": "b9d6705ab74279e761edd71f70875457508ee41ed8a48202427eea9a62a4ec90"
+    },
+    {
+      "bytes": 5721,
+      "path": "99_RELEASE/TEST_RESULTS.txt",
+      "sha256": "b50ac83e66038788f0f70103a62344ec64f7d42ee1fcac37aa2d77d28abdfec3"
+    }
+  ],
+  "gvm_cf_version": "0.2.0",
+  "source_language_version": "0.3.0",
+  "status": {
+    "physical_hardware": "future backend target",
+    "runtime": "Python software reference emulator",
+    "source_genesis": "preserved distinct from Computational Genesis"
+  },
+  "tests": {
+    "reference_runs": {
+      "passed": 6,
+      "total": 6
+    },
+    "section13_regression": {
+      "passed": 48,
+      "total": 48
+    },
+    "section14": {
+      "passed": 62,
+      "total": 62
+    }
+  },
+  "title": "Control Flow + Data Algebra",
+  "version": "v0.1.0"
+}

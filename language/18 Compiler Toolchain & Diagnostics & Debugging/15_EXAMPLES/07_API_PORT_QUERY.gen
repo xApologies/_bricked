@@ -1,0 +1,14 @@
+genesis 0.6.0
+module api_port_query {
+  capability io.source.read
+  capability cas.put
+  capability brane.mount
+  capability brane.realize
+  endpoint source kind SOURCE mode READ root source
+  port api role api module mk43.api1b version 1.B.0 dimension 5 contract 2.0 canonical READ_ONLY rewrite DERIVED_ONLY caps resolve,neighbors,recover_provenance,resolve_chirality,admissible chirality deterministic-edge-and-path-derived-v1 provenance object-specific-canonical-registry-v1
+  read source "subject.bin" as subject
+  cas_put subject as subject_ref
+  mount api
+  realize api capability resolve payload subject_ref as resolved
+  close
+}

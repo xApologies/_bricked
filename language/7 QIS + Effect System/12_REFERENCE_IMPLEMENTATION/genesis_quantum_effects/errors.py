@@ -1,0 +1,12 @@
+class QuantumEffectError(Exception): pass
+class StateValidationError(QuantumEffectError): pass
+class NormalizationError(StateValidationError): pass
+class OwnershipError(QuantumEffectError): pass
+class NoCloningError(OwnershipError): pass
+class ConsumedStateError(OwnershipError): pass
+class ChannelValidationError(QuantumEffectError): pass
+class EffectViolation(QuantumEffectError): pass
+class QuantumSectorViolation(QuantumEffectError): pass
+class MeasurementError(QuantumEffectError): pass
+class BridgeQuantumBoundaryError(QuantumEffectError): pass
+class QuantumClosureError(QuantumEffectError): pass

@@ -1,0 +1,22 @@
+genesis 0.2.0
+module genesis.std.portal.callables {
+  pub fn gr_transfer<G:GEOMETRIC> (source:G) -> GEOMETRIC<CLOSED,GR> effects [ADMIT,TRANSPORT,INHERIT,CLOSE,PROVENANCE] {
+    admit source as admission @{"admitted":true,"bandwidth":1.0,"resolution":1.0}
+    portal GR source with admission as portal0 corridor "corridor://stdlib/gr"
+    ve source through portal0 -> "trinity://stdlib/gr-destination" as destination
+    tor portal0 with destination as portal_receipt
+    return destination
+  }
+  pub fn qft_transfer<G:GEOMETRIC> (source:G) -> GEOMETRIC<CLOSED,QFT> effects [ADMIT,TRANSPORT,INHERIT,CLOSE,PROVENANCE] {
+    admit source as admission @{"admitted":true,"bandwidth":1.0,"resolution":1.0}
+    portal QFT source with admission as portal0 corridor "corridor://stdlib/qft"
+    ve source through portal0 -> "trinity://stdlib/qft-destination" as destination
+    tor portal0 with destination as portal_receipt
+    return destination
+  }
+  pub fn gr_transfer_then_seal<G:GEOMETRIC> (source:G) -> RECEIPT<PROVENANCE> effects [ADMIT,TRANSPORT,INHERIT,CLOSE,PROVENANCE] {
+    call gr_transfer<G> (source) as destination
+    seal destination as receipt
+    return receipt
+  }
+}

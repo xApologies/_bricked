@@ -1,0 +1,7 @@
+genesis 0.2.0
+module genesis.std.brane.callables {
+  pub fn lift_geometric<G:GEOMETRIC> (source:G) -> M5 effects [PROJECT] {
+    lift source as projection
+    return projection
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "cell": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "fabric_tag": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "flags": {
+      "maximum": 255,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "lane": {
+      "maximum": 255,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "page": {
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "fabric_tag",
+    "page",
+    "cell"
+  ],
+  "title": "FabricAddress128",
+  "type": "object"
+}

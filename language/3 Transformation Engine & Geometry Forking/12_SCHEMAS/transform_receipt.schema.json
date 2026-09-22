@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "changed_cells": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "kind": {
+      "const": "TRANSFORMATION_CLOSURE_RECEIPT"
+    },
+    "status": {
+      "const": "CLOSED"
+    }
+  },
+  "required": [
+    "kind",
+    "status",
+    "plan_id",
+    "parent_instance_id",
+    "child_instance_id",
+    "pre_state_root",
+    "post_state_root",
+    "changed_cells",
+    "effects",
+    "delta_file_sha256"
+  ],
+  "title": "Transformation Closure Receipt",
+  "type": "object"
+}

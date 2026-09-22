@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "source_sector": {
+      "enum": [
+        "QFT",
+        "GR"
+      ]
+    },
+    "target_sector": {
+      "enum": [
+        "QFT",
+        "GR"
+      ]
+    }
+  },
+  "required": [
+    "source_instance",
+    "source_sector",
+    "target_sector",
+    "address"
+  ],
+  "title": "BridgeRequest",
+  "type": "object"
+}

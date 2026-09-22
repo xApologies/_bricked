@@ -1,0 +1,86 @@
+{
+  "effects": [
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE"
+  ],
+  "exports": [
+    {
+      "symbol": "destination",
+      "type": "GEOMETRIC<CLOSED,QFT>",
+      "value": "%dest"
+    },
+    {
+      "symbol": "receipt",
+      "type": "RECEIPT<PORTAL_CLOSE>",
+      "value": "%receipt"
+    }
+  ],
+  "gir": {
+    "edges": [],
+    "nodes": [
+      {
+        "args": [
+          "%source"
+        ],
+        "attrs": {
+          "admitted": true
+        },
+        "id": "01_admit",
+        "op": "ADMIT",
+        "out": "%a",
+        "type": "ADMISSION"
+      },
+      {
+        "args": [
+          "%source",
+          "%a"
+        ],
+        "attrs": {
+          "corridor": "QFT-A",
+          "sector": "QFT"
+        },
+        "id": "02_open",
+        "op": "PORTAL_OPEN",
+        "out": "%p",
+        "type": "PORTAL"
+      },
+      {
+        "args": [
+          "%p",
+          "%source"
+        ],
+        "attrs": {
+          "destination": "QFT-B"
+        },
+        "id": "03_transport",
+        "op": "PORTAL_TRANSPORT",
+        "out": "%dest",
+        "type": "GEOMETRIC"
+      },
+      {
+        "args": [
+          "%p",
+          "%dest"
+        ],
+        "id": "04_close",
+        "op": "PORTAL_CLOSE",
+        "out": "%receipt",
+        "type": "RECEIPT"
+      }
+    ]
+  },
+  "imports": [
+    {
+      "from": "fixture",
+      "local": "%source",
+      "symbol": "geo",
+      "type": "GEOMETRIC"
+    }
+  ],
+  "ir": "GIR-MODULE",
+  "module": "qft_leg",
+  "version": "0.1.0"
+}

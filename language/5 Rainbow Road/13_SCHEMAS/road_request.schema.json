@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "bandwidth_required": {
+      "type": "number"
+    },
+    "capacity_units_required": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "resolution_required": {
+      "type": "number"
+    },
+    "sector": {
+      "enum": [
+        "GENERIC",
+        "QFT",
+        "GR"
+      ]
+    },
+    "waypoints": {
+      "minItems": 1,
+      "type": "array"
+    }
+  },
+  "required": [
+    "source_instance",
+    "source_segment_chain",
+    "source_address",
+    "waypoints",
+    "sector",
+    "preservation"
+  ],
+  "type": "object"
+}

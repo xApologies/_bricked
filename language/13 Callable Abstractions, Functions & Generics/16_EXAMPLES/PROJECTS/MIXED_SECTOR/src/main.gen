@@ -1,0 +1,9 @@
+genesis 0.2.0
+module app.section13.mixed_sector {
+  use genesis.std.atomic.hydrogen::geo as source : GEOMETRIC<CLOSED,UNBOUND>
+  usefn genesis.std.portal.callables::qft_transfer as to_qft
+  usefn genesis.std.bridge.callables::qft_to_gr_transfer as to_gr
+  call to_qft<GEOMETRIC<CLOSED,UNBOUND>> (source) as qft_geo
+  call to_gr<GEOMETRIC<CLOSED,QFT>> (qft_geo) as gr_geo
+  export gr_geo : GEOMETRIC<CLOSED,GR>
+}

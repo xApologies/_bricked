@@ -1,0 +1,15 @@
+genesis 0.3.0
+module example.option_result {
+  let n : INT = 9
+  let o : OPTION<INT> = some n
+  let r : RESULT<INT,TEXT> = ok n
+  match o {
+    Some(v) => {
+      let x : INT = move v
+    }
+    None => {
+      let z : INT = 0
+    }
+  }
+  export n : INT
+}

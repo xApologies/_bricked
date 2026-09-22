@@ -1,0 +1,17 @@
+MIXED_ROAD_EXECUTE(req):
+    plan = PREFLIGHT(req)
+    acquire Rainbow Bus holds for every planned Portal Corridor
+    current = req.source
+    current_address = req.source_address
+    for action in plan.actions:
+        if action.kind == BRIDGE:
+            b = BRIDGE_EXECUTE(current,current_address,action.target_sector)
+            inherit bridge receipt into current envelope
+            current_address.sector = action.target_sector
+        else if action.kind == PORTAL:
+            p = PORTAL_EXECUTE(current,current_address,action.target_address)
+            current = p.destination
+            current_address = action.target_address
+        append immutable action receipt
+    audit end-to-end identity, content, residue, source immutability, fabric immutability
+    emit mixed Road receipt

@@ -1,0 +1,7 @@
+genesis 0.1.0
+module genesis.std.atomic.blank {
+  use genesis.std.fabric.reference::fabric as fabric : FABRIC
+  en region : REGION = alloc fabric cells 2048
+  en geo : GEOMETRIC = instantiate fabric region mmo @blank_manifold_reference
+  export geo : GEOMETRIC<CLOSED,UNBOUND>
+}

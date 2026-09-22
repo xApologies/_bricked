@@ -1,0 +1,2 @@
+# Keep recovered source bytes and PDF/manifests identical on all platforms.
+* -text

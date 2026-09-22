@@ -1,0 +1,23 @@
+{
+  "backend_capabilities": [
+    "rainbow_road"
+  ],
+  "dependencies": {
+    "genesis.std.portal": "^0.1.0"
+  },
+  "description": "Rainbow Road composition contract.",
+  "effects": [
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "contract",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [],
+  "name": "genesis.std.road",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

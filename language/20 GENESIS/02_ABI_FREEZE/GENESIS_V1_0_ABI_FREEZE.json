@@ -1,0 +1,103 @@
+{
+  "abi_freeze_root": "1ff442029a35f02308dd2ad1f2c8fb6cae1ba3b41e9649c5ced1ab9ff418900d",
+  "contracts": [
+    {
+      "freeze": "FROZEN",
+      "name": "Chirality Hardware Interface / Fabric ABI",
+      "section": 1
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Geometric Instantiation / MMO Memory ABI",
+      "section": 2
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Transformation / Fork ABI",
+      "section": 3
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Portal / Corridor Transaction ABI",
+      "section": 4
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Rainbow Road Composition ABI",
+      "section": 5
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "QFT-GR Sector Transduction ABI",
+      "section": 6
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Quantum Information Effect ABI",
+      "section": 7
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "GIR/GVM Execution ABI",
+      "section": 8
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Static Type/Effect + Link ABI",
+      "section": 9
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Genesis Frontend / Source-to-GIR Contract",
+      "section": 10
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Optimizer / Codegen Equivalence Contract",
+      "section": 11
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Package / Dependency Runtime Contract",
+      "section": 12
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Callable / Generic Expansion Contract",
+      "section": 13
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Control Flow / Data Algebra Contract",
+      "section": 14
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Recursive Topology / Continuation Contract",
+      "section": 15
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Concurrency / Scheduler / Resource Contract",
+      "section": 16
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "System I/O / BLACKGLASS / BRANE Boundary ABI",
+      "section": 17
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Toolchain Diagnostic / Trace / Repro Contract",
+      "section": 18
+    },
+    {
+      "freeze": "FROZEN",
+      "name": "Bootstrap Image / Compiler-Port Contract",
+      "section": 19
+    }
+  ],
+  "kind": "GENESIS_V1_ABI_FREEZE",
+  "status": "FROZEN",
+  "version": "1.0.0"
+}

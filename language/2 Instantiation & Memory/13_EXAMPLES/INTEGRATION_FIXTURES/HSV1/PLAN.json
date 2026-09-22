@@ -1,0 +1,40 @@
+{
+  "plan_id": "228ce63428ff598b07eb2c039ca9e192f4fd1e4acb564417c37d80da0825f75e",
+  "instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+  "canonical_mmo_id": "HSV1-REFERENCE-MMO-QMODEL-01",
+  "representation_id": "HSV1-REFERENCE-MMO-QMODEL-01:3p1p1",
+  "fabric_tag": 5508075522112768044,
+  "grid_shape": [
+    32,
+    32,
+    32
+  ],
+  "mapping_profile": "MMO_3P1P1_DENSE_V1",
+  "roles": [
+    "chi_00",
+    "chi_01",
+    "chi_10",
+    "chi_11",
+    "control"
+  ],
+  "cells_per_voxel": 5,
+  "required_cells": 163840,
+  "region": {
+    "start": 0,
+    "count": 163840,
+    "alignment": 128,
+    "guard_before": 0,
+    "guard_after": 0
+  },
+  "source_hashes": {
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_field_3p1p1_32x32x32x2x2.npy": "4f8c344532644ffba69f34cb1be543f5344a9cc9accab84051742831c19c542d",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/manifest.json": "90a264a27864dbc737d4fc968bff24e624690525c313a94b80d222de3793a365",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_scalar_32x32x32.npy": "04ada976e10104d367afc86a6111b98e3d7051906bcb56dc05582ad6d2b1d00a",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_statecode_32x32x32.npy": "8e1f8dfacad7b964acff57e2bb300494affbd240f103abfecb63300dec499faf",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/occupancy_32x32x32.npy": "3015f3c086e3c55505b07dae012c07aece0684d8301a281d20a146bde42dc26b",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/persistence_32x32x32.npy": "16da44547402fc879af787fb54ae00f4e358938e2e78936a42046d93a4c65e0e",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/resolution_32x32x32.npy": "2c05858650ef513f3e95c809af6148e12932fe6f2e5e4f32ff9a4b703f903bb9",
+    "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/mass_density_32x32x32.npy": "a0d3fdbb05a65f7a56dee86affcd58062723a053ad184a11df4acf3d7b3c3b9e"
+  },
+  "defaults": []
+}

@@ -1,0 +1,12 @@
+genesis 0.6.0
+module source_read {
+  capability io.source.read
+  capability cas.put
+  capability cas.get
+  endpoint source kind SOURCE mode READ root source
+  read source "input.bin" as raw
+  cas_put raw as ref
+  cas_get ref as restored
+  assert_eq raw restored
+  close
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "genesis://section14/schema/data-type-decl/v0.1",
+  "title": "Genesis Section 14 Data Type Declaration",
+  "type": "object",
+  "required": ["kind", "name"],
+  "properties": {
+    "kind": {"enum": ["record", "enum"]},
+    "name": {"type": "string", "pattern": "^[A-Za-z_][A-Za-z0-9_]*$"},
+    "fields": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "variants": {
+      "type": "object",
+      "additionalProperties": {"type": ["string", "null"]}
+    },
+    "line": {"type": "integer", "minimum": 0}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"kind": {"const": "record"}}},
+      "then": {"required": ["fields"]}
+    },
+    {
+      "if": {"properties": {"kind": {"const": "enum"}}},
+      "then": {"required": ["variants"]}
+    }
+  ],
+  "additionalProperties": false
+}

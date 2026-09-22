@@ -1,0 +1,12 @@
+genesis 0.6.0
+module blackglass_commit {
+  capability io.source.read
+  capability blackglass.commit.propose
+  capability blackglass.commit.admit
+  endpoint source kind SOURCE mode READ root source
+  endpoint heart kind BLACKGLASS mode PROPOSE root heart
+  read source "state.bin" as state
+  propose heart state as proposal
+  admit heart proposal as durable
+  close
+}

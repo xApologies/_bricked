@@ -1,0 +1,30 @@
+{
+  "plan_id": "6ca207ef8bcdacd154e6a91f3d982ab8a7f47c544883cfdcd1d6146c603d3f3f",
+  "instance_id": "0deed435b7c74235037da7ccb8fbf9f2",
+  "canonical_mmo_id": "O:OXYGEN_PHASE5_V1",
+  "representation_id": "O:OXYGEN_PHASE5_V1:scalar",
+  "fabric_tag": 5508075522112768044,
+  "grid_shape": [
+    32,
+    32,
+    32
+  ],
+  "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+  "roles": [
+    "control"
+  ],
+  "cells_per_voxel": 1,
+  "required_cells": 32768,
+  "region": {
+    "start": 196608,
+    "count": 32768,
+    "alignment": 128,
+    "guard_before": 0,
+    "guard_after": 0
+  },
+  "source_hashes": {
+    "MK43U_Oxygen_Manifold_Phase5_v1/oxygen_phase5_chirality.npy": "c03ca349f35b3f02650396060be33fe066c640d24423093e5fb912ff4b65caa5",
+    "MK43U_Oxygen_Manifold_Phase5_v1/manifest.json": "74d2d11c4fa1f6990a93f1330bc02d61dd16c53b9888ef1799bd305d271f1906"
+  },
+  "defaults": []
+}

@@ -1,0 +1,29 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "0.2.0",
+    "genesis.std.quantum": "0.2.0"
+  },
+  "description": "Generic quantum callable preserving Section 07 linear ownership checks.",
+  "effects": [
+    "QUANTUM_LINEAR",
+    "MEASURE",
+    "PROVENANCE"
+  ],
+  "entry_exports": [
+    "app.section13.quantum_generic::result",
+    "app.section13.quantum_generic::seal"
+  ],
+  "genesis": "0.1.0",
+  "kind": "application",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "app.section13.quantum_generic",
+      "path": "src/main.gen"
+    }
+  ],
+  "name": "app.section13.quantum_generic",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

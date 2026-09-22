@@ -1,0 +1,13 @@
+class PortalError(Exception): pass
+class CorridorAdmissionError(PortalError): pass
+class NoCorridorError(CorridorAdmissionError): pass
+class ResolutionInsufficient(CorridorAdmissionError): pass
+class BandwidthInsufficient(CorridorAdmissionError): pass
+class ChiralityMismatch(CorridorAdmissionError): pass
+class SectorMismatch(CorridorAdmissionError): pass
+class ResidueMismatch(CorridorAdmissionError): pass
+class CapacityError(CorridorAdmissionError): pass
+class TargetClosureError(PortalError): pass
+class TransportIntegrityError(PortalError): pass
+class SourceStaleError(PortalError): pass
+class DestinationAllocationError(PortalError): pass

@@ -1,0 +1,215 @@
+{
+  "edges": [
+    {
+      "from": "15_rc",
+      "kind": "effect_order",
+      "to": "17_receipt"
+    }
+  ],
+  "exports": [
+    "%g2",
+    "%road_receipt",
+    "%m5",
+    "%receipt"
+  ],
+  "ir": "GIR",
+  "name": "rainbow_road_two_leg",
+  "nodes": [
+    {
+      "attrs": {
+        "uri": "fabric://chirality/reference-v1"
+      },
+      "id": "01_mount",
+      "op": "FABRIC_MOUNT",
+      "out": "%fabric",
+      "type": "FABRIC"
+    },
+    {
+      "args": [
+        "%fabric"
+      ],
+      "attrs": {
+        "cells": 8192
+      },
+      "id": "02_alloc",
+      "op": "FABRIC_ALLOC",
+      "out": "%region",
+      "type": "REGION"
+    },
+    {
+      "args": [
+        "%fabric",
+        "%region"
+      ],
+      "attrs": {
+        "mmo": {
+          "class": "MMO",
+          "handle": "@oxygen_reference"
+        }
+      },
+      "id": "03_g0",
+      "op": "GEO_INSTANTIATE",
+      "out": "%g0",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%g0"
+      ],
+      "attrs": {
+        "name": "RR-OXYGEN-01"
+      },
+      "id": "04_road",
+      "op": "ROAD_BEGIN",
+      "out": "%road0",
+      "type": "ROAD"
+    },
+    {
+      "args": [
+        "%g0"
+      ],
+      "attrs": {
+        "admitted": true
+      },
+      "id": "05_adm1",
+      "op": "ADMIT",
+      "out": "%a1",
+      "type": "ADMISSION"
+    },
+    {
+      "args": [
+        "%g0",
+        "%a1"
+      ],
+      "attrs": {
+        "corridor": "Red->Orange",
+        "sector": "GR"
+      },
+      "id": "06_p1",
+      "op": "PORTAL_OPEN",
+      "out": "%p1",
+      "type": "PORTAL"
+    },
+    {
+      "args": [
+        "%p1",
+        "%g0"
+      ],
+      "attrs": {
+        "destination": "Orange"
+      },
+      "id": "07_t1",
+      "op": "PORTAL_TRANSPORT",
+      "out": "%g1",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%p1",
+        "%g1"
+      ],
+      "id": "08_c1",
+      "op": "PORTAL_CLOSE",
+      "out": "%c1",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%road0",
+        "%c1"
+      ],
+      "id": "09_ra1",
+      "op": "ROAD_APPEND",
+      "out": "%road1",
+      "type": "ROAD"
+    },
+    {
+      "args": [
+        "%g1"
+      ],
+      "attrs": {
+        "admitted": true
+      },
+      "id": "10_adm2",
+      "op": "ADMIT",
+      "out": "%a2",
+      "type": "ADMISSION"
+    },
+    {
+      "args": [
+        "%g1",
+        "%a2"
+      ],
+      "attrs": {
+        "corridor": "Orange->Violet",
+        "sector": "GR"
+      },
+      "id": "11_p2",
+      "op": "PORTAL_OPEN",
+      "out": "%p2",
+      "type": "PORTAL"
+    },
+    {
+      "args": [
+        "%p2",
+        "%g1"
+      ],
+      "attrs": {
+        "destination": "Violet"
+      },
+      "id": "12_t2",
+      "op": "PORTAL_TRANSPORT",
+      "out": "%g2",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%p2",
+        "%g2"
+      ],
+      "id": "13_c2",
+      "op": "PORTAL_CLOSE",
+      "out": "%c2",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%road1",
+        "%c2"
+      ],
+      "id": "14_ra2",
+      "op": "ROAD_APPEND",
+      "out": "%road2",
+      "type": "ROAD"
+    },
+    {
+      "args": [
+        "%road2",
+        "%g2"
+      ],
+      "id": "15_rc",
+      "op": "ROAD_CLOSE",
+      "out": "%road_receipt",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%g2"
+      ],
+      "attrs": {
+        "R": "rainbow-road-history"
+      },
+      "id": "16_m5",
+      "op": "BRANE_LIFT",
+      "out": "%m5",
+      "type": "M5"
+    },
+    {
+      "id": "17_receipt",
+      "op": "EMIT_RECEIPT",
+      "out": "%receipt",
+      "type": "RECEIPT"
+    }
+  ],
+  "version": "0.1.0"
+}

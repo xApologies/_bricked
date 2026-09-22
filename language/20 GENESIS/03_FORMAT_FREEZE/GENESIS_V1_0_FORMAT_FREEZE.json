@@ -1,0 +1,19 @@
+{
+  "format_freeze_root": "4e9c9cbe15a3a5fa30e6f20daa7ba5100594bde8978fbff81baf514fd5be7e40",
+  "formats": [
+    "Genesis source (.gen)",
+    "GIR module graph",
+    "GVM deterministic bytecode",
+    "package manifest/lock",
+    "chirality fabric image contract",
+    "geometric overlay/delta contracts",
+    "Portal/Road/Bridge receipts",
+    "system boundary receipts",
+    "bootstrap image (.gboot)",
+    "diagnostic/source-map/trace records"
+  ],
+  "kind": "GENESIS_V1_FORMAT_FREEZE",
+  "rule": "Readers MAY add backward-compatible support; writers MUST NOT silently reinterpret v1.0 frozen fields.",
+  "status": "FROZEN",
+  "version": "1.0.0"
+}

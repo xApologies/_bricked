@@ -1,0 +1,10 @@
+{
+  "name": "GENESIS_CHIRALITY_MACHINE_SECTION_15_RECURSIVE_TOPOLOGY",
+  "version": "0.1.0",
+  "date_anchor": "20260821",
+  "language_surface": "Genesis 0.4.0 recursion subset",
+  "new_opcode_window": "0x0090-0x0097",
+  "contracts": ["DECREASING", "FUEL", "VISIT_ONCE", "PERSISTENT_SUSPEND_RESUME"],
+  "predecessor": "Section 14 — Control Flow + Data Algebra",
+  "next": "Section 16 — Concurrency + Scheduling + Resource Coordination"
+}

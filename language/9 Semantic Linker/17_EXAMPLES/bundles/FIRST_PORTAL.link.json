@@ -1,0 +1,223 @@
+{
+  "exports": [
+    "qft_leg::destination",
+    "qft_leg::receipt",
+    "readout::m5",
+    "readout::receipt"
+  ],
+  "link": "GENESIS-LINK",
+  "modules": [
+    {
+      "effects": [
+        "READ_FABRIC",
+        "ALLOCATE",
+        "INHERIT"
+      ],
+      "exports": [
+        {
+          "symbol": "geo",
+          "type": "GEOMETRIC<CLOSED,UNBOUND>",
+          "value": "%geo"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "attrs": {
+              "uri": "fabric://chirality/reference-v1"
+            },
+            "id": "01_mount",
+            "op": "FABRIC_MOUNT",
+            "out": "%fabric",
+            "type": "FABRIC"
+          },
+          {
+            "args": [
+              "%fabric"
+            ],
+            "attrs": {
+              "cells": 4096
+            },
+            "id": "02_alloc",
+            "op": "FABRIC_ALLOC",
+            "out": "%region",
+            "type": "REGION"
+          },
+          {
+            "args": [
+              "%fabric",
+              "%region"
+            ],
+            "attrs": {
+              "mmo": {
+                "class": "MMO",
+                "handle": "@hydrogen_reference"
+              }
+            },
+            "id": "03_geo",
+            "op": "GEO_INSTANTIATE",
+            "out": "%geo",
+            "type": "GEOMETRIC"
+          }
+        ]
+      },
+      "imports": [],
+      "ir": "GIR-MODULE",
+      "module": "fixture",
+      "version": "0.1.0"
+    },
+    {
+      "effects": [
+        "ADMIT",
+        "TRANSPORT",
+        "INHERIT",
+        "CLOSE",
+        "PROVENANCE"
+      ],
+      "exports": [
+        {
+          "symbol": "destination",
+          "type": "GEOMETRIC<CLOSED,QFT>",
+          "value": "%dest"
+        },
+        {
+          "symbol": "receipt",
+          "type": "RECEIPT<PORTAL_CLOSE>",
+          "value": "%receipt"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "args": [
+              "%source"
+            ],
+            "attrs": {
+              "admitted": true
+            },
+            "id": "01_admit",
+            "op": "ADMIT",
+            "out": "%a",
+            "type": "ADMISSION"
+          },
+          {
+            "args": [
+              "%source",
+              "%a"
+            ],
+            "attrs": {
+              "corridor": "QFT-A",
+              "sector": "QFT"
+            },
+            "id": "02_open",
+            "op": "PORTAL_OPEN",
+            "out": "%p",
+            "type": "PORTAL"
+          },
+          {
+            "args": [
+              "%p",
+              "%source"
+            ],
+            "attrs": {
+              "destination": "QFT-B"
+            },
+            "id": "03_transport",
+            "op": "PORTAL_TRANSPORT",
+            "out": "%dest",
+            "type": "GEOMETRIC"
+          },
+          {
+            "args": [
+              "%p",
+              "%dest"
+            ],
+            "id": "04_close",
+            "op": "PORTAL_CLOSE",
+            "out": "%receipt",
+            "type": "RECEIPT"
+          }
+        ]
+      },
+      "imports": [
+        {
+          "from": "fixture",
+          "local": "%source",
+          "symbol": "geo",
+          "type": "GEOMETRIC"
+        }
+      ],
+      "ir": "GIR-MODULE",
+      "module": "qft_leg",
+      "version": "0.1.0"
+    },
+    {
+      "effects": [
+        "PROJECT",
+        "PROVENANCE"
+      ],
+      "exports": [
+        {
+          "symbol": "m5",
+          "type": "M5",
+          "value": "%m5"
+        },
+        {
+          "symbol": "receipt",
+          "type": "RECEIPT",
+          "value": "%receipt"
+        }
+      ],
+      "gir": {
+        "edges": [],
+        "nodes": [
+          {
+            "args": [
+              "%source"
+            ],
+            "attrs": {
+              "P": "section09-link"
+            },
+            "id": "01_m5",
+            "op": "BRANE_LIFT",
+            "out": "%m5",
+            "type": "M5"
+          },
+          {
+            "args": [
+              "%m5"
+            ],
+            "attrs": {
+              "stage": "readout"
+            },
+            "id": "02_seal",
+            "op": "PROVENANCE_SEAL",
+            "out": "%seal",
+            "type": "RECEIPT"
+          },
+          {
+            "id": "03_emit",
+            "op": "EMIT_RECEIPT",
+            "out": "%receipt",
+            "type": "RECEIPT"
+          }
+        ]
+      },
+      "imports": [
+        {
+          "from": "qft_leg",
+          "local": "%source",
+          "symbol": "destination",
+          "type": "GEOMETRIC<CLOSED,QFT>"
+        }
+      ],
+      "ir": "GIR-MODULE",
+      "module": "readout",
+      "version": "0.1.0"
+    }
+  ],
+  "name": "section09_first_portal",
+  "version": "0.1.0"
+}

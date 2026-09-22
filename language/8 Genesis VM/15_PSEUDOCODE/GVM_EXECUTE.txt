@@ -1,0 +1,13 @@
+EXECUTE(program, backend):
+  VERIFY(program)
+  state := new machine state
+  while not HALT:
+      i := FETCH(PC)
+      args := typed register lookup
+      enforce ownership / closure / sector typestate
+      result := BACKEND_DISPATCH(i.op, args, i.attrs)
+      append receipts
+      write result register
+      update PC
+  reject open Portal/Road transaction frontier unless explicit partial result
+  emit execution receipt

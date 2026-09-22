@@ -1,0 +1,14 @@
+QUANTUM_PORTAL_EXECUTE(state, envelope, channel):
+    require state.sector == QFT
+    require envelope source and target sectors == QFT
+    require unique live ownership token
+    validate effect QFT_PORTAL_TRANSPORT
+    validate channel class
+    target_state := channel(state)
+    audit norm/trace/coherence/fidelity/entanglement contract
+    if audit fails: reject closure
+    move/consume source ownership
+    allocate ownership of target_state
+    emit Quantum Portal Closure Receipt
+    attach receipt to history/provenance/BRANE M5
+    return target_state

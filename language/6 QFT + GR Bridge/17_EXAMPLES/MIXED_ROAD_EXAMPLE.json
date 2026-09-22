@@ -1,0 +1,13 @@
+{
+  "source": "MMO@ALPHA/QFT",
+  "waypoints": [
+    "GREEN/QFT",
+    "OMEGA/GR"
+  ],
+  "expanded_actions": [
+    "Portal<QFT>: ALPHA->GREEN",
+    "Bridge<QFT,GR>: GREEN",
+    "Portal<GR>: GREEN->OMEGA"
+  ],
+  "rule": "sector changes are explicit bridge actions; Portals remain single-sector"
+}

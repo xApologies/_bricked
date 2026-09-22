@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "genesis://section14/schema/execution-summary/v0.1",
+  "title": "Genesis Section 14 Reference Execution Summary",
+  "type": "object",
+  "required": ["bytecode_sha256", "example", "execution_receipt", "exports", "halted", "instructions", "source", "verification"],
+  "properties": {
+    "bytecode_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "example": {"type": "string"},
+    "execution_receipt": {"type": "object"},
+    "exports": {"type": "object"},
+    "halted": {"type": "boolean"},
+    "instructions": {"type": "integer", "minimum": 1},
+    "source": {"type": "string"},
+    "verification": {"$ref": "control_verification_receipt.schema.json"}
+  },
+  "additionalProperties": false
+}

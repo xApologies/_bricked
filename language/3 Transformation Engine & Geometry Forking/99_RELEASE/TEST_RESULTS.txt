@@ -1,0 +1,28 @@
+test_base_immutable (test_section03.S03.test_base_immutable) ... ok
+test_branching (test_section03.S03.test_branching) ... ok
+test_brane_relift (test_section03.S03.test_brane_relift) ... ok
+test_child_reconstructs_root (test_section03.S03.test_child_reconstructs_root) ... ok
+test_chirality_invariant_blocks_mirror (test_section03.S03.test_chirality_invariant_blocks_mirror) ... ok
+test_delta_reopens (test_section03.S03.test_delta_reopens) ... ok
+test_derive_mmo_requires_id (test_section03.S03.test_derive_mmo_requires_id) ... ok
+test_derive_representation (test_section03.S03.test_derive_representation) ... ok
+test_identity_tags_preserved (test_section03.S03.test_identity_tags_preserved) ... ok
+test_ledger_advances (test_section03.S03.test_ledger_advances) ... ok
+test_noop_inherit_root (test_section03.S03.test_noop_inherit_root) ... ok
+test_parent_immutable (test_section03.S03.test_parent_immutable) ... ok
+test_plan_determinism (test_section03.S03.test_plan_determinism) ... ok
+test_projection_only_rejects_write (test_section03.S03.test_projection_only_rejects_write) ... ok
+test_r_denies_chi_write (test_section03.S03.test_r_denies_chi_write) ... ok
+test_redistribution_sum (test_section03.S03.test_redistribution_sum) ... ok
+test_role_selector (test_section03.S03.test_role_selector) ... ok
+test_sequential_staged (test_section03.S03.test_sequential_staged) ... ok
+test_sparse_delta (test_section03.S03.test_sparse_delta) ... ok
+test_stabilize_fork_parent_immutable (test_section03.S03.test_stabilize_fork_parent_immutable) ... ok
+test_stale_parent (test_section03.S03.test_stale_parent) ... ok
+test_t_allows_chi_write (test_section03.S03.test_t_allows_chi_write) ... ok
+test_voxel_box (test_section03.S03.test_voxel_box) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.049s
+
+OK

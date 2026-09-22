@@ -1,0 +1,11 @@
+genesis 0.2.0
+module genesis.std.provenance.callables {
+  pub fn seal_resource<T:RESOURCE> (value:T) -> RECEIPT<PROVENANCE> effects [PROVENANCE] {
+    seal value as receipt
+    return receipt
+  }
+  pub fn require_closure<T:RESOURCE> (value:T) -> BOOL effects [CLOSE] {
+    assert closure value as result @{"required":true}
+    return result
+  }
+}

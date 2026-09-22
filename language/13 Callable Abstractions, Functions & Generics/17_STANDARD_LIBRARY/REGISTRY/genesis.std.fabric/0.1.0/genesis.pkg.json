@@ -1,0 +1,25 @@
+{
+  "backend_capabilities": [
+    "fabric_mount"
+  ],
+  "dependencies": {
+    "genesis.std.core": "^0.1.0"
+  },
+  "description": "Executable reference chirality-fabric mount.",
+  "effects": [
+    "READ_FABRIC"
+  ],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "library",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [
+    {
+      "name": "genesis.std.fabric.reference",
+      "path": "src/reference.gen"
+    }
+  ],
+  "name": "genesis.std.fabric",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "content_hash": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "RECEIPT"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "resource_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "resource_id",
+    "kind",
+    "payload",
+    "content_hash"
+  ],
+  "title": "GVM execution receipt",
+  "type": "object"
+}

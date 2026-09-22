@@ -1,0 +1,102 @@
+{
+  "effects": [
+    "TRANSDUCE",
+    "PROVENANCE",
+    "ADMIT",
+    "TRANSPORT",
+    "INHERIT",
+    "CLOSE"
+  ],
+  "exports": [
+    {
+      "symbol": "destination",
+      "type": "GEOMETRIC<CLOSED,GR>",
+      "value": "%dest"
+    },
+    {
+      "symbol": "receipt",
+      "type": "RECEIPT<PORTAL_CLOSE>",
+      "value": "%receipt"
+    }
+  ],
+  "gir": {
+    "edges": [],
+    "nodes": [
+      {
+        "args": [
+          "%source"
+        ],
+        "attrs": {
+          "from": "QFT",
+          "to": "GR"
+        },
+        "id": "01_bridge",
+        "op": "BRIDGE_SECTOR",
+        "out": "%b",
+        "type": "BRIDGE"
+      },
+      {
+        "args": [
+          "%source"
+        ],
+        "attrs": {
+          "admitted": true,
+          "bridge": "%b"
+        },
+        "id": "02_admit",
+        "op": "ADMIT",
+        "out": "%a",
+        "type": "ADMISSION"
+      },
+      {
+        "args": [
+          "%source",
+          "%a"
+        ],
+        "attrs": {
+          "bridge": "%b",
+          "corridor": "GR-B",
+          "sector": "GR"
+        },
+        "id": "03_open",
+        "op": "PORTAL_OPEN",
+        "out": "%p",
+        "type": "PORTAL"
+      },
+      {
+        "args": [
+          "%p",
+          "%source"
+        ],
+        "attrs": {
+          "destination": "GR-C"
+        },
+        "id": "04_transport",
+        "op": "PORTAL_TRANSPORT",
+        "out": "%dest",
+        "type": "GEOMETRIC"
+      },
+      {
+        "args": [
+          "%p",
+          "%dest"
+        ],
+        "id": "05_close",
+        "op": "PORTAL_CLOSE",
+        "out": "%receipt",
+        "type": "RECEIPT"
+      }
+    ]
+  },
+  "imports": [
+    {
+      "from": "qft_leg",
+      "local": "%source",
+      "symbol": "destination",
+      "type": "GEOMETRIC<CLOSED,QFT>"
+    }
+  ],
+  "ir": "GIR-MODULE",
+  "module": "gr_leg",
+  "version": "0.1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis Section 16 concurrency program descriptor",
+  "type":"object",
+  "required":["module","version","resources","templates","spawns","joins"],
+  "properties":{
+    "module":{"type":"string"},"version":{"const":"0.5.0"},"resources":{"type":"object"},
+    "templates":{"type":"object"},"spawns":{"type":"array"},"joins":{"type":"array"}
+  }
+}

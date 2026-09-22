@@ -1,0 +1,14 @@
+BRIDGE_EXECUTE(req):
+    assert req.source_sector != req.target_sector
+    assert pair(req.source_sector,req.target_sector) in {(QFT,GR),(GR,QFT)}
+    hash source segments and base fabric
+    characterize source content/residue
+    source_rep = rho_source(source)
+    target_rep = rho_target(source)
+    witness = common_ancestry(source_rep,target_rep)
+    assert witness admitted
+    assert preservation roots agree
+    assert source segments unchanged
+    assert base fabric unchanged
+    receipt = CLOSE_BRIDGE(...)
+    return same realized Geometric + new logical sector view + receipt

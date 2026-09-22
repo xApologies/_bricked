@@ -1,0 +1,265 @@
+{
+  "brane_m5": {
+    "Chi": {
+      "effects": [
+        "TRANSLATION_WRITE"
+      ],
+      "fabric_tag": 5508075522112768044,
+      "post_state_root": "63c42b3d3feb91b8dfb83daaf63f02e8f1ca4f7c50af892a97840902ac89680f",
+      "region": {
+        "alignment": 128,
+        "count": 32768,
+        "guard_after": 0,
+        "guard_before": 0,
+        "start": 163840
+      }
+    },
+    "D": {
+      "effects": [
+        "TRANSLATION_WRITE"
+      ],
+      "inherited": {
+        "dependencies": [],
+        "parent_instance_id": null,
+        "source_hashes": {
+          "hydrogen_v2_chirality_field.npy": "e0166dff4da52ea9b839692068b84ecd10017dde2a298d716c8201c3b783e4f4",
+          "hydrogen_v2_closure_topology.npy": "6dd27d65a75d03d7ed735e739509ee51d132ec80bccd0d6929975ec2ec4efc13",
+          "hydrogen_v2_environment_admissibility.npy": "1957f88650fc052ab64fca8b5fc9bd7d2bb2b154073c3a6c6092ea7321e6a87d",
+          "hydrogen_v2_mixed_closure_admissibility.npy": "7387250afc2c149040013ac1037291b41b13e9b04b90c753fa04340e7059ae74",
+          "hydrogen_v2_pair_closure_topology.npy": "197cd074c39b2a25fd8694424a28004e6f03f313de00bb4776eddcc876da2ee2",
+          "hydrogen_v2_polarization_shell.npy": "632a761a03620e7e576db827df6e438da25be780e4149a614e4a57f9249fc1c9",
+          "hydrogen_v2_redistribution_resistance.npy": "0be14e9e4590d102ad54e1c178a4e016a24681254bd89f64696c84279f1ee601"
+        }
+      },
+      "transformation_plan_id": "c16535a1542f5a57607cd7eb0a3e4d0795f8b9ff2359cae85a9f343c2b773405"
+    },
+    "I": {
+      "canonical_mmo_id": "H:HYDROGEN_V2",
+      "instance_id": "217fc789e846f8e268f9cb627fa7faa2",
+      "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+      "representation_id": "H:HYDROGEN_V2:scalar"
+    },
+    "P": {
+      "inherited": {
+        "adapter_version": "BRANE_M5_ADAPTER_V0_1",
+        "provenance": [
+          {
+            "source_hashes": {
+              "hydrogen_v2_chirality_field.npy": "e0166dff4da52ea9b839692068b84ecd10017dde2a298d716c8201c3b783e4f4",
+              "hydrogen_v2_closure_topology.npy": "6dd27d65a75d03d7ed735e739509ee51d132ec80bccd0d6929975ec2ec4efc13",
+              "hydrogen_v2_environment_admissibility.npy": "1957f88650fc052ab64fca8b5fc9bd7d2bb2b154073c3a6c6092ea7321e6a87d",
+              "hydrogen_v2_mixed_closure_admissibility.npy": "7387250afc2c149040013ac1037291b41b13e9b04b90c753fa04340e7059ae74",
+              "hydrogen_v2_pair_closure_topology.npy": "197cd074c39b2a25fd8694424a28004e6f03f313de00bb4776eddcc876da2ee2",
+              "hydrogen_v2_polarization_shell.npy": "632a761a03620e7e576db827df6e438da25be780e4149a614e4a57f9249fc1c9",
+              "hydrogen_v2_redistribution_resistance.npy": "0be14e9e4590d102ad54e1c178a4e016a24681254bd89f64696c84279f1ee601"
+            }
+          }
+        ],
+        "receipts": [
+          {
+            "kind": "INSTANTIATION_PLAN",
+            "plan_id": "4a88a4a3f47b5ee1427945fe06c495e1e63fdb15ffdc90e4c1377fde2749c386",
+            "timestamp_ns": 1787336439466457894
+          },
+          {
+            "file_sha256": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682",
+            "kind": "SEGMENT_COMMIT",
+            "payload_hash": "060af628d5d753caba72c9f64d50a56f126e8a26ef014310352be4a6a5d197e4",
+            "record_count": 32768,
+            "timestamp_ns": 1787336439466459045
+          },
+          {
+            "allocation": {
+              "count": 32768,
+              "guard": 0,
+              "owner": "a3e6a4d75d5f2ff25837878cfca4d045",
+              "reservation_id": "525cf40f4b0352478eb96152",
+              "start": 163840,
+              "state": "COMMITTED"
+            },
+            "kind": "REGION_COMMIT",
+            "timestamp_ns": 1787336439466459837
+          }
+        ]
+      },
+      "transformation_receipt": {
+        "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+        "canonical_mmo_after": "H:HYDROGEN_V2",
+        "canonical_mmo_before": "H:HYDROGEN_V2",
+        "capability_profile": "GENERIC_LIVE",
+        "changed_cells": 32768,
+        "child_instance_id": "217fc789e846f8e268f9cb627fa7faa2",
+        "delta_file_sha256": "f1406d0ace33b95e18f07aa3f313b63983a3bc5d3ef45b881acbe892e49d50df",
+        "delta_payload_hash": "70a342c8cdfd7d8cd09204148a1b536682a31e5251ddba8c827dc0f76b66d66b",
+        "effects": [
+          "TRANSLATION_WRITE"
+        ],
+        "invariants": [
+          {
+            "invariant": "canonical_mmo_id",
+            "pass": true
+          },
+          {
+            "invariant": "fabric_region",
+            "pass": true
+          },
+          {
+            "invariant": "occupancy_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "complement_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "handedness",
+            "pass": true
+          },
+          {
+            "invariant": "chi",
+            "pass": true
+          },
+          {
+            "invariant": "identity_tag",
+            "pass": true
+          }
+        ],
+        "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+        "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+        "parent_segment_hashes": {
+          "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/hydrogen.gos": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682"
+        },
+        "plan_id": "c16535a1542f5a57607cd7eb0a3e4d0795f8b9ff2359cae85a9f343c2b773405",
+        "post_state_root": "63c42b3d3feb91b8dfb83daaf63f02e8f1ca4f7c50af892a97840902ac89680f",
+        "pre_state_root": "7eda20684d252d8e31594d31d0154ffa20507262f4ccaeeb3083552e287360d4",
+        "status": "CLOSED",
+        "timestamp_ns": 1787336934171281918
+      }
+    },
+    "R": {
+      "history_tail": [
+        {
+          "event": "LIVE",
+          "segment_sha256": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682",
+          "timestamp_ns": 1787336439466470973
+        },
+        {
+          "event": "TRANSFORMATION_CLOSED",
+          "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+          "plan_id": "c16535a1542f5a57607cd7eb0a3e4d0795f8b9ff2359cae85a9f343c2b773405",
+          "post_state_root": "63c42b3d3feb91b8dfb83daaf63f02e8f1ca4f7c50af892a97840902ac89680f",
+          "timestamp_ns": 1787336934171393033
+        }
+      ],
+      "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+      "recursive_depth": 2,
+      "transform_plan_id": "c16535a1542f5a57607cd7eb0a3e4d0795f8b9ff2359cae85a9f343c2b773405"
+    }
+  },
+  "canonical_mmo_id": "H:HYDROGEN_V2",
+  "cells_per_voxel": 1,
+  "fabric_tag": 5508075522112768044,
+  "history": [
+    {
+      "event": "LIVE",
+      "segment_sha256": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682",
+      "timestamp_ns": 1787336439466470973
+    },
+    {
+      "event": "TRANSFORMATION_CLOSED",
+      "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+      "plan_id": "c16535a1542f5a57607cd7eb0a3e4d0795f8b9ff2359cae85a9f343c2b773405",
+      "post_state_root": "63c42b3d3feb91b8dfb83daaf63f02e8f1ca4f7c50af892a97840902ac89680f",
+      "timestamp_ns": 1787336934171393033
+    }
+  ],
+  "instance_id": "217fc789e846f8e268f9cb627fa7faa2",
+  "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+  "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+  "provenance": [
+    {
+      "source_hashes": {
+        "hydrogen_v2_chirality_field.npy": "e0166dff4da52ea9b839692068b84ecd10017dde2a298d716c8201c3b783e4f4",
+        "hydrogen_v2_closure_topology.npy": "6dd27d65a75d03d7ed735e739509ee51d132ec80bccd0d6929975ec2ec4efc13",
+        "hydrogen_v2_environment_admissibility.npy": "1957f88650fc052ab64fca8b5fc9bd7d2bb2b154073c3a6c6092ea7321e6a87d",
+        "hydrogen_v2_mixed_closure_admissibility.npy": "7387250afc2c149040013ac1037291b41b13e9b04b90c753fa04340e7059ae74",
+        "hydrogen_v2_pair_closure_topology.npy": "197cd074c39b2a25fd8694424a28004e6f03f313de00bb4776eddcc876da2ee2",
+        "hydrogen_v2_polarization_shell.npy": "632a761a03620e7e576db827df6e438da25be780e4149a614e4a57f9249fc1c9",
+        "hydrogen_v2_redistribution_resistance.npy": "0be14e9e4590d102ad54e1c178a4e016a24681254bd89f64696c84279f1ee601"
+      }
+    },
+    {
+      "transformation_receipt": {
+        "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+        "canonical_mmo_after": "H:HYDROGEN_V2",
+        "canonical_mmo_before": "H:HYDROGEN_V2",
+        "capability_profile": "GENERIC_LIVE",
+        "changed_cells": 32768,
+        "child_instance_id": "217fc789e846f8e268f9cb627fa7faa2",
+        "delta_file_sha256": "f1406d0ace33b95e18f07aa3f313b63983a3bc5d3ef45b881acbe892e49d50df",
+        "delta_payload_hash": "70a342c8cdfd7d8cd09204148a1b536682a31e5251ddba8c827dc0f76b66d66b",
+        "effects": [
+          "TRANSLATION_WRITE"
+        ],
+        "invariants": [
+          {
+            "invariant": "canonical_mmo_id",
+            "pass": true
+          },
+          {
+            "invariant": "fabric_region",
+            "pass": true
+          },
+          {
+            "invariant": "occupancy_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "complement_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "handedness",
+            "pass": true
+          },
+          {
+            "invariant": "chi",
+            "pass": true
+          },
+          {
+            "invariant": "identity_tag",
+            "pass": true
+          }
+        ],
+        "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+        "parent_instance_id": "a3e6a4d75d5f2ff25837878cfca4d045",
+        "parent_segment_hashes": {
+          "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/hydrogen.gos": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682"
+        },
+        "plan_id": "c16535a1542f5a57607cd7eb0a3e4d0795f8b9ff2359cae85a9f343c2b773405",
+        "post_state_root": "63c42b3d3feb91b8dfb83daaf63f02e8f1ca4f7c50af892a97840902ac89680f",
+        "pre_state_root": "7eda20684d252d8e31594d31d0154ffa20507262f4ccaeeb3083552e287360d4",
+        "status": "CLOSED",
+        "timestamp_ns": 1787336934171281918
+      }
+    }
+  ],
+  "region": {
+    "alignment": 128,
+    "count": 32768,
+    "guard_after": 0,
+    "guard_before": 0,
+    "start": 163840
+  },
+  "representation_id": "H:HYDROGEN_V2:scalar",
+  "roles": [
+    "control"
+  ],
+  "segment_chain": [
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/hydrogen.gos",
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/16_EXAMPLES/REAL_FIXTURE_TRANSFORMS/HYDROGEN/217fc789e846f8e268f9cb627fa7faa2.gtd"
+  ],
+  "segment_path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/16_EXAMPLES/REAL_FIXTURE_TRANSFORMS/HYDROGEN/217fc789e846f8e268f9cb627fa7faa2.gtd",
+  "segment_sha256": "f1406d0ace33b95e18f07aa3f313b63983a3bc5d3ef45b881acbe892e49d50df",
+  "state": "LIVE"
+}

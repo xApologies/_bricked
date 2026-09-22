@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"GenesisSourceMap","type":"array","items":{"type":"object","required":["instruction_index","opcode","source","line","column","text"]}}

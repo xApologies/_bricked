@@ -1,0 +1,186 @@
+{
+  "edges": [
+    {
+      "from": "09_close",
+      "kind": "effect_order",
+      "to": "13_receipt"
+    },
+    {
+      "from": "11_seal",
+      "kind": "effect_order",
+      "to": "13_receipt"
+    }
+  ],
+  "exports": [
+    "%g2",
+    "%pc",
+    "%m5",
+    "%receipt"
+  ],
+  "ir": "GIR",
+  "name": "first_portal",
+  "nodes": [
+    {
+      "attrs": {
+        "uri": "fabric://chirality/reference-v1"
+      },
+      "id": "01_mount",
+      "op": "FABRIC_MOUNT",
+      "out": "%fabric",
+      "type": "FABRIC"
+    },
+    {
+      "args": [
+        "%fabric"
+      ],
+      "attrs": {
+        "cells": 4096
+      },
+      "id": "02_alloc",
+      "op": "FABRIC_ALLOC",
+      "out": "%region",
+      "type": "REGION"
+    },
+    {
+      "args": [
+        "%fabric",
+        "%region"
+      ],
+      "attrs": {
+        "mmo": {
+          "class": "MMO",
+          "handle": "@hydrogen_reference"
+        }
+      },
+      "id": "03_instantiate",
+      "op": "GEO_INSTANTIATE",
+      "out": "%g0",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%g0"
+      ],
+      "attrs": {
+        "target": "environment://trinity"
+      },
+      "id": "04_relate",
+      "op": "RELATE",
+      "out": "%rel",
+      "type": "RELATION"
+    },
+    {
+      "args": [
+        "%g0"
+      ],
+      "attrs": {
+        "admitted": true,
+        "bandwidth": 1.0,
+        "resolution": 1.0
+      },
+      "id": "05_admit",
+      "op": "ADMIT",
+      "out": "%adm",
+      "type": "ADMISSION"
+    },
+    {
+      "args": [
+        "%g0",
+        "%adm"
+      ],
+      "attrs": {
+        "kind": "identity-preserving-reference-transform"
+      },
+      "id": "06_transform",
+      "op": "TRANSFORM",
+      "out": "%g1",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%g1",
+        "%adm"
+      ],
+      "attrs": {
+        "corridor": "corridor://red-violet",
+        "sector": "GR"
+      },
+      "id": "07_portal_open",
+      "op": "PORTAL_OPEN",
+      "out": "%p",
+      "type": "PORTAL"
+    },
+    {
+      "args": [
+        "%p",
+        "%g1"
+      ],
+      "attrs": {
+        "destination": "trinity://node-B"
+      },
+      "id": "08_transport",
+      "op": "PORTAL_TRANSPORT",
+      "out": "%g2",
+      "type": "GEOMETRIC"
+    },
+    {
+      "args": [
+        "%p",
+        "%g2"
+      ],
+      "id": "09_close",
+      "op": "PORTAL_CLOSE",
+      "out": "%pc",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%g2"
+      ],
+      "attrs": {
+        "Chi": "preserved",
+        "D": "portal-history",
+        "P": "receipt-ledger",
+        "R": "closed"
+      },
+      "id": "10_lift",
+      "op": "BRANE_LIFT",
+      "out": "%m5",
+      "type": "M5"
+    },
+    {
+      "args": [
+        "%g2"
+      ],
+      "attrs": {
+        "label": "first-portal"
+      },
+      "id": "11_seal",
+      "op": "PROVENANCE_SEAL",
+      "out": "%seal",
+      "type": "RECEIPT"
+    },
+    {
+      "args": [
+        "%g2"
+      ],
+      "attrs": {
+        "required": true
+      },
+      "id": "12_assert",
+      "op": "ASSERT_CLOSURE",
+      "out": "%closed",
+      "type": "BOOL"
+    },
+    {
+      "attrs": {
+        "label": "Genesis Bootstrap 0 \u2014 The First Portal"
+      },
+      "id": "13_receipt",
+      "op": "EMIT_RECEIPT",
+      "out": "%receipt",
+      "type": "RECEIPT"
+    }
+  ],
+  "version": "0.1.0"
+}

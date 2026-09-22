@@ -1,0 +1,272 @@
+{
+  "brane_m5": {
+    "Chi": {
+      "effects": [
+        "PERSISTENCE_WRITE"
+      ],
+      "fabric_tag": 5508075522112768044,
+      "post_state_root": "68aae7e5b0e37d06c7527236ccabd2797926191f80943e56bc8cd3610edbf7b3",
+      "region": {
+        "alignment": 128,
+        "count": 163840,
+        "guard_after": 0,
+        "guard_before": 0,
+        "start": 0
+      }
+    },
+    "D": {
+      "effects": [
+        "PERSISTENCE_WRITE"
+      ],
+      "inherited": {
+        "dependencies": [],
+        "parent_instance_id": null,
+        "source_hashes": {
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_field_3p1p1_32x32x32x2x2.npy": "4f8c344532644ffba69f34cb1be543f5344a9cc9accab84051742831c19c542d",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_scalar_32x32x32.npy": "04ada976e10104d367afc86a6111b98e3d7051906bcb56dc05582ad6d2b1d00a",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_statecode_32x32x32.npy": "8e1f8dfacad7b964acff57e2bb300494affbd240f103abfecb63300dec499faf",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/manifest.json": "90a264a27864dbc737d4fc968bff24e624690525c313a94b80d222de3793a365",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/mass_density_32x32x32.npy": "a0d3fdbb05a65f7a56dee86affcd58062723a053ad184a11df4acf3d7b3c3b9e",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/occupancy_32x32x32.npy": "3015f3c086e3c55505b07dae012c07aece0684d8301a281d20a146bde42dc26b",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/persistence_32x32x32.npy": "16da44547402fc879af787fb54ae00f4e358938e2e78936a42046d93a4c65e0e",
+          "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/resolution_32x32x32.npy": "2c05858650ef513f3e95c809af6148e12932fe6f2e5e4f32ff9a4b703f903bb9"
+        }
+      },
+      "transformation_plan_id": "06676c62029ab5db15912075a376e24f976ddd2682032a1ac4291857c110baed"
+    },
+    "I": {
+      "canonical_mmo_id": "HSV1-REFERENCE-MMO-QMODEL-01",
+      "instance_id": "dd7fb7fa4d53f5695e4c8788de131877",
+      "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+      "representation_id": "HSV1-REFERENCE-MMO-QMODEL-01:3p1p1"
+    },
+    "P": {
+      "inherited": {
+        "adapter_version": "BRANE_M5_ADAPTER_V0_1",
+        "provenance": [
+          {
+            "source_hashes": {
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_field_3p1p1_32x32x32x2x2.npy": "4f8c344532644ffba69f34cb1be543f5344a9cc9accab84051742831c19c542d",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_scalar_32x32x32.npy": "04ada976e10104d367afc86a6111b98e3d7051906bcb56dc05582ad6d2b1d00a",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_statecode_32x32x32.npy": "8e1f8dfacad7b964acff57e2bb300494affbd240f103abfecb63300dec499faf",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/manifest.json": "90a264a27864dbc737d4fc968bff24e624690525c313a94b80d222de3793a365",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/mass_density_32x32x32.npy": "a0d3fdbb05a65f7a56dee86affcd58062723a053ad184a11df4acf3d7b3c3b9e",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/occupancy_32x32x32.npy": "3015f3c086e3c55505b07dae012c07aece0684d8301a281d20a146bde42dc26b",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/persistence_32x32x32.npy": "16da44547402fc879af787fb54ae00f4e358938e2e78936a42046d93a4c65e0e",
+              "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/resolution_32x32x32.npy": "2c05858650ef513f3e95c809af6148e12932fe6f2e5e4f32ff9a4b703f903bb9"
+            }
+          }
+        ],
+        "receipts": [
+          {
+            "kind": "INSTANTIATION_PLAN",
+            "plan_id": "228ce63428ff598b07eb2c039ca9e192f4fd1e4acb564417c37d80da0825f75e",
+            "timestamp_ns": 1787336439288871410
+          },
+          {
+            "file_sha256": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d",
+            "kind": "SEGMENT_COMMIT",
+            "payload_hash": "86020dcc224e2dc69b235cff3bc97f4757f514c8dc984ebe484599126568d957",
+            "record_count": 163840,
+            "timestamp_ns": 1787336439288874174
+          },
+          {
+            "allocation": {
+              "count": 163840,
+              "guard": 0,
+              "owner": "016e2c6a257126cdad5680b4d4a34f60",
+              "reservation_id": "570425a2d448b1c2957397d9",
+              "start": 0,
+              "state": "COMMITTED"
+            },
+            "kind": "REGION_COMMIT",
+            "timestamp_ns": 1787336439288875506
+          }
+        ]
+      },
+      "transformation_receipt": {
+        "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+        "canonical_mmo_after": "HSV1-REFERENCE-MMO-QMODEL-01",
+        "canonical_mmo_before": "HSV1-REFERENCE-MMO-QMODEL-01",
+        "capability_profile": "GENERIC_LIVE",
+        "changed_cells": 32768,
+        "child_instance_id": "dd7fb7fa4d53f5695e4c8788de131877",
+        "delta_file_sha256": "1accd9b535dc89b4ee01f55eeb30e3e0ffd0122bc88dcf12c244b6ac7f50556f",
+        "delta_payload_hash": "b4414f079cc866b5d3151461777f4920ed6cf99d1fc5c8fe0e601db4278d46a7",
+        "effects": [
+          "PERSISTENCE_WRITE"
+        ],
+        "invariants": [
+          {
+            "invariant": "canonical_mmo_id",
+            "pass": true
+          },
+          {
+            "invariant": "fabric_region",
+            "pass": true
+          },
+          {
+            "invariant": "occupancy_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "complement_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "handedness",
+            "pass": true
+          },
+          {
+            "invariant": "chi",
+            "pass": true
+          },
+          {
+            "invariant": "identity_tag",
+            "pass": true
+          }
+        ],
+        "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+        "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+        "parent_segment_hashes": {
+          "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/hsv1.gos": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d"
+        },
+        "plan_id": "06676c62029ab5db15912075a376e24f976ddd2682032a1ac4291857c110baed",
+        "post_state_root": "68aae7e5b0e37d06c7527236ccabd2797926191f80943e56bc8cd3610edbf7b3",
+        "pre_state_root": "b3e613167e2fd59e2fcd87b2645f25024812be74d4151b6fafa91b4329c75c52",
+        "status": "CLOSED",
+        "timestamp_ns": 1787336932142545691
+      }
+    },
+    "R": {
+      "history_tail": [
+        {
+          "event": "LIVE",
+          "segment_sha256": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d",
+          "timestamp_ns": 1787336439288897018
+        },
+        {
+          "event": "TRANSFORMATION_CLOSED",
+          "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+          "plan_id": "06676c62029ab5db15912075a376e24f976ddd2682032a1ac4291857c110baed",
+          "post_state_root": "68aae7e5b0e37d06c7527236ccabd2797926191f80943e56bc8cd3610edbf7b3",
+          "timestamp_ns": 1787336932142669384
+        }
+      ],
+      "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+      "recursive_depth": 2,
+      "transform_plan_id": "06676c62029ab5db15912075a376e24f976ddd2682032a1ac4291857c110baed"
+    }
+  },
+  "canonical_mmo_id": "HSV1-REFERENCE-MMO-QMODEL-01",
+  "cells_per_voxel": 5,
+  "fabric_tag": 5508075522112768044,
+  "history": [
+    {
+      "event": "LIVE",
+      "segment_sha256": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d",
+      "timestamp_ns": 1787336439288897018
+    },
+    {
+      "event": "TRANSFORMATION_CLOSED",
+      "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+      "plan_id": "06676c62029ab5db15912075a376e24f976ddd2682032a1ac4291857c110baed",
+      "post_state_root": "68aae7e5b0e37d06c7527236ccabd2797926191f80943e56bc8cd3610edbf7b3",
+      "timestamp_ns": 1787336932142669384
+    }
+  ],
+  "instance_id": "dd7fb7fa4d53f5695e4c8788de131877",
+  "mapping_profile": "MMO_3P1P1_DENSE_V1",
+  "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+  "provenance": [
+    {
+      "source_hashes": {
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_field_3p1p1_32x32x32x2x2.npy": "4f8c344532644ffba69f34cb1be543f5344a9cc9accab84051742831c19c542d",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_scalar_32x32x32.npy": "04ada976e10104d367afc86a6111b98e3d7051906bcb56dc05582ad6d2b1d00a",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/chirality_statecode_32x32x32.npy": "8e1f8dfacad7b964acff57e2bb300494affbd240f103abfecb63300dec499faf",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/manifest.json": "90a264a27864dbc737d4fc968bff24e624690525c313a94b80d222de3793a365",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/mass_density_32x32x32.npy": "a0d3fdbb05a65f7a56dee86affcd58062723a053ad184a11df4acf3d7b3c3b9e",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/occupancy_32x32x32.npy": "3015f3c086e3c55505b07dae012c07aece0684d8301a281d20a146bde42dc26b",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/persistence_32x32x32.npy": "16da44547402fc879af787fb54ae00f4e358938e2e78936a42046d93a4c65e0e",
+        "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28/models/HSV1-REFERENCE-MMO-QMODEL-01/resolution_32x32x32.npy": "2c05858650ef513f3e95c809af6148e12932fe6f2e5e4f32ff9a4b703f903bb9"
+      }
+    },
+    {
+      "transformation_receipt": {
+        "base_fabric_sha256": "8f47a4ea661ba5d7a4e6551efb8394c76a67581c32b8a0a2aded845ee5c1ebe1",
+        "canonical_mmo_after": "HSV1-REFERENCE-MMO-QMODEL-01",
+        "canonical_mmo_before": "HSV1-REFERENCE-MMO-QMODEL-01",
+        "capability_profile": "GENERIC_LIVE",
+        "changed_cells": 32768,
+        "child_instance_id": "dd7fb7fa4d53f5695e4c8788de131877",
+        "delta_file_sha256": "1accd9b535dc89b4ee01f55eeb30e3e0ffd0122bc88dcf12c244b6ac7f50556f",
+        "delta_payload_hash": "b4414f079cc866b5d3151461777f4920ed6cf99d1fc5c8fe0e601db4278d46a7",
+        "effects": [
+          "PERSISTENCE_WRITE"
+        ],
+        "invariants": [
+          {
+            "invariant": "canonical_mmo_id",
+            "pass": true
+          },
+          {
+            "invariant": "fabric_region",
+            "pass": true
+          },
+          {
+            "invariant": "occupancy_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "complement_pattern",
+            "pass": true
+          },
+          {
+            "invariant": "handedness",
+            "pass": true
+          },
+          {
+            "invariant": "chi",
+            "pass": true
+          },
+          {
+            "invariant": "identity_tag",
+            "pass": true
+          }
+        ],
+        "kind": "TRANSFORMATION_CLOSURE_RECEIPT",
+        "parent_instance_id": "016e2c6a257126cdad5680b4d4a34f60",
+        "parent_segment_hashes": {
+          "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/hsv1.gos": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d"
+        },
+        "plan_id": "06676c62029ab5db15912075a376e24f976ddd2682032a1ac4291857c110baed",
+        "post_state_root": "68aae7e5b0e37d06c7527236ccabd2797926191f80943e56bc8cd3610edbf7b3",
+        "pre_state_root": "b3e613167e2fd59e2fcd87b2645f25024812be74d4151b6fafa91b4329c75c52",
+        "status": "CLOSED",
+        "timestamp_ns": 1787336932142545691
+      }
+    }
+  ],
+  "region": {
+    "alignment": 128,
+    "count": 163840,
+    "guard_after": 0,
+    "guard_before": 0,
+    "start": 0
+  },
+  "representation_id": "HSV1-REFERENCE-MMO-QMODEL-01:3p1p1",
+  "roles": [
+    "chi_00",
+    "chi_01",
+    "chi_10",
+    "chi_11",
+    "control"
+  ],
+  "segment_chain": [
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821/13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/hsv1.gos",
+    "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/16_EXAMPLES/REAL_FIXTURE_TRANSFORMS/HSV1/dd7fb7fa4d53f5695e4c8788de131877.gtd"
+  ],
+  "segment_path": "/mnt/data/GENESIS_CHIRALITY_MACHINE_SECTION_03_TRANSFORMATION_ENGINE_v0.1.0_20260821/16_EXAMPLES/REAL_FIXTURE_TRANSFORMS/HSV1/dd7fb7fa4d53f5695e4c8788de131877.gtd",
+  "segment_sha256": "1accd9b535dc89b4ee01f55eeb30e3e0ffd0122bc88dcf12c244b6ac7f50556f",
+  "state": "LIVE"
+}

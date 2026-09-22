@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "kind": {
+      "const": "GENESIS_V1_CONFORMANCE_RECEIPT"
+    },
+    "status": {
+      "const": "PASS"
+    },
+    "version": {
+      "const": "1.0.0"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "status",
+    "release_root",
+    "core_lock_root"
+  ],
+  "title": "Genesis v1 Conformance Receipt",
+  "type": "object"
+}

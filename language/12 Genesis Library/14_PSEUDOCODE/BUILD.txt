@@ -1,0 +1,12 @@
+BUILD(project, lock?):
+  manifest <- validate genesis.pkg.json
+  resolution <- resolve or validate frozen lock
+  verify/install each dependency by content hash
+  ownership <- map every module to exactly one package
+  enforce direct-dependency imports
+  lower each package module and enforce manifest effect budget
+  sources <- dependency-first modules + root modules
+  artifact <- Section11.optimize_sources(sources)
+  require optimizer equivalence PASS
+  optionally execute with reference GVM
+  emit lockfile + package build receipt

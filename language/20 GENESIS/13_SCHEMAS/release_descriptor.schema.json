@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "kind": {
+      "const": "GENESIS_V1_RELEASE_DESCRIPTOR"
+    },
+    "release_root": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "release_status": {
+      "const": "FROZEN"
+    },
+    "version": {
+      "const": "1.0.0"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "release_status",
+    "release_root"
+  ],
+  "title": "Genesis v1 Release Descriptor",
+  "type": "object"
+}

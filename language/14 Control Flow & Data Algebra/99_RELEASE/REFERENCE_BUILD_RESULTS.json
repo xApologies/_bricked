@@ -1,0 +1,49 @@
+{
+  "count": 6,
+  "passed": 6,
+  "results": [
+    {
+      "bytecode_sha256": "40e4a8ab4940348b18ec075521e84fcee08502a22016165726a910b0a400be3b",
+      "example": "01_RECORDS",
+      "halting_paths": 1,
+      "instructions": 6,
+      "status": "PASS"
+    },
+    {
+      "bytecode_sha256": "f4d799c6b4b51696b8ea03f4c0b9a9b75065ef3d69300d1f9334b51324a483c3",
+      "example": "02_IF_PORTAL",
+      "halting_paths": 2,
+      "instructions": 12,
+      "status": "PASS"
+    },
+    {
+      "bytecode_sha256": "55d15c78e2f9ab4d544037809e630472c3ca0d324e300543144a0bf6f6d824b9",
+      "example": "03_MATCH",
+      "halting_paths": 3,
+      "instructions": 14,
+      "status": "PASS"
+    },
+    {
+      "bytecode_sha256": "5767c527111d7ce841359184b1cd0264f676958b43eb983cbe86607fb72325aa",
+      "example": "04_OPTION_RESULT",
+      "halting_paths": 2,
+      "instructions": 10,
+      "status": "PASS"
+    },
+    {
+      "bytecode_sha256": "329ad3b70497247b5c264ebbd28e0035cfb6734f6ee552a4cc639ce6b52f3f85",
+      "example": "05_REPEAT",
+      "halting_paths": 1,
+      "instructions": 6,
+      "status": "PASS"
+    },
+    {
+      "bytecode_sha256": "f32b501417a69b74fd867b5b5d099bb429fa255a9078f69c6ed3964b3ec4ea18",
+      "example": "06_QUANTUM_BRANCH",
+      "halting_paths": 2,
+      "instructions": 10,
+      "status": "PASS"
+    }
+  ],
+  "section": "14"
+}

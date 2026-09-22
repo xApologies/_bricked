@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "calibration_provenance": {
+      "type": "string"
+    },
+    "carrier": {
+      "type": "string"
+    },
+    "levels": {
+      "items": {
+        "type": "number"
+      },
+      "maxItems": 8,
+      "minItems": 8,
+      "type": "array"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "levels",
+    "carrier"
+  ],
+  "title": "PhysicalStateCodec",
+  "type": "object"
+}

@@ -1,0 +1,18 @@
+genesis 0.4.0
+module recursion.countdown {
+  rec fn countdown(n: INT) -> INT decreases n max_depth 64 {
+    let zero : INT = 0
+    let done : BOOL = le n zero
+    if done {
+      return n
+    } else {
+      let one : INT = 1
+      let next : INT = sub n one
+      recur countdown(next) as out
+      return out
+    }
+  }
+  let start : INT = 8
+  call countdown(start) as result
+  export result : INT
+}

@@ -1,0 +1,18 @@
+genesis 0.4.0
+module recursion.visit_once {
+  rec fn descend(node: INT) -> INT visit_once node max_depth 64 {
+    let zero : INT = 0
+    let done : BOOL = le node zero
+    if done {
+      return node
+    } else {
+      let one : INT = 1
+      let next : INT = sub node one
+      recur descend(next) as out
+      return out
+    }
+  }
+  let start : INT = 7
+  call descend(start) as result
+  export result : INT
+}

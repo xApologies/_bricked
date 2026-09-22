@@ -1,0 +1,30 @@
+{
+  "plan_id": "0abf92b8538a6b3d6d5a2386f61a9c7d33fe730bbcc798635603accfe5ded016",
+  "instance_id": "34c0d4df6b450f0dc62a2901d0f1e3d3",
+  "canonical_mmo_id": "BLANK_MANIFOLD_V0_1",
+  "representation_id": "BLANK_MANIFOLD_V0_1:statecode",
+  "fabric_tag": 5508075522112768044,
+  "grid_shape": [
+    32,
+    32,
+    32
+  ],
+  "mapping_profile": "MMO_SCALAR_CHIRALITY_DENSE_V1",
+  "roles": [
+    "control"
+  ],
+  "cells_per_voxel": 1,
+  "required_cells": 32768,
+  "region": {
+    "start": 229376,
+    "count": 32768,
+    "alignment": 128,
+    "guard_before": 0,
+    "guard_after": 0
+  },
+  "source_hashes": {
+    "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy": "d71e4139563b9dc6bb1b7dadbdeda79d10004ea58a6bec5653d527af12984665",
+    "MK43U_Blank_Manifold_Template_v0_1/manifest.json": "28f82f9db5c91ed5592d67bc77aae7de6ce2ac57b8c07ab881e903976e305bea"
+  },
+  "defaults": []
+}

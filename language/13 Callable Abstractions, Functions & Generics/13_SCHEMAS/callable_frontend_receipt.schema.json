@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "call_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "callable_frontend_id": {
+      "pattern": "^gcallfront-",
+      "type": "string"
+    },
+    "frontend_id": {
+      "type": "string"
+    },
+    "gvm_sha256": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "GENESIS_CALLABLE_FRONTEND_RECEIPT"
+    },
+    "link_id": {
+      "type": "string"
+    },
+    "proof_root": {
+      "type": "string"
+    },
+    "specializations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "kind",
+    "version",
+    "callable_frontend_id",
+    "call_count",
+    "specializations",
+    "frontend_id",
+    "link_id",
+    "gvm_sha256",
+    "proof_root"
+  ],
+  "title": "Genesis Callable Frontend Receipt",
+  "type": "object"
+}

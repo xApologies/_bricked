@@ -1,0 +1,22 @@
+genesis 0.1.0
+module mixed_sector {
+  en fabric : FABRIC = mount "fabric://chirality/reference-v1"
+  en region : REGION = alloc fabric cells 16384
+  en g0 : GEOMETRIC = instantiate fabric region mmo @virus_hsv1_reference
+  admit g0 as aq @{"admitted":true}
+  portal QFT g0 with aq as pq corridor "QFT-A"
+  ve g0 through pq -> "QFT-B" as gq
+  tor pq with gq as cq
+  bridge gq QFT -> GR as b @{"preserve":["identity","chirality_ancestry","provenance"]}
+  admit gq as ag @{"admitted":true,"bridge":"%b"}
+  portal GR gq with ag as pg corridor "GR-B" bridge b
+  ve gq through pg -> "GR-C" as gg
+  tor pg with gg as cg
+  lift gg as m5 @{"P":"mixed-sector-ledger"}
+  emit receipt as receipt
+  export gg : GEOMETRIC<CLOSED,GR>
+  export b : BRIDGE<QFT,GR>
+  export cg : RECEIPT<PORTAL_CLOSE>
+  export m5 : M5
+  export receipt : RECEIPT<EXECUTION>
+}

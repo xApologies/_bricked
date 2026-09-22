@@ -1,0 +1,11 @@
+{
+  "name": "GENESIS_CHIRALITY_MACHINE_SECTION_16_CONCURRENCY_SCHEDULING",
+  "version": "0.1.0",
+  "date_anchor": "20260821",
+  "language_surface": "Genesis 0.5.0 concurrency subset",
+  "new_opcode_window": "0x00A0-0x00A6",
+  "scheduler": "DETERMINISTIC_COOPERATIVE_V0_1",
+  "contracts": ["TASK", "SCHEDULE", "RESOURCE", "LEASE", "WAIT_GRAPH", "PERSISTENT_RECURSION_ADAPTER"],
+  "predecessor": "Section 15 — Recursion + Recursive Topology Execution",
+  "next": "Section 17 — System I/O + BLACKGLASS/BRANE Interface"
+}

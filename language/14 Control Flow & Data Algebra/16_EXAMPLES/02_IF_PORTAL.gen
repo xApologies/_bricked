@@ -1,0 +1,16 @@
+genesis 0.3.0
+module example.if_portal {
+  let cond : BOOL = true
+  en fab : FABRIC = mount "fabric://reference"
+  en reg : REGION = alloc fab cells 32
+  en g : GEOMETRIC = instantiate fab reg mmo @fixture
+  rel g -> "environment" as rel0
+  admit rel0 as adm
+  portal GR g with adm as p corridor "red-orange"
+  if cond {
+    tor p with g as c1
+  } else {
+    tor p with g as c2
+  }
+  export g : GEOMETRIC
+}

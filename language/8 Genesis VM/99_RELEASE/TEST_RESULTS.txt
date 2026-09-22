@@ -1,0 +1,45 @@
+test_01_schedule_independent_of_json_order (test_section08.Section08Tests.test_01_schedule_independent_of_json_order) ... ok
+test_02_cycle_rejected (test_section08.Section08Tests.test_02_cycle_rejected) ... ok
+test_03_unknown_value_rejected (test_section08.Section08Tests.test_03_unknown_value_rejected) ... ok
+test_04_first_portal_verifies (test_section08.Section08Tests.test_04_first_portal_verifies) ... ok
+test_05_rainbow_verifies (test_section08.Section08Tests.test_05_rainbow_verifies) ... ok
+test_06_mixed_verifies (test_section08.Section08Tests.test_06_mixed_verifies) ... ok
+test_07_quantum_verifies (test_section08.Section08Tests.test_07_quantum_verifies) ... ok
+test_08_bytecode_roundtrip_first (test_section08.Section08Tests.test_08_bytecode_roundtrip_first) ... ok
+test_09_bytecode_roundtrip_quantum (test_section08.Section08Tests.test_09_bytecode_roundtrip_quantum) ... ok
+test_10_corrupt_bytecode_rejected (test_section08.Section08Tests.test_10_corrupt_bytecode_rejected) ... ok
+test_11_first_portal_runs (test_section08.Section08Tests.test_11_first_portal_runs) ... ok
+test_12_rainbow_runs (test_section08.Section08Tests.test_12_rainbow_runs) ... ok
+test_13_mixed_runs (test_section08.Section08Tests.test_13_mixed_runs) ... ok
+test_14_quantum_runs (test_section08.Section08Tests.test_14_quantum_runs) ... ok
+test_15_execution_deterministic (test_section08.Section08Tests.test_15_execution_deterministic) ... ok
+test_16_first_portal_export_geometric (test_section08.Section08Tests.test_16_first_portal_export_geometric) ... ok
+test_17_first_portal_receipt_closed (test_section08.Section08Tests.test_17_first_portal_receipt_closed) ... ok
+test_18_brane_lift_m5 (test_section08.Section08Tests.test_18_brane_lift_m5) ... ok
+test_19_quantum_measure_result_classical (test_section08.Section08Tests.test_19_quantum_measure_result_classical) ... ok
+test_20_quantum_linear_reuse_rejected_static (test_section08.Section08Tests.test_20_quantum_linear_reuse_rejected_static) ... ok
+test_21_qstate_generic_move_runtime_forbidden (test_section08.Section08Tests.test_21_qstate_generic_move_runtime_forbidden) ... ok
+test_22_use_before_define (test_section08.Section08Tests.test_22_use_before_define) ... ok
+test_23_register_redefinition (test_section08.Section08Tests.test_23_register_redefinition) ... ok
+test_24_invalid_jump (test_section08.Section08Tests.test_24_invalid_jump) ... ok
+test_25_unclosed_portal_static (test_section08.Section08Tests.test_25_unclosed_portal_static) ... ok
+test_26_overlay_does_not_change_base_resource (test_section08.Section08Tests.test_26_overlay_does_not_change_base_resource) ... ok
+test_27_bridge_requires_change (test_section08.Section08Tests.test_27_bridge_requires_change) ... ok
+test_28_portal_transport_requires_open (test_section08.Section08Tests.test_28_portal_transport_requires_open) ... ok
+test_29_bytecode_magic (test_section08.Section08Tests.test_29_bytecode_magic) ... ok
+test_30_disasm_contains_portal (test_section08.Section08Tests.test_30_disasm_contains_portal) ... ok
+test_31_all_outputs_unique (test_section08.Section08Tests.test_31_all_outputs_unique) ... ok
+test_32_gir_hash_present (test_section08.Section08Tests.test_32_gir_hash_present) ... ok
+test_33_backend_abi_present (test_section08.Section08Tests.test_33_backend_abi_present) ... ok
+test_34_portal_receipt_in_ledger (test_section08.Section08Tests.test_34_portal_receipt_in_ledger) ... ok
+test_35_road_receipt_in_ledger (test_section08.Section08Tests.test_35_road_receipt_in_ledger) ... ok
+test_36_mixed_has_bridge_resource (test_section08.Section08Tests.test_36_mixed_has_bridge_resource) ... ok
+test_37_measure_consumes_state_runtime (test_section08.Section08Tests.test_37_measure_consumes_state_runtime) ... ok
+test_38_q_successor_moves_source (test_section08.Section08Tests.test_38_q_successor_moves_source) ... ok
+test_39_execution_receipt_kind (test_section08.Section08Tests.test_39_execution_receipt_kind) ... ok
+test_40_reference_program_count (test_section08.Section08Tests.test_40_reference_program_count) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.012s
+
+OK

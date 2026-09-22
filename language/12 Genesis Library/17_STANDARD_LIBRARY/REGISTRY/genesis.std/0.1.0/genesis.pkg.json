@@ -1,0 +1,22 @@
+{
+  "backend_capabilities": [],
+  "dependencies": {
+    "genesis.std.atomic": "^0.1.0",
+    "genesis.std.brane": "^0.1.0",
+    "genesis.std.bridge": "^0.1.0",
+    "genesis.std.portal": "^0.1.0",
+    "genesis.std.provenance": "^0.1.0",
+    "genesis.std.quantum": "^0.1.0",
+    "genesis.std.road": "^0.1.0"
+  },
+  "description": "Genesis standard-library meta package.",
+  "effects": [],
+  "entry_exports": [],
+  "genesis": "0.1.0",
+  "kind": "contract",
+  "manifest": "GENESIS-PACKAGE",
+  "modules": [],
+  "name": "genesis.std",
+  "schema_version": "0.1.0",
+  "version": "0.1.0"
+}

@@ -1,0 +1,16 @@
+execute(frame):
+    verify frame contract
+    while frame has instructions:
+        if RCALL:
+            collect arguments
+            if self-call:
+                admit according to decreases/fuel/visit_once
+            child = fresh frame(arguments, inherited_history)
+            push child
+        if RECURSION_CLOSE:
+            seal deterministic frame closure receipt
+        if RRETURN:
+            require closed frame
+            pop frame
+            inherit child receipt into parent history root
+            write result into parent's destination register

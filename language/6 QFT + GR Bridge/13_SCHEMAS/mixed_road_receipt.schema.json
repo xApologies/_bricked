@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "status": {
+      "const": "CLOSED"
+    }
+  },
+  "required": [
+    "road_id",
+    "actions",
+    "action_receipts",
+    "status"
+  ],
+  "title": "MixedSectorRoadReceipt",
+  "type": "object"
+}

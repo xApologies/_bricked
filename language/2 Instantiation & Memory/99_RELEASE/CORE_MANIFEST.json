@@ -1,0 +1,506 @@
+{
+  "file_count": 100,
+  "files": [
+    {
+      "bytes": 2159,
+      "path": "00_START_HERE/README.md",
+      "sha256": "ba23cff734111c065fa9ca4d536b9e5d1cd35ada0a3226319324e129f16c53e7"
+    },
+    {
+      "bytes": 583,
+      "path": "00_START_HERE/RECOVERY_ORDER.md",
+      "sha256": "954e00ae40e6670df22f3f5fb4481078f63a3fcbb9b0e550a959da6bfe78ef6a"
+    },
+    {
+      "bytes": 2170,
+      "path": "01_ARCHITECTURE/ARCHITECTURE.md",
+      "sha256": "7ae963cea9d96d5a6b5c76c177b2176db27be0be8b31bff862819d596c489766"
+    },
+    {
+      "bytes": 1129,
+      "path": "01_ARCHITECTURE/DESIGN_INVARIANTS.md",
+      "sha256": "3cadac0704d149215e449b593943c45a59bce1043270075188be3debb6e20c2a"
+    },
+    {
+      "bytes": 374,
+      "path": "02_OBJECT_MODEL/GEOMETRIC_ADDRESS.md",
+      "sha256": "712395e94e1ec910f09373cd6258f5428e17d92c9b36ef7921477af64fc61292"
+    },
+    {
+      "bytes": 691,
+      "path": "02_OBJECT_MODEL/MMO_GEOMETRIC_ABI.md",
+      "sha256": "1016a9620803b73116b11e338fc8868ee276641cec35c67cccece80f43783ea8"
+    },
+    {
+      "bytes": 1370,
+      "path": "03_MEMORY_MODEL/GEOMETRIC_MEMORY_MODEL.md",
+      "sha256": "8a20d21b8e9d4927721b0d1c7c24ffb9c83741731be79d02ff8ef2e2e9a4a883"
+    },
+    {
+      "bytes": 628,
+      "path": "03_MEMORY_MODEL/OVERLAY_SEGMENTS.md",
+      "sha256": "b279df51f8394ace28d653dbb68319f8523e00f5aab8fde3bf129571bc80b2b9"
+    },
+    {
+      "bytes": 664,
+      "path": "04_INSTANCE_LIFECYCLE/INSTANCE_STATE_MACHINE.md",
+      "sha256": "424fe550573cbd933aec710c677e02be5310fd799f03d032fa771a09b9506cda"
+    },
+    {
+      "bytes": 1188,
+      "path": "05_FIELD_ADAPTERS/SCIENTIFIC_3P1P1_ADAPTER.md",
+      "sha256": "8326c8ee8805a6d4c81b67e6fcd0786baae0875c7b79195497ff00f12731aa5f"
+    },
+    {
+      "bytes": 640,
+      "path": "05_FIELD_ADAPTERS/SOURCE_PROFILE_REGISTRY.md",
+      "sha256": "703a58d762c350e61a1eb9cbe2089196b131927177ce3db0769e59c3830228d7"
+    },
+    {
+      "bytes": 464,
+      "path": "06_FABRIC_ALLOCATOR/REGION_ALLOCATOR.md",
+      "sha256": "09254270fa14296470ee6e8a2151745905db337406908db76c2965ea7e222e0b"
+    },
+    {
+      "bytes": 892,
+      "path": "07_INSTANTIATION_ENGINE/INSTANTIATION_ALGORITHM.md",
+      "sha256": "641060b7fb05bf3368fdd9586fae0bf55e77db65d3cb84b7d1d2c782d4640cde"
+    },
+    {
+      "bytes": 400,
+      "path": "07_INSTANTIATION_ENGINE/TRANSFORMATION_FORK.md",
+      "sha256": "74335899bd958c5e7fd4038ee0529c3751383a4314d3b0004c2f4f336bc007a4"
+    },
+    {
+      "bytes": 898,
+      "path": "08_BRANE_LIFT/BRANE_M5_ADAPTER.md",
+      "sha256": "d9b62c75a4265b8dbcffb4823e63e08f1c3f5061ce75ccc137cd9e2a36a82f21"
+    },
+    {
+      "bytes": 367,
+      "path": "09_STORAGE_FORMATS/ALLOCATION_REGISTRY.md",
+      "sha256": "69f7e708b8e546edab35b384123365bc3c96622155c792c40c1b02c2ed3b4c89"
+    },
+    {
+      "bytes": 446,
+      "path": "09_STORAGE_FORMATS/INSTANCE_MANIFEST.md",
+      "sha256": "447afbded281a752a6def4a16f36a687d8f64c01f7f3e2d0dd03597b63a06cfb"
+    },
+    {
+      "bytes": 261,
+      "path": "10_REFERENCE_IMPLEMENTATION/README.md",
+      "sha256": "3df518c67103937c1492d7b9d995503fd585c956e7e2542a2ba42ccbb58f10a8"
+    },
+    {
+      "bytes": 377,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__init__.py",
+      "sha256": "c7e115de23c8594d0b7805819c1161b0c47a6eb9b886754a2963a553281356a7"
+    },
+    {
+      "bytes": 752,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "d6cfa2a8f4276349e3a115c782d1a6fc5bbeab731ba4fe4570ff132b5aa3b341"
+    },
+    {
+      "bytes": 4691,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/allocator.cpython-313.pyc",
+      "sha256": "97d0585c9b1e9500f29c88c7c9e8417f0d99eb1c42d2472ddd650619cd652291"
+    },
+    {
+      "bytes": 2052,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/brane.cpython-313.pyc",
+      "sha256": "6e2322f885a8d007fdf6b6642009f6cd178645e397d16142b9f8d0ad9e31eb75"
+    },
+    {
+      "bytes": 7419,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/engine.cpython-313.pyc",
+      "sha256": "f8f3a065a9d96cdd8696f27d47da0706e883d219324be767ec722eea38e8dbb4"
+    },
+    {
+      "bytes": 1326,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/errors.cpython-313.pyc",
+      "sha256": "b50396d1f58c8cf334b1fd4961bd7994551dadf537d099e629b8398b3b1ab724"
+    },
+    {
+      "bytes": 6310,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/loaders.cpython-313.pyc",
+      "sha256": "1bccdadee9cf36ae70d9d43d6c6662b429a2e61ed39b57f2ae24599f723606e3"
+    },
+    {
+      "bytes": 3346,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/model.cpython-313.pyc",
+      "sha256": "d3e1f566272a0112430112537901b3103545fd89f417b5e502b68558630380be"
+    },
+    {
+      "bytes": 7232,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/profiles.cpython-313.pyc",
+      "sha256": "31b8acfdb213340c088b736e9b05ff2100632cc44934ded77bff41092ff1b8a3"
+    },
+    {
+      "bytes": 8179,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/segment.cpython-313.pyc",
+      "sha256": "f4501bde8e525a9976f4771df9f9973914e17b0617cc252c7efb23375ab734a5"
+    },
+    {
+      "bytes": 1399,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/util.cpython-313.pyc",
+      "sha256": "67bbead590b1e0cce6c1623dc0fdc54921c7950941410b1d746f209ad3c44143"
+    },
+    {
+      "bytes": 1234,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/__pycache__/view.cpython-313.pyc",
+      "sha256": "a8ef863f973d42a9eef8dedf871e3d1c07b572d8a661b152d470171144edda8a"
+    },
+    {
+      "bytes": 2403,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/allocator.py",
+      "sha256": "b44450d64942c90723cf202f2c38055ea997109d0d348ee65afa07f454b1f5b1"
+    },
+    {
+      "bytes": 1062,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/brane.py",
+      "sha256": "a21744f1f87ae8c8baaecfae0d44bdad851940a18397051d324c08739ea37992"
+    },
+    {
+      "bytes": 4002,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/engine.py",
+      "sha256": "7d5c22c61c344b5315a3541df0654afc3ebb5980b57c7ba1e8ab82b9bd3b0338"
+    },
+    {
+      "bytes": 274,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/errors.py",
+      "sha256": "318adf24958932160ae2a0ff3920ab895755787d1c80013682d87d7758c6aad7"
+    },
+    {
+      "bytes": 3689,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/loaders.py",
+      "sha256": "0181b9ace331d4ca2762ac1df6b5f33477a9d8ed763fb8322b3f5f21b799ff70"
+    },
+    {
+      "bytes": 1611,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/model.py",
+      "sha256": "57bde3fbcf84e07a44ad6b98421cae345022523de8d2aa73620811e9d1d301a9"
+    },
+    {
+      "bytes": 4004,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/profiles.py",
+      "sha256": "9efd09e1ee12ea5717dcb7e79d64823b1f649261f5b95cfa0bb378ce5e391cea"
+    },
+    {
+      "bytes": 3474,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/segment.py",
+      "sha256": "364b003578c66a9c07cfc9c41eca12a951cda4479c562cba3b5de2947092e869"
+    },
+    {
+      "bytes": 361,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/util.py",
+      "sha256": "f9245e6d8fc57d7591b57f8378dc7cc3df70b5c5726d3ef9fd1bb31b75011b08"
+    },
+    {
+      "bytes": 370,
+      "path": "10_REFERENCE_IMPLEMENTATION/genesis_geometric_engine/view.py",
+      "sha256": "c6252493a504075197608552dcb1509b7b7dfc74508c52e95f46293252d2e4ac"
+    },
+    {
+      "bytes": 267,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__init__.py",
+      "sha256": "e8ebae30fd927cd21f7845a4efbb2d1b07656efea60068556ec17837941a01a5"
+    },
+    {
+      "bytes": 587,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "69609673dda9a0a54f904e06b86303187699889e2f5d44d4131e80984e865434"
+    },
+    {
+      "bytes": 2496,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/address.cpython-313.pyc",
+      "sha256": "a367098602b871633ba5d1b73f323d8e1886f49492e9f06f1e58fa8a458823eb"
+    },
+    {
+      "bytes": 4568,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/cell.cpython-313.pyc",
+      "sha256": "12a1a1f225a2fa0ef9e1c1add024bee935f586b838a9ec47ef5aa89fdd725e31"
+    },
+    {
+      "bytes": 2762,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/codec.cpython-313.pyc",
+      "sha256": "93aebb70114bbb2afc2c736e9e9427e66bfda5d5f43861909b2b41b47f4dd659"
+    },
+    {
+      "bytes": 448,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/constants.cpython-313.pyc",
+      "sha256": "99fc2cd24847ba5d49ea1630858a8fc867782624b68fb229588149ed985ea020"
+    },
+    {
+      "bytes": 1442,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/errors.cpython-313.pyc",
+      "sha256": "a6ac03d82661ed482a3502d15b414d08b28d27d0546ddedfe35b85a8ebad23a5"
+    },
+    {
+      "bytes": 1397,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/fixture.cpython-313.pyc",
+      "sha256": "852f1ee09002321655caea3b6fd6384ee910dac08904a6c04c85ba745f42f6f9"
+    },
+    {
+      "bytes": 5905,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/image.cpython-313.pyc",
+      "sha256": "d6fa6c746417f9265d233e37c63c3ac9f45ff713c25c9a4d84e5f20b99b9efce"
+    },
+    {
+      "bytes": 3522,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/machine.cpython-313.pyc",
+      "sha256": "4e8c2686aaf156bdec06728cf4887c00289a2760a209d61cfd505583b11bb3ca"
+    },
+    {
+      "bytes": 3152,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/__pycache__/overlay.cpython-313.pyc",
+      "sha256": "bfeb37680d94dea2722fa7df1286f1c3e5fc0f4f3e2ad24ac4d7ac33c7f2a98c"
+    },
+    {
+      "bytes": 946,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/address.py",
+      "sha256": "063a72b001333a90f92d89e3a4af93bb22b199e89f3475e9823970e6717e3150"
+    },
+    {
+      "bytes": 1006,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/backend.py",
+      "sha256": "dc8674342331412381b98fa05a65b6e599b236a0c578e484a69c076e999ab328"
+    },
+    {
+      "bytes": 238,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/boot.py",
+      "sha256": "54ec64391bbd70cce402d940de4802831e944e911e982ece067d2ae5283ba740"
+    },
+    {
+      "bytes": 2338,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/cell.py",
+      "sha256": "dddccbd215dd2c955d223532347da110c9a0a8a72bc89bb12bef5196f532d07b"
+    },
+    {
+      "bytes": 762,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/cli.py",
+      "sha256": "e2f6c3211b846cf28f84fefef73e9c48aa14e9d97be9d31805bac46eb9c0561e"
+    },
+    {
+      "bytes": 891,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/codec.py",
+      "sha256": "480da30de172841e6e49d7d1bb750453855a33d8950948c52175ef18184b34a8"
+    },
+    {
+      "bytes": 175,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/constants.py",
+      "sha256": "ee752e4e2ec52a4da9363c6e9901490afe86d06204ca78020b6749ec4a486125"
+    },
+    {
+      "bytes": 264,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/errors.py",
+      "sha256": "8dfa29af4e3f09a82bf0dce970a864b13aa3ed3223c315ae8c0ab414199fed75"
+    },
+    {
+      "bytes": 609,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/fixture.py",
+      "sha256": "da1696f318eddafbc4ab40a1a58c09378692bc3c753780f84cefa52907ec7f0b"
+    },
+    {
+      "bytes": 2895,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/image.py",
+      "sha256": "0589b0737a8144e57489697a00697cd10f0ec9128aab4746a45b8a1dee608c3e"
+    },
+    {
+      "bytes": 340,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/isa.py",
+      "sha256": "e9cd3eef27f6a561c9a3ea7d893e3474e714f31e6a8862750938bbd66f5c5902"
+    },
+    {
+      "bytes": 1535,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/machine.py",
+      "sha256": "83220e2c84e184d55cb6d8500e088a94ba680ba5472722deaacad4752fa1d665"
+    },
+    {
+      "bytes": 1279,
+      "path": "10_REFERENCE_IMPLEMENTATION/vendor/genesis_chirality_machine/overlay.py",
+      "sha256": "4ef09b8a8cf264c41644d9f0c086327d48a07cd336de4c6578106040d5196c81"
+    },
+    {
+      "bytes": 430,
+      "path": "11_SCHEMAS/brane_m5.schema.json",
+      "sha256": "3ae5e9072554f87f0a4e6b9e15025b7a5506f3944bf3a181d74dd048bfb3934a"
+    },
+    {
+      "bytes": 284,
+      "path": "11_SCHEMAS/fabric_region.schema.json",
+      "sha256": "b262f9431efe98b37db1aad76ab33f368a9bba82225888ca62ec66fdeae59cc5"
+    },
+    {
+      "bytes": 699,
+      "path": "11_SCHEMAS/geometric_instance.schema.json",
+      "sha256": "643c4c3301ba76f322caea11c64e0a54b768b454df18ed93b1c278d9eee13d7a"
+    },
+    {
+      "bytes": 239,
+      "path": "11_SCHEMAS/instantiation_plan.schema.json",
+      "sha256": "b61a079155bc8086e2e872b51a4933c80a182f015061b0ece0693564d097ee1f"
+    },
+    {
+      "bytes": 519,
+      "path": "12_TESTS/TEST_MATRIX.md",
+      "sha256": "f564ed8c6dcf23d0646784e2689599074d2c81ac804b7865e4200b0f724808c2"
+    },
+    {
+      "bytes": 18807,
+      "path": "12_TESTS/__pycache__/test_section02.cpython-313.pyc",
+      "sha256": "4d019826f23fa410080971fcd7ed56293cc062a06ef1f744e3eda9440f50ec4e"
+    },
+    {
+      "bytes": 6620,
+      "path": "12_TESTS/test_section02.py",
+      "sha256": "cb475eba76241e0d71a812d6b3cf7b620f6101fc45f5bc95c4ba54a5c3e21e5d"
+    },
+    {
+      "bytes": 887,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/ALLOCATION_REGISTRY.json",
+      "sha256": "421326af824f849364f2e6aedccd8efdef96f30c31d4f1dd2d29b2aa6daa8a36"
+    },
+    {
+      "bytes": 2495,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/BRANE_M5.json",
+      "sha256": "d22c6698eacaa4416f64d4005a6ca5b2e67f35a094a477f498d46bd8daa27517"
+    },
+    {
+      "bytes": 3945,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/INSTANCE.json",
+      "sha256": "0caebff0d9caf970781ddb8f935c116a9e483f6d4b0d1195a1cb9ba2e669499b"
+    },
+    {
+      "bytes": 894,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/PLAN.json",
+      "sha256": "040266a2ecaf3ce75a3bbeee03877b58d81c5fd8f88b8a0691eee59a88bf5a12"
+    },
+    {
+      "bytes": 748,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/RECEIPTS.json",
+      "sha256": "8049dcb501e78a736ebdab13b979b0a37930ba6145b3790312c1120ede448b8f"
+    },
+    {
+      "bytes": 1314816,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/BLANK/blank.gos",
+      "sha256": "19f755109b69a7335432fb7d04fb5ecdda0f0e4031a7cdec3dcbcac1c8b6aa1f"
+    },
+    {
+      "bytes": 4961,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/BRANE_M5.json",
+      "sha256": "8688acd759c35e9e1b6d1776b5011fdb0569e4ab3030bd39ddb66023557c4c79"
+    },
+    {
+      "bytes": 7701,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/INSTANCE.json",
+      "sha256": "1cc4e34c9a62e89cebf21df41eb716c1c8d34d13793248b92ecee54f12fdd726"
+    },
+    {
+      "bytes": 2129,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/PLAN.json",
+      "sha256": "62c171ecbf44f8e321afdcb6dabf2247427c5ff2d85dc8501d6ea903bca3f640"
+    },
+    {
+      "bytes": 745,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/RECEIPTS.json",
+      "sha256": "f678fbeba8be4c95192bfe0307d9397c6a16d84a56396f211ba5b3459601e946"
+    },
+    {
+      "bytes": 6557696,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HSV1/hsv1.gos",
+      "sha256": "d12d3010c842802a8dfb55022d54fcb6aa8e792b1c37c597d75494c43725675d"
+    },
+    {
+      "bytes": 3568,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/BRANE_M5.json",
+      "sha256": "48c01dedf6ebd7d269530afe937037e6d063fe83e85f96dd49a3b2e26ee0df3c"
+    },
+    {
+      "bytes": 5567,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/INSTANCE.json",
+      "sha256": "221db6a4c2ffe34344052f3e9112cdc96fcb496631c7ac81d20c7c93a68ce79e"
+    },
+    {
+      "bytes": 1403,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/PLAN.json",
+      "sha256": "b42d9f29539df1665e6df1f2ac4ef121aec412f1e1814f6caf5028c48e4ed466"
+    },
+    {
+      "bytes": 748,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/RECEIPTS.json",
+      "sha256": "a6afbdd2d353a26e0c1052faa1d50cf5cb96f0b67deab2d7b1cbdfbca367b197"
+    },
+    {
+      "bytes": 1314816,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/HYDROGEN/hydrogen.gos",
+      "sha256": "28de7ca9ac451ecdf29d65bbea0e8a723a0fba394d3087a6c80f688c4cded682"
+    },
+    {
+      "bytes": 2468,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/BRANE_M5.json",
+      "sha256": "99c8f5f97374ab3105abf71b36ad28543559713d0b2030f25121f8c2a890fe78"
+    },
+    {
+      "bytes": 3902,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/INSTANCE.json",
+      "sha256": "028997f1127752609f82f0820ea61abfca1ff844084da6d7a38e37e20a5705a3"
+    },
+    {
+      "bytes": 878,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/PLAN.json",
+      "sha256": "a986cb89edc254fc1ed01de0df9a5cd43beb89704d621360809cb0fd1f2d6bd7"
+    },
+    {
+      "bytes": 748,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/RECEIPTS.json",
+      "sha256": "ca29d7440a21971091a541135be269972077120731581cca01709a06a080f567"
+    },
+    {
+      "bytes": 1314816,
+      "path": "13_EXAMPLES/INTEGRATION_FIXTURES/OXYGEN/oxygen.gos",
+      "sha256": "63a09c71bd114791a18e1349fdde64648081d3c11f4e657af4911cc719471322"
+    },
+    {
+      "bytes": 1144,
+      "path": "13_EXAMPLES/SYNTHETIC_INSTANTIATION.py",
+      "sha256": "34c7eb001fb4abcca207ef47d33e0b22670cf1aa884995152c502a39ce2fb037"
+    },
+    {
+      "bytes": 707,
+      "path": "14_SOURCE_CROSSWALK/SOURCE_CROSSWALK.md",
+      "sha256": "3b3b8e08b57b6ea86072dd5d662bd8655f56cb5f1d664b3daed05a56675abe34"
+    },
+    {
+      "bytes": 2394,
+      "path": "14_SOURCE_CROSSWALK/SOURCE_REGISTRY.json",
+      "sha256": "fb4d9b26d24a730a129984a5c2ac1110440be533e1c8afe8210371b7a5321cdf"
+    },
+    {
+      "bytes": 350,
+      "path": "15_PSEUDOCODE/GEOMETRIC_FORK.txt",
+      "sha256": "f3d619aeac3983f65b8b8e8fa423e5e02918fa477d16c92282db865ff7f3c911"
+    },
+    {
+      "bytes": 709,
+      "path": "15_PSEUDOCODE/GEOMETRIC_INSTANTIATE.txt",
+      "sha256": "35bb837ea10c89dc9bca364a2bc69c5f7cc14672038900ff98863886032e1fa2"
+    },
+    {
+      "bytes": 342,
+      "path": "15_PSEUDOCODE/GEOMETRIC_READ.txt",
+      "sha256": "6dc0ff31a7946e5b891c8aeef062ea318215fd236ddf0ef25df2bbba43d1225e"
+    },
+    {
+      "bytes": 2405,
+      "path": "99_RELEASE/INTEGRATION_RESULTS.json",
+      "sha256": "5e4831731f2389987871f9a90a90ba3fcc151329efdcbf27ee59e2325f34742b"
+    },
+    {
+      "bytes": 1573,
+      "path": "99_RELEASE/TEST_RESULTS.txt",
+      "sha256": "37077797a72571a135559dd8f07ee1d6eed733b4506d6d650bd6c10e186bccab"
+    }
+  ],
+  "release": "GENESIS_CHIRALITY_MACHINE_SECTION_02_GEOMETRIC_INSTANTIATION_v0.1.0_20260821"
+}

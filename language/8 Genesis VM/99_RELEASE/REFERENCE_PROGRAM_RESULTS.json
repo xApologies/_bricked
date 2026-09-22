@@ -1,0 +1,30 @@
+{
+  "first_portal": {
+    "execution_receipt": "2f1cfd9e851b51a0b7fc07e2795c8b208496ec33668a2a79894e3822e82ff9d6",
+    "exports": 4,
+    "gvm_sha256": "24c8fe13b0fc9f4faf70009ff036cccb3e380c14a8558445fb5b4bee662427d1",
+    "instructions": 13,
+    "status": "PASS"
+  },
+  "mixed_sector_bridge": {
+    "execution_receipt": "b054305d229f8371b4f045d2ccb4c546e0f8c4c30883642edc617fc8be2acac4",
+    "exports": 5,
+    "gvm_sha256": "bc2689534ff5c13bfe98ba5ce0cc08b96a55f0939e539bd45e15b032a215aa43",
+    "instructions": 14,
+    "status": "PASS"
+  },
+  "quantum_effect_program": {
+    "execution_receipt": "1c405251df73cfc010345ce9815df83e5da5350a31d2fb21e654c846900ddb52",
+    "exports": 3,
+    "gvm_sha256": "b0012eed9ba4edcf1e35a6c92a241f9095b1890aef92bef24401ce1a2b949209",
+    "instructions": 9,
+    "status": "PASS"
+  },
+  "rainbow_road_two_leg": {
+    "execution_receipt": "b8af756569a117f5adf11f0b364ad7fd46ce83f17b527491ad8caf7ff05f3cfc",
+    "exports": 4,
+    "gvm_sha256": "23e89ad3d3f3dd798f24bae9362aed50459aea5e52f003b745516b17a000f442",
+    "instructions": 17,
+    "status": "PASS"
+  }
+}

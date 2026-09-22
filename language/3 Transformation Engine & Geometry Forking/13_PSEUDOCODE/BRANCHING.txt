@@ -1,0 +1,7 @@
+GEOMETRIC_BRANCH(parent, request_A, request_B):
+    child_A = TRANSFORM(parent, request_A)
+    child_B = TRANSFORM(parent, request_B)
+    assert child_A.parent == parent.id
+    assert child_B.parent == parent.id
+    assert HASH(parent) unchanged
+    return child_A, child_B

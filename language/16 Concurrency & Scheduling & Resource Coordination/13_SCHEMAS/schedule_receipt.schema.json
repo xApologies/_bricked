@@ -1,0 +1,12 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Genesis Section 16 schedule receipt",
+  "type":"object",
+  "required":["module","status","logical_ticks","event_root","resource_root","task_root","proof_root","scheduler","receipt_id"],
+  "properties":{
+    "module":{"type":"string"},"status":{"enum":["CLOSED","PARTIAL","BLOCKED","DEADLOCK"]},
+    "logical_ticks":{"type":"integer","minimum":0},"event_root":{"type":"string"},"resource_root":{"type":"string"},
+    "task_root":{"type":"string"},"proof_root":{"type":"string"},"scheduler":{"type":"string"},"receipt_id":{"type":"string"},
+    "cycle":{"type":"array","items":{"type":"string"}}
+  }
+}

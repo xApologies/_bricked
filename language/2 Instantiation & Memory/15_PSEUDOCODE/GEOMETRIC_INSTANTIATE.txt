@@ -1,0 +1,17 @@
+GEOMETRIC_INSTANTIATE
+=====================
+01 source <- load MMO representation
+02 bundle <- normalize(source)
+03 plan <- map_profile.plan(bundle)
+04 reservation <- allocator.reserve(plan.required_cells)
+05 segment.tmp <- begin_segment(fabric, reservation, MMO, instance)
+06 for voxel in bundle.spatial_voxels:
+07     cells <- map_profile.encode(voxel, bundle)
+08     stream cells into segment.tmp at formulaic fabric offsets
+09 finalize segment.tmp -> immutable .gos
+10 verify source hashes, segment hash, bounds, readback
+11 allocator.commit(reservation, instance)
+12 manifest <- seal instance manifest
+13 m5 <- brane_adapter(instance, manifest)
+14 state <- LIVE
+15 return instance, manifest, m5, receipts

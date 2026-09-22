@@ -1,0 +1,7 @@
+{
+  "package": "genesis.concurrency",
+  "version": "0.1.0",
+  "status": "REFERENCE_CONTRACT",
+  "exports": ["Task", "Schedule", "Resource", "Lease", "spawn", "join", "yield", "cancel"],
+  "notes": "Logical concurrency contract; host thread APIs are not language semantics."
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "bytes": 18363490,
+    "label": "HSV1",
+    "path": "MK43U_VIRUS_UTERINE_CHIRALITY_FIELDS_v0_28(5).zip",
+    "sha256": "6aa44f7cd7eb78ac707612677ca76a666f13d0ef7f2742ebe9ca46f373bf9317"
+  },
+  {
+    "bytes": 4568493,
+    "label": "HYDROGEN",
+    "path": "H(4).zip",
+    "sha256": "a5da4b0d008f100b8f3d82853b508415a743bc2d4fcbf0ac287dda686a9429e4"
+  },
+  {
+    "bytes": 982569,
+    "label": "OXYGEN",
+    "path": "O(5).zip",
+    "sha256": "f08330c12996b5aeaaa38c53b386f00d7b1993057c0d9f08de5751f1617d8083"
+  },
+  {
+    "bytes": 7490,
+    "label": "BLANK",
+    "path": "Manifold_blank(5).zip",
+    "sha256": "55d8fc4dd6380feb6af3041aacd09cb0eac3fedd6f7b3687671883b7768ce72e"
+  },
+  {
+    "bytes": 36704726,
+    "label": "CFP",
+    "path": "CFP_exp.zip",
+    "sha256": "1346d283be75525caf916e4c0bef862365306cf0c9b6b4f54ac64ce5766481db"
+  },
+  {
+    "bytes": 1652269,
+    "label": "SECTION01_CORE",
+    "path": "GENESIS_CHIRALITY_MACHINE_SECTION_01_HARDWARE_ABI_v0.1.0_20260821_PART_A_CORE.zip",
+    "sha256": "5e25b86052d93c2e3d7bef3c46e2d2f183daffa293d21d351c291581497b0b80"
+  },
+  {
+    "bytes": 90859,
+    "label": "LAYER_ZERO_CORE",
+    "path": "GENESIS_LAYER_ZERO_IMPLEMENTATION_v0.1.0_20260821_PART_A.zip",
+    "sha256": "995a21900b0a29a40fbcb385ee140442e00484a7a197c41ff823cf39f824af30"
+  },
+  {
+    "bytes": 7036,
+    "label": "OBSERVER_EQ",
+    "path": "MK43U_Quantum_Wave_Observation_Equations_ASCII(5).pdf",
+    "sha256": "92f8aac518c29c88e5ebbd6089749f9460d7a77e6fcbcf9c644e658569dc5856"
+  },
+  {
+    "bytes": 4248,
+    "label": "RECURSIVE_EQ",
+    "path": "MK43U_Recursive_Equations_ASCII(6).pdf",
+    "sha256": "f929b404b09a52d81f7e32edfcd7ba68e4d949a4d0aab0abba6dacd38038703c"
+  },
+  {
+    "bytes": 7085,
+    "label": "ATOMIC_PROFILE",
+    "path": "Atomic Profile(6).pdf",
+    "sha256": "be0020af16c7419c96931a81380dd614d7041c75488060aa1ed7f55409423485"
+  },
+  {
+    "bytes": 158290,
+    "label": "RUNTIME_ENV",
+    "path": "RUNTIME ENVIRONMENT.pdf",
+    "sha256": "4461b1861f815a8342c423eced065a5104e22606c818b841580e996a90dbac3b"
+  },
+  {
+    "bytes": 43162,
+    "label": "MANIFOLD_REPORT",
+    "path": "Manifold.pdf",
+    "sha256": "52d3424348bcbf96f4f349f359624514cdf43b8d4a1e42b13dddbfcc4df616d9"
+  },
+  {
+    "bytes": 9616,
+    "label": "ARCHIVE",
+    "path": "THE ARCHIVE.zip",
+    "sha256": "6f4ef3a9e6ff9fd0078a733ed7ff5d11ea2b31b596fc372ed87b22e25fc87367"
+  }
+]
