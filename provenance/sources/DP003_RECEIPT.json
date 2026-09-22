@@ -1,0 +1,67 @@
+{
+  "pouch_id": "BRICKED-DP-003",
+  "date": "2026-09-22",
+  "repository": "xApologies/_bricked",
+  "branch": "bootstrap/canonical-architecture",
+  "pre_integration_head": "d05b464ed8535eca92e3cf0cf370bc0275385097",
+  "remote": "https://github.com/xApologies/_bricked.git",
+  "initial_working_tree": "clean",
+  "source_zip": "BRICKED_DIPLOMATIC_POUCH_003_2026-09-22.zip",
+  "source_zip_sha256": "c8a0accacac2a79a1f2c541b090c98ba784c7659a49ce692800b7d5b3df26879",
+  "inventory": [
+    {
+      "path": "POUCH_MANIFEST.json",
+      "sha256": "095978ff972fd2d6f4cc80a3edfef9bd4372d0697e710ef36c7c6b85cc6bfb7d"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "46a4791b9de06a217772dc4e4bd3b14d3bf51b9c673b5be44c47b8a4dc741550"
+    },
+    {
+      "path": "audit/VERA_AUDIT.md",
+      "sha256": "f2a8f334ddde87f7576deba8f1ca0426c3c01e6875a2172291a0d6a6a4a510c9"
+    },
+    {
+      "path": "instructions/CODEX_HANDOFF.md",
+      "sha256": "152aec6607a8b7dc05c8e5ddd9dd43674353473d2a9a2c9f0687be0e6157a7bd"
+    },
+    {
+      "path": "payload/development/checkpoints/2026-09-22_LAYER_ZERO_FOUR_OBJECT_STATUS.md",
+      "sha256": "ab54da1784182f62fa6679f17ee586f61bb17c48277187524a4d8875c258b098"
+    },
+    {
+      "path": "payload/docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+      "sha256": "ce62faec20cbfd193e5c43c8f74ac1bfbb196d5f8206624d58987c9aa269da75"
+    },
+    {
+      "path": "payload/docs/architecture/LAYER_ZERO_INFORMATION_PATH.md",
+      "sha256": "683c9d046380673c9dba9dda3d6b3a34c7d2425e9196facf357c3a787e4ad54c"
+    },
+    {
+      "path": "payload/provenance/decisions/0004-layer-zero-four-object-model.md",
+      "sha256": "42b784f3bc1f0d866824c3bc00d1a5630fb62871824775bc7886d845de535568"
+    }
+  ],
+  "operations": [
+    {
+      "op": "ADD",
+      "path": "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+      "sha256": "ce62faec20cbfd193e5c43c8f74ac1bfbb196d5f8206624d58987c9aa269da75"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/architecture/LAYER_ZERO_INFORMATION_PATH.md",
+      "sha256": "683c9d046380673c9dba9dda3d6b3a34c7d2425e9196facf357c3a787e4ad54c"
+    },
+    {
+      "op": "ADD",
+      "path": "provenance/decisions/0004-layer-zero-four-object-model.md",
+      "sha256": "42b784f3bc1f0d866824c3bc00d1a5630fb62871824775bc7886d845de535568"
+    },
+    {
+      "op": "ADD",
+      "path": "development/checkpoints/2026-09-22_LAYER_ZERO_FOUR_OBJECT_STATUS.md",
+      "sha256": "ab54da1784182f62fa6679f17ee586f61bb17c48277187524a4d8875c258b098"
+    }
+  ]
+}

@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### 2026-09-22 — Diplomatic Pouch 003
+
+- Recorded Layer Zero as four interacting objects: R5, H6, coupled Shell and coupled Genesis Sea.
+- Recorded the adjacent information path and three interface contracts requiring future formalization.
+- Added integration provenance and source hashes; preserved DP-001/DP-002 and level canon.
+- Embedding and coupling mathematics remain OPEN; no runtime implementation added.
+
 ### 2026-09-22 — Diplomatic Pouch 002
 
 - Recorded the live-model/pouch protocol, external-source policy, recovery authority and project status.
