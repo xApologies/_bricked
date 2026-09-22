@@ -1,0 +1,77 @@
+{
+  "pouch_id": "BRICKED-DP-002",
+  "date": "2026-09-22",
+  "repository": "xApologies/_bricked",
+  "branch": "bootstrap/canonical-architecture",
+  "pre_integration_head": "ea6af06aa35015b26d62f1beca781bc870c90743",
+  "remote": "https://github.com/xApologies/_bricked.git",
+  "initial_working_tree": "clean",
+  "source_zip": "BRICKED_DIPLOMATIC_POUCH_002_2026-09-22.zip",
+  "source_zip_sha256": "00920c4eea3190b1674b600bb2b5bec97c1b2ea99a37774d916319d6e2b32542",
+  "inventory": [
+    {
+      "path": "POUCH_MANIFEST.json",
+      "sha256": "eb7a81e92d96175813c7305cce61af68c3c297e1c50f35ba9cb7c52c8e12924d"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "24c548b68aa7274302d4d32907f5fc3fbfa7e36e3023bee93f056fae86644f0d"
+    },
+    {
+      "path": "audit/VERA_AUDIT.md",
+      "sha256": "4219321e6ef17112c68e104ec882d70c2873a56a790b3e98a3ffb83fb98c1b70"
+    },
+    {
+      "path": "instructions/CODEX_HANDOFF.md",
+      "sha256": "d2600ef42edc76b1896c7927bfaa89e8a0dafd2dcf6504cc14d4c6bf1c7a5623"
+    },
+    {
+      "path": "payload/development/checkpoints/2026-09-22_LIVE_MODEL_STATUS.md",
+      "sha256": "48e0cd8336cd9765a414e8fa41294cac05270a0c84fb6ec6ac14f29436814560"
+    },
+    {
+      "path": "payload/docs/workflow/EXTERNAL_SOURCE_LIBRARY_POLICY.md",
+      "sha256": "d5e5891e3275f4393c046aaf42ed95efe14c741e0c58e64b0383df823470610d"
+    },
+    {
+      "path": "payload/docs/workflow/LIVE_MODEL_AND_DIPLOMATIC_POUCH_PROTOCOL.md",
+      "sha256": "92859459aa961533a429a62bb20d667af3cb2f0618c2dd274142e99276d30620"
+    },
+    {
+      "path": "payload/provenance/checkpoints/RECOVERY_AUTHORITY_2026-09-22.md",
+      "sha256": "bdce225a4657fd12d27f7c5e6a1029f55c460fb92deed76214caa57968dbbcc9"
+    },
+    {
+      "path": "payload/provenance/decisions/0003-live-model-sync-and-source-policy.md",
+      "sha256": "e836de6f1c23e71758f3ca99bde6f9e248538b5b19e1f663ea76f77866c86610"
+    }
+  ],
+  "operations": [
+    {
+      "op": "ADD",
+      "path": "docs/workflow/LIVE_MODEL_AND_DIPLOMATIC_POUCH_PROTOCOL.md",
+      "sha256": "92859459aa961533a429a62bb20d667af3cb2f0618c2dd274142e99276d30620"
+    },
+    {
+      "op": "ADD",
+      "path": "docs/workflow/EXTERNAL_SOURCE_LIBRARY_POLICY.md",
+      "sha256": "d5e5891e3275f4393c046aaf42ed95efe14c741e0c58e64b0383df823470610d"
+    },
+    {
+      "op": "ADD",
+      "path": "provenance/decisions/0003-live-model-sync-and-source-policy.md",
+      "sha256": "e836de6f1c23e71758f3ca99bde6f9e248538b5b19e1f663ea76f77866c86610"
+    },
+    {
+      "op": "ADD",
+      "path": "provenance/checkpoints/RECOVERY_AUTHORITY_2026-09-22.md",
+      "sha256": "bdce225a4657fd12d27f7c5e6a1029f55c460fb92deed76214caa57968dbbcc9"
+    },
+    {
+      "op": "ADD",
+      "path": "development/checkpoints/2026-09-22_LIVE_MODEL_STATUS.md",
+      "sha256": "48e0cd8336cd9765a414e8fa41294cac05270a0c84fb6ec6ac14f29436814560"
+    }
+  ],
+  "external_source_inspection": "Historical archives named by payload are contextual references; no claim of independently inspecting them during this integration."
+}

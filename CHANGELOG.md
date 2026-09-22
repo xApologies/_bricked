@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### 2026-09-22 — Diplomatic Pouch 002
+
+- Recorded the live-model/pouch protocol, external-source policy, recovery authority and project status.
+- Added integration provenance and checksum receipts for the five unchanged payload documents.
+- Preserved DP-001 architecture, the complete constitution, module canon and OPEN mathematics; no runtime implementation added.
+
 ### 2026-09-21 — Diplomatic Pouch 001
 
 - Integrated ten new architecture, recovery, provenance and status documents.
