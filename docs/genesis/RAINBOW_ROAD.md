@@ -1,9 +1,13 @@
 # RAINBOW_ROAD
 
-Status: **OPEN — canonical specification placeholder**.
+Status: WORKING CANON; exact mathematical realization remains OPEN.
 
-This is the single canonical specification location for RAINBOW_ROAD. The bootstrap request names this concept but does not supply its mathematics or complete design. No additional definitions, equations, dimensions, behavior or implementation are inferred here.
+Rainbow Road is the persistent ordered composition/history of closed Portals. History participates in identity.
 
-Levels and shared systems must reference this document rather than independently redefine the concept. Genesis semantics remain upstream of Python, platform adapters and rendering.
+A [Corridor](../architecture/CORRIDOR_PORTAL_RAINBOW_ROAD.md) is an admissible mathematical route/continuation; a Portal is typed realized transfer/traversal over an admitted Corridor. The distinction does not supply missing admission or propagation mathematics.
 
-Source: [bootstrap request](../../provenance/sources/bootstrap-request.txt). Establishing or changing semantics requires a provenance record and review against the [Project Constitution](../../PROJECT_CONSTITUTION.md).
+This remains the single canonical RAINBOW_ROAD specification location, extending the original bootstrap placeholder. Levels and shared systems reference this definition. The [Genesis-Horizon rule](../architecture/UNIFIED_GENESIS_FRAMEWORK.md) applies to existing software/donor implementations without deleting them. Exact mathematical realization remains OPEN; no runtime is implemented here.
+
+## Provenance
+
+Source: DP-004 `03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md`; see the [integration decision](../../provenance/decisions/0005-dp004-unified-genesis-framework.md) and [checksum receipt](../../provenance/sources/DP004_RECEIPT.json).

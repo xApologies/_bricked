@@ -1,0 +1,202 @@
+{
+  "pouch_id": "BRICKED-DP-004",
+  "checkpoint_date": "2026-09-22",
+  "integration_date": "2026-09-26",
+  "pre_integration_head": "b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9",
+  "branch": "bootstrap/canonical-architecture",
+  "source_zip": "BRICKED_DIPLOMATIC_POUCH_004.zip",
+  "source_zip_sha256": "f7fcd201527262a256e7dd32f9b37f454a53cd1e936fae1796db16286373ba43",
+  "evidence_status": "Source texts are immutable pouch evidence, not additional canonical authorities.",
+  "inventory": [
+    {
+      "path": "00_BASELINE/GIT_RECONCILIATION.md",
+      "bytes": 1137,
+      "sha256": "17a24490d23b5afe2e0f2fefb9952b1207c21dc3e5e8941c68bf635f92262e61",
+      "text_utf8": "# Git Verification and Reconciliation\n\nGitHub verification on 2026-09-22:\n- repository `xApologies/_bricked`: verified\n- branch `bootstrap/canonical-architecture`: verified\n- branch HEAD: `b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9`\n- commit message: `language: build canonical Genesis Language source tree`\n- recursive tree retrieval: complete (`truncated: false`)\n\nInspected baseline authorities:\n`PROJECT_CONSTITUTION.md`,\n`development/checkpoints/2026-09-22_LIVE_MODEL_STATUS.md`,\n`development/checkpoints/2026-09-22_LAYER_ZERO_FOUR_OBJECT_STATUS.md`,\n`docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md`,\n`docs/architecture/LAYER_ZERO_INFORMATION_PATH.md`,\n`provenance/audits/DP003_INTEGRATION.md`,\ndecisions 0002–0004, and `language/README.md`.\n\nReconciliation:\n1. Baseline already places Genesis semantics upstream of Python/backend realization.\n2. DP-003 already establishes `Sea <-> Shell <-> H6 <-> R5`.\n3. Existing ABI/ISA/register/opcode/address/backend material is preserved as\n   historical engineering/donor realization; DP-004 forbids silently promoting\n   it to Genesis-native ontology.\n4. OPEN mathematics remains OPEN.\n"
+    },
+    {
+      "path": "01_ARCHITECTURE/GEOMETRIC.md",
+      "bytes": 724,
+      "sha256": "02448151557c56ce4d8d874f413b3ad467dca4f8910482edf13eed73433e2560",
+      "text_utf8": "# Geometric\n\nA Geometric is a bounded, identity-bearing organization of Genesis-Field\noccupancy whose internal state carries Chirality organization, whose relationships\nbecome distinguishable under appropriate Resolution, and whose identity may be\ninherited through admissible transformation.\n\nIt is NOT identical to its visualization, color readout, S2 projection, BRANE\nrealization, or host serialization.\n\nStructural categories: boundary; occupancy; Chirality organization; relationships;\nidentity/inheritance; history; provenance.\n\nA Geometric carries an authoritative Chirality configuration composed from one or\nmore Chirality structures/cells. Chirality Byte is the current candidate primitive\ncell, not final canon.\n"
+    },
+    {
+      "path": "01_ARCHITECTURE/UNIFIED_GENESIS_FRAMEWORK.md",
+      "bytes": 985,
+      "sha256": "fde39298692650a66d09f8dab96f6a6cbfb1512700174caccedf86877f708870",
+      "text_utf8": "# Unified Genesis Framework\n\n## Genesis Field\nResolution; Bandwidth; Inheritance; Occupancy; Closure; Persistence.\n\nResolution and Bandwidth belong upstream to Genesis organization and are not\nautomatically ordinary stored properties of a Geometric.\n\n## Chirality\nOrganized/directed occupancy of Genesis Field, including color/energy-density\norganization. Exact Fabric mathematics remains source-authoritative.\n\n## Genesis Trinity\n1. Genesis Mathematics\n2. Genesis Semantic Language\n3. Genesis Programming Language\n\nThese are separate but coordinated authorities. None silently overwrites another.\n\n## Four-object geometry\n- D9:D11 = Genesis Sea\n- D7:D8 = coupled Shell\n- D6 = Hypercube / H6\n- D5 = 3+1+1 Sphere / R5\n\nCanonical topology: `Sea <-> Shell <-> H6 <-> R5`.\nThe Shell reads/writes the Sphere through H6. We interact with the Shell through\nthe Sea. Exact embeddings and coupling remain OPEN.\n\n## Genesis Environment\nThe unified instantiated whole inside the Genesis Horizon.\n"
+    },
+    {
+      "path": "02_CHIRALITY/BYTE_SEED_COLOR.md",
+      "bytes": 1475,
+      "sha256": "1e103a2f98930c9a2bc0f2f73cf36ea6c41cf0fa1e404719c18749f2bdb2b78b",
+      "text_utf8": "# Chirality Byte, Seed, and Color Organization\n\n## Chirality Byte\nAccepted working primitive pending full Fabric reconciliation.\n\nA Chirality Byte is an **oriented cube** with eight geometrically related occupancy\npositions A–H. Each currently admits `{0,1}`. An eight-symbol serialization is not\nthe ontology: the oriented cube and occupancy geometry are the object. Occupancy\ncount alone does not determine Chirality state; arrangement and orientation matter.\n\n## Chirality Seed\nEach of the six cube faces is a Chirality Seed. Each Seed preserves four vertex\noccupancies, face adjacency, two diagonal occupancy relationships, orientation,\nand local Chirality/color state. A Seed is not reducible to occupied-vertex count.\n\nThe six Seeds are coupled by shared vertices. Each cube vertex belongs to three\nfaces, so changing one vertex changes the local configuration of the three\nincident Seeds. Shared-vertex incidence is a native local coupling relationship.\n\n## Color hierarchy\n`vertex occupancy -> Seed geometry -> face color -> Byte color`\n\nEach Seed resolves under the authoritative Chirality color rule. Six face colors\ncompose to Byte-level color. Do NOT assume arithmetic averaging.\n\nColor is native Chirality/energy-density organizational readout, not decorative UI.\nResolution may expose Byte color, face colors, Seed geometry/diagonals, and all\neight occupancies without changing Byte identity.\n\n**Resolution reveals organization; it does not manufacture it.**\n"
+    },
+    {
+      "path": "03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md",
+      "bytes": 789,
+      "sha256": "0016bd308af1dab5eccaeb9acbb33252a3bffd59c43960d9ff9157a122e99544",
+      "text_utf8": "# BRANE, Corridor, Portal, Rainbow Road\n\nUse Trinity 3.0 as donor architecture, not automatic ontology.\n\nDonor form: `M5 = I x D x Chi x R x P`; BRANE adds request-relative realization Z.\nDo NOT automatically identify Trinity donor M5/B6 with project D5 Sphere/D6\nHypercube. That correspondence requires explicit reconciliation.\n\nBRANE working role: request-relative finite realization/navigation of canonical\nrecursive Genesis organization without changing canonical mathematics.\n`Geometric != BRANE realization`.\n\n**Corridor** = mathematically admissible route/continuation; admissible possibility.\n\n**Portal** = typed realized transfer/traversal over an admitted Corridor.\n\n**Rainbow Road** = persistent ordered composition/history of closed Portals.\n\nHistory participates in identity.\n"
+    },
+    {
+      "path": "04_PROVENANCE/DECISION_AND_OPEN_MATH.md",
+      "bytes": 1227,
+      "sha256": "563a368927bcb605cde8ac448469aecad511f601f6c15c5bf38455fe4cbff4f2",
+      "text_utf8": "# DP-004 Decision Record and OPEN Mathematics\n\nDate: 2026-09-22\nParent: `b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9`\nStatus: working architecture decision\n\nAccepted: hard Genesis-Horizon rule; unified Genesis Field; three-authority Genesis\nTrinity; DP-003 four-object topology; working Geometric definition; oriented-cube\nChirality Byte as working primitive only; six Seeds/shared-vertex coupling; color\nhierarchy; BRANE request-relative role; Corridor/Portal distinction; Rainbow Road\nhistory; history participates in identity.\n\nSource controls:\n- Fusion Operator: **CANDIDATE**\n- Chirality propagation engine: **UNINSPECTED / NO INFERENCE**\n- Canonical Genesis Programming Language: already in Git under `language/`\n\nExplicitly OPEN:\n1. exact Chirality color algebra\n2. Seed-to-color map\n3. six-face-to-Byte color composition\n4. full Chirality propagation law\n5. whether Chirality Byte is the final primitive\n6. exact Sea/Shell/H6/R5 embeddings and coupling\n7. exact BRANE mapping onto the four-object geometry\n8. Fusion Operator canon status beyond CANDIDATE\n\nFuture ingest: multi-gigabyte Chirality Fabric corpus; full Genesis mathematical\nmanuscripts; Chirality propagation engine; other recovered operators as appropriate.\n"
+    },
+    {
+      "path": "04_PROVENANCE/VERA_AUDIT.md",
+      "bytes": 910,
+      "sha256": "949e21d2d77d2956dcdc3bfddb2e6a3799815bfa60b66c4b050527fe25886c8f",
+      "text_utf8": "# Vera Audit — DP-004\n\n- Baseline integrity: **PASS** — `b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9` verified.\n- Provenance continuity: **PASS** — DP-004 is a delta, not a Git replacement.\n- Ontology boundary: **PASS WITH CORRECTION** — ABI/ISA/address/register/opcode/\n  backend artifacts remain engineering/donor realizations unless authoritative\n  Genesis sources establish them internally.\n- Four-object continuity: **PASS** — `Sea <-> Shell <-> H6 <-> R5`.\n- Chirality discipline: **PASS** — cube outranks serialization; final primitive OPEN.\n- Color discipline: **PASS** — no averaging law invented.\n- BRANE discipline: **PASS** — no silent `M5/B6 = D5/D6`.\n- Source discipline: **PASS** — Fusion CANDIDATE; propagation engine not inferred.\n- Runtime boundary: **PASS** — no OPEN mathematics implemented.\n\nConclusion: DP-004 is coherent as a recovery delta against the verified parent.\n"
+    },
+    {
+      "path": "05_HANDOFF/CHECKPOINT_STATUS.md",
+      "bytes": 586,
+      "sha256": "1f6ef7e770a271c7f2de096e27232cc21cc9feacc7d16f2fa7f94a8c389f5b0d",
+      "text_utf8": "# DP-004 Checkpoint Status\n\nCheckpoint: `BRICKED_DIPLOMATIC_POUCH_004`\nParent: `b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9`\nState: **SEALED FOR CODEX REVIEW/INTEGRATION**\n\nCompleted: HEAD verification; Git reconciliation; architecture; Geometric;\nChirality Byte/Seed/color organization; BRANE/Road distinctions; provenance;\nOPEN-math ledger; Vera audit; Codex handoff; manifest; checksums.\n\nDeferred intentionally: full Fabric ingest; propagation-engine inspection; exact\ncolor algebra; propagation law; exact four-object embeddings/coupling; exact BRANE\nmapping; runtime implementation.\n"
+    },
+    {
+      "path": "05_HANDOFF/CODEX_HANDOFF.md",
+      "bytes": 1621,
+      "sha256": "2c050ca4c5805db0047620cad7c750a8315acfefe1b81622fe0859b02ec5fdc9",
+      "text_utf8": "# Codex Handoff — DP-004\n\nRepository: `xApologies/_bricked`\nRequired parent: `b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9`\nTarget branch: `bootstrap/canonical-architecture`\n\n1. Verify local HEAD exactly matches the required parent; otherwise STOP/reconcile.\n2. Preserve all existing repository content.\n3. Integrate DP-004 as architecture/provenance documentation, not runtime code.\n4. Preserve the hard Genesis-Horizon rule.\n5. Do not delete historical donor implementation material; classify conventional\n   CPU/ABI/ISA/register/opcode/filesystem structures as backend/host realization\n   unless source-authoritative Genesis mathematics establishes them internally.\n6. Preserve `Sea <-> Shell <-> H6 <-> R5`.\n7. Do not invent missing Chirality color or propagation mathematics.\n8. Keep Fusion Operator CANDIDATE.\n9. Do not infer the uninspected propagation-engine ZIP.\n10. Do not equate Trinity M5/B6 with project D5/D6 without explicit reconciliation.\n11. Add/update provenance audit, decision, checkpoint status, and changelog.\n12. Run existing validation/tests appropriate to documentation-only integration.\n13. Review diff before commit.\n\nSuggested destinations:\n- `docs/architecture/UNIFIED_GENESIS_FRAMEWORK.md`\n- `docs/genesis/GEOMETRIC.md`\n- `docs/genesis/CHIRALITY_BYTE.md`\n- `docs/genesis/CHIRALITY_SEED.md`\n- `docs/genesis/CHIRALITY_COLOR_ORGANIZATION.md`\n- `docs/architecture/BRANE_ROLE.md`\n- `docs/architecture/CORRIDOR_PORTAL_RAINBOW_ROAD.md`\n- `provenance/decisions/0005-dp004-unified-genesis-framework.md`\n- `provenance/audits/DP004_INTEGRATION.md`\n- `development/checkpoints/2026-09-22_DP004_STATUS.md`\n"
+    },
+    {
+      "path": "06_MACHINE_READABLE/DP004_STATE.json",
+      "bytes": 772,
+      "sha256": "d6591ea74097cdfb7ecc7c4070f1745050b04c8699aa50879725afecfcfa241c",
+      "text_utf8": "{\n  \"checkpoint\": \"DP-004\",\n  \"title\": \"UNIFIED GENESIS FRAMEWORK\",\n  \"repository\": \"xApologies/_bricked\",\n  \"branch\": \"bootstrap/canonical-architecture\",\n  \"verified_parent_head\": \"b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9\",\n  \"status\": \"SEALED_RECOVERY_DELTA\",\n  \"topology\": \"Sea <-> Shell <-> H6 <-> R5\",\n  \"fusion_operator\": \"CANDIDATE\",\n  \"propagation_engine\": \"UNINSPECTED_NO_INFERENCE\",\n  \"open_mathematics\": [\n    \"exact Chirality color algebra\",\n    \"Seed-to-color map\",\n    \"six-face-to-Byte color composition\",\n    \"full Chirality propagation law\",\n    \"whether Chirality Byte is final primitive\",\n    \"exact Sea/Shell/H6/R5 embeddings and coupling\",\n    \"exact BRANE mapping onto four-object geometry\",\n    \"Fusion Operator canon status beyond CANDIDATE\"\n  ]\n}\n"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 1962,
+      "sha256": "5cc13327f5ad5a4a12ad5fe47636d5665c5056e6cf7205335b6123370715e0ea",
+      "text_utf8": "{\n  \"name\": \"BRICKED_DIPLOMATIC_POUCH_004\",\n  \"verified_parent_head\": \"b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9\",\n  \"inventory\": [\n    {\n      \"path\": \"00_BASELINE/GIT_RECONCILIATION.md\",\n      \"bytes\": 1137,\n      \"sha256\": \"17a24490d23b5afe2e0f2fefb9952b1207c21dc3e5e8941c68bf635f92262e61\"\n    },\n    {\n      \"path\": \"01_ARCHITECTURE/GEOMETRIC.md\",\n      \"bytes\": 724,\n      \"sha256\": \"02448151557c56ce4d8d874f413b3ad467dca4f8910482edf13eed73433e2560\"\n    },\n    {\n      \"path\": \"01_ARCHITECTURE/UNIFIED_GENESIS_FRAMEWORK.md\",\n      \"bytes\": 985,\n      \"sha256\": \"fde39298692650a66d09f8dab96f6a6cbfb1512700174caccedf86877f708870\"\n    },\n    {\n      \"path\": \"02_CHIRALITY/BYTE_SEED_COLOR.md\",\n      \"bytes\": 1475,\n      \"sha256\": \"1e103a2f98930c9a2bc0f2f73cf36ea6c41cf0fa1e404719c18749f2bdb2b78b\"\n    },\n    {\n      \"path\": \"03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md\",\n      \"bytes\": 789,\n      \"sha256\": \"0016bd308af1dab5eccaeb9acbb33252a3bffd59c43960d9ff9157a122e99544\"\n    },\n    {\n      \"path\": \"04_PROVENANCE/DECISION_AND_OPEN_MATH.md\",\n      \"bytes\": 1227,\n      \"sha256\": \"563a368927bcb605cde8ac448469aecad511f601f6c15c5bf38455fe4cbff4f2\"\n    },\n    {\n      \"path\": \"04_PROVENANCE/VERA_AUDIT.md\",\n      \"bytes\": 910,\n      \"sha256\": \"949e21d2d77d2956dcdc3bfddb2e6a3799815bfa60b66c4b050527fe25886c8f\"\n    },\n    {\n      \"path\": \"05_HANDOFF/CHECKPOINT_STATUS.md\",\n      \"bytes\": 586,\n      \"sha256\": \"1f6ef7e770a271c7f2de096e27232cc21cc9feacc7d16f2fa7f94a8c389f5b0d\"\n    },\n    {\n      \"path\": \"05_HANDOFF/CODEX_HANDOFF.md\",\n      \"bytes\": 1621,\n      \"sha256\": \"2c050ca4c5805db0047620cad7c750a8315acfefe1b81622fe0859b02ec5fdc9\"\n    },\n    {\n      \"path\": \"06_MACHINE_READABLE/DP004_STATE.json\",\n      \"bytes\": 772,\n      \"sha256\": \"d6591ea74097cdfb7ecc7c4070f1745050b04c8699aa50879725afecfcfa241c\"\n    },\n    {\n      \"path\": \"README.md\",\n      \"bytes\": 752,\n      \"sha256\": \"be2727d3b3eadd48c9703a06839f94275cb0c1417dd94fef8bcb58e07b614f3e\"\n    }\n  ]\n}\n"
+    },
+    {
+      "path": "README.md",
+      "bytes": 752,
+      "sha256": "be2727d3b3eadd48c9703a06839f94275cb0c1417dd94fef8bcb58e07b614f3e",
+      "text_utf8": "# BRICKED DIPLOMATIC POUCH 004 — DP-004\n**UNIFIED GENESIS FRAMEWORK**\n\nRepository: `xApologies/_bricked`\nVerified parent HEAD: `b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9`\nVerified branch: `bootstrap/canonical-architecture`\nDate: 2026-09-22\nStatus: **SEALED RECOVERY DELTA / CODEX HANDOFF**\n\nInside the Genesis Horizon, Genesis is Genesis-native. Conventional CPU, RAM,\nregister, opcode, binary-address, bus, filesystem, and operating-system ontology\nbelongs to the Python Hypervisor / host transduction boundary unless an\nauthoritative Genesis source explicitly establishes a particular realization.\n\nFusion Operator remains **CANDIDATE**. The previously received Chirality\npropagation-engine ZIP was not reliably inspected; no contents are inferred.\n"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 1165,
+      "sha256": "5afedf60d862b40e86e96b872b62d3057552db8ee6362d0c03931a98e794f55a",
+      "text_utf8": "17a24490d23b5afe2e0f2fefb9952b1207c21dc3e5e8941c68bf635f92262e61  00_BASELINE/GIT_RECONCILIATION.md\n02448151557c56ce4d8d874f413b3ad467dca4f8910482edf13eed73433e2560  01_ARCHITECTURE/GEOMETRIC.md\nfde39298692650a66d09f8dab96f6a6cbfb1512700174caccedf86877f708870  01_ARCHITECTURE/UNIFIED_GENESIS_FRAMEWORK.md\n1e103a2f98930c9a2bc0f2f73cf36ea6c41cf0fa1e404719c18749f2bdb2b78b  02_CHIRALITY/BYTE_SEED_COLOR.md\n0016bd308af1dab5eccaeb9acbb33252a3bffd59c43960d9ff9157a122e99544  03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md\n563a368927bcb605cde8ac448469aecad511f601f6c15c5bf38455fe4cbff4f2  04_PROVENANCE/DECISION_AND_OPEN_MATH.md\n949e21d2d77d2956dcdc3bfddb2e6a3799815bfa60b66c4b050527fe25886c8f  04_PROVENANCE/VERA_AUDIT.md\n1f6ef7e770a271c7f2de096e27232cc21cc9feacc7d16f2fa7f94a8c389f5b0d  05_HANDOFF/CHECKPOINT_STATUS.md\n2c050ca4c5805db0047620cad7c750a8315acfefe1b81622fe0859b02ec5fdc9  05_HANDOFF/CODEX_HANDOFF.md\nd6591ea74097cdfb7ecc7c4070f1745050b04c8699aa50879725afecfcfa241c  06_MACHINE_READABLE/DP004_STATE.json\n5cc13327f5ad5a4a12ad5fe47636d5665c5056e6cf7205335b6123370715e0ea  MANIFEST.json\nbe2727d3b3eadd48c9703a06839f94275cb0c1417dd94fef8bcb58e07b614f3e  README.md\n"
+    }
+  ],
+  "operations": {
+    "docs/architecture/UNIFIED_GENESIS_FRAMEWORK.md": {
+      "operation": "ADD",
+      "sources": [
+        "README.md",
+        "01_ARCHITECTURE/UNIFIED_GENESIS_FRAMEWORK.md",
+        "00_BASELINE/GIT_RECONCILIATION.md"
+      ],
+      "sha256": "39619c18fa7fbcdbeb1a30f48c775c9e7f1081e300a08441c29d13dd41638ea3"
+    },
+    "docs/genesis/GEOMETRIC.md": {
+      "operation": "ADD",
+      "sources": [
+        "01_ARCHITECTURE/GEOMETRIC.md"
+      ],
+      "sha256": "d3b0160ab483bfe97d9ae4a051955be22b0b39ca59fa2296e0161391865d6a09"
+    },
+    "docs/genesis/CHIRALITY_BYTE.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CHIRALITY/BYTE_SEED_COLOR.md"
+      ],
+      "sha256": "118ba2f7e9524daa0ff33a50d9443b4ebfc684435735e917a5ddede5ee1bf7cc"
+    },
+    "docs/genesis/CHIRALITY_SEED.md": {
+      "operation": "ADD",
+      "sources": [
+        "02_CHIRALITY/BYTE_SEED_COLOR.md"
+      ],
+      "sha256": "15fc5c38ec19a75696d56a791419e921b0231dfbc0708770dfe3a038070ba01c"
+    },
+    "docs/genesis/CHIRALITY_COLOR_ORGANIZATION.md": {
+      "operation": "ADD",
+      "sources": [
+        "02_CHIRALITY/BYTE_SEED_COLOR.md",
+        "04_PROVENANCE/DECISION_AND_OPEN_MATH.md"
+      ],
+      "sha256": "3cbb5d8bf0de77650b9572f5f7f1b99c525ddacb45a87e38094ea729c53e4951"
+    },
+    "docs/architecture/BRANE_ROLE.md": {
+      "operation": "ADD",
+      "sources": [
+        "03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md"
+      ],
+      "sha256": "dd2060de0ddcbce165f9e092ca886b28c73efc7cd32fc75aa7b4216b4635eca8"
+    },
+    "docs/architecture/CORRIDOR_PORTAL_RAINBOW_ROAD.md": {
+      "operation": "ADD",
+      "sources": [
+        "03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md"
+      ],
+      "sha256": "e1a167cabafb6a73c9c8f623772ce4eacbffc5212e50d6f42f536efbee9d80c0"
+    },
+    "docs/genesis/RAINBOW_ROAD.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "03_BRANE_ROAD/BRANE_CORRIDOR_PORTAL_ROAD.md"
+      ],
+      "sha256": "c0bd34c8f3812237f6c0372def48da6f882046b13b50a46503c346b2f8d29a7e"
+    },
+    "provenance/decisions/0005-dp004-unified-genesis-framework.md": {
+      "operation": "ADD",
+      "sources": [
+        "04_PROVENANCE/DECISION_AND_OPEN_MATH.md",
+        "00_BASELINE/GIT_RECONCILIATION.md"
+      ],
+      "sha256": "1c603920674343eb38811f05bc2ff8d3c4c43d82995c3d0c2fcd032c3d1425b4"
+    },
+    "development/checkpoints/2026-09-22_DP004_STATUS.md": {
+      "operation": "ADD",
+      "sources": [
+        "05_HANDOFF/CHECKPOINT_STATUS.md"
+      ],
+      "sha256": "2009ac2dab2025ae4042505346a93bca58e2c6b40c3099ba3a96fdff025cf704"
+    },
+    "docs/genesis/README.md": {
+      "operation": "UPDATE",
+      "sources": [],
+      "sha256": "ef0238cf1077175975f49adeb30cbabfb152301c38d157465a2b86a34ea8ca0e"
+    },
+    "CHANGELOG.md": {
+      "operation": "UPDATE",
+      "sources": [],
+      "sha256": "11cb16827bd39a4a2989c7784218654d976fc5903c36972a831e826094eb5010"
+    },
+    "tools/validators/validate-bootstrap.mjs": {
+      "operation": "UPDATE",
+      "sources": [],
+      "sha256": "10f02a0249c980d914cd53c4a14ef05f19536367e3ede9f4af555ab62d77cb0f"
+    }
+  },
+  "source_state": {
+    "checkpoint": "DP-004",
+    "title": "UNIFIED GENESIS FRAMEWORK",
+    "repository": "xApologies/_bricked",
+    "branch": "bootstrap/canonical-architecture",
+    "verified_parent_head": "b2ed6bf352b2a3ebfcfa702dfc0137c8a6981cd9",
+    "status": "SEALED_RECOVERY_DELTA",
+    "topology": "Sea <-> Shell <-> H6 <-> R5",
+    "fusion_operator": "CANDIDATE",
+    "propagation_engine": "UNINSPECTED_NO_INFERENCE",
+    "open_mathematics": [
+      "exact Chirality color algebra",
+      "Seed-to-color map",
+      "six-face-to-Byte color composition",
+      "full Chirality propagation law",
+      "whether Chirality Byte is final primitive",
+      "exact Sea/Shell/H6/R5 embeddings and coupling",
+      "exact BRANE mapping onto four-object geometry",
+      "Fusion Operator canon status beyond CANDIDATE"
+    ]
+  }
+}

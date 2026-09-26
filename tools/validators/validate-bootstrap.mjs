@@ -19,10 +19,12 @@ const canon = read('development/modules/README.md');
 const rows = [...canon.matchAll(/^\| \[(M\d{2}_[A-Z_]+)\]\([^\n]+?\) \| (\d+) \|/gm)];
 check(rows.length===8 && modules.every(([m,n])=>rows.some(r=>r[1]===m && Number(r[2])===n)) && rows.reduce((s,r)=>s+Number(r[2]),0)===171 && canon.includes('| **TOTAL** | **171** |'), 'Documented scenario counts total 171');
 const genesis = ["11D_ARCHITECTURE","GENESIS_FIELD","CHIRALITY_FABRIC","CHIRALITY_BYTE","RESOLUTION","BANDWIDTH","RAINBOW_ROAD","PSSP","GHOSTING","DECS","GUARDIAN_CDN","CHIRALITY_CYCLES","GENESIS_LANGUAGE"];
-// DP-001 promotes only these two placeholders; unresolved mathematics must remain explicit.
+// DP-001 and DP-004 authorize these working definitions; unresolved mathematics stays explicit.
 const workingStatuses = {
  '11D_ARCHITECTURE': 'Status: WORKING CANON; mathematics partially OPEN.',
- 'CHIRALITY_CYCLES': 'Status: WORKING CANON.'
+ 'CHIRALITY_CYCLES': 'Status: WORKING CANON.',
+ 'CHIRALITY_BYTE': 'Status: WORKING CANON; final primitive and mathematics remain OPEN.',
+ 'RAINBOW_ROAD': 'Status: WORKING CANON; exact mathematical realization remains OPEN.'
 };
 check(genesis.every(g=>{
  const document = read('docs/genesis/'+g+'.md');

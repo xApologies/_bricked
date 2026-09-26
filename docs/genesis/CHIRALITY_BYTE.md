@@ -1,9 +1,20 @@
 # CHIRALITY_BYTE
 
-Status: **OPEN — canonical specification placeholder**.
+Status: WORKING CANON; final primitive and mathematics remain OPEN.
 
-This is the single canonical specification location for CHIRALITY_BYTE. The bootstrap request names this concept but does not supply its mathematics or complete design. No additional definitions, equations, dimensions, behavior or implementation are inferred here.
+Accepted working primitive pending full Fabric reconciliation.
 
-Levels and shared systems must reference this document rather than independently redefine the concept. Genesis semantics remain upstream of Python, platform adapters and rendering.
+A Chirality Byte is an **oriented cube** with eight geometrically related occupancy
+positions A–H. Each currently admits `{0,1}`. An eight-symbol serialization is not
+the ontology: the oriented cube and occupancy geometry are the object. Occupancy
+count alone does not determine Chirality state; arrangement and orientation matter.
 
-Source: [bootstrap request](../../provenance/sources/bootstrap-request.txt). Establishing or changing semantics requires a provenance record and review against the [Project Constitution](../../PROJECT_CONSTITUTION.md).
+The six faces are [Chirality Seeds](CHIRALITY_SEED.md). [Color organization](CHIRALITY_COLOR_ORGANIZATION.md) is native readout, not a serialization or display definition.
+
+Whether Chirality Byte is the final primitive remains explicitly OPEN. The `{0,1}` occupancy notation does not establish a conventional binary address, register or CPU model inside the Genesis Horizon. Exact color algebra and propagation remain OPEN; no implementation is supplied.
+
+This remains the single canonical CHIRALITY_BYTE specification location. Levels and shared systems reference it rather than independently redefining the concept. DP-004 extends the original bootstrap placeholder; Genesis semantics remain upstream of host realization.
+
+## Provenance
+
+Source: DP-004 `02_CHIRALITY/BYTE_SEED_COLOR.md`; see the [integration decision](../../provenance/decisions/0005-dp004-unified-genesis-framework.md) and [checksum receipt](../../provenance/sources/DP004_RECEIPT.json).
