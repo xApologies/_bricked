@@ -18,3 +18,7 @@ This hierarchy states an organizational dependency, not an implemented compositi
 ## Provenance
 
 Source: DP-004 `02_CHIRALITY/BYTE_SEED_COLOR.md; 04_PROVENANCE/DECISION_AND_OPEN_MATH.md`; see the [integration decision](../../provenance/decisions/0005-dp004-unified-genesis-framework.md) and [checksum receipt](../../provenance/sources/DP004_RECEIPT.json).
+
+## DP-006 qualification
+
+The hierarchy above is the DP-004 working dependency description. Canonical Byte-face/Seed status, White composition and color/readout algebra remain OPEN under the [R62 reconciliation](CHIRALITY_BYTE_R62_RECONCILIATION.md). R62 truncated averaging stays a toy readout. White is a proposed combined/superposed spectral expression; Black is deferred.

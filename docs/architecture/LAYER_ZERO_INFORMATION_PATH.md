@@ -56,3 +56,7 @@ Working containment/embedding notation:
 The arrows currently denote accepted containment/interface relationships, not yet-completed embedding proofs.
 
 Exact embedding maps, Shell coupling, Sea phase coupling, and the Sea–Shell interaction functional remain OPEN.
+
+## DP-006 named mediation
+
+`Sea <-> Shell <-> Nexus <-> State` names the same mandatory adjacent path. Nexus = H6 and State = R5. Shell cannot silently bypass Nexus to mutate State. Guardian system-wide potential authority also requires the appropriate Road/Nexus/closure path and witnesses; it is not invisible bypass authority. Exact realization remains OPEN; see [Shell/Nexus direction](SHELL_NEXUS_DIRECTION.md) and [DP-006](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).

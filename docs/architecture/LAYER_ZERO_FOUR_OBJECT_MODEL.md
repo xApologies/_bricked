@@ -70,3 +70,9 @@ A valid static Genesis computer consists minimally of:
 - no requirement yet for applications, game runtime, Ghosting, networking, or rendered gameplay.
 
 The program should eventually model mathematical objects, not eleven unrelated software modules named after dimensions.
+
+## DP-006 stable names and status
+
+R5 = **Genesis State**; H6 = **Genesis Nexus**; Sigma7:8 = **Genesis Shell**; S9:11 = **Genesis Sea**. These name the existing four roles without splitting the coupled dimensions or substituting host architecture. Shell is a native Geometric command/interaction environment; the command-shell analogy above is role-only.
+
+The [fibered Sea](GENESIS_SEA_FIBER_MODEL.md) is an ACCEPTED WORKING MODEL with multiple distinguishable lower stacks. Internal isomorphism does not merge State/fiber identity. D9:D11 decomposition and coupling remain OPEN. See [DP-006](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).

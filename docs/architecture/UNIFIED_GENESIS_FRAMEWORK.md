@@ -52,3 +52,13 @@ All eight OPEN mathematical questions and source-status controls are listed in t
 ## Provenance
 
 Source: DP-004 `README.md; 01_ARCHITECTURE/UNIFIED_GENESIS_FRAMEWORK.md; 00_BASELINE/GIT_RECONCILIATION.md`; see the [integration decision](../../provenance/decisions/0005-dp004-unified-genesis-framework.md) and [checksum receipt](../../provenance/sources/DP004_RECEIPT.json).
+
+## DP-006 cumulative working architecture
+
+Stable names: **R5 = Genesis State; H6 = Genesis Nexus; Sigma7:8 = Genesis Shell; S9:11 = Genesis Sea**. The topology is `Sea <-> Shell <-> Nexus <-> State`. Genesis is a state-space substrate; Chirality Fabric is foundational organizational architecture; Geometrics remain native identity-bearing objects. Rainbow Road is the nervous system/domain-spanning information transport.
+
+See the [computation model](GENESIS_COMPUTATION_MODEL.md), [Sea fiber working model](GENESIS_SEA_FIBER_MODEL.md), [Shell/Nexus mediation](SHELL_NEXUS_DIRECTION.md), [binary projection boundary](BINARY_COMPATIBILITY.md), [engineering Trinity](TRINITY_IMPLEMENTATION_MATRIX.md) and [CTF proving-ground role](BRICKED_CTF_ARCHITECTURE.md). These extend the existing framework; the mathematical/semantic/programming authority grouping above remains distinct.
+
+Guardian is the top-level adaptive management/intelligence authority of the instantiated environment, with system-wide potential write reach constrained by mathematics. Mathematical validity precedes present admissibility and actor authorization. See the [Guardian framework](../genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md). All statuses and unresolved laws are recorded in the [OPEN ledger](OPEN_MATHEMATICS.md).
+
+Source: [DP-006 decision](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).

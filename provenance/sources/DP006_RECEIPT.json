@@ -1,0 +1,338 @@
+{
+  "checkpoint": "DP-006",
+  "baseline_head": "ecc4b0eabff485ec89e03e7f871fe17c86269a91",
+  "branch": "bootstrap/canonical-architecture",
+  "source_archive": "_inbox/BRICKED_DP006_CODEX_GITHUB_UPDATE.zip",
+  "archive_bytes": 19351,
+  "sha256": "fa436a18b0357223883d625e0633f10b98cd854446366b61a2d60a00c5963ed4",
+  "zip_crc": "PASS",
+  "manifest_entries_verified": 13,
+  "checksum_entries_verified": 14,
+  "files": [
+    {
+      "path": "00_CODEX_READ_FIRST.md",
+      "bytes": 806,
+      "sha256": "abe357d5b1460ef92189354621c2ab8330fca43b1e436cddc62ec8682e39f785",
+      "text_utf8": "# BRICKED DP-006 — CUMULATIVE CODEX UPDATE\nRepository: xApologies/_bricked\nExpected branch: bootstrap/canonical-architecture\nExpected HEAD: ecc4b0eabff485ec89e03e7f871fe17c86269a91\n\nRemote Git still equals the pre-DP-005 baseline, so this ZIP is cumulative: it contains\nthe unpushed DP-005 structural checkpoint plus the subsequent language/Trinity/Guardian\nwork from this thread.\n\nVerify repository/branch/HEAD first. If HEAD differs, STOP and report divergence.\nThen read every file, reconcile with current Git authorities, integrate the checkpoint,\nrun applicable tests/checks, inspect git diff, commit on the working branch, push to\nGitHub, and report final SHA. Do not merge main without separate authorization.\nPreserve language/ and chirality_fabric/ source corpora and all OPEN/CANDIDATE labels.\n"
+    },
+    {
+      "path": "01_GIT_RECONCILIATION.md",
+      "bytes": 759,
+      "sha256": "479a4e5b089f132042558784d3a7c41b456defc0cf2f17732e4805d16c087d00",
+      "text_utf8": "# Git Reconciliation\nVerified remote HEAD: ecc4b0eabff485ec89e03e7f871fe17c86269a91\nObserved tracked blobs: 2051\nObserved tracked bytes: 91,999,142\n\nNo DP-005 integration is present remotely.\n\nAuthorities re-checked include PROJECT_CONSTITUTION.md; DP-004 decision;\nLAYER_ZERO_FOUR_OBJECT_MODEL; LAYER_ZERO_INFORMATION_PATH; GENESIS_SEA;\nUNIFIED_GENESIS_FRAMEWORK; GEOMETRIC; RAINBOW_ROAD; GUARDIAN_CDN;\nR62 CANONICAL_STATE; Genesis Language architecture/design invariants; Surface Language\nrelationship-first rule and lowering contract; Recursion; Concurrency; Section-17\ncapability and BRANE interfaces.\n\nPreserve: R5<->H6<->Sigma7:8<->S9:11; no-direct-jump; no-hidden-CPU ontology;\nR62 authority; Road/Corridor/Portal semantics; explicit OPEN mathematics.\n"
+    },
+    {
+      "path": "02_CUMULATIVE_ARCHITECTURE.md",
+      "bytes": 1034,
+      "sha256": "a7e682725f78a8d5545e293a7f21ac325378d1adc796baba4b067448e2b9b55e",
+      "text_utf8": "# Cumulative Architecture\n\nStable names:\n- R5 = Genesis State — authoritative native state.\n- H6 = Genesis Nexus — read/write mediation/realization.\n- Sigma7:8 = Genesis Shell — coupled command/interaction geometry.\n- S9:11 = Genesis Sea — coupled containing/instantiation domain.\n\nCanonical adjacency: State <-> Nexus <-> Shell <-> Sea.\n\nChirality Fabric = foundational organizational architecture.\nGeometric = native bounded identity-bearing object under existing Git definition.\nRainbow Road = Genesis nervous system / domain-spanning information transport.\nGuardian = top-level adaptive management/intelligence authority, constrained by Genesis mathematics.\n\nGenesis = state-space substrate.\nDesign compass: Genesis explores, transports and realizes admissible transformations\nof persistent geometric state.\n\nKeep distinct:\npossible != mathematically valid != presently admissible != actor-authorized\n!= realized != authoritative.\n\nConventional binary computing remains a supported State projection, not Genesis ontology.\n"
+    },
+    {
+      "path": "03_SEA_FIBER_MODEL.md",
+      "bytes": 1289,
+      "sha256": "36c5260c3d6f0a0b2ff6d2827f1ef14fdc9759d3c6d922782f38d76c697f6be2",
+      "text_utf8": "# Genesis Sea Fiber Model v0.1\nStatus: ACCEPTED WORKING MODEL. Exact D9:D11 mathematics OPEN.\n\npi_Sea : E_Sea -> B_Sea\nB_Sea = persistent Sea base/containing organization.\nE_Sea = total Sea organization.\nF_b = pi_Sea^{-1}(b) = distinguishable computational fiber.\n\nDo not yet classify as vector/principal/covering bundle.\n\nA fiber may contain F_b contains Sigma_b contains H_b contains R_b.\nSea may host multiple distinguishable lower Genesis stacks without merging State identity.\nInternal isomorphism does not imply fiber identity.\nWorking identity ingredients: Sea attachment, lineage, History, provenance.\n\nRetain Git's persistent structural phase + mobile computational field language.\nFibered Sea is a candidate realization of that split, not a theorem.\n\nDo not assign arbitrary individual meanings to D9,D10,D11. Requirements:\n(1) multiple distinguishable lower realizations; (2) inter-fiber relationships/transport;\n(3) whole-Sea organization/closure. Exact dimensional coupling OPEN.\n\nFor gamma:[0,1]->B_Sea investigate partial Road transport:\nT_gamma : Adm_gamma(F_a) ⇀ F_b.\nRoad is connection-like CANDIDATE, not a proved differential-geometric connection.\n\nClosed-loop holonomy is CANDIDATE. Hard target: no inter-fiber communication without\nadmitted Rainbow Road traversal.\n"
+    },
+    {
+      "path": "04_CHIRALITY_BINARY.md",
+      "bytes": 981,
+      "sha256": "47aa5ace14a43babe1375e73033759c247763e2766c56c3ef05473de0a6c8030",
+      "text_utf8": "# Chirality / Binary / Byte Reconciliation\n\nBinary occupancy support: o:D->{0,1}.\nOccupied loci may carry C={R,O,Y,G,B,V}.\nOccupancy, chromatic state, adjacency, orientation and History remain distinct.\n\nExample support 0 1 1 0 1 0 0 1 may carry 0 G G 0 R 0 0 Y.\nSame binary occupancy != same Chirality state.\nDesign maxim: do not replace the bit; lift binary support into geometry.\n\nR62 hierarchy remains Tile -> Seed(2x2) -> Byte/Bite(2x2x2 set-lift)\n-> Block(4x4x4) -> recursive Fabric. Exact Seed->Byte lift OPEN.\n\nCube realization gives six 2x2 face restrictions plus adjacency/orientation/path\nstructure. DP-004's \"six faces are Seeds\" must be reconciled against R62 rather than\nsilently promoted. Exact face status and color/readout composition OPEN.\n\nWhite = proposed combined/superposed spectral expression; exact algebra OPEN.\nBlack deferred.\n\nConventional files may be State Geometrics with G_file <-> b in {0,1}*.\nRound-trip identity contract remains to be formalized.\n"
+    },
+    {
+      "path": "05_RAINBOW_ROAD.md",
+      "bytes": 828,
+      "sha256": "1522240bd96ff764163aab45b044a688095613dec9e3eaa4428a1c3b1004b4c7",
+      "text_utf8": "# Rainbow Road — Nervous System\n\nCanonical Road remains persistent ordered composition/history of closed Portals.\nDP-006 system role: Rainbow Road is Genesis nervous system/domain-spanning transport.\n\nCorridor = admissible route/continuation.\nPortal = typed realized traversal.\nRoad preserves declared obligations and History, including Portal ancestry, waypoint\ncontinuity, capacity, Resolution/Bandwidth envelope, Chirality trajectory, holonomy\nwitness, partial-failure History and Road identity.\n\nWorking authority direction: cross-domain privilege is an admissible Geometric/Road\nrelationship, not merely an unscoped Boolean packet flag.\n\nUnder fibered Sea, Road connection-like transport remains CANDIDATE.\nGuardian may have system-wide Road authority but may not fabricate a Corridor that\ndoes not mathematically exist.\n"
+    },
+    {
+      "path": "06_LANGUAGE_TRINITY_CROSSWALK.md",
+      "bytes": 1410,
+      "sha256": "422f79c941bfc8e8591a7d4ae428206644d13706997976586f584e8e68aa3f6a",
+      "text_utf8": "# Genesis Language + Trinity Crosswalk\n\nThe existing Genesis Language is preserved.\n\nFrontend already provides:\n.gen -> typed AST -> semantic lowering -> GIR-MODULE -> checker/linker -> GVM.\n\nRelationship-first roots already align:\nen = bind identity/result; rel = relationship; ve = Portal-mediated transport;\nar = inheritance; tor = Portal closure.\n\nWorking crosswalk:\nGEOMETRIC -> State/native semantic object.\nrel -> Shell relationship construction.\nportal -> Rainbow Road request.\nve -> Road transport.\ntor -> Portal closure/receipt.\ncapability declaration -> software request/declaration of authority.\ncapability enforcement -> Road/Nexus/Guardian boundary.\nGIR -> candidate computational projection of Shell semantic geometry.\nGVM/bytecode/registers -> reference/host realization unless separately proven native.\nBRANE M5/B6 -> donor/request-relative realization, not automatically R5/H6.\n\nGit's no-hidden-CPU rule controls: registers, stack frames, LOAD/STORE and binary\narithmetic may be lowering targets without becoming Genesis ontology.\n\nEngineering Trinity:\nHardware = realizes Genesis.\nSoftware = expresses Genesis.\nGuardian = governs/manages Genesis.\n\nDo not confuse this with the Mathematics/Semantic Language/Programming Language\nauthority grouping or Trinity 3.0 donor coordinates.\n\nThe Trinity cuts across State, Nexus, Shell, Sea and Rainbow Road rather than mapping\none-to-one to domains.\n"
+    },
+    {
+      "path": "07_GUARDIAN_FRAMEWORK.md",
+      "bytes": 1886,
+      "sha256": "b29bd339e858014dcaba0072a74504dcdaa0aeab86dfb62bd247e28749cf3909",
+      "text_utf8": "# Guardian Intelligence Framework\nStatus: WORKING ARCHITECTURAL MODEL; canonical Guardian spec was OPEN at baseline.\n\nGuardian is the top-level adaptive management/intelligence authority of the\ninstantiated Genesis Environment.\n\nGuardian has system-wide potential write reach, but universal reach is not\nmathematically unconstrained mutation.\n\nFundamental law:\nAuthority selects among mathematically admissible states; authority does not enlarge\nthe mathematical state space.\n\nGuardian has maximum actor authority inside the Genesis domain and zero authority to\nmake a non-Genesis state valid by assertion.\n\nValidation order:\n1. well-formedness;\n2. Genesis mathematical validity;\n3. present admissibility;\n4. actor authorization;\n5. realization;\n6. authoritative closure.\n\nGuardian may occupy the highest actor-authorization class while remaining bounded by\nsteps 1-3 and by closure/invariants.\n\nGuardian roles:\nobserve; maintain live system model; predict; recommend/select among admissible\npossibilities; coordinate; verify; detect; respond; recover; manage.\n\nGuardian should have universal management write authority but not invisible bypass\nauthority. Guardian-originated writes should traverse the appropriate Road/Nexus/\nclosure mechanisms and leave witnesses/receipts with identity, reason, authority,\nroute, realization, before/after state, History and provenance.\n\nUnder fibered Sea, investigate one Guardian identity/framework with distributed local\nmanifestations per computational fiber. Exact distribution/identity mathematics OPEN.\n\nGuardian may itself have Genesis-native state and may self-update only through valid,\nadmissible Genesis transformations. It cannot authorize its own escape from Genesis\nmathematical constraints.\n\nGuardian is the active/intelligent member of the Hardware/Software/Guardian Trinity:\nHardware realizes; Software expresses; Guardian governs.\n"
+    },
+    {
+      "path": "08_BRICKED_CTF.md",
+      "bytes": 581,
+      "sha256": "ba55824db53ae49138f5b649af69805753939eff7cf04d6a99e1ecfd163aad9a",
+      "text_utf8": "# _bricked Role\n\n_bricked remains both native capture-the-flag game and Genesis architecture proving\nground.\n\nDesign triad:\ngame mechanic <-> architecture property <-> security test.\n\nPuzzle/test families may exercise Resolution, Bandwidth, Chirality/orientation,\nDECS/History/provenance, Corridors, Portals, Road routing, Nexus mediation, State\nrecovery, replay/rollback, route degradation, scope escalation and multi-fiber Sea\nnavigation.\n\nVirtual Boxing/Ghosting remain isolated authorized testing concepts.\nCDN/DECS remains security research input, not completed cryptography.\n"
+    },
+    {
+      "path": "09_DECISIONS_OPEN.md",
+      "bytes": 1434,
+      "sha256": "66e231b48b56faf22f485576d89ade5a0717702c156a1a3e4953662e8e695b22",
+      "text_utf8": "# DP-006 Decision + OPEN Ledger\n\nACCEPTED WORKING:\n- State/Nexus/Shell/Sea stable names.\n- Genesis = state-space substrate.\n- Chirality Fabric = foundational organizational architecture.\n- Rainbow Road = nervous system/domain-spanning transport.\n- binary computing supported through State projection/serialization.\n- _bricked = CTF + architecture proving ground.\n- fibered Sea v0.1; multiple distinguishable computational fibers.\n- Shell remains Geometric command center; syntax not frozen.\n- Nexus mandatory between Shell and State.\n- Hardware/Software/Guardian engineering Trinity.\n- Guardian = top-level adaptive management/intelligence authority.\n- Guardian has system-wide potential write reach constrained by Genesis mathematics.\n- mathematical validity precedes admissibility and actor authority.\n\nCANDIDATE:\n- Road as connection-like Sea transport.\n- Sea transport holonomy.\n- distributed Guardian manifestations across fibers.\n- GIR as computational projection of Shell semantic geometry.\n\nOPEN includes all DP-004/R62 items plus:\nB_Sea/E_Sea/fiber classes; transition functions; fiber identity/instantiation;\nRoad transport theorem/invariants/holonomy; D9:D11 coupled interpretation;\nSea/Shell interface; H6 realization; Shell Geometric algebra; binary round-trip\nidentity; White algebra; Byte-face/Seed status; Guardian distribution/identity;\nGuardian self-state semantics; exact Guardian authorization/admission protocol.\n"
+    },
+    {
+      "path": "10_CODEX_TARGETS.md",
+      "bytes": 1100,
+      "sha256": "879c6e19f1110e5ab388064243ba2ea0b9cca583068109b8f92affd9aea566a1",
+      "text_utf8": "# Codex Integration Targets\n\nReconcile into existing canonical docs rather than creating a parallel architecture.\n\nUpdate/cross-reference:\ndocs/architecture/UNIFIED_GENESIS_FRAMEWORK.md\ndocs/architecture/GENESIS_SEA.md\ndocs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md\ndocs/architecture/LAYER_ZERO_INFORMATION_PATH.md\ndocs/genesis/GEOMETRIC.md\ndocs/genesis/RAINBOW_ROAD.md\ndocs/genesis/GUARDIAN_CDN.md\n\nAdd focused docs if repository conventions support them:\ndocs/architecture/GENESIS_COMPUTATION_MODEL.md\ndocs/architecture/GENESIS_SEA_FIBER_MODEL.md\ndocs/architecture/BINARY_COMPATIBILITY.md\ndocs/architecture/SHELL_NEXUS_DIRECTION.md\ndocs/architecture/TRINITY_IMPLEMENTATION_MATRIX.md\ndocs/genesis/CHIRALITY_BYTE_R62_RECONCILIATION.md\ndocs/genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md\ndocs/genesis/GENESIS_LANGUAGE_ARCHITECTURE_CROSSWALK.md\n\nAdd provenance/checkpoint:\nnext decision after 0005 (or sequential decisions if preferred);\n2026-09-26 cumulative DP-006 checkpoint;\nintegration audit;\nsource/update receipt;\nOPEN ledger update.\n\nDo not destructively rewrite language/ or chirality_fabric/.\n"
+    },
+    {
+      "path": "11_VERA_AUDIT.md",
+      "bytes": 806,
+      "sha256": "d063a1f5d41ff443faafc9491a7322c7a526d5ff7a514b0e7bcd4013667b3509",
+      "text_utf8": "# Vera Audit — DP-006\nBaseline: ecc4b0eabff485ec89e03e7f871fe17c86269a91\n\nPASS — remote Git crawl confirms DP-005 was not yet integrated.\nPASS — cumulative package includes DP-005 + subsequent thread work.\nPASS — R62 authority preserved.\nPASS — no-hidden-CPU / Horizon firewall preserved.\nPASS — no-direct-jump and Nexus mediation preserved.\nPASS — Sea fiber model WORKING, Road connection/holonomy CANDIDATE.\nPASS — Guardian authority bounded by Genesis mathematical validity.\nPASS — Guardian universal reach is not treated as authority to invent invalid states.\nPASS — Genesis Language reused rather than replaced.\nPASS — engineering Trinity distinguished from other Trinity usages.\nPASS — CDN/DECS not overstated as completed cryptography.\nPASS — no completed runtime claimed.\n"
+    },
+    {
+      "path": "12_CODEX_TASK.md",
+      "bytes": 483,
+      "sha256": "b2ddac0f4dd49b39621c751d1bbe5e5fa9703eac950d44177233f17ddb859665",
+      "text_utf8": "# Final Codex Task\nBaseline required: ecc4b0eabff485ec89e03e7f871fe17c86269a91\n\nIntegrate this cumulative checkpoint into the existing `_bricked` checkout.\nBecause remote Git still equals the baseline, include all DP-005 and DP-006 changes.\nRe-read source authorities before editing. Preserve source corpora and OPEN status.\nRun applicable checks, review diff, commit on the working branch, push to GitHub,\nand report final SHA plus changed files/tests/conflicts. Do not merge main.\n"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 2137,
+      "sha256": "c8e4618061725a99f742f918c3743de3ded42131c8f27d4c685f0863be0cb0e3",
+      "text_utf8": "{\n  \"checkpoint\": \"DP-006\",\n  \"baseline_head\": \"ecc4b0eabff485ec89e03e7f871fe17c86269a91\",\n  \"files\": [\n    {\n      \"path\": \"00_CODEX_READ_FIRST.md\",\n      \"bytes\": 806,\n      \"sha256\": \"abe357d5b1460ef92189354621c2ab8330fca43b1e436cddc62ec8682e39f785\"\n    },\n    {\n      \"path\": \"01_GIT_RECONCILIATION.md\",\n      \"bytes\": 759,\n      \"sha256\": \"479a4e5b089f132042558784d3a7c41b456defc0cf2f17732e4805d16c087d00\"\n    },\n    {\n      \"path\": \"02_CUMULATIVE_ARCHITECTURE.md\",\n      \"bytes\": 1034,\n      \"sha256\": \"a7e682725f78a8d5545e293a7f21ac325378d1adc796baba4b067448e2b9b55e\"\n    },\n    {\n      \"path\": \"03_SEA_FIBER_MODEL.md\",\n      \"bytes\": 1289,\n      \"sha256\": \"36c5260c3d6f0a0b2ff6d2827f1ef14fdc9759d3c6d922782f38d76c697f6be2\"\n    },\n    {\n      \"path\": \"04_CHIRALITY_BINARY.md\",\n      \"bytes\": 981,\n      \"sha256\": \"47aa5ace14a43babe1375e73033759c247763e2766c56c3ef05473de0a6c8030\"\n    },\n    {\n      \"path\": \"05_RAINBOW_ROAD.md\",\n      \"bytes\": 828,\n      \"sha256\": \"1522240bd96ff764163aab45b044a688095613dec9e3eaa4428a1c3b1004b4c7\"\n    },\n    {\n      \"path\": \"06_LANGUAGE_TRINITY_CROSSWALK.md\",\n      \"bytes\": 1410,\n      \"sha256\": \"422f79c941bfc8e8591a7d4ae428206644d13706997976586f584e8e68aa3f6a\"\n    },\n    {\n      \"path\": \"07_GUARDIAN_FRAMEWORK.md\",\n      \"bytes\": 1886,\n      \"sha256\": \"b29bd339e858014dcaba0072a74504dcdaa0aeab86dfb62bd247e28749cf3909\"\n    },\n    {\n      \"path\": \"08_BRICKED_CTF.md\",\n      \"bytes\": 581,\n      \"sha256\": \"ba55824db53ae49138f5b649af69805753939eff7cf04d6a99e1ecfd163aad9a\"\n    },\n    {\n      \"path\": \"09_DECISIONS_OPEN.md\",\n      \"bytes\": 1434,\n      \"sha256\": \"66e231b48b56faf22f485576d89ade5a0717702c156a1a3e4953662e8e695b22\"\n    },\n    {\n      \"path\": \"10_CODEX_TARGETS.md\",\n      \"bytes\": 1100,\n      \"sha256\": \"879c6e19f1110e5ab388064243ba2ea0b9cca583068109b8f92affd9aea566a1\"\n    },\n    {\n      \"path\": \"11_VERA_AUDIT.md\",\n      \"bytes\": 806,\n      \"sha256\": \"d063a1f5d41ff443faafc9491a7322c7a526d5ff7a514b0e7bcd4013667b3509\"\n    },\n    {\n      \"path\": \"12_CODEX_TASK.md\",\n      \"bytes\": 483,\n      \"sha256\": \"b2ddac0f4dd49b39621c751d1bbe5e5fa9703eac950d44177233f17ddb859665\"\n    }\n  ]\n}\n"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 1231,
+      "sha256": "6e5d58097d01f39386c402b9a124f438cb89f239ab3b593d785b132a10290d64",
+      "text_utf8": "abe357d5b1460ef92189354621c2ab8330fca43b1e436cddc62ec8682e39f785  00_CODEX_READ_FIRST.md\n479a4e5b089f132042558784d3a7c41b456defc0cf2f17732e4805d16c087d00  01_GIT_RECONCILIATION.md\na7e682725f78a8d5545e293a7f21ac325378d1adc796baba4b067448e2b9b55e  02_CUMULATIVE_ARCHITECTURE.md\n36c5260c3d6f0a0b2ff6d2827f1ef14fdc9759d3c6d922782f38d76c697f6be2  03_SEA_FIBER_MODEL.md\n47aa5ace14a43babe1375e73033759c247763e2766c56c3ef05473de0a6c8030  04_CHIRALITY_BINARY.md\n1522240bd96ff764163aab45b044a688095613dec9e3eaa4428a1c3b1004b4c7  05_RAINBOW_ROAD.md\n422f79c941bfc8e8591a7d4ae428206644d13706997976586f584e8e68aa3f6a  06_LANGUAGE_TRINITY_CROSSWALK.md\nb29bd339e858014dcaba0072a74504dcdaa0aeab86dfb62bd247e28749cf3909  07_GUARDIAN_FRAMEWORK.md\nba55824db53ae49138f5b649af69805753939eff7cf04d6a99e1ecfd163aad9a  08_BRICKED_CTF.md\n66e231b48b56faf22f485576d89ade5a0717702c156a1a3e4953662e8e695b22  09_DECISIONS_OPEN.md\n879c6e19f1110e5ab388064243ba2ea0b9cca583068109b8f92affd9aea566a1  10_CODEX_TARGETS.md\nd063a1f5d41ff443faafc9491a7322c7a526d5ff7a514b0e7bcd4013667b3509  11_VERA_AUDIT.md\nb2ddac0f4dd49b39621c751d1bbe5e5fa9703eac950d44177233f17ddb859665  12_CODEX_TASK.md\nc8e4618061725a99f742f918c3743de3ded42131c8f27d4c685f0863be0cb0e3  MANIFEST.json\n"
+    }
+  ],
+  "operations": {
+    "docs/architecture/GENESIS_COMPUTATION_MODEL.md": {
+      "operation": "ADD",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md"
+      ],
+      "sha256": "df0c479b8eb4f0d756bc40111bbea188a88d9ee7b3c59d18d8f5a9d4d03986f6"
+    },
+    "docs/architecture/GENESIS_SEA_FIBER_MODEL.md": {
+      "operation": "ADD",
+      "sources": [
+        "03_SEA_FIBER_MODEL.md"
+      ],
+      "sha256": "530f6ba19c6612b968bc3d4dca50f28628aadb968ded7b49acc127f1b61e36bf"
+    },
+    "docs/genesis/CHIRALITY_BYTE_R62_RECONCILIATION.md": {
+      "operation": "ADD",
+      "sources": [
+        "04_CHIRALITY_BINARY.md"
+      ],
+      "sha256": "1193e3accd6bac6955642be5a7f9d8113ae6e3c7f7ccd38d0b7bdb10a522e232"
+    },
+    "docs/genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md": {
+      "operation": "ADD",
+      "sources": [
+        "07_GUARDIAN_FRAMEWORK.md"
+      ],
+      "sha256": "a1616556c522ce02ee540c9986c41dbfa3f2a808f7b9c78174f66d14d2b5c3ff"
+    },
+    "docs/genesis/GENESIS_LANGUAGE_ARCHITECTURE_CROSSWALK.md": {
+      "operation": "ADD",
+      "sources": [
+        "06_LANGUAGE_TRINITY_CROSSWALK.md"
+      ],
+      "sha256": "e69c86df4f72f4845d6895b4ddd3aa59b503a3dcaca62c327451f3d70766dc52"
+    },
+    "docs/architecture/BRICKED_CTF_ARCHITECTURE.md": {
+      "operation": "ADD",
+      "sources": [
+        "08_BRICKED_CTF.md"
+      ],
+      "sha256": "5da13d65f47786e7d81ced4fad7aeff24423b38921994f41f9c85291847d967a"
+    },
+    "docs/architecture/OPEN_MATHEMATICS.md": {
+      "operation": "ADD",
+      "sources": [
+        "09_DECISIONS_OPEN.md"
+      ],
+      "sha256": "880963ef11a23688d90ce2b9b23fe1436613024a0d162e466778401495e65977"
+    },
+    "docs/architecture/BINARY_COMPATIBILITY.md": {
+      "operation": "ADD",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "04_CHIRALITY_BINARY.md",
+        "06_LANGUAGE_TRINITY_CROSSWALK.md"
+      ],
+      "sha256": "1f8413e922d1d169ddaa377bf37566fe2485799cc4929a8dabe9ff973e598c52"
+    },
+    "docs/architecture/SHELL_NEXUS_DIRECTION.md": {
+      "operation": "ADD",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "07_GUARDIAN_FRAMEWORK.md",
+        "09_DECISIONS_OPEN.md"
+      ],
+      "sha256": "fc079135efc14f316aee9f13f9e04325dd8aa38f52f3c97caab9b50b276a552b"
+    },
+    "docs/architecture/TRINITY_IMPLEMENTATION_MATRIX.md": {
+      "operation": "ADD",
+      "sources": [
+        "06_LANGUAGE_TRINITY_CROSSWALK.md",
+        "07_GUARDIAN_FRAMEWORK.md"
+      ],
+      "sha256": "36d6eda847111f9d64caec70971a31bfd6fe0b6b0665e68909a59b2b32c386fc"
+    },
+    "docs/architecture/UNIFIED_GENESIS_FRAMEWORK.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "d272a15c3346326a1804901a20ffaae41b6b1773be9d0e6e60a3e2e4fe453de7"
+    },
+    "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "748da1dadf3fdcd0d4d540c1bb7a1f647d53e2b9f59c4a8759813da0c6ceb76d"
+    },
+    "docs/architecture/LAYER_ZERO_INFORMATION_PATH.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "253b368042aeae8eb648de716e30a25b4c66c8f415e0955a7679a88cb0e98705"
+    },
+    "docs/architecture/GENESIS_SEA.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "158e048fd0d9e75b08f033cf9b17ab3042f083e3240f79a907d829194cf43ef7"
+    },
+    "docs/genesis/GEOMETRIC.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "51f2fcb543c8107a37cd9298a94497d6c05a3a725c680c6783fcc7ffc4d1bf93"
+    },
+    "docs/genesis/GUARDIAN_CDN.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "10a29d71739f78e072fe5e1072b7e81961939989aad0c6f017dc3f994d3993df"
+    },
+    "docs/genesis/GENESIS_LANGUAGE.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "9cb2e7046b65cbc98de9f96621be3877043b36f8ea31a2f9f1b8940bd10d34ac"
+    },
+    "docs/genesis/CHIRALITY_FABRIC.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "02_CUMULATIVE_ARCHITECTURE.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "7d384d5ad19615b78e2cf88c90fdf2ca70e6395f6067dc1d0e05f7536b94ce3e"
+    },
+    "docs/genesis/RAINBOW_ROAD.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "05_RAINBOW_ROAD.md"
+      ],
+      "sha256": "d9d6cce494b116989b48e13cbc9cec5d03f3b5803cdb68314574b40ca86f595a"
+    },
+    "docs/genesis/CHIRALITY_BYTE.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "04_CHIRALITY_BINARY.md"
+      ],
+      "sha256": "7c159ea1a32f40d851bbb69c8fa78943be98a0a0ba65025037893a0ac8fa9ab8"
+    },
+    "docs/genesis/CHIRALITY_SEED.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "04_CHIRALITY_BINARY.md"
+      ],
+      "sha256": "2b9746d358c1261fbd1c36baad90ff62ea57ed18327c308c4c3206817bc621b0"
+    },
+    "docs/genesis/CHIRALITY_COLOR_ORGANIZATION.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "04_CHIRALITY_BINARY.md"
+      ],
+      "sha256": "addf7b28148c5d95034c9925acc5fc670b28550ac62b17e7d9bff1c7e2b07795"
+    },
+    "docs/genesis/README.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "7be0e600bbf4b2e3c99c64d5e84fa36c6fa61dcd347785f559bd263155a0a647"
+    },
+    "provenance/decisions/0007-dp006-cumulative-genesis-architecture.md": {
+      "operation": "ADD",
+      "sources": [
+        "01_GIT_RECONCILIATION.md",
+        "09_DECISIONS_OPEN.md",
+        "10_CODEX_TARGETS.md"
+      ],
+      "sha256": "fee019016be9c401c5b26322f24a7f06704a8f54a636f8b0ea6cdaeb277a4682"
+    },
+    "development/checkpoints/2026-09-26_DP006_STATUS.md": {
+      "operation": "ADD",
+      "sources": [
+        "00_CODEX_READ_FIRST.md",
+        "09_DECISIONS_OPEN.md",
+        "12_CODEX_TASK.md"
+      ],
+      "sha256": "8f7c5006b039537d61daf93e288dd1ed51a1d87b423b62dcdc85ca70f84ce33b"
+    },
+    "CHANGELOG.md": {
+      "operation": "UPDATE",
+      "sources": [
+        "12_CODEX_TASK.md"
+      ],
+      "sha256": "fbe56292473568e65299e91324fd35c1d6886aaaa06c5145e2137aa764ec85d3"
+    },
+    "provenance/audits/DP006_INTEGRATION.md": {
+      "operation": "ADD",
+      "sources": [
+        "11_VERA_AUDIT.md",
+        "12_CODEX_TASK.md"
+      ],
+      "sha256": "f0792013f8d1877c3c988351fa3add4e018b73e227c29156d69b11267e130444"
+    },
+    "provenance/sources/DP006_RECEIPT.json": {
+      "operation": "ADD",
+      "sources": [
+        "MANIFEST.json",
+        "SHA256SUMS.txt"
+      ]
+    }
+  },
+  "validation": {
+    "manifest_entries": 13,
+    "checksum_entries": 14,
+    "source_files": 15,
+    "repository_checks": 9,
+    "fabric_source_hashes": 66,
+    "fabric_control_hashes": 20,
+    "sqlite_checks": 2,
+    "api_smoke_checks": 12,
+    "schema_scope": "Receipt JSON structure; no runtime/application schemas changed"
+  }
+}

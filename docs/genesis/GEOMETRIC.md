@@ -22,3 +22,7 @@ Resolution and Bandwidth belong upstream to Genesis organization; they are not a
 ## Provenance
 
 Source: DP-004 `01_ARCHITECTURE/GEOMETRIC.md`; see the [integration decision](../../provenance/decisions/0005-dp004-unified-genesis-framework.md) and [checksum receipt](../../provenance/sources/DP004_RECEIPT.json).
+
+## DP-006 architectural placement
+
+Geometrics remain native bounded identity-bearing Genesis objects in a state-space substrate; the definition above is preserved. Conventional files may have State Geometric representations, but serialization is not object identity and its round-trip identity contract is OPEN. See [binary compatibility](../architecture/BINARY_COMPATIBILITY.md), [language crosswalk](GENESIS_LANGUAGE_ARCHITECTURE_CROSSWALK.md) and [DP-006](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).

@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### 2026-09-26 — Cumulative DP-006 architecture
+
+- Integrated DP-005/DP-006 State/Nexus/Shell/Sea, Sea fiber working model, Road transport and language/engineering Trinity direction.
+- Recorded mathematics-bounded Guardian authority and the CTF architecture proving-ground role.
+- Qualified Byte-face/Seed identity against R62 as OPEN; preserved source corpora, constitutions and DP-004 history.
+- Added the source receipt, checkpoint, decision, OPEN ledger and integration audit.
+
 ### 2026-09-26 — Independent Chirality Fabric R62 source ingest
 
 - Reconstructed the exact R62 checkpoint from all 21 verified A–U volumes using the supplied ASSEMBLY script.

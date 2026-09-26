@@ -31,3 +31,7 @@ See the [workshop decision](../../provenance/decisions/0002-genesis-horizon-work
 The [unified framework](../architecture/UNIFIED_GENESIS_FRAMEWORK.md) preserves the hard Horizon rule and DP-003 topology. [Geometric](GEOMETRIC.md), [Chirality Byte](CHIRALITY_BYTE.md), [Seed](CHIRALITY_SEED.md), [color organization](CHIRALITY_COLOR_ORGANIZATION.md), [BRANE role](../architecture/BRANE_ROLE.md) and [Corridor / Portal / Rainbow Road](../architecture/CORRIDOR_PORTAL_RAINBOW_ROAD.md) record the accepted working distinctions.
 
 DP-004 now promotes the Byte and Rainbow Road placeholders to working definitions; the DP-001 placeholder count above describes that earlier checkpoint. Final primitive status and missing mathematics remain OPEN. The [decision and OPEN register](../../provenance/decisions/0005-dp004-unified-genesis-framework.md) records authority and source limits.
+
+## Cumulative DP-006 working update
+
+Start with the [unified framework](../architecture/UNIFIED_GENESIS_FRAMEWORK.md), [language crosswalk](GENESIS_LANGUAGE_ARCHITECTURE_CROSSWALK.md), [Guardian framework](GUARDIAN_INTELLIGENCE_FRAMEWORK.md), [R62 Byte reconciliation](CHIRALITY_BYTE_R62_RECONCILIATION.md) and [OPEN ledger](../architecture/OPEN_MATHEMATICS.md). The [checkpoint](../../development/checkpoints/2026-09-26_DP006_STATUS.md) records the cumulative DP-005/DP-006 delta; prior checkpoints remain historical records.
