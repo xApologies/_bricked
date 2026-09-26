@@ -1,0 +1,9 @@
+* -text whitespace=cr-at-eol
+R62/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+provenance/ASSEMBLY/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+provenance/Handoff/** whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.sqlite binary

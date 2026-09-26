@@ -1,0 +1,957 @@
+{
+  "qmo_id": "QMO-TIME-SPACE-TO-CONSCIOUSNESS-20260826-001",
+  "handle": "@qmo_time_space_to_consciousness",
+  "qmo_type": "RouteBoundedUnifiedQMO",
+  "status": "QUERY_GENERATED",
+  "generated_date": "2026-08-26",
+  "parent_qmo": "@mk43_unified_qmo_v2",
+  "parent_api_release": "2.0.0-candidate",
+  "query": {
+    "source": "@time_space",
+    "target": "@consciousness",
+    "mode": "strict",
+    "max_depth": 16,
+    "route_found": true,
+    "api_call": "python 02_MACHINE/unified_qmo_api.py route @time_space @consciousness --mode strict --depth 16"
+  },
+  "route_summary": {
+    "composed_relation": "COMPOSED_DEPENDENCY",
+    "primitive_witness": [
+      "@time_space",
+      "@graviton",
+      "@consciousness"
+    ],
+    "interpretation_rule": "Route existence records a typed dependency route; it is not by itself a theorem or identity claim."
+  },
+  "canonical_objects": {
+    "@time_space": {
+      "handle": "@time_space",
+      "canonical_name": "Time-Space",
+      "object_type": "mathematical_object",
+      "first_namespace": "API43",
+      "first_source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "notes": ""
+    },
+    "@graviton": {
+      "handle": "@graviton",
+      "canonical_name": "Graviton",
+      "object_type": "mathematical_object",
+      "first_namespace": "API43",
+      "first_source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "notes": ""
+    },
+    "@consciousness": {
+      "handle": "@consciousness",
+      "canonical_name": "Consciousness",
+      "object_type": "mathematical_object",
+      "first_namespace": "API43",
+      "first_source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "notes": ""
+    }
+  },
+  "namespace_instances": {
+    "@time_space": [
+      {
+        "instance_id": "OBJ-667d943f22ee082c9b3d",
+        "handle": "@time_space",
+        "namespace": "API43",
+        "version": "1.0.0",
+        "canonical_name": "Time-Space",
+        "object_type": "mathematical_object",
+        "status": "active",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "PARENT_UNIFIED_API",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "{\"status_variants\":[{\"source\":\"HERE_BE_DARK_MATTER_LIBRARY\",\"status\":\"active\"}]}",
+        "payload_json": "{\"models\":[\"model://api43\",\"model://here-be-dark-matter\",\"model://timespace43\"],\"variants\":[{\"record\":{\"criticality\":\"critical\",\"handle\":\"@time_space\",\"name\":\"Time-Space\",\"occurrence_lines\":[7774,27473,33703,34083,36533,36843,43998,44919,44943,45139,45140,45141,45142,45143,45358,45386,45449,45477,45820,45845],\"origin\":\"TIMESPACE_4.3\",\"parent_downstream\":\"@conscious_experience, @cosmological_closure, @genesis_field, @graviton, @structured_temporal_manifold\",\"parent_status\":null,\"parent_upstream\":\"none\",\"registry_line\":45845,\"source_occurrences\":null,\"uri\":null},\"source\":\"DM22_HANDLE_REGISTRY\"}]}"
+      },
+      {
+        "instance_id": "OBJ-1d5e2155181d603f402f",
+        "handle": "@time_space",
+        "namespace": "STONEWAKE::API43",
+        "version": "1.1",
+        "canonical_name": "Time-Space",
+        "object_type": "",
+        "status": "",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "\"RP42_DEPENDENCY_INDEX.json\"",
+        "payload_json": "{\"definition\":\"\",\"domain\":\"API43\",\"handle\":\"@time_space\",\"id\":2255,\"name\":\"Time-Space\",\"source\":\"RP42_DEPENDENCY_INDEX.json\",\"status\":\"\",\"type\":\"\"}"
+      },
+      {
+        "instance_id": "OBJ-a2af4f9ac45ea0858b75",
+        "handle": "@time_space",
+        "namespace": "STONEWAKE::DARK_MATTER",
+        "version": "1.1",
+        "canonical_name": "@time_space",
+        "object_type": "",
+        "status": "",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "[]",
+        "payload_json": "{\"definition\":\"\",\"domain\":\"DARK_MATTER\",\"handle\":\"@time_space\",\"id\":2487,\"name\":\"@time_space\",\"source\":\"\",\"status\":\"\",\"type\":\"\"}"
+      },
+      {
+        "instance_id": "OBJ-c81cd833ba4e7be1ad11",
+        "handle": "@time_space",
+        "namespace": "TIME_SPACE_4_3",
+        "version": "1.0.0",
+        "canonical_name": "Time-Space",
+        "object_type": "mathematical_object",
+        "status": "active",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "PARENT_UNIFIED_API",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "{\"status_variants\":[{\"source\":\"HERE_BE_DARK_MATTER_LIBRARY\",\"status\":\"active\"}]}",
+        "payload_json": "{\"models\":[\"model://api43\",\"model://here-be-dark-matter\",\"model://timespace43\"],\"variants\":[{\"record\":{\"criticality\":\"critical\",\"handle\":\"@time_space\",\"name\":\"Time-Space\",\"occurrence_lines\":[7774,27473,33703,34083,36533,36843,43998,44919,44943,45139,45140,45141,45142,45143,45358,45386,45449,45477,45820,45845],\"origin\":\"TIMESPACE_4.3\",\"parent_downstream\":\"@conscious_experience, @cosmological_closure, @genesis_field, @graviton, @structured_temporal_manifold\",\"parent_status\":null,\"parent_upstream\":\"none\",\"registry_line\":45845,\"source_occurrences\":null,\"uri\":null},\"source\":\"DM22_HANDLE_REGISTRY\"}]}"
+      }
+    ],
+    "@graviton": [
+      {
+        "instance_id": "OBJ-bf97b88764be669c28ac",
+        "handle": "@graviton",
+        "namespace": "API43",
+        "version": "1.0.0",
+        "canonical_name": "Graviton",
+        "object_type": "mathematical_object",
+        "status": "active",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "Downstream gravity projection-mode object.",
+        "math_json": "{}",
+        "authority": "PARENT_UNIFIED_API",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "{\"status_variants\":[{\"source\":\"HERE_BE_DARK_MATTER_LIBRARY\",\"status\":\"active\"},{\"source\":\"HIGGS_V1_1\",\"status\":\"EXTERNAL_API43_REFERENCE\",\"type\":\"Mode\"}]}",
+        "payload_json": "{\"models\":[\"model://api43\",\"model://here-be-dark-matter\",\"model://higgs-work-v1.1\",\"model://timespace43\"],\"variants\":[{\"record\":{\"criticality\":\"critical\",\"handle\":\"@graviton\",\"name\":\"Graviton\",\"occurrence_lines\":[6903,7092,7109,7317,7832,7833,15517,15538,15667,15834,27526,33713,36838,36848,36934,43933,44004,44911,44958,45082],\"origin\":\"TIMESPACE_4.3\",\"parent_downstream\":\"@consciousness, @continuity_perturbation, @time_shell\",\"parent_status\":null,\"parent_upstream\":\"@gravitational_helicon_mode, @helicon, @time_space\",\"registry_line\":45474,\"source_occurrences\":null,\"uri\":null},\"source\":\"DM22_HANDLE_REGISTRY\"},{\"record\":{\"aliases\":[],\"canonical_handle\":\"@graviton\",\"canonical_name\":\"Graviton\",\"definition\":\"Downstream gravity projection-mode object.\",\"equations\":[],\"model_handle\":\"@higgs_work_qmo\",\"notes\":[],\"provenance\":[\"API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752\"],\"status\":\"EXTERNAL_API43_REFERENCE\",\"symbols\":[],\"type\":\"Mode\"},\"source\":\"HIGGS_OBJECT_REGISTRY\"}]}"
+      },
+      {
+        "instance_id": "OBJ-0b0c50d0e3a6738b2b97",
+        "handle": "@graviton",
+        "namespace": "HIGGS_WORK_LAYER_V1_1",
+        "version": "1.0.0",
+        "canonical_name": "Graviton",
+        "object_type": "mathematical_object",
+        "status": "active",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "Downstream gravity projection-mode object.",
+        "math_json": "{}",
+        "authority": "PARENT_UNIFIED_API",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "{\"status_variants\":[{\"source\":\"HERE_BE_DARK_MATTER_LIBRARY\",\"status\":\"active\"},{\"source\":\"HIGGS_V1_1\",\"status\":\"EXTERNAL_API43_REFERENCE\",\"type\":\"Mode\"}]}",
+        "payload_json": "{\"models\":[\"model://api43\",\"model://here-be-dark-matter\",\"model://higgs-work-v1.1\",\"model://timespace43\"],\"variants\":[{\"record\":{\"criticality\":\"critical\",\"handle\":\"@graviton\",\"name\":\"Graviton\",\"occurrence_lines\":[6903,7092,7109,7317,7832,7833,15517,15538,15667,15834,27526,33713,36838,36848,36934,43933,44004,44911,44958,45082],\"origin\":\"TIMESPACE_4.3\",\"parent_downstream\":\"@consciousness, @continuity_perturbation, @time_shell\",\"parent_status\":null,\"parent_upstream\":\"@gravitational_helicon_mode, @helicon, @time_space\",\"registry_line\":45474,\"source_occurrences\":null,\"uri\":null},\"source\":\"DM22_HANDLE_REGISTRY\"},{\"record\":{\"aliases\":[],\"canonical_handle\":\"@graviton\",\"canonical_name\":\"Graviton\",\"definition\":\"Downstream gravity projection-mode object.\",\"equations\":[],\"model_handle\":\"@higgs_work_qmo\",\"notes\":[],\"provenance\":[\"API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752\"],\"status\":\"EXTERNAL_API43_REFERENCE\",\"symbols\":[],\"type\":\"Mode\"},\"source\":\"HIGGS_OBJECT_REGISTRY\"}]}"
+      },
+      {
+        "instance_id": "OBJ-3c7cb272daecdd39f8b7",
+        "handle": "@graviton",
+        "namespace": "STONEWAKE::API43",
+        "version": "1.1",
+        "canonical_name": "Family: `F0_MK43_ATTACHMENT`",
+        "object_type": "",
+        "status": "",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "\"RP42_DEPENDENCY_INDEX.json\"",
+        "payload_json": "{\"definition\":\"\",\"domain\":\"API43\",\"handle\":\"@graviton\",\"id\":1190,\"name\":\"Family: `F0_MK43_ATTACHMENT`\",\"source\":\"RP42_DEPENDENCY_INDEX.json\",\"status\":\"\",\"type\":\"\"}"
+      },
+      {
+        "instance_id": "OBJ-3b1e0473e8286eb01ab8",
+        "handle": "@graviton",
+        "namespace": "STONEWAKE::DARK_MATTER",
+        "version": "1.1",
+        "canonical_name": "@graviton",
+        "object_type": "",
+        "status": "",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "[]",
+        "payload_json": "{\"definition\":\"\",\"domain\":\"DARK_MATTER\",\"handle\":\"@graviton\",\"id\":2446,\"name\":\"@graviton\",\"source\":\"\",\"status\":\"\",\"type\":\"\"}"
+      },
+      {
+        "instance_id": "OBJ-50149ab563cb12974f6f",
+        "handle": "@graviton",
+        "namespace": "STONEWAKE::HIGGS",
+        "version": "1.1",
+        "canonical_name": "Graviton",
+        "object_type": "Mode",
+        "status": "EXTERNAL_API43_REFERENCE",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "Downstream gravity projection-mode object.",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "\"API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752\"",
+        "payload_json": "{\"definition\":\"Downstream gravity projection-mode object.\",\"domain\":\"HIGGS\",\"handle\":\"@graviton\",\"id\":2711,\"name\":\"Graviton\",\"source\":\"API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752\",\"status\":\"EXTERNAL_API43_REFERENCE\",\"type\":\"Mode\"}"
+      },
+      {
+        "instance_id": "OBJ-b4a4ec5de10299c7cef8",
+        "handle": "@graviton",
+        "namespace": "STONEWAKE::STONEWAKE",
+        "version": "1.1",
+        "canonical_name": "@graviton",
+        "object_type": "",
+        "status": "",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "[]",
+        "payload_json": "{\"definition\":\"\",\"domain\":\"STONEWAKE\",\"handle\":\"@graviton\",\"id\":2758,\"name\":\"@graviton\",\"source\":\"\",\"status\":\"\",\"type\":\"\"}"
+      },
+      {
+        "instance_id": "OBJ-0c241a3cbc16d32ff7ce",
+        "handle": "@graviton",
+        "namespace": "TIME_SPACE_4_3",
+        "version": "1.0.0",
+        "canonical_name": "Graviton",
+        "object_type": "mathematical_object",
+        "status": "active",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "Downstream gravity projection-mode object.",
+        "math_json": "{}",
+        "authority": "PARENT_UNIFIED_API",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "{\"status_variants\":[{\"source\":\"HERE_BE_DARK_MATTER_LIBRARY\",\"status\":\"active\"},{\"source\":\"HIGGS_V1_1\",\"status\":\"EXTERNAL_API43_REFERENCE\",\"type\":\"Mode\"}]}",
+        "payload_json": "{\"models\":[\"model://api43\",\"model://here-be-dark-matter\",\"model://higgs-work-v1.1\",\"model://timespace43\"],\"variants\":[{\"record\":{\"criticality\":\"critical\",\"handle\":\"@graviton\",\"name\":\"Graviton\",\"occurrence_lines\":[6903,7092,7109,7317,7832,7833,15517,15538,15667,15834,27526,33713,36838,36848,36934,43933,44004,44911,44958,45082],\"origin\":\"TIMESPACE_4.3\",\"parent_downstream\":\"@consciousness, @continuity_perturbation, @time_shell\",\"parent_status\":null,\"parent_upstream\":\"@gravitational_helicon_mode, @helicon, @time_space\",\"registry_line\":45474,\"source_occurrences\":null,\"uri\":null},\"source\":\"DM22_HANDLE_REGISTRY\"},{\"record\":{\"aliases\":[],\"canonical_handle\":\"@graviton\",\"canonical_name\":\"Graviton\",\"definition\":\"Downstream gravity projection-mode object.\",\"equations\":[],\"model_handle\":\"@higgs_work_qmo\",\"notes\":[],\"provenance\":[\"API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752\"],\"status\":\"EXTERNAL_API43_REFERENCE\",\"symbols\":[],\"type\":\"Mode\"},\"source\":\"HIGGS_OBJECT_REGISTRY\"}]}"
+      }
+    ],
+    "@consciousness": [
+      {
+        "instance_id": "OBJ-3e5e26fb771f65fbfa02",
+        "handle": "@consciousness",
+        "namespace": "API43",
+        "version": "1.0.0",
+        "canonical_name": "@consciousness",
+        "object_type": "mathematical_object",
+        "status": "active",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "PARENT_UNIFIED_API",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "{\"status_variants\":[{\"source\":\"HERE_BE_DARK_MATTER_LIBRARY\",\"status\":\"active\"}]}",
+        "payload_json": "{\"models\":[\"model://api43\",\"model://here-be-dark-matter\"],\"variants\":[]}"
+      },
+      {
+        "instance_id": "OBJ-f540471efc3746579b4a",
+        "handle": "@consciousness",
+        "namespace": "STONEWAKE::API43",
+        "version": "1.1",
+        "canonical_name": "Consciousness",
+        "object_type": "",
+        "status": "",
+        "proof_status": "UNSPECIFIED",
+        "typing_status": "UNSPECIFIED",
+        "validation_status": "UNSPECIFIED",
+        "canon_status": "UNSPECIFIED",
+        "recovery_status": "UNSPECIFIED",
+        "publication_status": "UNSPECIFIED",
+        "definition": "",
+        "math_json": "{}",
+        "authority": "STONEWAKE_SOURCE",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+        "provenance_json": "\"RP42_DEPENDENCY_INDEX.json\"",
+        "payload_json": "{\"definition\":\"\",\"domain\":\"API43\",\"handle\":\"@consciousness\",\"id\":658,\"name\":\"Consciousness\",\"source\":\"RP42_DEPENDENCY_INDEX.json\",\"status\":\"\",\"type\":\"\"}"
+      }
+    ]
+  },
+  "composed_route_edges": [
+    {
+      "edge_id": "P1-10463",
+      "source_handle": "@time_space",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target_handle": "@consciousness",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "derived",
+      "confidence": "high",
+      "closure_eligible": 1,
+      "navigation_only": 0,
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+      "provenance_json": "\"DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@time_space -> @graviton -> @consciousness; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2\"",
+      "payload_json": "{\"model_handle\":\"model://here-be-dark-matter\",\"relation_id\":\"rel_7a8320cb29aa848e49e6ed17\",\"required\":1}"
+    }
+  ],
+  "primitive_direct_source_spine": [
+    {
+      "edge_id": "P1-1139",
+      "source_handle": "@time_space",
+      "relation": "EXPLICIT_ARROW",
+      "target_handle": "@graviton",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "direct_source",
+      "confidence": "high",
+      "closure_eligible": 1,
+      "navigation_only": 0,
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+      "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md:45142\"",
+      "payload_json": "{\"model_handle\":\"model://here-be-dark-matter\",\"relation_id\":\"rel_e8e29b7856735d8908618760\",\"required\":1}"
+    },
+    {
+      "edge_id": "P1-540",
+      "source_handle": "@graviton",
+      "relation": "EXPLICIT_ARROW",
+      "target_handle": "@consciousness",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "direct_source",
+      "confidence": "high",
+      "closure_eligible": 1,
+      "navigation_only": 0,
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+      "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md:45084\"",
+      "payload_json": "{\"model_handle\":\"model://here-be-dark-matter\",\"relation_id\":\"rel_cea6a667e6f2b94cbfec15d4\",\"required\":1}"
+    }
+  ],
+  "typed_relations_on_primitive_hops": {
+    "@time_space->@graviton": [
+      {
+        "edge_id": "P1-1139",
+        "source_handle": "@time_space",
+        "relation": "EXPLICIT_ARROW",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "direct_source",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md:45142\""
+      },
+      {
+        "edge_id": "P1-1137",
+        "source_handle": "@time_space",
+        "relation": "DEPENDS_TO",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"DIRECT_API_LINE:45142\""
+      },
+      {
+        "edge_id": "P1-1138",
+        "source_handle": "@time_space",
+        "relation": "DIRECTED_TO",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_HANDLE_ARROW:45142\""
+      },
+      {
+        "edge_id": "P1-1140",
+        "source_handle": "@time_space",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_UPSTREAM_FIELD:36843;CANONICAL_API_UPSTREAM_FIELD:45477\""
+      },
+      {
+        "edge_id": "P1-1141",
+        "source_handle": "@time_space",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "medium",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"EDGE_LEDGER_LINE:45142;arrow_line:1698,arrow_line:27441,prior_adjacency\""
+      },
+      {
+        "edge_id": "P1-1142",
+        "source_handle": "@time_space",
+        "relation": "USED_BY",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_DOWNSTREAM_FIELD:44004;CANONICAL_API_DOWNSTREAM_FIELD:45849\""
+      },
+      {
+        "edge_id": "P1-39871",
+        "source_handle": "@time_space",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target_handle": "@graviton",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "derived",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@time_space-[COMPOSED_DEPENDENCY]->@general_relativity-[COMPOSED_DEPENDENCY]->@graviton\""
+      }
+    ],
+    "@graviton->@consciousness": [
+      {
+        "edge_id": "P1-540",
+        "source_handle": "@graviton",
+        "relation": "EXPLICIT_ARROW",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "direct_source",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md:45084\""
+      },
+      {
+        "edge_id": "P1-538",
+        "source_handle": "@graviton",
+        "relation": "DEPENDS_TO",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"DIRECT_API_LINE:45084\""
+      },
+      {
+        "edge_id": "P1-539",
+        "source_handle": "@graviton",
+        "relation": "DIRECTED_TO",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_HANDLE_ARROW:45084\""
+      },
+      {
+        "edge_id": "P1-541",
+        "source_handle": "@graviton",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_UPSTREAM_FIELD:33713;CANONICAL_API_UPSTREAM_FIELD:45365\""
+      },
+      {
+        "edge_id": "P1-542",
+        "source_handle": "@graviton",
+        "relation": "INLINE_CHAIN",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "medium",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_INLINE:1830;CANONICAL_API_INLINE:27573\""
+      },
+      {
+        "edge_id": "P1-543",
+        "source_handle": "@graviton",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "medium",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"EDGE_LEDGER_LINE:45084;arrow_line:1698,arrow_line:27441,prior_adjacency\""
+      },
+      {
+        "edge_id": "P1-544",
+        "source_handle": "@graviton",
+        "relation": "USED_BY",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "recovered",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"CANONICAL_API_DOWNSTREAM_FIELD:36844;CANONICAL_API_DOWNSTREAM_FIELD:45478\""
+      },
+      {
+        "edge_id": "P1-6546",
+        "source_handle": "@graviton",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "derived",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@graviton -> @time_shell -> @gravity -> @consciousness; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3\""
+      },
+      {
+        "edge_id": "P1-16482",
+        "source_handle": "@graviton",
+        "relation": "SUPPORTS",
+        "target_handle": "@consciousness",
+        "namespace": "API43_TYPED",
+        "trust_class": "TYPED_SOURCE_GRAPH",
+        "status": "derived",
+        "confidence": "high",
+        "closure_eligible": 1,
+        "navigation_only": 0,
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite",
+        "provenance_json": "\"DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=4; path=@graviton -> @causal_structure -> @consciousness; relations=SUPPORTS + SUPPORTS => SUPPORTS\""
+      }
+    ]
+  },
+  "endpoint_owned_equation_count": {
+    "@time_space": 0,
+    "@graviton": 0,
+    "@consciousness": 0
+  },
+  "document_provenance_mentions": {
+    "@time_space": [
+      {
+        "file_id": "FILE-a8cfa960c0f5b0ecc05a6e61",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/DARK_MATTER/DM_COMPOSED_DEPENDENCY_INDEX.json",
+        "mention_count": 519
+      },
+      {
+        "file_id": "FILE-0071c1d9d6a89c283f57a9c2",
+        "source_id": "SRC12_CFP_EXP",
+        "relative_path": "ASTRAEUS_VERA_CHIRAL_FRACTAL_PROJECTION_v1.1_20260819/07_SOURCE_PROVENANCE/EXTRACTED_API/MK43_Ultra_API_CURRENT_CANONICAL.md",
+        "mention_count": 77
+      },
+      {
+        "file_id": "FILE-a3bccd0217a540edcc081f0d",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/UNIFIED_OBJECT_REGISTRY.jsonl",
+        "mention_count": 6
+      },
+      {
+        "file_id": "FILE-24217ae516c6ded77ad0782b",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/unified_object_registry.jsonl",
+        "mention_count": 3
+      },
+      {
+        "file_id": "FILE-cca59f71a28079fb6fc511df",
+        "source_id": "SRC17_MK_ULTRA",
+        "relative_path": "MK Ultra.pdf",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-c58f76c7b8acb8003fbd2838",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/MACHINE/UNIFIED_ANALYSIS.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-219c8e3eafc4d8f12a6a6664",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/DOMAIN_INTERFACE_REGISTRY.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-ebef37f401d6656eef9afb55",
+        "source_id": "SRC08_BANDWIDTH_ALGEBRA",
+        "relative_path": "BANDWIDTH_ALGEBRA_V1_0_20260816/API/bandwidth_algebra_schema.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-dc551931e8a6f9e0b4453c2e",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/API/overlay_api.py",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-dfc57334b30d8cc54e7b95a7",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/FIXED_POINT_CRAWL.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-af059cbbb5e734bf194d1fdc",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/UNIFIED_MODEL_REGISTRY.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-9ad36390d8103360240ea6fb",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/RECOVERY_PROMPT.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-18c52e4cbacacabc1d625c0e",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/ROADMAP/ROADMAP.md",
+        "mention_count": 1
+      }
+    ],
+    "@graviton": [
+      {
+        "file_id": "FILE-a8cfa960c0f5b0ecc05a6e61",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/DARK_MATTER/DM_COMPOSED_DEPENDENCY_INDEX.json",
+        "mention_count": 2533
+      },
+      {
+        "file_id": "FILE-620c89a3c424839cdd84b44e",
+        "source_id": "SRC02_1_0_QFT_GR_BRIDGE",
+        "relative_path": "MK43_CHIRALITY_LANDSCAPE_VERSION_1_20260816/API/chirality_bridge_subgraph.json",
+        "mention_count": 129
+      },
+      {
+        "file_id": "FILE-0071c1d9d6a89c283f57a9c2",
+        "source_id": "SRC12_CFP_EXP",
+        "relative_path": "ASTRAEUS_VERA_CHIRAL_FRACTAL_PROJECTION_v1.1_20260819/07_SOURCE_PROVENANCE/EXTRACTED_API/MK43_Ultra_API_CURRENT_CANONICAL.md",
+        "mention_count": 104
+      },
+      {
+        "file_id": "FILE-6745ffcaea9c4532fbbd000c",
+        "source_id": "SRC16_CRD_QCD_INHERITANCE",
+        "relative_path": "CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_9_UNBINDING_GAUGE_CLASS_MOTION_20260826/SOURCES/L08B/HELICON_RELEVANT_EDGES.jsonl",
+        "mention_count": 78
+      },
+      {
+        "file_id": "FILE-cca59f71a28079fb6fc511df",
+        "source_id": "SRC17_MK_ULTRA",
+        "relative_path": "MK Ultra.pdf",
+        "mention_count": 21
+      },
+      {
+        "file_id": "FILE-5396fec4cc4fcd100e59aed0",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/DEPENDENCY_INDEX.json",
+        "mention_count": 16
+      },
+      {
+        "file_id": "FILE-d2b700b25bd02aa9a0b4fbfb",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/HIGGS_WORK_EDGE_REGISTRY.json",
+        "mention_count": 15
+      },
+      {
+        "file_id": "FILE-1fe4e00ce7cc0671a6f36998",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/API43_EDGE_EVIDENCE.json",
+        "mention_count": 12
+      },
+      {
+        "file_id": "FILE-a3bccd0217a540edcc081f0d",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/UNIFIED_OBJECT_REGISTRY.jsonl",
+        "mention_count": 9
+      },
+      {
+        "file_id": "FILE-24217ae516c6ded77ad0782b",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/unified_object_registry.jsonl",
+        "mention_count": 6
+      },
+      {
+        "file_id": "FILE-219c8e3eafc4d8f12a6a6664",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/DOMAIN_INTERFACE_REGISTRY.json",
+        "mention_count": 5
+      },
+      {
+        "file_id": "FILE-a2c2dbd5b6b885ef6471c915",
+        "source_id": "SRC13_ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_V0_15_0_20",
+        "relative_path": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0/api/QMO_METADATA_REGISTRY.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-aa7b41baa8a5ecd18f1e413c",
+        "source_id": "SRC13_ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_V0_15_0_20",
+        "relative_path": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0/library/QMO_METADATA_LIBRARY.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-119915f0ddd0e3a2687ab8c0",
+        "source_id": "SRC13_ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_V0_15_0_20",
+        "relative_path": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0/provenance/UPGRADE_DEPENDENCY_LANDSCAPE_v0.5.0.py",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-6bae6d1fe958a38ca460ff89",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/MACHINE/RELEVANT_PARENT_OBJECTS.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-c58f76c7b8acb8003fbd2838",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/MACHINE/UNIFIED_ANALYSIS.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-187ec12f9c5c0d80f272c73a",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/ALIAS_REGISTRY.json",
+        "mention_count": 2
+      },
+      {
+        "file_id": "FILE-f989ccfe6da20d3835e31052",
+        "source_id": "SRC13_ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_V0_15_0_20",
+        "relative_path": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0/api/OBJECT_REGISTRY.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-76d66ed87962184de3356c78",
+        "source_id": "SRC13_ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_V0_15_0_20",
+        "relative_path": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0/reports/API43_DEPENDENCY_LANDSCAPE_RECOVERY.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-7918d5213804cf8abd5a8113",
+        "source_id": "SRC12_CFP_EXP",
+        "relative_path": "ASTRAEUS_VERA_CHIRAL_FRACTAL_PROJECTION_v1.1_20260819/07_SOURCE_PROVENANCE/MK_ULTRA_READERS_COMPANION_SOURCE.pdf",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-4b7ead7a966d5aae06621f1c",
+        "source_id": "SRC16_CRD_QCD_INHERITANCE",
+        "relative_path": "CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_9_UNBINDING_GAUGE_CLASS_MOTION_20260826/SOURCES/L08B/HELICON_RELEVANT_PARENT_OBJECTS.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-1ac378cd6de0191f4e8c23fa",
+        "source_id": "SRC02_1_0_QFT_GR_BRIDGE",
+        "relative_path": "MK43_CHIRALITY_LANDSCAPE_VERSION_1_20260816/API/API_QUERY_CHIRALITY.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-cfbea695427f6267d8093a5e",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/MK43_ULTRA_UNIFIED_API_CURRENT_CANONICAL.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-9499a9e59e2269b153606dd2",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/UNIFIED_CROSS_CRAWL_REPORT.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-ef3740a9a67c922c01ae7a7c",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/BRUTE_FORCE_CRAWL_REPORT.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-146d3b1b8bdabd26f3a55443",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/FIXED_POINT_CRAWL.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-3703908771350dc10f6e15fd",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/GLOBAL_API_BRUTE_FORCE_CRAWL.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-552eb530b59287ce72a7a766",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/HIGGS_WORK_OBJECT_REGISTRY.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-5d32d2b1517f02e208dd34f5",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/03_MATH_SOURCES/HIGGS/QUERY_TESTS.json",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-9fe9272a443b459186d4d6c8",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/04_VALIDATION/BUILD_REPORT.md",
+        "mention_count": 1
+      },
+      {
+        "file_id": "FILE-b2eeee59b8ad56ec1205e13b",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/04_VALIDATION/QUERY_TESTS.json",
+        "mention_count": 1
+      }
+    ],
+    "@consciousness": [
+      {
+        "file_id": "FILE-0071c1d9d6a89c283f57a9c2",
+        "source_id": "SRC12_CFP_EXP",
+        "relative_path": "ASTRAEUS_VERA_CHIRAL_FRACTAL_PROJECTION_v1.1_20260819/07_SOURCE_PROVENANCE/EXTRACTED_API/MK43_Ultra_API_CURRENT_CANONICAL.md",
+        "mention_count": 53
+      },
+      {
+        "file_id": "FILE-6745ffcaea9c4532fbbd000c",
+        "source_id": "SRC16_CRD_QCD_INHERITANCE",
+        "relative_path": "CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_9_UNBINDING_GAUGE_CLASS_MOTION_20260826/SOURCES/L08B/HELICON_RELEVANT_EDGES.jsonl",
+        "mention_count": 4
+      },
+      {
+        "file_id": "FILE-cca59f71a28079fb6fc511df",
+        "source_id": "SRC17_MK_ULTRA",
+        "relative_path": "MK Ultra.pdf",
+        "mention_count": 4
+      },
+      {
+        "file_id": "FILE-a3bccd0217a540edcc081f0d",
+        "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+        "relative_path": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_v1_0_20260825/PARENT_UNIFIED_API/UNIFIED_OBJECT_REGISTRY.jsonl",
+        "mention_count": 3
+      },
+      {
+        "file_id": "FILE-24217ae516c6ded77ad0782b",
+        "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+        "relative_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/unified_object_registry.jsonl",
+        "mention_count": 1
+      }
+    ]
+  },
+  "notes": [
+    "No Dependency Landscape was generated by this call.",
+    "The QMO is bounded to the strict source-to-target route and its primitive direct-source witness spine.",
+    "Namespace-specific object instances are preserved and not collapsed into one identity.",
+    "No new mathematical claim or physical interpretation was introduced during generation."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "package": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829",
+  "sqlite_integrity": "ok",
+  "table_counts": {
+    "metadata": 14,
+    "qmos": 12,
+    "objects": 33,
+    "equations": 39,
+    "claims": 20,
+    "relations": 38,
+    "chronology": 16,
+    "open_debt": 16,
+    "sources": 84,
+    "supersessions": 8,
+    "aliases": 8,
+    "analogies": 3,
+    "recovery_rules": 7,
+    "artifacts": 56,
+    "thread_segments": 6,
+    "checkpoint_components": 6,
+    "file_aliases": 9
+  },
+  "physical_artifact_count": 56,
+  "physical_artifact_bytes": 1837983631,
+  "zip_sha256": null,
+  "api_smoke": {
+    "info": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"metadata\": {\n    \"checkpoint_run\": \"R62\",\n    \"checkpoint_type\": \"FULL_CORPUS_CHECKPOINT\",\n    \"collaboration_mode\": \"Astraeus Reach+ / Vera Reach- / provenance-preserving reconciliation\",\n    \"compact_parent\": \"@qmo/genesis_chirality_fabric_r61\",\n    \"continuity_mode\": \"cumulative / append-only / loss-resistant\",\n    \"created_at\": \"2026-08-29\",\n    \"current_frontier\": \"@open/native_multiscale_update_law\",\n    \"date\": \"2026-08-29\",\n    \"package_name\": \"GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOI",
+      "stderr": ""
+    },
+    "address @qmo/genesis_chirality_fabric_full_checkpoint_r62": {
+      "returncode": 0,
+      "stdout_prefix": "[\n  {\n    \"table\": \"qmos\",\n    \"address\": \"@qmo/genesis_chirality_fabric_full_checkpoint_r62\",\n    \"name\": \"GENESIS Chirality Fabric Full Checkpoint R62\",\n    \"version\": \"1.0\",\n    \"status\": \"CURRENT_FULL_CHECKPOINT\",\n    \"scope\": \"Full conversation-linked source corpus, canon, mathematics, APIs, databases, and provenance.\",\n    \"definition\": \"Queryable dependency object for the complete checkpoint.\",\n    \"authority\": \"Genesis/Astraeus/Vera\",\n    \"source_ref\": \"00_START_HERE/README_FIRST.md\",\n  ",
+      "stderr": ""
+    },
+    "address @object/chirality_block": {
+      "returncode": 0,
+      "stdout_prefix": "[\n  {\n    \"table\": \"objects\",\n    \"address\": \"@object/chirality_block\",\n    \"name\": \"Chirality Block\",\n    \"object_type\": \"4x4x4 native domain\",\n    \"status\": \"CURRENT\",\n    \"definition\": \"Native three-dimensional domain with 64 tile positions; current toy profile half occupied.\",\n    \"authority\": \"Genesis live\",\n    \"source_ref\": \"01_CANON/CANONICAL_CURRENT_STATE.md\",\n    \"notes\": \"Not canonically an array/tree of bytes.\"\n  }\n]\n",
+      "stderr": ""
+    },
+    "search torus": {
+      "returncode": 0,
+      "stdout_prefix": "[\n  {\n    \"table\": \"qmos\",\n    \"address\": \"@qmo/native_update_mechanism_r61\",\n    \"name\": \"Native Multiscale Chirality Update Mechanism\",\n    \"version\": \"R61\",\n    \"status\": \"WORKING_CANDIDATE\",\n    \"scope\": \"Tile-to-Time-Shell multiscale update\",\n    \"definition\": \"Joint decorated update mechanism target; not yet a unique law.\",\n    \"authority\": \"Astraeus/Vera R60-R61\",\n    \"source_ref\": \"04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md\",\n    \"notes\": \"QCD excluded as premise.\"\n  },\n",
+      "stderr": ""
+    },
+    "neighbors @object/chirality_seed --direction both": {
+      "returncode": 0,
+      "stdout_prefix": "[\n  {\n    \"id\": 2,\n    \"source_address\": \"@object/chirality_seed\",\n    \"relation\": \"SET_LIFTS_TO\",\n    \"target_address\": \"@object/chirality_byte_bite\",\n    \"status\": \"OPEN_RULE\",\n    \"authority\": \"Genesis live\",\n    \"source_ref\": \"01_CANON/CANONICAL_CURRENT_STATE.md\",\n    \"notes\": \"Exact lift open.\"\n  },\n  {\n    \"id\": 15,\n    \"source_address\": \"@object/chirality_seed\",\n    \"relation\": \"HAS_CONFIGURATION_SPACE\",\n    \"target_address\": \"@object/local_torus\",\n    \"status\": \"STRONG_CANDIDATE\",\n    \"a",
+      "stderr": ""
+    },
+    "resume": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"primary_resume_address\": \"@open/native_multiscale_update_law\",\n  \"record\": [\n    {\n      \"address\": \"@open/native_multiscale_update_law\",\n      \"priority\": 1,\n      \"title\": \"Native multiscale update law\",\n      \"description\": \"Construct U_chi/K_chi from native decorated context.\",\n      \"status\": \"ACTIVE\",\n      \"blocked_by\": null,\n      \"source_ref\": \"04_MATHEMATICS/OPEN_PROOF_TARGETS.md\",\n      \"notes\": \"Primary resume point.\"\n    }\n  ],\n  \"neighbors\": [\n    {\n      \"id\": 36,\n      \"sour",
+      "stderr": ""
+    }
+  }
+}

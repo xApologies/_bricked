@@ -1,0 +1,53 @@
+{
+  "package": "GENESIS_CHIRALITY_FABRIC_FULL_THREAD_RECOVERY_R61_v1_0_20260829",
+  "sqlite_integrity": "ok",
+  "row_counts": {
+    "qmos": 6,
+    "objects": 27,
+    "equations": 31,
+    "claims": 15,
+    "relations": 26,
+    "chronology": 14,
+    "open_debt": 13,
+    "sources": 28,
+    "supersessions": 8,
+    "aliases": 8,
+    "analogies": 3,
+    "recovery_rules": 7
+  },
+  "api_smoke": {
+    "info": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"metadata\": {\n    \"package_name\": \"GENESIS_CHIRALITY_FABRIC_FULL_THREAD_RECOVERY_R61_v1_0_20260829\",\n    \"package_version\": \"1.0\",\n    \"run\": \"R61\",\n    \"date\": \"2026-08-29\",\n    \"primary_qmo\": \"@qmo/genesis_chirality_fabric_r61\",\n    \"current_frontier\": \"@open/native_multiscale_update_law\",\n    \"continuity_mode\": \"cumulative / append-only / loss-resistant\",\n    \"collaboration_mode\": \"Astraeus Reach+ / Vera Reach- / provenance-preserving reconciliation\",\n    \"qcd_status\": \"downstream compari",
+      "stderr": ""
+    },
+    "address_tile": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"address\": \"@object/chirality_tile\",\n  \"records\": {\n    \"objects\": {\n      \"address\": \"@object/chirality_tile\",\n      \"name\": \"Chirality Tile\",\n      \"object_type\": \"native geometric position\",\n      \"status\": \"CURRENT\",\n      \"definition\": \"One intrinsic tile position carrying occupancy and, if occupied, local chromatic/energy-density state plus relations.\",\n      \"authority\": \"Genesis live\",\n      \"source_ref\": \"01_CANON/CANONICAL_CURRENT_STATE.md\",\n      \"notes\": \"Coordinates are optional",
+      "stderr": ""
+    },
+    "address_update": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"address\": \"@eq/multiscale_update\",\n  \"records\": {\n    \"equations\": {\n      \"address\": \"@eq/multiscale_update\",\n      \"name\": \"Multiscale update\",\n      \"expression\": \"U_chi:(K_t,Adj,R,B,H,P,Sigma) ⇀ (K_t+1,H_prime)\",\n      \"interpretation\": \"Partial decorated update operator.\",\n      \"status\": \"WORKING_CANDIDATE\",\n      \"authority\": \"R61\",\n      \"source_ref\": \"04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md\",\n      \"notes\": \"\"\n    }\n  },\n  \"outgoing\": [\n    {\n      \"id\": 19,\n   ",
+      "stderr": ""
+    },
+    "neighbors_block": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"address\": \"@object/chirality_block\",\n  \"direction\": \"both\",\n  \"outgoing\": [\n    {\n      \"id\": 4,\n      \"source_address\": \"@object/chirality_block\",\n      \"relation\": \"RECURSIVELY_EXTENDS_TO\",\n      \"target_address\": \"@object/chirality_fabric\",\n      \"status\": \"OPEN\",\n      \"authority\": \"Genesis live\",\n      \"source_ref\": \"01_CANON/CANONICAL_CURRENT_STATE.md\",\n      \"notes\": \"\"\n    }\n  ],\n  \"incoming\": [\n    {\n      \"id\": 5,\n      \"source_address\": \"@object/genesis_field\",\n      \"relation\": ",
+      "stderr": ""
+    },
+    "search_torus": {
+      "returncode": 0,
+      "stdout_prefix": "{\n  \"query\": \"torus\",\n  \"results\": {\n    \"qmos\": [\n      {\n        \"address\": \"@qmo/torus_continuity_r36_r37\",\n        \"name\": \"Local Torus Continuity Model\",\n        \"version\": \"R36-R37\",\n        \"status\": \"STRONG_CANDIDATE\",\n        \"scope\": \"Two occupied seed tiles\",\n        \"definition\": \"T2=S1_A x S1_B with 36 ordered cells, local continuity, and winding History.\",\n        \"authority\": \"Genesis Chirality v9 lineage\",\n        \"source_ref\": \"09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R36_S1_CON",
+      "stderr": ""
+    },
+    "list_open_debt": {
+      "returncode": 0,
+      "stdout_prefix": "[\n  {\n    \"address\": \"@open/bandwidth_semantics\",\n    \"priority\": 3,\n    \"title\": \"Bandwidth semantics\",\n    \"description\": \"Determine direction/reach/generator/capacity meaning in this domain.\",\n    \"status\": \"ACTIVE\",\n    \"blocked_by\": \"@eq/domain_generator_map\",\n    \"source_ref\": \"04_MATHEMATICS/OPEN_PROOF_TARGETS.md\",\n    \"notes\": \"\"\n  },\n  {\n    \"address\": \"@open/canonical_noncommutativity\",\n    \"priority\": 6,\n    \"title\": \"Canonical noncommutativity test\",\n    \"description\": \"Find earned A",
+      "stderr": ""
+    }
+  },
+  "source_receipts": 28,
+  "parent_archives_embedded": 1,
+  "large_parent_archives_referenced_not_duplicated": true
+}

@@ -1,0 +1,202 @@
+{
+  "format": "GENESIS R62 split transport volume index",
+  "format_version": "1.1",
+  "original_filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.zip",
+  "original_size_bytes": 1838368113,
+  "original_sha256": "f0c63cabf18ad856f10dc2ffd57669ae02106a561d2c9af06a5ecf83bf79d65e",
+  "volume_count": 21,
+  "all_volumes_under_100000000_bytes": true,
+  "max_volume_size_bytes": 90011466,
+  "min_volume_size_bytes": 38379579,
+  "volumes": [
+    {
+      "label": "A",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_A.zip",
+      "size_bytes": 90011466,
+      "sha256": "2ddcdaebf67b7c779a9b46a5d2d3985bf1feb8a30703bc51206a7ed0965ba166",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_A.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "949eb72807841b0ee58bb72413e5199a975ee1cdf755047e6193583b743b56e6"
+    },
+    {
+      "label": "B",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_B.zip",
+      "size_bytes": 90011466,
+      "sha256": "8f96304dc4ad5f06fbb0090dcb5796a558bf1acf7be74455d6cb1ca6afc4615a",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_B.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "541c74f42d04133837b5e9d0f419e17a7d32bc9c95bc22ea273005bd83f94eb1"
+    },
+    {
+      "label": "C",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_C.zip",
+      "size_bytes": 90011466,
+      "sha256": "719284cd5d6e4905042fe2025f21b2487dd08bda2dbc8c41113c46c8651a5412",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_C.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "235050ed5893ac047c37c01e1a77922325a1e30aad519e3751186faf4c9e97eb"
+    },
+    {
+      "label": "D",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_D.zip",
+      "size_bytes": 90011466,
+      "sha256": "2fab2f218d31a9e8fd6276204a349795624f6d0a10fc642cfb882f5b86cad1ce",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_D.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "6a57b1d702d58cb21f02eb6d3683a5cd7391f57970838ebda4624778e3230899"
+    },
+    {
+      "label": "E",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_E.zip",
+      "size_bytes": 90011466,
+      "sha256": "a919cf84c52c44ee24d28db654f443cd1e5203936371c3303c684d05f03d0c3d",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_E.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "aca82dc7d80f56a041625f9f188a904b1dbf86834eac2c306fa6c692df12cdcb"
+    },
+    {
+      "label": "F",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_F.zip",
+      "size_bytes": 90011466,
+      "sha256": "12b2fdf5c0143a46c3372eabb54ac53871764614566e6973428a6dc88bbbff58",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_F.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "91718725bcd6a9945a2c6546db547b045bbed20d39ce6cb84887b2ea7e895161"
+    },
+    {
+      "label": "G",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_G.zip",
+      "size_bytes": 90011466,
+      "sha256": "f1cfa50debac24ee121d1f686556815802a67be0a157e724657c54e132f41e8d",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_G.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "f318ad0627aec460cf5f230d22dc11e51588180076e22dde7fca9e2a38224e06"
+    },
+    {
+      "label": "H",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_H.zip",
+      "size_bytes": 90011466,
+      "sha256": "e78115ea3e96ccc6da8defabbf16ef389d75d93c295c76f1978adf9124390143",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_H.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "271c283c881b0fe6d52e7fad11bfb2f75bf010971e838ba315c1170a7fd8b35b"
+    },
+    {
+      "label": "I",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_I.zip",
+      "size_bytes": 90011466,
+      "sha256": "e136c2855668473822ce8a5e193807668375add8c9d232b5212fb95d98c89638",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_I.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "30ee020760896b3fec0d910f0285bd7a0677a6533621da9083ea9728245c4d81"
+    },
+    {
+      "label": "J",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_J.zip",
+      "size_bytes": 90011466,
+      "sha256": "14cc498fa412ac4ecd62f3c9a75324670fb9efa9149d3b27c8f543f891435860",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_J.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "a2a244428e4d635ec5d58e4cedf3bd1b5bf9c8218c491b175bbfb1c974937b07"
+    },
+    {
+      "label": "K",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_K.zip",
+      "size_bytes": 90011466,
+      "sha256": "25e2d2901d758b479c24454bf829015638e40657c49eda1e02b2727f92dafe74",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_K.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "e8f1d5bfd782d6870628765c30045d515ec8c4d4e81fd877830e3848ca35970e"
+    },
+    {
+      "label": "L",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_L.zip",
+      "size_bytes": 90011466,
+      "sha256": "eb4fa6be995da1213a5718d090979c7e763040a7182b1a8d04bae1d5d51a6fa6",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_L.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "fad1da4f50efe340039152f9378cb39c0281d93f71b6fc6357b22155093729f3"
+    },
+    {
+      "label": "M",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_M.zip",
+      "size_bytes": 90011466,
+      "sha256": "c5df06e8ee4e1164b5961668484349a992d68ef1815e56d2d14d675a9a168564",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_M.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "df8bc857064b05ddbaf5e8931be09b0d81d0dff54ed8dbe30ebb74025e452a6b"
+    },
+    {
+      "label": "N",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_N.zip",
+      "size_bytes": 90011466,
+      "sha256": "18fe5a9acd095794f6d24c95b1ab95c59a22d38a809e5dab63bbd153e6ac4f1b",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_N.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "f5134e69ef0790c301711d5bfb7f6a6cc52e3ce7e3a704c8ca5565089aa49e27"
+    },
+    {
+      "label": "O",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_O.zip",
+      "size_bytes": 90011466,
+      "sha256": "87fd3ca21efec06701cd5e297d7d21b36c5626fb8cc7168ec0d26612da460d5a",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_O.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "a124af93e6d80bbbd1b1c13ecc9b15bf738632e6887c94bf14c54b689a9d7b4a"
+    },
+    {
+      "label": "P",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_P.zip",
+      "size_bytes": 90011466,
+      "sha256": "a45afcc7afb7919b59b35815f6f0ceb4059d8c0819668453befdcfc7d7284ec0",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_P.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "c88525aab4bc7167b1c2ebb7ca3f6af4322ae9921dc8c6ab2c57a07a78f9dca5"
+    },
+    {
+      "label": "Q",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_Q.zip",
+      "size_bytes": 90011466,
+      "sha256": "938d47c2925ea8d12f1fcff70018de1ad6525def831bd1202f52e8c28f12dc4e",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_Q.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "c796f13430a795623d4eac87388a1927bbc1351a0157a7a77b493463e634a81b"
+    },
+    {
+      "label": "R",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_R.zip",
+      "size_bytes": 90011466,
+      "sha256": "818d590be7f7b2764884034fe293005db2758f7ce20578b341f36f8bbbeec4b7",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_R.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "74169b983f3cade0f92d5cbcfdb66ba7289148c2b970e72ec166867e57e655bc"
+    },
+    {
+      "label": "S",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_S.zip",
+      "size_bytes": 90011466,
+      "sha256": "df43f56465d3fff193bb7b4eda0ac97e040aca4437a6d7456ce9749684097116",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_S.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "9a3ed56c0e54a656c028b426062c3d81d3f9d67aacf5297a0ff63d974e106fe6"
+    },
+    {
+      "label": "T",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_T.zip",
+      "size_bytes": 90011466,
+      "sha256": "8facc69eed3b73f1a0962a3aa141f96871f536aff09176c384112b66274a5f43",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_T.bin",
+      "inner_part_size_bytes": 90000000,
+      "inner_part_sha256": "1ecf4d261d01a4dc20a8d112e9331388de1d3a94c2154893f102bc995a647052"
+    },
+    {
+      "label": "U",
+      "filename": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829_ZIP_U.zip",
+      "size_bytes": 38379579,
+      "sha256": "463cdf20d1bf99e352cab6da7464dd4311eb3ef7735193a4daacd73d68e90a4c",
+      "inner_part_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.part_U.bin",
+      "inner_part_size_bytes": 38368113,
+      "inner_part_sha256": "1078bb4fca9ac7ea74244f84fa9932662deb22288c8b289822fa8e06cc856530"
+    }
+  ]
+}

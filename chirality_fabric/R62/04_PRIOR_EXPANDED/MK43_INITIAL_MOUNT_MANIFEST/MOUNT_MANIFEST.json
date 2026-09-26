@@ -1,0 +1,166 @@
+[
+  {
+    "index": 1,
+    "name": "Rainbow_road.zip",
+    "status": "FOUND",
+    "size": 10386950,
+    "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b",
+    "zip_integrity": "clean",
+    "members": 57,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/01_Rainbow_road"
+  },
+  {
+    "index": 2,
+    "name": "1.0 | QFT - GR BRIDGE.zip",
+    "status": "FOUND",
+    "size": 11931854,
+    "sha256": "0d93f8a69782af74fee7309024c372290893ce4133d8009ac8ff284602439ecc",
+    "zip_integrity": "clean",
+    "members": 113,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/02_1.0_QFT_-_GR_BRIDGE"
+  },
+  {
+    "index": 3,
+    "name": "corridor.md",
+    "status": "FOUND",
+    "size": 14163,
+    "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6",
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/03_corridor/corridor.md"
+  },
+  {
+    "index": 4,
+    "name": "Resolution Readout.zip",
+    "status": "FOUND",
+    "size": 327280,
+    "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab",
+    "zip_integrity": "clean",
+    "members": 34,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/04_Resolution_Readout"
+  },
+  {
+    "index": 5,
+    "name": "Holonomy and Chirality.zip",
+    "status": "FOUND",
+    "size": 686047,
+    "sha256": "433e9a4ff681ddf33839530a67551db58d08ad99ea012f76adf00fc2d72d74a6",
+    "zip_integrity": "clean",
+    "members": 66,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/05_Holonomy_and_Chirality"
+  },
+  {
+    "index": 6,
+    "name": "TRANSDUCTION_GEOMETRY_v1.0.zip",
+    "status": "FOUND",
+    "size": 3398136,
+    "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77",
+    "zip_integrity": "clean",
+    "members": 309,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/06_TRANSDUCTION_GEOMETRY_v1.0"
+  },
+  {
+    "index": 7,
+    "name": "Identity Through History.zip",
+    "status": "FOUND",
+    "size": 224934,
+    "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2",
+    "zip_integrity": "clean",
+    "members": 40,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/07_Identity_Through_History"
+  },
+  {
+    "index": 8,
+    "name": "Bandwidth Algebra.zip",
+    "status": "FOUND",
+    "size": 1163433,
+    "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53",
+    "zip_integrity": "clean",
+    "members": 48,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/08_Bandwidth_Algebra"
+  },
+  {
+    "index": 9,
+    "name": "2.0 | Internal Mapping.zip",
+    "status": "FOUND",
+    "size": 6123157,
+    "sha256": "dca62b53a1f12a75734e9b3c4fa9f78849c2db14f12feb283143c5267cf50f2c",
+    "zip_integrity": "clean",
+    "members": 128,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/09_2.0_Internal_Mapping"
+  },
+  {
+    "index": 10,
+    "name": "6 | Unified Rainbow Road Overlay.zip",
+    "status": "FOUND",
+    "size": 88305195,
+    "sha256": "750530d37111b5133577aca9dca523d276cc9bbce586ceebb7250ad1b4234bed",
+    "zip_integrity": "clean",
+    "members": 67,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/10_6_Unified_Rainbow_Road_Overlay"
+  },
+  {
+    "index": 11,
+    "name": "CFP.pdf",
+    "status": "FOUND",
+    "size": 854970,
+    "sha256": "752f8fe6d230dc23b1cc3c2c239fe11501379b7fbfec874372fa68b416833d76",
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/11_CFP/CFP.pdf"
+  },
+  {
+    "index": 12,
+    "name": "CFP_exp.zip",
+    "status": "FOUND",
+    "size": 36704726,
+    "sha256": "1346d283be75525caf916e4c0bef862365306cf0c9b6b4f54ac64ce5766481db",
+    "zip_integrity": "clean",
+    "members": 115,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/12_CFP_exp"
+  },
+  {
+    "index": 13,
+    "name": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0_20260822.zip",
+    "status": "FOUND",
+    "size": 37214550,
+    "sha256": "e89123f7d4833d51516d6c6d4674cf696c909e8b017e1926d0b404aa8b1e0775",
+    "zip_integrity": "clean",
+    "members": 187,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/13_ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0_20260822"
+  },
+  {
+    "index": 14,
+    "name": "VERA_API_LIVE_MODEL_v0.8.0_20260822.zip",
+    "status": "FOUND",
+    "size": 315533,
+    "sha256": "1ec8704ada2051f7f6705e955f341e9a7f93f726e7ce9ca85b24941a14e9895d",
+    "zip_integrity": "clean",
+    "members": 55,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/14_VERA_API_LIVE_MODEL_v0.8.0_20260822"
+  },
+  {
+    "index": 15,
+    "name": "FUSION OPERATOR | CANDIDATE.zip",
+    "status": "FOUND",
+    "size": 15846569,
+    "sha256": "1c58a310bfbc0ad7d362cf86aea1566944396238fdb9b84faf09017c247f9ff0",
+    "zip_integrity": "clean",
+    "members": 162,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/15_FUSION_OPERATOR_CANDIDATE"
+  },
+  {
+    "index": 16,
+    "name": "CRD - QCD Inheritance.zip",
+    "status": "FOUND",
+    "size": 360400705,
+    "sha256": "4f6def627cdd93e0c3ef84b703f951e0a9f13e596c1f385e736efd5871001e60",
+    "zip_integrity": "clean",
+    "members": 98,
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/16_CRD_-_QCD_Inheritance"
+  },
+  {
+    "index": 17,
+    "name": "MK Ultra.pdf",
+    "status": "FOUND",
+    "size": 67402112,
+    "sha256": "cca59f71a28079fb6fc511df7b811a88b7e3fde97d84bc1f299c3f4b86b12e8d",
+    "mounted_to": "/mnt/data/MK43_FULL_MOUNT_20260826/17_MK_Ultra/MK Ultra.pdf"
+  }
+]

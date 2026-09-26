@@ -1,0 +1,78 @@
+{
+  "qmo_id": "QMO-TIME-SPACE-TO-CONSCIOUSNESS-R10-20260826-001",
+  "handle": "@qmo_time_space_to_consciousness_r10",
+  "qmo_type": "RecursiveClosureUnifiedQMO",
+  "status": "QUERY_GENERATED_R10_CANDIDATE",
+  "generated_date": "2026-08-26",
+  "parent_qmo": "@mk43_unified_qmo_v2",
+  "parent_api_release": "2.0.0-candidate",
+  "seed_qmo": "@qmo_time_space_to_consciousness",
+  "seed_handles": [
+    "@consciousness",
+    "@graviton",
+    "@time_space"
+  ],
+  "crawl": {
+    "mode": "strict",
+    "direction": "both",
+    "requested_iterations": 10,
+    "executed_iterations": 10,
+    "fixed_point_first_observed_at_iteration": 8,
+    "wave_counts": [
+      3,
+      472,
+      351,
+      568,
+      33,
+      11,
+      17,
+      4,
+      0,
+      0,
+      0
+    ],
+    "recovered_handle_count": 1459,
+    "raw_internal_strict_edge_witness_count": 160057,
+    "canonical_typed_edge_triple_count": 79624,
+    "object_instance_count": 3316,
+    "equation_count": 163,
+    "weak_component_count": 1,
+    "largest_weak_component": 1459,
+    "forward_reachable_from_time_space_after_10": 1324
+  },
+  "core_dependency_spine": [
+    "@time_space",
+    "@genesis_field",
+    "@resolution",
+    "@bandwidth",
+    "@persistence",
+    "@chirality",
+    "@helicon",
+    "@graviton",
+    "@time_shell",
+    "@spacetime",
+    "@black_hole",
+    "@black_hole_cosmology",
+    "@cosmology",
+    "@consciousness"
+  ],
+  "core_spine_edge_count": 13,
+  "core_spine_complete": true,
+  "cosmology_branch": [
+    "@spacetime",
+    "@black_hole",
+    "@black_hole_cosmology",
+    "@cosmology",
+    "@consciousness"
+  ],
+  "interpretation_rule": "Edges are preserved with source relation/provenance. Recursive closure records graph connectivity; it does not upgrade dependency, support, representation, or derived reachability into identity or theorem status.",
+  "registries": {
+    "raw_edges": "../03_MACHINE/EDGE_REGISTRY_STRICT_ALL_WITNESSES.jsonl",
+    "canonical_edges": "../03_MACHINE/EDGE_REGISTRY_CANONICAL_TYPED.jsonl",
+    "objects": "../03_MACHINE/OBJECT_INSTANCE_REGISTRY.jsonl",
+    "canonical_handles": "../03_MACHINE/CANONICAL_HANDLE_REGISTRY.jsonl",
+    "equations": "../03_MACHINE/EQUATION_REGISTRY.jsonl",
+    "aliases": "../03_MACHINE/ALIAS_REGISTRY.jsonl",
+    "sqlite": "../03_MACHINE/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10.sqlite"
+  }
+}

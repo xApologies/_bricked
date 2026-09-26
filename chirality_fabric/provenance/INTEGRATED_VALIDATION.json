@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "recovered_files": 66,
+  "control_files": 20,
+  "sqlite_databases": 2,
+  "api_smoke_commands": 12,
+  "local_archives_checked": 36
+}

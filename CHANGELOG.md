@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### 2026-09-26 — Independent Chirality Fabric R62 source ingest
+
+- Reconstructed the exact R62 checkpoint from all 21 verified A–U volumes using the supplied ASSEMBLY script.
+- Added the selected non-archive working tree, QMO databases/APIs, formal sources, complete source provenance and a reproducible Fabric validator.
+- Kept transport and embedded source archives local under the user-confirmed scope; preserved independent model authorities and OPEN mathematics.
+- Preserved DP-004 and all earlier project/language content; recorded the source/toy-model boundary without introducing a new mathematical law.
+
 ### 2026-09-26 — Diplomatic Pouch 004 (checkpoint 2026-09-22)
 
 - Integrated the hard Genesis-Horizon rule, unified framework, three-authority Genesis Trinity and working Geometric definition.

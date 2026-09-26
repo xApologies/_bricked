@@ -1,0 +1,275 @@
+{
+  "sqlite_integrity": "ok",
+  "requested_iterations": 10,
+  "executed_iterations": 10,
+  "first_fixed_point_iteration": 8,
+  "recovered_handles": 1459,
+  "raw_internal_strict_edges": 160057,
+  "canonical_typed_edge_triples": 79624,
+  "object_instances": 3316,
+  "equations": 163,
+  "weak_components": 1,
+  "largest_weak_component": 1459,
+  "forward_reachable_from_time_space": 1324,
+  "core_spine_complete": true,
+  "core_spine_edges_found": 13,
+  "core_spine_edges_expected": 13,
+  "cosmology_handles_present": {
+    "@spacetime": true,
+    "@black_hole": true,
+    "@black_hole_cosmology": true,
+    "@cosmology": true,
+    "@consciousness": true
+  },
+  "top_relations": [
+    [
+      "COMPOSED_DEPENDENCY",
+      118450
+    ],
+    [
+      "SUPPORTS",
+      17022
+    ],
+    [
+      "DEPENDS_ON",
+      11948
+    ],
+    [
+      "INDEXES_RELATED_OBJECT",
+      1091
+    ],
+    [
+      "CLASSIFIED_IN_PHYSICS_NEIGHBORHOOD",
+      1091
+    ],
+    [
+      "GLOBALLY_FEEDS_BLACK_HOLE",
+      890
+    ],
+    [
+      "FEEDS_BLACK_HOLE_MODEL",
+      888
+    ],
+    [
+      "BLACK_HOLE_CROSS_FAMILY_NODE",
+      870
+    ],
+    [
+      "BLACK_HOLE_MODEL_REACHES",
+      740
+    ],
+    [
+      "BLACK_HOLE_GLOBAL_REACHES",
+      740
+    ],
+    [
+      "FAMILY_DEPENDS_ON",
+      720
+    ],
+    [
+      "SUPPORTS_FAMILY",
+      646
+    ],
+    [
+      "DIRECTED_TO",
+      488
+    ],
+    [
+      "FORMALLY_DEPENDS_ON",
+      405
+    ],
+    [
+      "VERTICAL_CHAIN",
+      383
+    ],
+    [
+      "USED_BY",
+      353
+    ],
+    [
+      "FORMALLY_SUPPORTS",
+      306
+    ],
+    [
+      "DEPENDS_TO",
+      278
+    ],
+    [
+      "EXPLICIT_ARROW",
+      276
+    ],
+    [
+      "RECOVERED_DEPENDENCY",
+      276
+    ],
+    [
+      "DECLARES_PARENT",
+      108
+    ],
+    [
+      "RESOLVED_VERTICAL_CHAIN",
+      99
+    ],
+    [
+      "LANGUAGE_COMPOSES",
+      86
+    ],
+    [
+      "REALIZES",
+      83
+    ],
+    [
+      "GOVERNS",
+      78
+    ],
+    [
+      "GENERATES",
+      60
+    ],
+    [
+      "CONNECTS_TO",
+      59
+    ],
+    [
+      "GENERATED_BY",
+      54
+    ],
+    [
+      "ADMITS",
+      46
+    ],
+    [
+      "REALIZED_BY",
+      45
+    ],
+    [
+      "GENERALIZES",
+      36
+    ],
+    [
+      "REQUIRES",
+      35
+    ],
+    [
+      "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+      32
+    ],
+    [
+      "LANGUAGE_EXPRESSES",
+      32
+    ],
+    [
+      "DEFINES",
+      30
+    ],
+    [
+      "BINDS_NATIVE_HANDLE",
+      30
+    ],
+    [
+      "ADMITTED_BY",
+      28
+    ],
+    [
+      "PROJECTS_TO",
+      27
+    ],
+    [
+      "SPECIALIZES",
+      26
+    ],
+    [
+      "CONSTRAINED_BY",
+      26
+    ]
+  ],
+  "trust_counts": {
+    "TYPED_SOURCE_GRAPH": 75387,
+    "LIVE_DECLARED_OR_DERIVED": 958,
+    "SOURCE_LINK": 51,
+    "SOURCE_DECLARED_METADATA_DEPENDENCY": 108,
+    "WORK_LAYER_TYPED": 147,
+    "SOURCE_TYPED": 83406
+  },
+  "status_counts": {
+    "recovered": 4651,
+    "direct_source": 270,
+    "direct_api_recovery": 105,
+    "explicitly_recovered": 2,
+    "inferred": 6,
+    "derived": 146510,
+    "OPTIONAL_OPEN_HANDLE": 2,
+    "THEOREM": 3,
+    "ATLAS_DERIVED": 95,
+    "OPEN_HANDLE": 19,
+    "ATLAS_DERIVED_CLOSED": 1,
+    "CURRENT_MODEL": 1,
+    "USER_CURATORIAL_RULING": 1,
+    "LIVE_DERIVED_CLOSED_INTERNAL": 17,
+    "LIVE_CONDITIONAL": 22,
+    "WORKING_ASSUMPTION": 7,
+    "LIVE_DERIVED_CLOSED": 2,
+    "LIVE_OPEN_CANDIDATE": 8,
+    "LIVE_DIAGNOSTIC": 3,
+    "LIVE_CANDIDATE_REPRESENTATION_NOT_IDENTITY": 1,
+    "LIVE_SOURCE_DERIVED": 4,
+    "LIVE_DERIVED": 7,
+    "CONDITIONAL_DERIVATION": 4,
+    "live_derived": 16,
+    "conditional": 3,
+    "LIVE_DERIVED_CLOSED_MAP": 1,
+    "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE": 12,
+    "LIVE_SOURCE_EFFECTIVE_ALTERNATE_REALIZATION": 1,
+    "LIVE_BOUNDARY_EDGE": 1,
+    "": 51,
+    "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT": 33,
+    "LIVE_SOURCE_DERIVED_CLOSED_AT_SOURCE_DOMAIN": 3,
+    "LIVE_SOURCE_DERIVED_CLOSED": 3,
+    "LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED": 3,
+    "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT": 6,
+    "LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_COMPONENT_PROOF_DEBT": 4,
+    "LIVE_DIAGNOSTIC_SOURCE_ROUTE_CORRECTION": 4,
+    "LIVE_OPEN_TYPED_GATE": 4,
+    "LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_GRAVITY_FIBER_DEBT": 3,
+    "LIVE_SOURCE_RECOVERED": 5,
+    "LIVE_CONDITIONAL_DIAGNOSTIC": 3,
+    "LIVE_OPEN_TYPED_GATE_RETYPE": 4,
+    "LIVE_DERIVED_CLOSED_TYPED_ROUTE": 3,
+    "LIVE_DERIVED_NARROWED": 3,
+    "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN": 3,
+    "ACCEPTED": 143,
+    "DERIVED_CLOSED": 2,
+    "HISTORICAL_ALIAS": 2,
+    "OPEN_CLASSIFICATION": 2,
+    "OPEN_PROOF_DEBT": 2,
+    "PROJECT_CONSTRAINT": 2,
+    "CANDIDATE_FACTORIZATION": 2,
+    "OPEN_CORRESPONDENCE": 6,
+    "WORK_LAYER_ACCEPTED": 12,
+    "WORK_LAYER_DERIVED": 4,
+    "WORK_LAYER_CONSTRUCTED": 38,
+    "WORK_LAYER_LOCAL_REALIZATION": 2,
+    "WORK_LAYER_CLOSED": 8,
+    "API43_RECOVERED": 42,
+    "API43_DIRECT_SOURCE": 6,
+    "API43_DERIVED": 24,
+    "DERIVED_SELF_CLOSURE": 5454,
+    "FORMAL": 15,
+    "WORKING_FORMALIZATION": 6,
+    "ENGINE_INTEGRATION": 12,
+    "STONEWAKE_ENGINE_INTEGRATION": 2313,
+    "live_model_derived": 2,
+    "SOURCE_IMPORTED": 2,
+    "FORMAL_LIVE_MODEL_V1": 8,
+    "DIRECT_SEMANTIC_ANCHOR": 14,
+    "SHARED_CROSS_DOMAIN_JUNCTION": 2,
+    "PARTIAL_OPEN": 3,
+    "STRONG_INTERFACE_OPEN_SELECTOR": 3,
+    "STRONG_INTERFACE": 5,
+    "COMPARISON_SUPPORT": 3,
+    "ACTIVE": 1,
+    "OPEN": 5,
+    "SOURCE_ESTABLISHED": 2
+  },
+  "parent_api_mutated": false
+}

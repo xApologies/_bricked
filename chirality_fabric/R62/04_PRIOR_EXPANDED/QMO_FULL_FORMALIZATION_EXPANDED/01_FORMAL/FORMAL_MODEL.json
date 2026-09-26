@@ -1,0 +1,108 @@
+{
+  "artifact": "QMO_FULL_MATHEMATICAL_FORMALIZATION_v1_0_20260826",
+  "basis_qmo": {
+    "qmo_id": "QMO-CONSCIOUSNESS-TO-TIME-SPACE-API-CRAWL-R8-001",
+    "root": "@consciousness",
+    "terminal": "@time_space",
+    "view_orientation": "reverse_traversal",
+    "source_edge_orientation": "preserved",
+    "database_sha256": "cf2dd5617d530ff4d03beb2b55f75f002b200bbe2aa6f856df40045f1cbb353b"
+  },
+  "formalization_status": "ASTRAEUS_DERIVED_MATHEMATICAL_DESCRIPTION__NO_SOURCE_PROMOTION",
+  "sets": {
+    "V_canonical_handles": 1459,
+    "V_tilde_namespace_instances": 3316,
+    "R_relation_alphabet": 355,
+    "W_edge_witnesses": 160057,
+    "E_typed_edges": 79624,
+    "A_distinct_ordered_pairs": 68029,
+    "C_derived_self_closure_pairs": 1733204,
+    "F_equations": 163
+  },
+  "maps": {
+    "pi_instance_to_handle": "pi: V_tilde -> V",
+    "kappa_witness_to_canonical_edge": "kappa: W -> E",
+    "owner_equation_to_handle": "omega: F -> V union {null}",
+    "provenance": "p: W union V_tilde union F -> P",
+    "status": "sigma: V_tilde union W union F -> product status space"
+  },
+  "graph": {
+    "weak_components": 1,
+    "scc_count": 176,
+    "giant_scc_size": 1260,
+    "giant_scc_fraction": 0.8636052090472927,
+    "condensation_nodes": 176,
+    "condensation_edges": 212,
+    "condensation_source_sccs": 69,
+    "condensation_sink_sccs": 64,
+    "seed_symmetrized_radius": 7,
+    "max_directed_shortest_path_represented_in_closure": 15,
+    "max_distance_pairs": [
+      [
+        "@intrinsic_path_measure",
+        "@Pi_QCD"
+      ]
+    ],
+    "nonreflexive_reachability_pairs": 1801233
+  },
+  "operators": {
+    "A_r": "typed Boolean adjacency for relation r",
+    "A": "OR_r A_r",
+    "A_transpose": "reverse-query orientation only",
+    "B": "A OR A^T",
+    "seed_crawl": "S_{n+1}=S_n union N_B(S_n)",
+    "directed_transitive_closure": "A_plus = OR_{k>=1} A^k, excluding diagonal in materialized tables",
+    "self_closure_repeated_squaring": "C_{j+1}=C_j OR (C_j o C_j)"
+  },
+  "seed_handles": [
+    "@consciousness",
+    "@cosmology",
+    "@black_hole_cosmology",
+    "@black_hole",
+    "@spacetime",
+    "@time_shell",
+    "@graviton",
+    "@helicon",
+    "@chirality",
+    "@persistence",
+    "@bandwidth",
+    "@resolution",
+    "@genesis_field",
+    "@time_space"
+  ],
+  "forward_structural_spine": [
+    "@time_space",
+    "@genesis_field",
+    "@resolution",
+    "@bandwidth",
+    "@persistence",
+    "@chirality",
+    "@helicon",
+    "@graviton",
+    "@time_shell",
+    "@spacetime",
+    "@black_hole",
+    "@black_hole_cosmology",
+    "@cosmology",
+    "@consciousness"
+  ],
+  "central_handles_giant_scc": {
+    "@time_space": true,
+    "@genesis_field": true,
+    "@resolution": true,
+    "@bandwidth": true,
+    "@persistence": true,
+    "@chirality": true,
+    "@helicon": true,
+    "@graviton": true,
+    "@time_shell": true,
+    "@spacetime": true,
+    "@black_hole": true,
+    "@black_hole_cosmology": true,
+    "@cosmology": true,
+    "@consciousness": true,
+    "@higgs_field": true,
+    "@dark_matter_geometry": true
+  },
+  "relation_classification_note": "formalization_class in RELATION_LEDGER.csv is Astraeus-derived organizational metadata, not source-authoritative relation typing."
+}

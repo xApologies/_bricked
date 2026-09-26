@@ -1,0 +1,846 @@
+{
+  "parent_head": "dd4c4ad0355f84607d05937b19f22debe10db27b",
+  "checksum_entries": 101,
+  "artifact_entries": 56,
+  "zip_checks": [
+    {
+      "path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 | GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/6 | GENESIS_PROPAGATION_GIRL_PROJECT_v8.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/CRD_TO_QCD_INHERITANCE_FULL_v1_9.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_ULTRA_UNIFIED_QMO_API_v2_0_CANDIDATE_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_ULTRA_UNIFIED_QMO_API_v2_1_R5_SELF_CLOSED_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_TIME_SPACE_CONSCIOUSNESS_BIDIRECTIONAL_QMO_v1_0_20260827.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_CONSCIOUSNESS_TO_TIME_SPACE_API_CRAWL_R8_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10_FULL_EDGE_CLOSURE_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_FULL_MATHEMATICAL_FORMALIZATION_v1_0_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/2.0 | Internal Mapping.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0_20260822.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/VERA_API_LIVE_MODEL_v0.8.0_20260822.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_ROADMAP_v1_2_QMO_LITE_20260825.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_3_QMO_LITE_20260825.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_4_ROAD_HELICON_TYPED_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_5_RESIDUE_DESCENT_GATE_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_6_SU3_REDUCTION_NOGO_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_7_CORRIDOR_CARRIER_BACKFILL_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_8_TIMESHELL_Q_HANDOFF_BLOCKER_20260826.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/Archive(1).zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/6 | Unified Rainbow Road Overlay.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/1.0 | QFT - GR BRIDGE.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/Rainbow_road.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/CFP_exp.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/FUSION OPERATOR | CANDIDATE.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/Chirality Relaxation Dynamic .zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/Genesis Field.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/04_MK43_CORE/3 | Genesis Sandbox.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Resolution & Readout.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Holonomy & Chirality.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Bandwidth Algebra.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Identity Through History.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Transduction Geometry v1.0.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/Trinity_Mainframe_Architecture_Archive.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "08_PRIOR_CHECKPOINTS/MK43_CHIRALITY_TIMESHELL_THREAD_RECOVERY_v1_0_20260827.zip",
+      "crc": "PASS"
+    },
+    {
+      "path": "08_PRIOR_CHECKPOINTS/GENESIS_CHIRALITY_FABRIC_FULL_THREAD_RECOVERY_R61_v1_0_20260829.zip",
+      "crc": "PASS"
+    }
+  ],
+  "sqlite_checks": [
+    {
+      "path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/genesis_chirality_recovery.sqlite",
+      "integrity": "ok",
+      "counts": {
+        "metadata": 9,
+        "qmos": 6,
+        "objects": 27,
+        "equations": 31,
+        "claims": 15,
+        "relations": 26,
+        "chronology": 14,
+        "open_debt": 13,
+        "sources": 28,
+        "supersessions": 8,
+        "aliases": 8,
+        "analogies": 3,
+        "recovery_rules": 7
+      }
+    },
+    {
+      "path": "05_MACHINE/genesis_chirality_full_checkpoint.sqlite",
+      "integrity": "ok",
+      "counts": {
+        "metadata": 14,
+        "qmos": 12,
+        "objects": 33,
+        "equations": 39,
+        "claims": 20,
+        "relations": 38,
+        "chronology": 16,
+        "open_debt": 16,
+        "sources": 84,
+        "supersessions": 8,
+        "aliases": 8,
+        "analogies": 3,
+        "recovery_rules": 7,
+        "artifacts": 56,
+        "thread_segments": 6,
+        "checkpoint_components": 6,
+        "file_aliases": 9
+      }
+    }
+  ],
+  "api_smoke": [
+    {
+      "command": "info",
+      "returncode": 0,
+      "result": {
+        "metadata": {
+          "checkpoint_run": "R62",
+          "checkpoint_type": "FULL_CORPUS_CHECKPOINT",
+          "collaboration_mode": "Astraeus Reach+ / Vera Reach- / provenance-preserving reconciliation",
+          "compact_parent": "@qmo/genesis_chirality_fabric_r61",
+          "continuity_mode": "cumulative / append-only / loss-resistant",
+          "created_at": "2026-08-29",
+          "current_frontier": "@open/native_multiscale_update_law",
+          "date": "2026-08-29",
+          "package_name": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829",
+          "package_version": "1.0",
+          "primary_qmo": "@qmo/genesis_chirality_fabric_full_checkpoint_r62",
+          "qcd_status": "downstream comparison only",
+          "resume_address": "@open/native_multiscale_update_law",
+          "run": "R61"
+        },
+        "counts": {
+          "aliases": 8,
+          "analogies": 3,
+          "artifacts": 56,
+          "checkpoint_components": 6,
+          "chronology": 16,
+          "claims": 20,
+          "equations": 39,
+          "file_aliases": 9,
+          "objects": 33,
+          "open_debt": 16,
+          "qmos": 12,
+          "recovery_rules": 7,
+          "relations": 38,
+          "sources": 84,
+          "supersessions": 8,
+          "thread_segments": 6
+        },
+        "integrity": "ok"
+      }
+    },
+    {
+      "command": "address @qmo/genesis_chirality_fabric_full_checkpoint_r62",
+      "returncode": 0,
+      "result": [
+        {
+          "table": "qmos",
+          "address": "@qmo/genesis_chirality_fabric_full_checkpoint_r62",
+          "name": "GENESIS Chirality Fabric Full Checkpoint R62",
+          "version": "1.0",
+          "status": "CURRENT_FULL_CHECKPOINT",
+          "scope": "Full conversation-linked source corpus, canon, mathematics, APIs, databases, and provenance.",
+          "definition": "Queryable dependency object for the complete checkpoint.",
+          "authority": "Genesis/Astraeus/Vera",
+          "source_ref": "00_START_HERE/README_FIRST.md",
+          "notes": "Supersedes R61 only as completeness checkpoint; does not erase R61."
+        }
+      ]
+    },
+    {
+      "command": "address @object/chirality_block",
+      "returncode": 0,
+      "result": [
+        {
+          "table": "objects",
+          "address": "@object/chirality_block",
+          "name": "Chirality Block",
+          "object_type": "4x4x4 native domain",
+          "status": "CURRENT",
+          "definition": "Native three-dimensional domain with 64 tile positions; current toy profile half occupied.",
+          "authority": "Genesis live",
+          "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+          "notes": "Not canonically an array/tree of bytes."
+        }
+      ]
+    },
+    {
+      "command": "search torus",
+      "returncode": 0,
+      "result": [
+        {
+          "table": "qmos",
+          "address": "@qmo/native_update_mechanism_r61",
+          "name": "Native Multiscale Chirality Update Mechanism",
+          "version": "R61",
+          "status": "WORKING_CANDIDATE",
+          "scope": "Tile-to-Time-Shell multiscale update",
+          "definition": "Joint decorated update mechanism target; not yet a unique law.",
+          "authority": "Astraeus/Vera R60-R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "QCD excluded as premise."
+        },
+        {
+          "table": "qmos",
+          "address": "@qmo/torus_continuity_r36_r37",
+          "name": "Local Torus Continuity Model",
+          "version": "R36-R37",
+          "status": "STRONG_CANDIDATE",
+          "scope": "Two occupied seed tiles",
+          "definition": "T2=S1_A x S1_B with 36 ordered cells, local continuity, and winding History.",
+          "authority": "Genesis Chirality v9 lineage",
+          "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R36_S1_CONTINUOUS_RESOLUTION.md",
+          "notes": "Path selection remains open."
+        },
+        {
+          "table": "objects",
+          "address": "@object/color_charge",
+          "name": "Resolved Local Color Charge",
+          "object_type": "multiscale readout",
+          "status": "CURRENT_TOY",
+          "definition": "Truncated-mean resolved color at tile/seed/byte/block domain scales.",
+          "authority": "Genesis live",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Telemetry/readout role active; deeper state role open."
+        },
+        {
+          "table": "objects",
+          "address": "@object/local_torus",
+          "name": "Local Seed Torus",
+          "object_type": "T2 local configuration space",
+          "status": "STRONG_CANDIDATE",
+          "definition": "Product of two cyclic color coordinates for the two occupied seed tiles.",
+          "authority": "R36-R37",
+          "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+          "notes": "Local only."
+        },
+        {
+          "table": "objects",
+          "address": "@object/qcd_comparison",
+          "name": "QCD Comparison Target",
+          "object_type": "external comparison",
+          "status": "EXTERNAL_COMPARISON",
+          "definition": "Non-Abelian SU(3) gauge-theory structure used only after native chirality algebra is derived.",
+          "authority": "Conventional QCD",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "No identity claim."
+        },
+        {
+          "table": "objects",
+          "address": "@object/color_circle",
+          "name": "Color Circle",
+          "object_type": "configuration_space",
+          "status": "CANDIDATE",
+          "definition": "Continuous S1 phase coordinate whose sectors read out R/O/Y/G/B/V.",
+          "authority": "R36/R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": "Not yet canonical physical field."
+        },
+        {
+          "table": "objects",
+          "address": "@object/seed_torus",
+          "name": "Seed Torus",
+          "object_type": "configuration_space",
+          "status": "STRONG_CANDIDATE",
+          "definition": "Joint two-tile color-phase space T2=S1_A×S1_B.",
+          "authority": "R36-R37",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": "Topology supplies paths, not selector."
+        },
+        {
+          "table": "objects",
+          "address": "@object/byte_configuration_space",
+          "name": "Byte/Bite Configuration Space",
+          "object_type": "configuration_space",
+          "status": "PROVISIONAL",
+          "definition": "Constrained joint color-phase space for four occupied tiles.",
+          "authority": "R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": "X_byte subseteq (S1)^4."
+        },
+        {
+          "table": "objects",
+          "address": "@object/block_configuration_space",
+          "name": "Block Configuration Space",
+          "object_type": "configuration_space",
+          "status": "PROVISIONAL",
+          "definition": "Constrained joint color-phase space for thirty-two occupied tiles in current half-occupancy block.",
+          "authority": "R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": "X_block subseteq (S1)^32."
+        },
+        {
+          "table": "objects",
+          "address": "@object/joint_update_event",
+          "name": "Joint Update Event",
+          "object_type": "event",
+          "status": "OPEN_TYPE",
+          "definition": "One coupled multicomponent path not assigned an arbitrary serial order.",
+          "authority": "R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": "Distinct from simultaneous independent events."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/domain_color_readout",
+          "name": "Domain color readout",
+          "expression": "C(D)=trunc((1/N_D) sum_i w(c_i))",
+          "interpretation": "Current discrete coarse readout.",
+          "status": "CURRENT_TOY",
+          "authority": "Genesis live",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Continuous gradient later."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/torus_seed_space",
+          "name": "Seed torus",
+          "expression": "T2=S1_A x S1_B",
+          "interpretation": "Two occupied tile color phases.",
+          "status": "STRONG_CANDIDATE",
+          "authority": "R36-R37",
+          "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+          "notes": "Local only."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/torus_update",
+          "name": "Torus transport",
+          "expression": "(theta_A,theta_B)->(theta_A+Delta_A,theta_B+Delta_B) mod 2pi",
+          "interpretation": "General local phase displacement.",
+          "status": "CANDIDATE",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Selector open."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/torus_winding",
+          "name": "Torus winding",
+          "expression": "pi_1(T2)=Z x Z",
+          "interpretation": "Winding History carrier.",
+          "status": "PROVED_INHERITED_MATH",
+          "authority": "R37",
+          "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+          "notes": "Not complete History."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/byte_phase_space",
+          "name": "Byte phase space",
+          "expression": "X_byte subseteq (S1)^4",
+          "interpretation": "Four occupied tile phases under fixed occupancy.",
+          "status": "PROVISIONAL_MODEL",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Constrained domain."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/block_phase_space",
+          "name": "Block phase space",
+          "expression": "X_block subseteq (S1)^32",
+          "interpretation": "Thirty-two occupied tile phases in half-occupied block.",
+          "status": "PROVISIONAL_MODEL",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Not physical dimension count."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/block_path",
+          "name": "Block path",
+          "expression": "Gamma:[0,1]->X_block",
+          "interpretation": "Joint multiscale path.",
+          "status": "CANDIDATE",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/block_direct_readout",
+          "name": "Direct block readout",
+          "expression": "C_block=trunc((1/32) sum_tau w(c_tau))",
+          "interpretation": "Fine-grained direct toy average.",
+          "status": "CURRENT_TOY",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Compare to recursive readout."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/commutator",
+          "name": "Commutator",
+          "expression": "[A,B]=AB-BA",
+          "interpretation": "Measures order dependence.",
+          "status": "INHERITED_TOOL",
+          "authority": "standard algebra",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/local_update_generator",
+          "name": "Local chirality generator",
+          "expression": "K_chi:(state,Adj,R,B,H,P,Sigma)->Gen_local",
+          "interpretation": "Active update-law target.",
+          "status": "OPEN",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/multiscale_update",
+          "name": "Multiscale update",
+          "expression": "U_chi:(K_t,Adj,R,B,H,P,Sigma) ⇀ (K_t+1,H_prime)",
+          "interpretation": "Partial decorated update operator.",
+          "status": "WORKING_CANDIDATE",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/su3_dimension",
+          "name": "SU3 generator dimension",
+          "expression": "dim SU(3)=3^2-1=8",
+          "interpretation": "External comparison fact.",
+          "status": "EXTERNAL_COMPARISON",
+          "authority": "standard QCD",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "No derivation claim."
+        },
+        {
+          "table": "equations",
+          "address": "@eq/qcd_commutator",
+          "name": "QCD Lie algebra commutator",
+          "expression": "[T^a,T^b]=i f^{abc}T^c",
+          "interpretation": "External comparison fact.",
+          "status": "EXTERNAL_COMPARISON",
+          "authority": "standard QCD",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/color_circle_phase",
+          "name": "Tile color phase",
+          "expression": "theta_tau in S1",
+          "interpretation": "Continuous tile phase; discrete colors are sector readouts.",
+          "status": "CANDIDATE",
+          "authority": "R36/R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/seed_torus_path",
+          "name": "Seed torus path",
+          "expression": "gamma_seed:[0,1]->T2",
+          "interpretation": "Joint two-tile History path.",
+          "status": "CANDIDATE",
+          "authority": "R37/R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/byte_joint_space",
+          "name": "Byte joint space",
+          "expression": "X_byte subseteq (S1)^4",
+          "interpretation": "Four occupied tile phases under byte constraints.",
+          "status": "PROVISIONAL",
+          "authority": "R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/block_joint_space",
+          "name": "Block joint space",
+          "expression": "X_block subseteq (S1)^32",
+          "interpretation": "Thirty-two occupied tile phases under block constraints.",
+          "status": "PROVISIONAL",
+          "authority": "R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "table": "equations",
+          "address": "@eq/joint_update_path",
+          "name": "Joint update path",
+          "expression": "Gamma_J(s)=(gamma_1(s),...,gamma_k(s))",
+          "interpretation": "One coupled event across k tile phases.",
+          "status": "OPEN_CANDIDATE",
+          "authority": "R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "table": "claims",
+          "address": "@claim/tile_change_changes_relation",
+          "category": "update",
+          "statement": "Changing one tile changes the complete seed configuration and every incident relation involving that tile.",
+          "status": "CURRENT",
+          "authority": "R16/R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Does not force partner color by itself."
+        },
+        {
+          "table": "claims",
+          "address": "@claim/block_update_tile_level",
+          "category": "update",
+          "statement": "A block-level color transition is realized through tile-level paths and multiscale re-resolution.",
+          "status": "CURRENT",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": ""
+        },
+        {
+          "table": "claims",
+          "address": "@claim/torus_reachability",
+          "category": "torus",
+          "statement": "Every ordered two-color seed cell is reachable from every other using local cyclic crossings in the R37 model.",
+          "status": "CLOSED_MODEL_RESULT",
+          "authority": "R37",
+          "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+          "notes": ""
+        },
+        {
+          "table": "claims",
+          "address": "@claim/torus_no_selector",
+          "category": "torus",
+          "statement": "Torus topology supplies possible paths but does not select the actual path.",
+          "status": "CLOSED_MODEL_RESULT",
+          "authority": "R37",
+          "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+          "notes": ""
+        },
+        {
+          "table": "claims",
+          "address": "@claim/two_readouts_may_differ",
+          "category": "resolution",
+          "statement": "Direct tile averaging and recursively truncated multiscale readout may differ.",
+          "status": "OPEN_STRUCTURAL_RESULT",
+          "authority": "R61",
+          "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+          "notes": "Needs classification."
+        },
+        {
+          "table": "claims",
+          "address": "@claim/torus_long_range_reachable",
+          "category": "torus",
+          "statement": "Orange→Violet, Green→Red, and Yellow→Blue are reachable torus paths; primitive/composed/readout status remains open.",
+          "status": "CURRENT",
+          "authority": "R37/R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "table": "open_debt",
+          "address": "@open/torus_path_selector",
+          "priority": 11,
+          "title": "Torus path selector",
+          "description": "Determine direction, reach, speed, primitive/composed status, and coupled tile flow.",
+          "status": "ACTIVE",
+          "blocked_by": "@open/bandwidth_semantics",
+          "source_ref": "03_MATHEMATICS/NATIVE_UPDATE_FRONTIER.md",
+          "notes": ""
+        },
+        {
+          "table": "sources",
+          "address": "@source/full/0001",
+          "filename": "3 | .zip",
+          "sha256": "aae667101e8a285040f665d1fb489b67a8268a88062e30df292416c409c21bb2",
+          "size_bytes": 364892365,
+          "kind": "cumulative_live_model",
+          "embedded": 1,
+          "role": "Independent Genesis Chirality full cumulative QMO/history v9, including torus and R1-R59 lineage.",
+          "status": "included",
+          "notes": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 | GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip"
+        },
+        {
+          "table": "artifacts",
+          "address": "@artifact/0001",
+          "source_path": "/mnt/data/3 | .zip",
+          "archive_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 | GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip",
+          "group_name": "cumulative_live_model",
+          "role": "Independent Genesis Chirality full cumulative QMO/history v9, including torus and R1-R59 lineage.",
+          "status": "included",
+          "sha256": "aae667101e8a285040f665d1fb489b67a8268a88062e30df292416c409c21bb2",
+          "size_bytes": 364892365,
+          "notes": ""
+        },
+        {
+          "table": "thread_segments",
+          "address": "@segment/torus",
+          "phase": "Torus",
+          "title": "Continuous color phase and winding History",
+          "summary": "Recovered S1/T2 configuration spaces, reachability, and no-selector result.",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "status": "STRONG_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "command": "neighbors @object/chirality_seed --direction both",
+      "returncode": 0,
+      "result": [
+        {
+          "id": 2,
+          "source_address": "@object/chirality_seed",
+          "relation": "SET_LIFTS_TO",
+          "target_address": "@object/chirality_byte_bite",
+          "status": "OPEN_RULE",
+          "authority": "Genesis live",
+          "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+          "notes": "Exact lift open."
+        },
+        {
+          "id": 15,
+          "source_address": "@object/chirality_seed",
+          "relation": "HAS_CONFIGURATION_SPACE",
+          "target_address": "@object/local_torus",
+          "status": "STRONG_CANDIDATE",
+          "authority": "R36-R37",
+          "source_ref": "@qmo/torus_continuity_r36_r37",
+          "notes": "Two occupied tiles."
+        },
+        {
+          "id": 32,
+          "source_address": "@object/chirality_seed",
+          "relation": "HAS_CONFIGURATION_SPACE",
+          "target_address": "@object/seed_torus",
+          "status": "STRONG_CANDIDATE",
+          "authority": "R37/R62",
+          "source_ref": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+          "notes": ""
+        },
+        {
+          "id": 1,
+          "source_address": "@object/chirality_tile",
+          "relation": "COMPOSES",
+          "target_address": "@object/chirality_seed",
+          "status": "CURRENT",
+          "authority": "Genesis live",
+          "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+          "notes": "Four tiles per seed."
+        }
+      ]
+    },
+    {
+      "command": "resume",
+      "returncode": 0,
+      "result": {
+        "primary_resume_address": "@open/native_multiscale_update_law",
+        "record": [
+          {
+            "address": "@open/native_multiscale_update_law",
+            "priority": 1,
+            "title": "Native multiscale update law",
+            "description": "Construct U_chi/K_chi from native decorated context.",
+            "status": "ACTIVE",
+            "blocked_by": null,
+            "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+            "notes": "Primary resume point."
+          }
+        ],
+        "neighbors": [
+          {
+            "id": 36,
+            "source_address": "@eq/domain_generator_map",
+            "relation": "INTERSECTS",
+            "target_address": "@eq/local_update_generator",
+            "status": "OPEN_FRONTIER",
+            "authority": "R60/R88",
+            "source_ref": "03_MATHEMATICS/NATIVE_UPDATE_FRONTIER.md",
+            "notes": ""
+          },
+          {
+            "id": 21,
+            "source_address": "@eq/local_update_generator",
+            "relation": "INTERSECTS",
+            "target_address": "@eq/domain_generator_map",
+            "status": "CURRENT_INTERSECTION",
+            "authority": "R61 + Propagation v8",
+            "source_ref": "11_HANDOFF/THREAD_HANDOFF.md",
+            "notes": "Independent model intersection."
+          },
+          {
+            "id": 7,
+            "source_address": "@object/bandwidth",
+            "relation": "FILTERS",
+            "target_address": "@eq/local_update_generator",
+            "status": "LOCKED_ROLE",
+            "authority": "Parent sources",
+            "source_ref": "@source/five_books",
+            "notes": "Does not select by itself."
+          },
+          {
+            "id": 8,
+            "source_address": "@object/geometric_adjacency",
+            "relation": "SUPPLIES_CANDIDATES_TO",
+            "target_address": "@eq/local_update_generator",
+            "status": "V9_LOCK",
+            "authority": "Genesis v9",
+            "source_ref": "@source/genesis_chirality_v9",
+            "notes": ""
+          },
+          {
+            "id": 9,
+            "source_address": "@object/connection",
+            "relation": "SELECTS_OR_RETAINS",
+            "target_address": "@eq/local_update_generator",
+            "status": "CANDIDATE_ARCHITECTURE",
+            "authority": "R33",
+            "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R33_CONNECTION_LIFT.md",
+            "notes": ""
+          },
+          {
+            "id": 20,
+            "source_address": "@object/history",
+            "relation": "CHANGES_FUTURE_AVAILABILITY_OF",
+            "target_address": "@eq/local_update_generator",
+            "status": "R60_CANDIDATE",
+            "authority": "R60",
+            "source_ref": "09_SOURCE_SNAPSHOTS/CURRENT_TANGENT/R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+            "notes": ""
+          }
+        ]
+      }
+    }
+  ],
+  "files_over_100_mib": [
+    {
+      "source_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 | GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip",
+      "local_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 - GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip",
+      "bytes": 364892365,
+      "sha256": "aae667101e8a285040f665d1fb489b67a8268a88062e30df292416c409c21bb2"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/6 | GENESIS_PROPAGATION_GIRL_PROJECT_v8.zip",
+      "local_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/6 - GENESIS_PROPAGATION_GIRL_PROJECT_v8.zip",
+      "bytes": 233685828,
+      "sha256": "4ecef0cc37f61292403311078426674ff874e4f4d1814a8ed468d59d0e62eae6"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/CRD_TO_QCD_INHERITANCE_FULL_v1_9.zip",
+      "local_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/CRD_TO_QCD_INHERITANCE_FULL_v1_9.zip",
+      "bytes": 360400705,
+      "sha256": "4f6def627cdd93e0c3ef84b703f951e0a9f13e596c1f385e736efd5871001e60"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_8_TIMESHELL_Q_HANDOFF_BLOCKER_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_8_TIMESHELL_Q_HANDOFF_BLOCKER_20260826.zip",
+      "bytes": 180181455,
+      "sha256": "23421f5602bfabccdb898eafa9d5a5d7ce479cb59512a535c9efbb9d20d08385"
+    }
+  ]
+}

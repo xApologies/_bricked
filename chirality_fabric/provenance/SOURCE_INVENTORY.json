@@ -1,0 +1,1029 @@
+{
+  "parent_head": "dd4c4ad0355f84607d05937b19f22debe10db27b",
+  "reconstructed_zip": "GENESIS_CHIRALITY_FABRIC_FULL_CHECKPOINT_R62_v1_0_20260829.zip",
+  "reconstructed_bytes": 1838368113,
+  "reconstructed_sha256": "f0c63cabf18ad856f10dc2ffd57669ae02106a561d2c9af06a5ecf83bf79d65e",
+  "scope_authority": "User clarified: Working R62 tree plus complete provenance; archives stay local.",
+  "files": [
+    {
+      "source_path": "00_START_HERE/README_FIRST.md",
+      "local_path": "00_START_HERE/README_FIRST.md",
+      "bytes": 1626,
+      "sha256": "8270f4337111ead06b0ec13f9ef99badb36efb54e80186a186f5bfed1a513783",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/00_START_HERE/README_FIRST.md"
+    },
+    {
+      "source_path": "00_START_HERE/RECOVERY_PROMPT.md",
+      "local_path": "00_START_HERE/RECOVERY_PROMPT.md",
+      "bytes": 1608,
+      "sha256": "3cda1a5379f657932b1b8c1054de267f3421bc625e34c9d5c3d1d9c572ece6f2",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/00_START_HERE/RECOVERY_PROMPT.md"
+    },
+    {
+      "source_path": "00_START_HERE/SCOPE_AND_COMPLETENESS.md",
+      "local_path": "00_START_HERE/SCOPE_AND_COMPLETENESS.md",
+      "bytes": 1197,
+      "sha256": "90a39be228904243dc024b040b8887aa37fd85555c344a9b2d0d6d3324690c4c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/00_START_HERE/SCOPE_AND_COMPLETENESS.md"
+    },
+    {
+      "source_path": "01_CANON/AUTHORITY_AND_FIREWALLS.md",
+      "local_path": "01_CANON/AUTHORITY_AND_FIREWALLS.md",
+      "bytes": 1229,
+      "sha256": "712f6a5d98f7d42888f8253c5c8cfd6899aad18fef957807bdfb356360f77baa",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/01_CANON/AUTHORITY_AND_FIREWALLS.md"
+    },
+    {
+      "source_path": "01_CANON/CANONICAL_STATE_R62.md",
+      "local_path": "01_CANON/CANONICAL_STATE_R62.md",
+      "bytes": 5074,
+      "sha256": "3637d4d73827e6564c2ec9ae4b8d62a27c61d27bd112040726f9e53496806265",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/01_CANON/CANONICAL_STATE_R62.md"
+    },
+    {
+      "source_path": "01_CANON/LOCKS_AND_DEFINITIONS.md",
+      "local_path": "01_CANON/LOCKS_AND_DEFINITIONS.md",
+      "bytes": 1373,
+      "sha256": "77b9e3ce740d60d499847baed912a3aed67c896001b8534b9cf50fac36b79825",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/01_CANON/LOCKS_AND_DEFINITIONS.md"
+    },
+    {
+      "source_path": "02_THREAD_HISTORY/FULL_THREAD_CHRONOLOGY.md",
+      "local_path": "02_THREAD_HISTORY/FULL_THREAD_CHRONOLOGY.md",
+      "bytes": 5095,
+      "sha256": "9317229640b35b8fb36be085feb430442576d8a87f4097dd422d0cdc9c585afa",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/02_THREAD_HISTORY/FULL_THREAD_CHRONOLOGY.md"
+    },
+    {
+      "source_path": "02_THREAD_HISTORY/SUPERSESSION_HISTORY.md",
+      "local_path": "02_THREAD_HISTORY/SUPERSESSION_HISTORY.md",
+      "bytes": 1956,
+      "sha256": "2c3039dc360e97f2d450122d30ef80a6cecc3628a520e0df4fceb4e74a0c9756",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/02_THREAD_HISTORY/SUPERSESSION_HISTORY.md"
+    },
+    {
+      "source_path": "02_THREAD_HISTORY/TECHNICAL_CONVERSATION_RECONSTRUCTION.md",
+      "local_path": "02_THREAD_HISTORY/TECHNICAL_CONVERSATION_RECONSTRUCTION.md",
+      "bytes": 4828,
+      "sha256": "740c6f50d2a7f6d0c19a464f840f318dbc0638e9eaca0b3d548fe057227d98e8",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/02_THREAD_HISTORY/TECHNICAL_CONVERSATION_RECONSTRUCTION.md"
+    },
+    {
+      "source_path": "03_MATHEMATICS/CRD_QCD_FRONTIER.md",
+      "local_path": "03_MATHEMATICS/CRD_QCD_FRONTIER.md",
+      "bytes": 814,
+      "sha256": "3f07c4b6a89e1dce831dabb57676242840b6a92ba1229499e8e07ab2aa3bacdb",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/03_MATHEMATICS/CRD_QCD_FRONTIER.md"
+    },
+    {
+      "source_path": "03_MATHEMATICS/FULL_EQUATION_LEDGER.md",
+      "local_path": "03_MATHEMATICS/FULL_EQUATION_LEDGER.md",
+      "bytes": 10797,
+      "sha256": "04f14a43fad881074bd814303dbf9f10d2622fc71f6eab722a7c050b2a8f287c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/03_MATHEMATICS/FULL_EQUATION_LEDGER.md"
+    },
+    {
+      "source_path": "03_MATHEMATICS/NATIVE_UPDATE_FRONTIER.md",
+      "local_path": "03_MATHEMATICS/NATIVE_UPDATE_FRONTIER.md",
+      "bytes": 1339,
+      "sha256": "fac33fd1297614de1d3a119b78f6a189ed630cff798c254efdced8d63a6d10a1",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/03_MATHEMATICS/NATIVE_UPDATE_FRONTIER.md"
+    },
+    {
+      "source_path": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+      "local_path": "03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md",
+      "bytes": 1937,
+      "sha256": "6207dfd87cc357b822e62a574d4290e5343a4dd93083d86823be1cb254fe363e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/03_MATHEMATICS/TORUS_AND_MULTISCALE_UPDATE_MODEL.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/CRD_QCD_BATCH_01_NOTES/README.md",
+      "local_path": "04_PRIOR_EXPANDED/CRD_QCD_BATCH_01_NOTES/README.md",
+      "bytes": 2303,
+      "sha256": "83a3c3da29ce761cd0c035f5f0fb7a744daf760dda9fc9a7a935ab781dfaca1e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/CRD_QCD_BATCH_01_NOTES/README.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/CRD_QCD_BATCH_01_NOTES/RECOVERY_PROMPT.md",
+      "local_path": "04_PRIOR_EXPANDED/CRD_QCD_BATCH_01_NOTES/RECOVERY_PROMPT.md",
+      "bytes": 3376,
+      "sha256": "fb499e16b0b135337a9c43151c8ab878d0ba7794b8b5daee3f8242c77c10dd5c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/CRD_QCD_BATCH_01_NOTES/RECOVERY_PROMPT.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/MK43_INITIAL_MOUNT_MANIFEST/MOUNT_MANIFEST.json",
+      "local_path": "04_PRIOR_EXPANDED/MK43_INITIAL_MOUNT_MANIFEST/MOUNT_MANIFEST.json",
+      "bytes": 5352,
+      "sha256": "913ec09630ff0b766dc333cc2448bec64fe6420c134c484fb36aa6eac676a065",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/MK43_INITIAL_MOUNT_MANIFEST/MOUNT_MANIFEST.json"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/MK43_INITIAL_MOUNT_MANIFEST/MOUNT_README.md",
+      "local_path": "04_PRIOR_EXPANDED/MK43_INITIAL_MOUNT_MANIFEST/MOUNT_README.md",
+      "bytes": 1378,
+      "sha256": "7ad414f65e3f2f748d7a34a501c7a3c8e433e868549c32baa8fb91e2cfd8418f",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/MK43_INITIAL_MOUNT_MANIFEST/MOUNT_README.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/01_FORMAL/FORMAL_MODEL.json",
+      "local_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/01_FORMAL/FORMAL_MODEL.json",
+      "bytes": 3225,
+      "sha256": "817e8eb820013cfeca4be7ac6990d18bd851eee9e47c548334138aff3da1f773",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/01_FORMAL/FORMAL_MODEL.json"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/01_FORMAL/QMO_FULL_MATHEMATICAL_MAP.md",
+      "local_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/01_FORMAL/QMO_FULL_MATHEMATICAL_MAP.md",
+      "bytes": 28881,
+      "sha256": "f4838bcb193e77f2323ed77a34971e8b7a8c4e6b6c5f014c27ac4da453cae1bf",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/01_FORMAL/QMO_FULL_MATHEMATICAL_MAP.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/02_LEDGERS/NODE_LEDGER.csv",
+      "local_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/02_LEDGERS/NODE_LEDGER.csv",
+      "bytes": 200881,
+      "sha256": "2ef1eba6f4fbc555f67158f298fdfd0246860e10ad9e78a9c7a32cd36bf33b45",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/02_LEDGERS/NODE_LEDGER.csv"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/02_LEDGERS/RELATION_LEDGER.csv",
+      "local_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/02_LEDGERS/RELATION_LEDGER.csv",
+      "bytes": 19285,
+      "sha256": "4b8114a117a316f77b9e0f22a0b1478b8f425f539025bfa48b2610afec7fcc54",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/02_LEDGERS/RELATION_LEDGER.csv"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/03_GRAPH/CANONICAL_TYPED_GRAPH.graphml",
+      "local_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/03_GRAPH/CANONICAL_TYPED_GRAPH.graphml",
+      "bytes": 9872470,
+      "sha256": "dc94120ade3b77a7f4a6a6cb6da8251c8ec7c25b756e7f01d5308da7fce109eb",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/03_GRAPH/CANONICAL_TYPED_GRAPH.graphml"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/03_GRAPH/CONDENSATION_DAG.graphml",
+      "local_path": "04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/03_GRAPH/CONDENSATION_DAG.graphml",
+      "bytes": 21157,
+      "sha256": "58f26fb63389b8d79137a1cc9f888d2cbdef54fd3ad6e0dd1b0f204fa7f628dc",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_FULL_FORMALIZATION_EXPANDED/03_GRAPH/CONDENSATION_DAG.graphml"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/01_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10.json",
+      "local_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/01_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10.json",
+      "bytes": 2330,
+      "sha256": "f1287710c7b334b18cd4e24286da8ffbdd30b468a2fb82632300ce605bd2ae06",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/01_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10.json"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/02_GRAPH/CORE_DEPENDENCY_SPINE.md",
+      "local_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/02_GRAPH/CORE_DEPENDENCY_SPINE.md",
+      "bytes": 3628,
+      "sha256": "92a8405bc35a5c532960cf29f474cc71e3e56b7a20b8a5253d347b8f21e87e31",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/02_GRAPH/CORE_DEPENDENCY_SPINE.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/04_AUDIT/AUDIT_REPORT.json",
+      "local_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/04_AUDIT/AUDIT_REPORT.json",
+      "bytes": 5436,
+      "sha256": "563702b0e0e9da8e5ca2db7970de8e03e5ea4553c9979042c7912d6262edd711",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/04_AUDIT/AUDIT_REPORT.json"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/04_AUDIT/ITERATION_LEDGER.json",
+      "local_path": "04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/04_AUDIT/ITERATION_LEDGER.json",
+      "bytes": 55573,
+      "sha256": "11e6dce3211cdf65e7c4ac5424b7b1fd973031db8c3af66ef7fadec049e278c6",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/QMO_R10_GRAPH_EXPANDED/04_AUDIT/ITERATION_LEDGER.json"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R60_TANGENT/ASTRAEUS_VERA_R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+      "local_path": "04_PRIOR_EXPANDED/R60_TANGENT/ASTRAEUS_VERA_R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+      "bytes": 8494,
+      "sha256": "bead4ef87ef0d427eec760c11c23fb5fa41694de44791f3ac223a9611f3f3d75",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R60_TANGENT/ASTRAEUS_VERA_R60_NATIVE_UPDATE_MECHANISM_TANGENT.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/00_START_HERE/README_FIRST.md",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/00_START_HERE/README_FIRST.md",
+      "bytes": 2179,
+      "sha256": "521e89eea19c3fcd4ddf52161f9afa6b5f06fb31e46d7a510e9b67abb77b28b7",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/00_START_HERE/README_FIRST.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/00_START_HERE/RECOVERY_PROMPT.md",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/00_START_HERE/RECOVERY_PROMPT.md",
+      "bytes": 1362,
+      "sha256": "5aead325f67c8b1f0766750ab3e4c9f49326c7f1899f342668a0bd2188630985",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/00_START_HERE/RECOVERY_PROMPT.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/01_CANON/CANONICAL_CURRENT_STATE.md",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/01_CANON/CANONICAL_CURRENT_STATE.md",
+      "bytes": 7698,
+      "sha256": "b259746ebd16d1147dddc6387e1ccf057c9775e2ace19d1e31756c9cf0aed287",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/01_CANON/CANONICAL_CURRENT_STATE.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/03_VERA/AUTHORITY_SUPERSESSION_AND_FIREWALLS.md",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/03_VERA/AUTHORITY_SUPERSESSION_AND_FIREWALLS.md",
+      "bytes": 2846,
+      "sha256": "f2d075a28ce28a3cdb6329e18e4fec8185448b49ac7f8c618e336ca0f8444cc7",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/03_VERA/AUTHORITY_SUPERSESSION_AND_FIREWALLS.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/04_MATHEMATICS/EQUATION_LEDGER.md",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/04_MATHEMATICS/EQUATION_LEDGER.md",
+      "bytes": 2757,
+      "sha256": "cfe57d14deced58f7416f41fbeefa80d043884037be7e414b06a38cac3b9f82a",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/04_MATHEMATICS/EQUATION_LEDGER.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+      "bytes": 7417,
+      "sha256": "76aba3ba708b77a559b418e55087aafde1739b596d31d5ac37050907d89caf23",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/genesis_chirality_recovery.sqlite",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/genesis_chirality_recovery.sqlite",
+      "bytes": 139264,
+      "sha256": "b1e55970466938cdfa37f7abb96bcda4fd1d0fd34afd673e97547ef6f13cc091",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/genesis_chirality_recovery.sqlite"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/qmo_api.py",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/qmo_api.py",
+      "bytes": 7292,
+      "sha256": "002a8bc0512d04040b44753f81e30ceec015e856db121f7dd6be99f77cbc3305",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/07_MACHINE/qmo_api.py"
+    },
+    {
+      "source_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/12_AUDIT/QA_REPORT.json",
+      "local_path": "04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/12_AUDIT/QA_REPORT.json",
+      "bytes": 4438,
+      "sha256": "cad4b9f862e72f1ee613ee9dac6dca5ce8fa393d7a10451bfa377e4498999b33",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/04_PRIOR_EXPANDED/R61_COMPACT_RECOVERY_EXPANDED/12_AUDIT/QA_REPORT.json"
+    },
+    {
+      "source_path": "05_MACHINE/build_full_checkpoint_r62.py",
+      "local_path": "05_MACHINE/build_full_checkpoint_r62.py",
+      "bytes": 73644,
+      "sha256": "f8b098205caf463b902ee53caf223f026c4e14fcdb7a97cee1a5443a84d5e80f",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/05_MACHINE/build_full_checkpoint_r62.py"
+    },
+    {
+      "source_path": "05_MACHINE/genesis_chirality_full_checkpoint.sqlite",
+      "local_path": "05_MACHINE/genesis_chirality_full_checkpoint.sqlite",
+      "bytes": 229376,
+      "sha256": "85a873e31425119ee7287cd694d583f0b2b64d9fd8526043a16bfa3a4770e081",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/05_MACHINE/genesis_chirality_full_checkpoint.sqlite"
+    },
+    {
+      "source_path": "05_MACHINE/qmo_api.py",
+      "local_path": "05_MACHINE/qmo_api.py",
+      "bytes": 3943,
+      "sha256": "b625c41c70c8a91bf0928f8257d1c9e58975fd8afeb0c73af7fd12eb81d02b1e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/05_MACHINE/qmo_api.py"
+    },
+    {
+      "source_path": "06_MANIFEST/CHECKSUMS.sha256",
+      "local_path": "06_MANIFEST/CHECKSUMS.sha256",
+      "bytes": 13337,
+      "sha256": "4b82cdcc6a288b216c77bca1d521c80c39882f8ca3ef9552af8663e1d891f75b",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/06_MANIFEST/CHECKSUMS.sha256"
+    },
+    {
+      "source_path": "06_MANIFEST/DUPLICATE_ALIAS_MAP.json",
+      "local_path": "06_MANIFEST/DUPLICATE_ALIAS_MAP.json",
+      "bytes": 888,
+      "sha256": "d75e2003b3fff5d474583fda1a11f2c0a4e99449ee3dc1e8d935a4aece159369",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/06_MANIFEST/DUPLICATE_ALIAS_MAP.json"
+    },
+    {
+      "source_path": "06_MANIFEST/EMBEDDED_ARCHIVE_LOCATOR.md",
+      "local_path": "06_MANIFEST/EMBEDDED_ARCHIVE_LOCATOR.md",
+      "bytes": 699,
+      "sha256": "c7087a3f1dc63ab10d130e51c071e5adf366e14395f2e4aea57c669c59a89546",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/06_MANIFEST/EMBEDDED_ARCHIVE_LOCATOR.md"
+    },
+    {
+      "source_path": "06_MANIFEST/FILE_INVENTORY.csv",
+      "local_path": "06_MANIFEST/FILE_INVENTORY.csv",
+      "bytes": 14589,
+      "sha256": "c1879271d313158657685bbfa1b0e535452e7a1c54f2ec7bae586df1791a0f31",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/06_MANIFEST/FILE_INVENTORY.csv"
+    },
+    {
+      "source_path": "06_MANIFEST/PACKAGE_MANIFEST.json",
+      "local_path": "06_MANIFEST/PACKAGE_MANIFEST.json",
+      "bytes": 1048,
+      "sha256": "eb7742991ce71abee384a3adcfb542e37a3cd460ea21fd9c390f36a6931b5743",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/06_MANIFEST/PACKAGE_MANIFEST.json"
+    },
+    {
+      "source_path": "06_MANIFEST/QA_REPORT.json",
+      "local_path": "06_MANIFEST/QA_REPORT.json",
+      "bytes": 4539,
+      "sha256": "fa06be35c5cd6f251e2d2030831533d16b9de9ae44db6fb5715485f59d6cc589",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/06_MANIFEST/QA_REPORT.json"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 | GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip",
+      "local_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/3 - GENESIS_CHIRALITY_FULL_CUMULATIVE_v9.zip",
+      "bytes": 364892365,
+      "sha256": "aae667101e8a285040f665d1fb489b67a8268a88062e30df292416c409c21bb2",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/6 | GENESIS_PROPAGATION_GIRL_PROJECT_v8.zip",
+      "local_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/6 - GENESIS_PROPAGATION_GIRL_PROJECT_v8.zip",
+      "bytes": 233685828,
+      "sha256": "4ecef0cc37f61292403311078426674ff874e4f4d1814a8ed468d59d0e62eae6",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/CRD_TO_QCD_INHERITANCE_FULL_v1_9.zip",
+      "local_path": "07_SOURCE_CORPUS/01_CUMULATIVE_LIVE_MODELS/CRD_TO_QCD_INHERITANCE_FULL_v1_9.zip",
+      "bytes": 360400705,
+      "sha256": "4f6def627cdd93e0c3ef84b703f951e0a9f13e596c1f385e736efd5871001e60",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_ULTRA_UNIFIED_QMO_API_v2_0_CANDIDATE_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_ULTRA_UNIFIED_QMO_API_v2_0_CANDIDATE_20260826.zip",
+      "bytes": 45016686,
+      "sha256": "9684e6632d96dd567ce94ee17dfee446dbd19944e33e7014c2f535301cb77d03",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_ULTRA_UNIFIED_QMO_API_v2_1_R5_SELF_CLOSED_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_ULTRA_UNIFIED_QMO_API_v2_1_R5_SELF_CLOSED_20260826.zip",
+      "bytes": 64694615,
+      "sha256": "563f19343591b422c3dcbe90a7a9ca9315c183e2e674300100a8e1ab2f46896e",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_TIME_SPACE_CONSCIOUSNESS_BIDIRECTIONAL_QMO_v1_0_20260827.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/MK43_TIME_SPACE_CONSCIOUSNESS_BIDIRECTIONAL_QMO_v1_0_20260827.zip",
+      "bytes": 47098995,
+      "sha256": "ee2664fbfd3f91d0d4313e4f6780a94f22a8401e16ef1fb497203a35b78cbac7",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_CONSCIOUSNESS_TO_TIME_SPACE_API_CRAWL_R8_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_CONSCIOUSNESS_TO_TIME_SPACE_API_CRAWL_R8_20260826.zip",
+      "bytes": 34343108,
+      "sha256": "430cff8a7ea674be62d80bc8d646b3abbac1dce00da042b2855be5b0ed74bb48",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10_FULL_EDGE_CLOSURE_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_R10_FULL_EDGE_CLOSURE_20260826.zip",
+      "bytes": 25643044,
+      "sha256": "ea22501c33809a01e6343475141b3e29642953b1781091982a60a13d5063cf74",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_FULL_MATHEMATICAL_FORMALIZATION_v1_0_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_FULL_MATHEMATICAL_FORMALIZATION_v1_0_20260826.zip",
+      "bytes": 15766768,
+      "sha256": "d172c1a395fc555c0123a00816ddc79d3e4b0a83008a1d7899f8e570e802f06f",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_20260826.json",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_20260826.json",
+      "bytes": 45071,
+      "sha256": "50c0a2a4f0d4897c1174a59b9bd7ef35ed91082f9c1330188e1fb7dc18e06f73",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/02_UNIFIED_API_QMO/QMO_TIME_SPACE_TO_CONSCIOUSNESS_20260826.json"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/2.0 | Internal Mapping.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/2.0 - Internal Mapping.zip",
+      "bytes": 6123157,
+      "sha256": "dca62b53a1f12a75734e9b3c4fa9f78849c2db14f12feb283143c5267cf50f2c",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0_20260822.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0_20260822.zip",
+      "bytes": 37214550,
+      "sha256": "e89123f7d4833d51516d6c6d4674cf696c909e8b017e1926d0b404aa8b1e0775",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/VERA_API_LIVE_MODEL_v0.8.0_20260822.zip",
+      "local_path": "07_SOURCE_CORPUS/02_UNIFIED_API_QMO/VERA_API_LIVE_MODEL_v0.8.0_20260822.zip",
+      "bytes": 315533,
+      "sha256": "1ec8704ada2051f7f6705e955f341e9a7f93f726e7ce9ca85b24941a14e9895d",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_ROADMAP_v1_2_QMO_LITE_20260825.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_ROADMAP_v1_2_QMO_LITE_20260825.zip",
+      "bytes": 54609,
+      "sha256": "63c3067784a14c1c967717f0095b06dbe459c8e7d8107e2858de9731747a7522",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_3_QMO_LITE_20260825.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_3_QMO_LITE_20260825.zip",
+      "bytes": 422872,
+      "sha256": "a9d1ebe32a8c0ad67d5e81b396176e3e77aeed8db3b65758423823a757155170",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_4_ROAD_HELICON_TYPED_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_4_ROAD_HELICON_TYPED_20260826.zip",
+      "bytes": 11245051,
+      "sha256": "3d1c5d43cc49652e2b524efeea071e1cecaad2de250a990d30d73bb55ff35567",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_5_RESIDUE_DESCENT_GATE_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_5_RESIDUE_DESCENT_GATE_20260826.zip",
+      "bytes": 22515658,
+      "sha256": "fbac13d91ec72b67a2f4c8860a29ac5d0094ca4a20b7e282c888dbb17e12d4c5",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_6_SU3_REDUCTION_NOGO_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_6_SU3_REDUCTION_NOGO_20260826.zip",
+      "bytes": 45033576,
+      "sha256": "fbcecaa777315dc6a22b8b2a90c8c9aca7940f3752a329d31f0ec7407bf26b6c",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_7_CORRIDOR_CARRIER_BACKFILL_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_7_CORRIDOR_CARRIER_BACKFILL_20260826.zip",
+      "bytes": 90083953,
+      "sha256": "bc763993c69e41d4cb5bc8206a8f894dedf2f944e7f135ef0ba46a38b8079d58",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_8_TIMESHELL_Q_HANDOFF_BLOCKER_20260826.zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_8_TIMESHELL_Q_HANDOFF_BLOCKER_20260826.zip",
+      "bytes": 180181455,
+      "sha256": "23421f5602bfabccdb898eafa9d5a5d7ce479cb59512a535c9efbb9d20d08385",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/Archive(1).zip",
+      "local_path": "07_SOURCE_CORPUS/03_CRD_QCD_DIRECT_PARENTS/Archive(1).zip",
+      "bytes": 10899298,
+      "sha256": "891da1f5c61a233e9d63fda7b5afc9ab37c560c8b32163447558721eae51d528",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/MK Ultra.pdf",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/MK Ultra.pdf",
+      "bytes": 67402112,
+      "sha256": "cca59f71a28079fb6fc511df7b811a88b7e3fde97d84bc1f299c3f4b86b12e8d",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/04_MK43_CORE/MK Ultra.pdf"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/6 | Unified Rainbow Road Overlay.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/6 - Unified Rainbow Road Overlay.zip",
+      "bytes": 88305195,
+      "sha256": "750530d37111b5133577aca9dca523d276cc9bbce586ceebb7250ad1b4234bed",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/1.0 | QFT - GR BRIDGE.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/1.0 - QFT - GR BRIDGE.zip",
+      "bytes": 11931854,
+      "sha256": "0d93f8a69782af74fee7309024c372290893ce4133d8009ac8ff284602439ecc",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/Rainbow_road.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/Rainbow_road.zip",
+      "bytes": 10386950,
+      "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/CFP.pdf",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/CFP.pdf",
+      "bytes": 854970,
+      "sha256": "752f8fe6d230dc23b1cc3c2c239fe11501379b7fbfec874372fa68b416833d76",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/04_MK43_CORE/CFP.pdf"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/CFP_exp.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/CFP_exp.zip",
+      "bytes": 36704726,
+      "sha256": "1346d283be75525caf916e4c0bef862365306cf0c9b6b4f54ac64ce5766481db",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/FUSION OPERATOR | CANDIDATE.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/FUSION OPERATOR - CANDIDATE.zip",
+      "bytes": 15846569,
+      "sha256": "1c58a310bfbc0ad7d362cf86aea1566944396238fdb9b84faf09017c247f9ff0",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/Chirality Relaxation Dynamic .zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/Chirality Relaxation Dynamic .zip",
+      "bytes": 298642,
+      "sha256": "ee4d4de38ced1b0c84136225be39797c047240bc2c5d827b341cc1785be398fa",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/Genesis Field.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/Genesis Field.zip",
+      "bytes": 1004880,
+      "sha256": "70842b96edf7e9ab742b0ada0ccf66202024ce18ece71dc45e50add1ae937728",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/04_MK43_CORE/3 | Genesis Sandbox.zip",
+      "local_path": "07_SOURCE_CORPUS/04_MK43_CORE/3 - Genesis Sandbox.zip",
+      "bytes": 27332,
+      "sha256": "f407deca8422b330d4685b44e1b5d8a34d16f8d8b379cdec102aa63b6cd4e226",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Resolution & Readout.zip",
+      "local_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Resolution & Readout.zip",
+      "bytes": 327280,
+      "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Holonomy & Chirality.zip",
+      "local_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Holonomy & Chirality.zip",
+      "bytes": 686047,
+      "sha256": "433e9a4ff681ddf33839530a67551db58d08ad99ea012f76adf00fc2d72d74a6",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Bandwidth Algebra.zip",
+      "local_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Bandwidth Algebra.zip",
+      "bytes": 1163433,
+      "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Identity Through History.zip",
+      "local_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Identity Through History.zip",
+      "bytes": 224934,
+      "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Transduction Geometry v1.0.zip",
+      "local_path": "07_SOURCE_CORPUS/05_ASTRAEUS_BOOKS/Transduction Geometry v1.0.zip",
+      "bytes": 3398136,
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/_PRIME.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/_PRIME.md",
+      "bytes": 23645,
+      "sha256": "915be232f0901c4247b2063f5e58e4504bd5ae65a7899b04b3e9c8583de65186",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/_PRIME.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/00_Primitives.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/00_Primitives.md",
+      "bytes": 63469,
+      "sha256": "b98a5b50df744e3c7ae7d633530e22d92ec3d0860d50374de0c4af3fc27218fe",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/00_Primitives.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/01_Definitions.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/01_Definitions.md",
+      "bytes": 20789,
+      "sha256": "ac8ce566990869a236af2dd8e09f737a3ede856f6f2f0eacccf4d13416573a4f",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/01_Definitions.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/02_Axioms.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/02_Axioms.md",
+      "bytes": 42164,
+      "sha256": "3dca083bd3407e9cbf55638c4678ec06957e71f5369166f1a235f0336fe398ff",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/02_Axioms.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/03_Lemmas.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/03_Lemmas.md",
+      "bytes": 44252,
+      "sha256": "cb48898836f7e60f7fbd6d86450741ab11160c614d5538c47d7a3cb979190f8b",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/03_Lemmas.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/04_Theorems.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/04_Theorems.md",
+      "bytes": 17449,
+      "sha256": "bbff3970e554aefa50d4d42233789bc83b3427e00b37bb5d0f77248f09dd4c99",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/04_Theorems.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/05_Interface_Definitions.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/05_Interface_Definitions.md",
+      "bytes": 11129,
+      "sha256": "df6f083d070179f39017774c5bf878d04309c855cf946130600fb1e78a40e57e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/05_Interface_Definitions.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/Chirality_Corridor.md",
+      "local_path": "07_SOURCE_CORPUS/06_FORMAL_STACK/Chirality_Corridor.md",
+      "bytes": 14163,
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/06_FORMAL_STACK/Chirality_Corridor.md"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/Trinity_Mainframe_Architecture_Archive.zip",
+      "local_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/Trinity_Mainframe_Architecture_Archive.zip",
+      "bytes": 1822444,
+      "sha256": "af282cface5ba290d82663ae66b15e9a741ad6c7d3e4206af077421f9b3f162e",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/GENESIS_DIAMOND_MASTER.pdf",
+      "local_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/GENESIS_DIAMOND_MASTER.pdf",
+      "bytes": 92298,
+      "sha256": "1b2150b1889bdcedd7ba505e148f6697765c1ec05802c298c2e232f58b9fed18",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/GENESIS_DIAMOND_MASTER.pdf"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/RAINBOW_THREAD_MASTER_2.pdf",
+      "local_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/RAINBOW_THREAD_MASTER_2.pdf",
+      "bytes": 306762,
+      "sha256": "beaf68d1fc739b9129b3bce853d8d0aa76824e1d75fd1053534f753372d87275",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/RAINBOW_THREAD_MASTER_2.pdf"
+    },
+    {
+      "source_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/Density Ladder.png",
+      "local_path": "07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/Density Ladder.png",
+      "bytes": 92080,
+      "sha256": "677d094abf140f2550ae466b2f1fcae3514ec609cef89bff0e020cb42d76eaca",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/07_SOURCE_CORPUS/07_RELATED_ARCHITECTURE/Density Ladder.png"
+    },
+    {
+      "source_path": "08_PRIOR_CHECKPOINTS/MK43_CHIRALITY_TIMESHELL_THREAD_RECOVERY_v1_0_20260827.zip",
+      "local_path": "08_PRIOR_CHECKPOINTS/MK43_CHIRALITY_TIMESHELL_THREAD_RECOVERY_v1_0_20260827.zip",
+      "bytes": 45905,
+      "sha256": "fbeb645fbbdf87ecefb6a2412fbae9c73675f45fc17310da8ace0e3eb61bfc7f",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "08_PRIOR_CHECKPOINTS/GENESIS_CHIRALITY_FABRIC_FULL_THREAD_RECOVERY_R61_v1_0_20260829.zip",
+      "local_path": "08_PRIOR_CHECKPOINTS/GENESIS_CHIRALITY_FABRIC_FULL_THREAD_RECOVERY_R61_v1_0_20260829.zip",
+      "bytes": 222868,
+      "sha256": "e78e38015e212e93f0a964b97e30e0fb3df1e186a86337ed528b3c16c54ab676",
+      "disposition": "LOCAL_ARCHIVE",
+      "reason": "User-confirmed archive-local scope; original independent reservoir/checkpoint bytes retained locally.",
+      "git_path": null
+    },
+    {
+      "source_path": "09_VISUAL_CONTEXT/IMG_6521_byte_tree_confusion.jpeg",
+      "local_path": "09_VISUAL_CONTEXT/IMG_6521_byte_tree_confusion.jpeg",
+      "bytes": 132675,
+      "sha256": "25cf68e5826d8ac4c864b9e46266af2e9e3e74efa2705d9b950375c43318800c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/09_VISUAL_CONTEXT/IMG_6521_byte_tree_confusion.jpeg"
+    },
+    {
+      "source_path": "09_VISUAL_CONTEXT/IMG_6523_nonabelian_translation.jpeg",
+      "local_path": "09_VISUAL_CONTEXT/IMG_6523_nonabelian_translation.jpeg",
+      "bytes": 247227,
+      "sha256": "25b226865ff35402600d9ab315ae723c02580aa8fd49cf116bf2dfbd7b0a66f5",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/09_VISUAL_CONTEXT/IMG_6523_nonabelian_translation.jpeg"
+    },
+    {
+      "source_path": "09_VISUAL_CONTEXT/IMG_dawn_gradient.jpeg",
+      "local_path": "09_VISUAL_CONTEXT/IMG_dawn_gradient.jpeg",
+      "bytes": 141043,
+      "sha256": "096949eababc8bc3c878dcaa1ab942dc19914f9ee8e4f9bad3da05650d10a20e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/09_VISUAL_CONTEXT/IMG_dawn_gradient.jpeg"
+    },
+    {
+      "source_path": "09_VISUAL_CONTEXT/genesis_field_contact.jpg",
+      "local_path": "09_VISUAL_CONTEXT/genesis_field_contact.jpg",
+      "bytes": 203226,
+      "sha256": "548cbbad1c7e2d07ba904a8b0bbcec4c2e2da1c155e67d23d91e701092387885",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/09_VISUAL_CONTEXT/genesis_field_contact.jpg"
+    },
+    {
+      "source_path": "09_VISUAL_CONTEXT/Hacker_mathematics.png",
+      "local_path": "09_VISUAL_CONTEXT/Hacker_mathematics.png",
+      "bytes": 191592,
+      "sha256": "b94da7e0aeafc14647603c1606d0a69442e56d7d54479d3bc2cd8a3e7d1c549a",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/09_VISUAL_CONTEXT/Hacker_mathematics.png"
+    },
+    {
+      "source_path": "08_PRIOR_CHECKPOINTS/ASTRAEUS_VERA_R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+      "local_path": "08_PRIOR_CHECKPOINTS/ASTRAEUS_VERA_R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+      "bytes": 8494,
+      "sha256": "bead4ef87ef0d427eec760c11c23fb5fa41694de44791f3ac223a9611f3f3d75",
+      "disposition": "GIT_SOURCE",
+      "reason": "Recovered R62 working document, data/API, formal source or explicitly typed provenance/context; bytes preserved.",
+      "git_path": "R62/08_PRIOR_CHECKPOINTS/ASTRAEUS_VERA_R60_NATIVE_UPDATE_MECHANISM_TANGENT.md"
+    }
+  ],
+  "controls": [
+    {
+      "path": "provenance/ASSEMBLY/R62_SPLIT_PART_MANIFEST.json",
+      "bytes": 8059,
+      "sha256": "2aba070cd687e5b7250f282b5df414ce592e85595ab0b14f1ef5792e78c91179"
+    },
+    {
+      "path": "provenance/ASSEMBLY/R62_SPLIT_VOLUME_INDEX.json",
+      "bytes": 10331,
+      "sha256": "f314adb9d56ec51ff2b75c0ac509a1b683eb387e75a2d0f620d5b3f51fe43dd7"
+    },
+    {
+      "path": "provenance/ASSEMBLY/R62_SPLIT_VOLUME_SHA256.txt",
+      "bytes": 2835,
+      "sha256": "53603cb83f49f677cebf36368d31112dd716b77d30719fe722b3c796306f4346"
+    },
+    {
+      "path": "provenance/ASSEMBLY/README_REASSEMBLY.txt",
+      "bytes": 1447,
+      "sha256": "0405840292564d53b397d8b4246a4d79debd51f6eed35a0216f418bbf629c740"
+    },
+    {
+      "path": "provenance/ASSEMBLY/reassemble_r62.py",
+      "bytes": 3748,
+      "sha256": "b23623e833ab49cb65a331c3497e0c9737f766c0063c68e85db3aee790ca0c69"
+    },
+    {
+      "path": "provenance/Handoff/00_READ_ME_FIRST.md",
+      "bytes": 1985,
+      "sha256": "0bd7cf617508fe2eb8e267879af6a0ba663761a7985a7d959a88bb6807015852"
+    },
+    {
+      "path": "provenance/Handoff/01_ROUTE_A_R62_SPLIT_CHECKLIST.md",
+      "bytes": 3993,
+      "sha256": "38bc243bc0f6daa7115f6c1788a4be4793ab022420e027029fea66986b4e6e4b"
+    },
+    {
+      "path": "provenance/Handoff/02_ROUTE_B_MINIMUM_LIVE_MOUNT_CHECKLIST.md",
+      "bytes": 4654,
+      "sha256": "2e6f8faafe9b2efb1a64c17c8aec8c4eca099aa99939d2a7c202d01dfa48e898"
+    },
+    {
+      "path": "provenance/Handoff/03_UPLOAD_BATCH_PLAN.md",
+      "bytes": 2563,
+      "sha256": "1a9147e09c8059c049408e9da29397ec215d8533dc59bdf3b32b0abd00ab8058"
+    },
+    {
+      "path": "provenance/Handoff/04_FULL_SOURCE_AUDIT_CHECKLIST.md",
+      "bytes": 10121,
+      "sha256": "0bed9b10bf2690f726eafc1789a44df4cfc962d1fe9eafb22b87340cbbc498b1"
+    },
+    {
+      "path": "provenance/Handoff/05_SOURCE_HASH_LEDGER.csv",
+      "bytes": 12787,
+      "sha256": "abfed7c327bad02cea2525a1784e955e3205394277f8879e5bf7d47c82841b3e"
+    },
+    {
+      "path": "provenance/Handoff/06_MACHINE_CHECKLIST.json",
+      "bytes": 39721,
+      "sha256": "48cb55f5cba5529cf440f9ad00daf02821819d4899cf62ef1bd9bf0ce20f125c"
+    },
+    {
+      "path": "provenance/Handoff/07_GENESIS_LANGUAGE_CONTENTS.md",
+      "bytes": 735,
+      "sha256": "62e75cab35808153ec83aa83e4f0161f3a55c2a03e740f11fc9ea7b6bc278ed1"
+    },
+    {
+      "path": "provenance/Handoff/08_ACCEPTED_FILENAME_ALIASES.md",
+      "bytes": 1183,
+      "sha256": "526c905f2371a75d00025b1e084e2f112558316eeed86f98c966f7d4f721033f"
+    },
+    {
+      "path": "provenance/Handoff/09_RECOVERY_PROMPT.md",
+      "bytes": 1605,
+      "sha256": "728316f36eab0ef6533ad69f842169d19e004e48a875f7d1d415c8a2ed2f1ee5"
+    },
+    {
+      "path": "provenance/Handoff/10_UPLOAD_RECEIPT_TEMPLATE.md",
+      "bytes": 449,
+      "sha256": "e07d298b2128e4d8162be5115dd94b2c3e6a26409af32b3e74dbf9822aad0469"
+    },
+    {
+      "path": "provenance/Handoff/11_R62_ORIGINAL_FILE_INVENTORY.csv",
+      "bytes": 14589,
+      "sha256": "c1879271d313158657685bbfa1b0e535452e7a1c54f2ec7bae586df1791a0f31"
+    },
+    {
+      "path": "provenance/Handoff/12_R62_SPLIT_VOLUME_INDEX.json",
+      "bytes": 10331,
+      "sha256": "f314adb9d56ec51ff2b75c0ac509a1b683eb387e75a2d0f620d5b3f51fe43dd7"
+    },
+    {
+      "path": "provenance/Handoff/13_R62_DUPLICATE_ALIAS_MAP.json",
+      "bytes": 888,
+      "sha256": "d75e2003b3fff5d474583fda1a11f2c0a4e99449ee3dc1e8d935a4aece159369"
+    },
+    {
+      "path": "provenance/Handoff/SHA256SUMS.txt",
+      "bytes": 1345,
+      "sha256": "d7ca01c4ab29d68a8a6e4ad98e081fca3a7129eabdd9146dbd2e22c37db1c201"
+    }
+  ]
+}
