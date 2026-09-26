@@ -1,0 +1,40 @@
+{
+  "version": "3.0",
+  "date": "2026-08-28",
+  "foundation": "GENESIS_THE_TOME_v0_3_GENESIS_MANUSCRIPT_UPDATE_20260828.zip",
+  "work_layer_consulted": "GENESIS_THE_TOME_v0_4_CHIRALITY_EXHAUSTIVE_INTEGRATION_20260828.zip",
+  "chirality_split_source_receipts": [
+    {
+      "filename": "A.zip",
+      "sha256": "85594ed3708f045e1fd03ddb8743d5a9bb576f950b2567fd11a7b8747299cdd3",
+      "bytes": 175381269
+    },
+    {
+      "filename": "B.zip",
+      "sha256": "0d3cf46a9fcc118cf6af77b1ca0f0108e5d0b80c93e2b8c14ff76db8c179d079",
+      "bytes": 88232453
+    },
+    {
+      "filename": "C.zip",
+      "sha256": "3be1794cffd81756048b8b4bcaa2cc1582f97122fd83311014f57637125a7357",
+      "bytes": 39374062
+    },
+    {
+      "filename": "D.zip",
+      "sha256": "f2975c74b0cc01546e6bb7ead5c30c1bb4bbe290b8066051cc707b0cef184020",
+      "bytes": 7057894
+    },
+    {
+      "filename": "E.zip",
+      "sha256": "3599ae13c490c174d86688f3ae6d03d79ac094bea45f4eda31e00b9e93b34e9d",
+      "bytes": 52384136
+    },
+    {
+      "filename": "F.zip",
+      "sha256": "ef0e915d0dfd3dcb20f7e560f38a94b9399aac7cf2ac0b81c0f7168a31807ad1",
+      "bytes": 1912260
+    }
+  ],
+  "policy": "physics may generate mathematics; only realization-independent mathematics is integrated",
+  "cutoff": "before T0-T7/R0-R7 and other natural-law realization machinery"
+}

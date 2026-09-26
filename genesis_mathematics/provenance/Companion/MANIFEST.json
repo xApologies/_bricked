@@ -1,0 +1,74 @@
+{
+  "original_filename": "GENESIS_MANUSCRIPT_v3_0_MATHEMATICS_ONLY_20260828.zip",
+  "original_bytes": 885094360,
+  "original_sha256": "8b9a92ac56ab71ece3880e47ef6f8d47bc6a69beaab7e67994ed87b36f330209",
+  "chunk_size_bytes": 99614720,
+  "chunk_size_mib": 95,
+  "parts": [
+    {
+      "label": "A",
+      "filename": "GENESIS_v3_0_A.part",
+      "bytes": 99614720,
+      "sha256": "41aefabb60ad7f23809041d0638af4136b08d01de66809365f66de301e47e911"
+    },
+    {
+      "label": "B",
+      "filename": "GENESIS_v3_0_B.part",
+      "bytes": 99614720,
+      "sha256": "bdba22a47e48272446acc9d87fe72876ad2bb5b391cc288ac3df44655773070a"
+    },
+    {
+      "label": "C",
+      "filename": "GENESIS_v3_0_C.part",
+      "bytes": 99614720,
+      "sha256": "405e33a45535438b526b76b2c17870747a3e5caf46aa22af4a5adcc6ed1ca8f1"
+    },
+    {
+      "label": "D",
+      "filename": "GENESIS_v3_0_D.part",
+      "bytes": 99614720,
+      "sha256": "fedd5b046a81ec1bb84fb53954cc00d50082c1354e40cac0fd4caa527107424f"
+    },
+    {
+      "label": "E",
+      "filename": "GENESIS_v3_0_E.part",
+      "bytes": 99614720,
+      "sha256": "6f2f1fb9e8fffac0432f5e12079dfa18a657f8272e2545f19cfa04131b4d65ff"
+    },
+    {
+      "label": "F",
+      "filename": "GENESIS_v3_0_F.part",
+      "bytes": 99614720,
+      "sha256": "4dd59306535bf6ec47c60945735d85ce22b4cc33385b57c942dde4b66150ff32"
+    },
+    {
+      "label": "G",
+      "filename": "GENESIS_v3_0_G.part",
+      "bytes": 99614720,
+      "sha256": "58bd52df3ef42c797e4e0be6cb317d03a86f4e72b64b8a773120d0a04ef995cb"
+    },
+    {
+      "label": "H",
+      "filename": "GENESIS_v3_0_H.part",
+      "bytes": 99614720,
+      "sha256": "69cda8711f30a5b557d81cb19be8d16d9ce17c55830117db3fadb9142277425f"
+    },
+    {
+      "label": "I",
+      "filename": "GENESIS_v3_0_I.part",
+      "bytes": 88176600,
+      "sha256": "25e1b932b80db3391488ddb8885dbab5dfdcb11cd95439922da9501b53bc5ac9"
+    }
+  ],
+  "reassembly_order": [
+    "GENESIS_v3_0_A.part",
+    "GENESIS_v3_0_B.part",
+    "GENESIS_v3_0_C.part",
+    "GENESIS_v3_0_D.part",
+    "GENESIS_v3_0_E.part",
+    "GENESIS_v3_0_F.part",
+    "GENESIS_v3_0_G.part",
+    "GENESIS_v3_0_H.part",
+    "GENESIS_v3_0_I.part"
+  ]
+}

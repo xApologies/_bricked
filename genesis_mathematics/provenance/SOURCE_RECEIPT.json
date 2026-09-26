@@ -1,0 +1,96 @@
+{
+  "starting_head": "b5922796fadd35f11e58fdfbfd6c3c1cb4bda913",
+  "source_inbox": "C:\\Users\\rando\\_bricked\\_inbox\\_genesisManuscripts",
+  "artifacts": [
+    {
+      "filename": "A.part",
+      "bytes": 99614720,
+      "sha256": "41aefabb60ad7f23809041d0638af4136b08d01de66809365f66de301e47e911",
+      "signature_hex": "504b0304140000000800f2a01c5dcbb6",
+      "role": "raw ZIP byte segment",
+      "order": 1,
+      "manifest_filename": "GENESIS_v3_0_A.part"
+    },
+    {
+      "filename": "B.part",
+      "bytes": 99614720,
+      "sha256": "bdba22a47e48272446acc9d87fe72876ad2bb5b391cc288ac3df44655773070a",
+      "signature_hex": "83dca9f212f68d209ef5d5cbde36e027",
+      "role": "raw ZIP byte segment",
+      "order": 2,
+      "manifest_filename": "GENESIS_v3_0_B.part"
+    },
+    {
+      "filename": "C.part",
+      "bytes": 99614720,
+      "sha256": "405e33a45535438b526b76b2c17870747a3e5caf46aa22af4a5adcc6ed1ca8f1",
+      "signature_hex": "cc062db10a4a86970de5ac4714930da0",
+      "role": "raw ZIP byte segment",
+      "order": 3,
+      "manifest_filename": "GENESIS_v3_0_C.part"
+    },
+    {
+      "filename": "Companion .zip",
+      "bytes": 2147,
+      "sha256": "2ce92b0745ccb629fbfb3578fc7ecbb06be1ee03942e5c323e853786567e04a0",
+      "signature_hex": "504b030414000000080054a11c5d2476",
+      "role": "Companion recovery instructions",
+      "order": null,
+      "manifest_filename": null
+    },
+    {
+      "filename": "D.part",
+      "bytes": 99614720,
+      "sha256": "fedd5b046a81ec1bb84fb53954cc00d50082c1354e40cac0fd4caa527107424f",
+      "signature_hex": "cde4f4d280dad02d466445f53fa5a884",
+      "role": "raw ZIP byte segment",
+      "order": 4,
+      "manifest_filename": "GENESIS_v3_0_D.part"
+    },
+    {
+      "filename": "E.part",
+      "bytes": 99614720,
+      "sha256": "6f2f1fb9e8fffac0432f5e12079dfa18a657f8272e2545f19cfa04131b4d65ff",
+      "signature_hex": "00b5d0b21ab04455813f32774ef1e095",
+      "role": "raw ZIP byte segment",
+      "order": 5,
+      "manifest_filename": "GENESIS_v3_0_E.part"
+    },
+    {
+      "filename": "F.part",
+      "bytes": 99614720,
+      "sha256": "4dd59306535bf6ec47c60945735d85ce22b4cc33385b57c942dde4b66150ff32",
+      "signature_hex": "b67ba262a40d0ad7af45cd3de628797c",
+      "role": "raw ZIP byte segment",
+      "order": 6,
+      "manifest_filename": "GENESIS_v3_0_F.part"
+    },
+    {
+      "filename": "G.part",
+      "bytes": 99614720,
+      "sha256": "58bd52df3ef42c797e4e0be6cb317d03a86f4e72b64b8a773120d0a04ef995cb",
+      "signature_hex": "3765f027b4b447eba1d869c4867ed380",
+      "role": "raw ZIP byte segment",
+      "order": 7,
+      "manifest_filename": "GENESIS_v3_0_G.part"
+    },
+    {
+      "filename": "H.part",
+      "bytes": 99614720,
+      "sha256": "69cda8711f30a5b557d81cb19be8d16d9ce17c55830117db3fadb9142277425f",
+      "signature_hex": "16369ba2f73cf367004907dad8c236e9",
+      "role": "raw ZIP byte segment",
+      "order": 8,
+      "manifest_filename": "GENESIS_v3_0_H.part"
+    },
+    {
+      "filename": "I.part",
+      "bytes": 88176600,
+      "sha256": "25e1b932b80db3391488ddb8885dbab5dfdcb11cd95439922da9501b53bc5ac9",
+      "signature_hex": "ed4f5e3c76dcff74bfc4dc904065257d",
+      "role": "raw ZIP byte segment",
+      "order": 9,
+      "manifest_filename": "GENESIS_v3_0_I.part"
+    }
+  ]
+}

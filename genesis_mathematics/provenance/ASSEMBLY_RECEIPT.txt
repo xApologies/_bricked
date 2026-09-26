@@ -1,0 +1,4 @@
+Reassembled: C:\Users\rando\_bricked\_inbox\manuscripts-recovery\GENESIS_MANUSCRIPT_v3_0_MATHEMATICS_ONLY_20260828.zip
+SHA-256: 8b9a92ac56ab71ece3880e47ef6f8d47bc6a69beaab7e67994ed87b36f330209
+Expected: 8b9a92ac56ab71ece3880e47ef6f8d47bc6a69beaab7e67994ed87b36f330209
+Match: True

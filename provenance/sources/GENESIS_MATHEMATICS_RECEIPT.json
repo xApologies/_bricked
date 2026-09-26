@@ -1,0 +1,535 @@
+{
+  "integration_date": "2026-09-26",
+  "starting_head": "b5922796fadd35f11e58fdfbfd6c3c1cb4bda913",
+  "branch": "bootstrap/canonical-architecture",
+  "destination": "genesis_mathematics/v3.0",
+  "source_inbox": "C:\\Users\\rando\\_bricked\\_inbox\\_genesisManuscripts",
+  "reconstructed_archive": "GENESIS_MANUSCRIPT_v3_0_MATHEMATICS_ONLY_20260828.zip",
+  "reconstructed_bytes": 885094360,
+  "reconstructed_sha256": "8b9a92ac56ab71ece3880e47ef6f8d47bc6a69beaab7e67994ed87b36f330209",
+  "extracted_files": 70,
+  "extracted_bytes": 887487566,
+  "git_source_files": 68,
+  "git_source_bytes": 3168206,
+  "manifest_entries_verified": 68,
+  "checksum_entries_verified": 68,
+  "archive_crc_checks": 3,
+  "sqlite_counts": {
+    "metadata": 7,
+    "chapters": 18,
+    "inclusion": 12,
+    "frontiers": 3,
+    "source_receipts": 6
+  },
+  "controls": [
+    {
+      "path": "provenance/Companion/MANIFEST.json",
+      "bytes": 2184,
+      "sha256": "25fc7095a0eaaea6e6780992068efa51235bbd28ca6fed7a5a527b37b2300737"
+    },
+    {
+      "path": "provenance/Companion/README_REASSEMBLY.md",
+      "bytes": 1188,
+      "sha256": "bef6b873d0571044385e580c098d0d3ddfb4bae523018ad86ebc1c6e0f5938a9"
+    },
+    {
+      "path": "provenance/Companion/REASSEMBLE.py",
+      "bytes": 806,
+      "sha256": "60599e6c8dbab89d8e2c2d6881f336901acb52fd1c39dc237869cb3d3b9be224"
+    }
+  ],
+  "files": [
+    {
+      "path": "APPENDICES/INCLUSION_EXCLUSION_MATRIX.json",
+      "bytes": 1510,
+      "sha256": "d5bb5e643d99777efe8f537f87352bb251ccb06e73dbac16d315906262e2fb67",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "APPENDICES/MATHEMATICS_ONLY_DEPENDENCY_SPINE.md",
+      "bytes": 853,
+      "sha256": "0b7c849dcec09de9bc7893be19ea377d1632484b6b4bd3a2caf9c11f0650c161",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "BOOK/GENESIS_MANUSCRIPT_v3_0_MASTER.md",
+      "bytes": 835199,
+      "sha256": "1eabc44a76b96b887d68f373abec94c30b42b14a0f866463dde81748bbb5e869",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/39_PRIME_ZERO_CRADLE_AND_CHIRALITY_SEED.md",
+      "bytes": 1279,
+      "sha256": "a2a44aa15813fa6fe9af726b0a8b67ea9e273a70fc69cf653d0282442d254744",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/40_EXISTENCE_AS_DOMAIN_RELATIVE_STRUCTURE.md",
+      "bytes": 1138,
+      "sha256": "6ab1a40b8e64cfff228c351f67914ce7179dfe37050513630800c1d65c1788ce",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/41_RAINBOW_STRUCTURAL_BASINS.md",
+      "bytes": 1116,
+      "sha256": "b0cdcc14bb030f62c2c561d7f17bf53538eb38dd35ef05effef9c4eb4a138cad",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/42_WHITE_CARRIER_AND_MOBIUS_REORIENTATION.md",
+      "bytes": 927,
+      "sha256": "737ed332d57028d577cacc895f8372f7cc32d1176c871c6a904c8a2b50d6fa53",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/43_COMPLEX_ADMISSION_RIEMANN_AND_HOPF_GEOMETRY.md",
+      "bytes": 875,
+      "sha256": "7c4bfc280690611bdf2c809764808c1dd82bdded028920130b1471d67abb3a34",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/44_HISTORY_PROVENANCE_AND_IDENTITY.md",
+      "bytes": 665,
+      "sha256": "1845c3d8c91e77636ec6b3e5de1ad971b89d44bbacf83d659f30f18338a0f640",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/45_PERSISTENCE_AS_RECOVERABLE_SELF_RETURN.md",
+      "bytes": 717,
+      "sha256": "6c12ea8264bf9f81fff61409d8e5b1fd9d44be1925babbfd773a22b1a9fbeee4",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/46_BANDWIDTH_AS_AVAILABLE_ORGANIZATIONAL_FREEDOM.md",
+      "bytes": 703,
+      "sha256": "62a8a73c89c4380e0014122fff06e6f378bb94b2f46abbe45612835a120bd62e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/47_RAINBOW_ROAD_INFORMATION_TRANSPORT.md",
+      "bytes": 891,
+      "sha256": "1718e5bbc119b0672876ceb793e8520941db42ef0e9c0bd4c48d043b78176916",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/48_RESOLUTION_NETWORK_AND_RELATIONAL_DEPTH.md",
+      "bytes": 727,
+      "sha256": "2d7b1028b0ffe6c4fe37bb649803da1c80bb27c5e3655cc45fc1c136adca33dc",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/49_TORUS_AS_SHARED_RESOLUTION_GEOMETRY.md",
+      "bytes": 932,
+      "sha256": "c58c9a8bafd03d949b6d05a32d8a2f8ec3de51872653b31a8a65382663741366",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/50_FINITE_INVARIANT_NO_GO.md",
+      "bytes": 708,
+      "sha256": "1d1f1bd7396a297f644c0d3295e04b72b6015cc51cf123fdf4bbdabd0d39a61c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/51_PROJECTION_SEED_LIFT_AND_PREIMAGE.md",
+      "bytes": 562,
+      "sha256": "c65dfaa27bb4542df62a70d554a9fbd2c765417fcdde3ad85a9e1071fa6b0290",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/52_CONNECTION_AND_LIFT_SELECTION.md",
+      "bytes": 625,
+      "sha256": "545eff6debc089fb591a88f9d73e538edfacae067e418219e77597e0fbaf0a11",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/53_CHIRALITY_AS_ORDERED_GEOMETRY.md",
+      "bytes": 895,
+      "sha256": "ea3eec9fedd4e890ef744c99d4338f234d33869e17593d3b61733c653f9b3ce4",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/54_AUTOMORPHISM_RANK_AND_SU_N_READINESS.md",
+      "bytes": 1209,
+      "sha256": "07e4048600918d5bef362e696313d46e64bbdb2d2406ea6f7c8c0c4b35ce43dc",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/55_GROUP_EMERGENCE_THRESHOLD.md",
+      "bytes": 724,
+      "sha256": "4e0478996a52b88d75dc8d530faf9d721c4dfa4f2bb165f1a04e1f2e8dee6ec5",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FORMAL/56_NATURAL_LAW_CUTOFF.md",
+      "bytes": 918,
+      "sha256": "344c7cd498fb46d4a25418969b591f94698951afcbd424b80662dc6c1981ac65",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "FOUNDATION/GENESIS_THE_TOME_v0_3_MASTER.md",
+      "bytes": 819229,
+      "sha256": "2e64f14361d6aac10512038d993ec1a1910070e61234345f539fabb56d213e94",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "LANGUAGE/PROPAGATION_LANGUAGE_MAP_v0_3.md",
+      "bytes": 1701,
+      "sha256": "2a1f5339cf74d8300ae3a131cbe52702db6bd31ee8628e5224d1bc8411f05671",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MACHINE/genesis_manuscript_v3_0.sqlite",
+      "bytes": 45056,
+      "sha256": "78d4f29c667f294903ec95accf3bf0c924018efaac831395d37e90030fc2668c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MACHINE/MANIFEST.json",
+      "bytes": 10577,
+      "sha256": "24dd59c4f91402a0ec5bb48dc4c3f55202b39e5484df66020c894f753a4e022e",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MACHINE/SHA256SUMS.txt",
+      "bytes": 6598,
+      "sha256": "c075235d993aeb5af1827b303e621aebc9080aba05e0fc07c57e39866e594525",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.1.txt",
+      "bytes": 3240,
+      "sha256": "c139bd7dcf32d6dcab22594e4dc97b6119883bd3143e9ea30c9f4d7f7e19d4ed",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.10.txt",
+      "bytes": 22290,
+      "sha256": "8353d471070bc8bbc7f6184f7be8209049c0484566793ac758bbbd0ac59ff276",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.11.txt",
+      "bytes": 22381,
+      "sha256": "0ae4fe1ff3ff10843108dbcefc3f0a39c91def5e97b6a37ce54399110d593aa9",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.12.txt",
+      "bytes": 24590,
+      "sha256": "83b08f0d8a74ce6e7ae473cd3c7dc325ccae206405d2504927df5c3e199c1100",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.13.txt",
+      "bytes": 22477,
+      "sha256": "731bbb88b327dcb6708dcb057b5da163953438df63d1641484613f5d1213a173",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.14.txt",
+      "bytes": 21868,
+      "sha256": "f8bdd9e6da618ff68a5106086d9f86fd3f8d7b92a44ac49da6aa77570c2c03c9",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.15.txt",
+      "bytes": 20385,
+      "sha256": "8875d306f39f703ba08e8f4b7c22905c8221a99a26602078f3a24d35583290da",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.16.txt",
+      "bytes": 20385,
+      "sha256": "8875d306f39f703ba08e8f4b7c22905c8221a99a26602078f3a24d35583290da",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.17.txt",
+      "bytes": 20030,
+      "sha256": "1bc1e4869fa444dee34c14c98f19c5655c524f1a480c80fcffb44f0a1dca7276",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.18.txt",
+      "bytes": 21689,
+      "sha256": "8c3430b9b780eec536129a8a54d853d585911137f6b4e8fbae5eb7cbad827851",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.19.txt",
+      "bytes": 21839,
+      "sha256": "545dc6582513693dcc561d5e807f85b10980f5a7eb95b629eef21ee348e69d8c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.2.txt",
+      "bytes": 4072,
+      "sha256": "5780b5674eca8d6d9152c5daf9dd5e9eadc51d552de6e4ba4a8e4349135ff6dd",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.20.txt",
+      "bytes": 17615,
+      "sha256": "dbd6d46669dfd16b4b2e385fa1ab955ff7435888470af32cbf0d56bb7bd5f28b",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.21.txt",
+      "bytes": 19478,
+      "sha256": "4ef9a31af256500749c5ce356c45092442d39752aea94cc9c7c9e3458c2fa646",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.22.txt",
+      "bytes": 16769,
+      "sha256": "3f6ea219543f82c170099f5d8c3dc644bf5c7fda69aef7fd64ca838029cf7a0c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.23.txt",
+      "bytes": 20087,
+      "sha256": "113fd21615bb634e6dd1088b718114600158a84a4d25c715290aea2861896137",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.24.txt",
+      "bytes": 21592,
+      "sha256": "d6c3898d7fdc1b5ccc95c79ced997fe5790e827d69c62928dd60283e53449981",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.25.txt",
+      "bytes": 22089,
+      "sha256": "0898db664d4adfa9d5e877f7f41527d4b2b6abf52cd9aa5acb84b1c041174788",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.26.txt",
+      "bytes": 21399,
+      "sha256": "fb5cd578690e6c8862f761e2ec9a3f47fb03f733d815e76b0a39cd813d7c689c",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.27.txt",
+      "bytes": 22096,
+      "sha256": "0140dfeb8d98203dcb686c8d6d24d28317ec5376a02add812da65061b6a3fb7d",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.28.txt",
+      "bytes": 21767,
+      "sha256": "d4ad643d56541e3afde55aa067ca430ebb6e1d22ef9a586f8ac49df06d74b382",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.29.txt",
+      "bytes": 19945,
+      "sha256": "bfa38c48ec3d10ea1fe64509cbd5d4b534300aaa705c9cf18ed3a0bf97959524",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.3.txt",
+      "bytes": 4003,
+      "sha256": "6ed403c3b7a33f26d1a55d8bba04d799deee152ef08455e4c2d09ba69e156a3b",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.30.txt",
+      "bytes": 22166,
+      "sha256": "39f05a945191d13598a608481a3b86be266546abfba92710eec7a7f8f28fd4a4",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.31.txt",
+      "bytes": 20777,
+      "sha256": "dc80ae6a11def182200e68f5abe06b8609a942129480a086c3d6eb7c618f07c8",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.32.txt",
+      "bytes": 20323,
+      "sha256": "e1fc3dbaabe1bdc7a6c18db6c26a7736a513a1beb4b39da7fed0073f61822d6f",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.33.txt",
+      "bytes": 22017,
+      "sha256": "8bd5de1ca605e122fca4d4496e94776cbd2d2d75557db2b7a29c78a0716ef8e3",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.34.txt",
+      "bytes": 27754,
+      "sha256": "0d7dc9490614f9546d773ec816007046649e928c52a7db7b4d8032de1138a4f9",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.35.txt",
+      "bytes": 17379,
+      "sha256": "70aa1ac95e6cb228c1aea3eee17c78c1bc8c091c9ff13b08cffcfe0efb28599a",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.4.txt",
+      "bytes": 27981,
+      "sha256": "4d7f98d0520b5e62e338f9ade285164146aaefaafcf270cb5ea6699cd32ec2f6",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.5.txt",
+      "bytes": 14539,
+      "sha256": "3fd708570b54fd128ba7d1f277c34391d7187430945fda68e5c46ebf683f1d84",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.6.txt",
+      "bytes": 21076,
+      "sha256": "aa506b4c79ce249aa07a1e55e81064ab4d8989ba396997336057951a6fc8a5e0",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.7.txt",
+      "bytes": 17047,
+      "sha256": "ba880f2f69a2e3aa34f6781814cb8263fded35fb6243cda5a402b44c1ed45605",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.8.txt",
+      "bytes": 22390,
+      "sha256": "6eb2391e8a3e657fe2017656d1b4f6df7246fb50aeb9a3ccc8664ea698baf74b",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/1.9.txt",
+      "bytes": 21017,
+      "sha256": "ded8814ccde6ad4aaa967354b9e26c5699f5a4dfa46cf15ee62e0cac7ee62b11",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/2.1.txt",
+      "bytes": 23146,
+      "sha256": "ed570476d8890515635f6370bc24ddc7af3a36256ad94aac2a0962e372b0d5a0",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "MOVEMENTS/TOME_MOVEMENTS_CH1_CH2_1_FULL.txt",
+      "bytes": 716132,
+      "sha256": "f862fa5fac2dd7a07f97b213ab3ad719ae703fd6f142dd7952e4339f4d056803",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "NOTES/WHERE_WE_CUT_OFF_AND_WHY.md",
+      "bytes": 2105,
+      "sha256": "1ee74e2d51759f806fa2d8c2d1ef21b390604f33cb2e8ae7bf1e2dc80a711214",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "PROVENANCE/BUILD_PROVENANCE.json",
+      "bytes": 1335,
+      "sha256": "54939bb4ea4f0158952830ea819ed25db3717156ad615f875e9ec6a2601996a3",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "PROVENANCE/CHIRALITY_SOURCE_RECEIPTS.json",
+      "bytes": 829,
+      "sha256": "4e3328b81209e02c5c67efaf306e40e4d3ea28473ab2fcc8fce7a56d2d0b5bef",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "README.md",
+      "bytes": 620,
+      "sha256": "1d52efcffc331558434d50d92a39dc3633552ee63873fe003a138753fee02854",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "RECOVERY/RECOVERY_PROMPT.md",
+      "bytes": 1153,
+      "sha256": "35905b5645d740c7e6448afc1f6ddd1462ef711d40100e0ecbcc5a0f4151dd8f",
+      "disposition": "GIT_SOURCE",
+      "reason": "Preserve complete extracted non-archive source hierarchy and bytes"
+    },
+    {
+      "path": "SOURCES/GENESIS_THE_TOME_v0_3_GENESIS_MANUSCRIPT_UPDATE_20260828.zip",
+      "bytes": 260184342,
+      "sha256": "711eea785dba13fc5b657f28098070c7eddf1def3e13442de0cfd968d883648f",
+      "disposition": "LOCAL_HISTORICAL_ARCHIVE",
+      "reason": "Source/work-layer archive; canonical manuscript/foundation already supplied extracted; retain locally as recovery evidence"
+    },
+    {
+      "path": "SOURCES/GENESIS_THE_TOME_v0_4_CHIRALITY_EXHAUSTIVE_INTEGRATION_20260828.zip",
+      "bytes": 624135018,
+      "sha256": "637611e51f7be5f1213d4d9e6aa43dd9d06b22e2ec398b2ffb4c0fa5d1bb8b1f",
+      "disposition": "LOCAL_HISTORICAL_ARCHIVE",
+      "reason": "Source/work-layer archive; canonical manuscript/foundation already supplied extracted; retain locally as recovery evidence"
+    }
+  ],
+  "commit_lookup": "git log --diff-filter=A --format=%H -- provenance/sources/GENESIS_MATHEMATICS_RECEIPT.json",
+  "final_commit_note": "The integration commit is identified by the addition of this receipt; the exact post-commit SHA and remote verification are recorded in the completion report, avoiding a self-referential commit hash."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "Prime Zero / Cradle",
+    "include": true,
+    "reason": "Genesis-native foundational geometry"
+  },
+  {
+    "topic": "Chirality seed / ordered geometry",
+    "include": true,
+    "reason": "derived from Cradle, no physical pipeline required"
+  },
+  {
+    "topic": "Rainbow structural basins / White / M\u00f6bius",
+    "include": true,
+    "reason": "mathematical organization and accessibility geometry"
+  },
+  {
+    "topic": "Resolution / Bandwidth / History / Persistence",
+    "include": true,
+    "reason": "general mathematics"
+  },
+  {
+    "topic": "Rainbow Road",
+    "include": true,
+    "reason": "information transport, payload-independent"
+  },
+  {
+    "topic": "Torus S1xS1",
+    "include": true,
+    "reason": "shared Resolution geometry; no global physical fiber claim"
+  },
+  {
+    "topic": "Complex/Riemann/Hopf",
+    "include": true,
+    "reason": "pure mathematics"
+  },
+  {
+    "topic": "Automorphism groups / SU(n) readiness",
+    "include": true,
+    "reason": "pure mathematics; no SU2/SU3 closure claimed"
+  },
+  {
+    "topic": "T0\u2013T7 pipeline",
+    "include": false,
+    "reason": "natural-law realization"
+  },
+  {
+    "topic": "R0\u2013R7 pipeline",
+    "include": false,
+    "reason": "natural-law realization"
+  },
+  {
+    "topic": "Time Space / Time Shell instantiation",
+    "include": false,
+    "reason": "domain-specific physics realization"
+  },
+  {
+    "topic": "QFT / QCD / gravity",
+    "include": false,
+    "reason": "physics application"
+  }
+]
