@@ -35,3 +35,7 @@ DP-004 now promotes the Byte and Rainbow Road placeholders to working definition
 ## Cumulative DP-006 working update
 
 Start with the [unified framework](../architecture/UNIFIED_GENESIS_FRAMEWORK.md), [language crosswalk](GENESIS_LANGUAGE_ARCHITECTURE_CROSSWALK.md), [Guardian framework](GUARDIAN_INTELLIGENCE_FRAMEWORK.md), [R62 Byte reconciliation](CHIRALITY_BYTE_R62_RECONCILIATION.md) and [OPEN ledger](../architecture/OPEN_MATHEMATICS.md). The [checkpoint](../../development/checkpoints/2026-09-26_DP006_STATUS.md) records the cumulative DP-005/DP-006 delta; prior checkpoints remain historical records.
+
+## DP-007 navigation
+
+Current discovery: [four-domain registry](../../genesis/registries/DOMAIN_REGISTRY.json) and [authority map](../../genesis/AUTHORITY_MAP.md). This navigation update preserves the working source definitions and OPEN mathematics above. Historical checkpoint statements are not current implementation claims.

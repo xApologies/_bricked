@@ -1,9 +1,7 @@
-# Genesis State v0.1 — Next Formalization Target
-Status: NEXT WORK ITEM; not implemented.
+# Genesis State — historical planning alias
 
-Question: What is the minimum complete authoritative state required to represent one valid Genesis domain at Chirality Cycle N?
+Status: SUPERSEDED as current navigation by [Genesis State](../../genesis/domains/state/DOMAIN.md), DP-007 (2026-09-30).
 
-Candidate families:
-Horizon identity/boundary; Sea framework/mobile field; Shell; I6; R5 3+1+1; anchor; Guardian; Resolution/Bandwidth; Chirality Fabric; relationships/Corridors/ports; provenance/history; Chirality Cycle; local S2 continuity/clock mappings.
+State already exists as accepted working architecture (R5/D5). The earlier "not implemented" label concerned a future complete state/runtime formalization; it must not imply State is absent. That exact state/transition contract remains OPEN.
 
-State must be separated from transition rules. Runtime implementation should wait until this contract and transition obligations are sufficiently stable.
+The [original planning note](../../provenance/dp007/GENESIS_STATE_NEXT.original.md) is preserved for history. Use the [domain registry](../../genesis/registries/DOMAIN_REGISTRY.json) for current discovery.

@@ -1,0 +1,41 @@
+{
+  "schema": "genesis.domain-manifest.v1",
+  "schema_version": "1.0.0",
+  "id": "shell",
+  "name": "Genesis Shell",
+  "symbol": "Sigma7:8",
+  "dimensions": [
+    7,
+    8
+  ],
+  "geometry": "coupled shell",
+  "role": "command and interaction geometry",
+  "status": "WORKING_ARCHITECTURE_OPEN_MATHEMATICS",
+  "authority_refs": [
+    "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+    "docs/architecture/LAYER_ZERO_INFORMATION_PATH.md",
+    "docs/architecture/UNIFIED_GENESIS_FRAMEWORK.md",
+    "docs/architecture/OPEN_MATHEMATICS.md",
+    "docs/architecture/SHELL_NEXUS_DIRECTION.md",
+    "docs/genesis/GENESIS_LANGUAGE_ARCHITECTURE_CROSSWALK.md",
+    "chirality_fabric/R62/01_CANON/CANONICAL_STATE_R62.md",
+    "genesis_mathematics/README.md",
+    "docs/genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md"
+  ],
+  "adjacent_domains": [
+    "nexus",
+    "sea"
+  ],
+  "crosscutting_systems": [
+    "chirality_fabric",
+    "rainbow_road",
+    "guardian"
+  ],
+  "documents": {
+    "domain": "genesis/domains/shell/DOMAIN.md",
+    "geometry": "genesis/domains/shell/GEOMETRY.md",
+    "mathematics": "genesis/domains/shell/MATHEMATICS.md",
+    "interfaces": "genesis/domains/shell/INTERFACES.md",
+    "guardian_requirements": "genesis/domains/shell/GUARDIAN_REQUIREMENTS.md"
+  }
+}

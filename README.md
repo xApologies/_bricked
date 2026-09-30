@@ -1,29 +1,21 @@
-# _bricked
+# _bricked — start here
 
-Canonical game-development repository: [xApologies/_bricked](https://github.com/xApologies/_bricked).
+[Genesis](genesis/README.md) is organized for people and applications around four domains:
 
-GitHub `main` is the canonical accepted project state. This bootstrap is a proposal on a working branch.
+| Domain | Geometry | Navigate |
+| --- | --- | --- |
+| State | R5 / D5 | [State](genesis/domains/state/README.md) |
+| Nexus | H6 / D6 | [Nexus](genesis/domains/nexus/README.md) |
+| Shell | Sigma7:8 / D7+D8 | [Shell](genesis/domains/shell/README.md) |
+| Sea | S9:11 / D9+D10+D11 | [Sea](genesis/domains/sea/README.md) |
 
-The complete 87-file level constitution has been imported byte-for-byte from `dev.zip`. See [bootstrap provenance](provenance/decisions/0001-bootstrap.md) and the [source manifest](provenance/sources/dev-import.json).
+Applications start with [DOMAIN_REGISTRY.json](genesis/registries/DOMAIN_REGISTRY.json). Adjacency is `Sea <-> Shell <-> Nexus <-> State`; source authorities and cross-cutting systems are not additional domains.
 
-## Repository map
+- Source authorities: [mathematics](genesis_mathematics/README.md), [structural language](genesis/authorities/structural_language.md), [programming language](language/README.md), [Chirality Fabric](chirality_fabric/README.md).
+- Cross-cutting systems: [Rainbow Road](genesis/systems/rainbow_road/README.md), [Guardian](genesis/systems/guardian/README.md), [registry](genesis/registries/CROSSCUTTING_REGISTRY.json).
+- Game/development: [171-scenario module canon](development/modules/README.md), [Development Constitution](development/constitution/LEVEL_XX/CONSTITUTION.md), [game boundary](game/).
+- Provenance: [authority map](genesis/AUTHORITY_MAP.md), [decisions](provenance/decisions/), [DP-007 audit](provenance/audits/DP007_INTEGRATION.md).
 
-| Path | Purpose |
-| --- | --- |
-| `docs/` | Canonical specifications, design, cybersecurity, shared Genesis, visual language, glossary, diagrams |
-| `development/` | Level constitution, module development, shared systems, development checkpoints |
-| `game/` | Reserved runtime implementation boundaries; no runtime implemented |
-| `content/` | Art, audio, VFX, UI, shaders, Blender assets |
-| `data/` | Level, object, state, algorithm and test data |
-| `tools/` | Validators, exporters, generators, developer tools |
-| `tests/` | Unit, integration, regression, adversarial and performance tests |
-| `platform/` | iOS, Android and desktop packaging/integration boundaries |
-| `provenance/` | Decisions, checkpoint records, source records and audits |
+Read the [Project Constitution](PROJECT_CONSTITUTION.md) and [contribution rules](CONTRIBUTING.md). GitHub main remains accepted project state; this working branch proposes changes. Genesis-native semantics remain upstream of host/reference realization. OPEN mathematics is not completed by this navigation layer; no game runtime is implemented here.
 
-The directory tree and all created files are recorded in [the bootstrap inventory](provenance/audits/bootstrap-inventory.md).
-
-Read [PROJECT_CONSTITUTION.md](PROJECT_CONSTITUTION.md), [CONTRIBUTING.md](CONTRIBUTING.md), the [module canon](development/modules/README.md), and the [shared Genesis index](docs/genesis/README.md).
-
-## Validation
-
-Run `node tools/validators/validate-bootstrap.mjs`. Checks cover directory boundaries, module totals, OPEN placeholders, and the imported file hashes and exact file set. No gameplay or Genesis mathematics is implemented by this validator.
+Validation: `python -B tools/validators/validate-genesis.py`, `node tools/validators/validate-bootstrap.mjs`. The former validates registries, domain mounts, current documentation links and registry-only discovery. The latter checks preserved bootstrap/constitution invariants.

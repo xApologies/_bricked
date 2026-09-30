@@ -1,0 +1,34 @@
+{
+  "schema": "genesis.authority-registry.v1",
+  "authorities": {
+    "genesis_mathematics": {
+      "path": "genesis_mathematics",
+      "class": "canonical_source"
+    },
+    "chirality_fabric": {
+      "path": "chirality_fabric",
+      "class": "canonical_source"
+    },
+    "genesis_programming_language": {
+      "path": "language",
+      "class": "canonical_source_and_reference_realization"
+    },
+    "architecture": {
+      "path": "genesis",
+      "class": "canonical_navigation_architecture"
+    },
+    "provenance": {
+      "path": "provenance",
+      "class": "provenance_history"
+    },
+    "development": {
+      "path": "development",
+      "class": "game_development"
+    },
+    "structural_language": {
+      "path": "language/_lang",
+      "class": "canonical_source"
+    }
+  },
+  "schema_version": "1.0.0"
+}

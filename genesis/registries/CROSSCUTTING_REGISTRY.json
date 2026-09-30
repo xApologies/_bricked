@@ -1,0 +1,30 @@
+{
+  "schema": "genesis.crosscutting-registry.v1",
+  "schema_version": "1.0.0",
+  "systems": {
+    "chirality_fabric": {
+      "path": "genesis/systems/chirality_fabric",
+      "authority_refs": [
+        "chirality_fabric/README.md",
+        "chirality_fabric/R62/01_CANON/CANONICAL_STATE_R62.md"
+      ],
+      "status": "SOURCE_AUTHORITY_OPEN_MATHEMATICS"
+    },
+    "rainbow_road": {
+      "path": "genesis/systems/rainbow_road",
+      "authority_refs": [
+        "docs/genesis/RAINBOW_ROAD.md",
+        "docs/architecture/CORRIDOR_PORTAL_RAINBOW_ROAD.md"
+      ],
+      "status": "WORKING_OPEN_MATHEMATICS"
+    },
+    "guardian": {
+      "path": "genesis/systems/guardian",
+      "authority_refs": [
+        "docs/genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md",
+        "docs/genesis/GUARDIAN_CDN.md"
+      ],
+      "status": "WORKING_OPEN_MATHEMATICS"
+    }
+  }
+}

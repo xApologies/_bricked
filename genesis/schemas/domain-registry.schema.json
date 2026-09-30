@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "schema_version",
+    "domain_count",
+    "topology",
+    "adjacency",
+    "domains"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "genesis.domain-registry.v1"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "domain_count": {
+      "const": 4
+    },
+    "topology": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "adjacency": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "domains": {
+      "type": "object",
+      "required": [
+        "state",
+        "nexus",
+        "shell",
+        "sea"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "type": "object",
+          "required": [
+            "symbol",
+            "dimensions",
+            "geometry",
+            "role",
+            "path",
+            "manifest"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "minLength": 1
+            },
+            "dimensions": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "geometry": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "manifest": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "nexus": {
+          "type": "object",
+          "required": [
+            "symbol",
+            "dimensions",
+            "geometry",
+            "role",
+            "path",
+            "manifest"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "minLength": 1
+            },
+            "dimensions": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "geometry": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "manifest": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "shell": {
+          "type": "object",
+          "required": [
+            "symbol",
+            "dimensions",
+            "geometry",
+            "role",
+            "path",
+            "manifest"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "minLength": 1
+            },
+            "dimensions": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "geometry": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "manifest": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "sea": {
+          "type": "object",
+          "required": [
+            "symbol",
+            "dimensions",
+            "geometry",
+            "role",
+            "path",
+            "manifest"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "minLength": 1
+            },
+            "dimensions": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "geometry": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "manifest": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

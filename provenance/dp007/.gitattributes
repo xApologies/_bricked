@@ -1,0 +1,2 @@
+GENESIS_STATE_NEXT.original.md -text whitespace=cr-at-eol
+validation/*.log -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

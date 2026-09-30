@@ -1,0 +1,17 @@
+{
+  "baseline_files": 2146,
+  "baseline_bytes": 95278269,
+  "final_files": 2210,
+  "final_git_blob_bytes": 96872104,
+  "added": 64,
+  "modified": 9,
+  "moved": 0,
+  "deleted": 0,
+  "preserved_baseline_files": 2137,
+  "source_corpora_unchanged": true,
+  "language_duplicate_groups": 213,
+  "language_vendor_files_retained": 412,
+  "domain_count": 4,
+  "status": "PASS",
+  "inventory_method": "Baseline inventory plus complete migration path/hash delta; no self-referential hashes for receipt/summary. Byte total is staged Git blob bytes including this summary."
+}

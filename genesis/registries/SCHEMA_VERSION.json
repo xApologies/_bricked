@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "path_base": "repository_root",
+  "domain_ids": [
+    "state",
+    "nexus",
+    "shell",
+    "sea"
+  ],
+  "schemas": {
+    "domain_registry": "genesis/schemas/domain-registry.schema.json",
+    "domain_manifest": "genesis/schemas/domain-manifest.schema.json",
+    "authority_registry": "genesis/schemas/authority-registry.schema.json",
+    "crosscutting_registry": "genesis/schemas/crosscutting-registry.schema.json"
+  }
+}

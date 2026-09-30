@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### 2026-09-30 — DP-007 four-domain repository organization
+
+- Added substantive State/Nexus/Shell/Sea mounts, schema-validated discovery registries, authority indexes and an independent registry-only crawler.
+- Replaced root navigation and retained the old State planning path as a historical alias.
+- Inventoried all tracked source and language duplicate/vendor dependencies; preserved all corpus bytes and historical provenance.
+- Added navigation validation, negative tests and complete migration records.
+
 ### 2026-09-26 — Cumulative DP-006 architecture
 
 - Integrated DP-005/DP-006 State/Nexus/Shell/Sea, Sea fiber working model, Road transport and language/engineering Trinity direction.

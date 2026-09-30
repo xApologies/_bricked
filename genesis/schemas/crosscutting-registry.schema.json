@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "schema_version",
+    "systems"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "genesis.crosscutting-registry.v1"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "systems": {
+      "type": "object",
+      "required": [
+        "chirality_fabric",
+        "rainbow_road",
+        "guardian"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "chirality_fabric": {
+          "type": "object",
+          "required": [
+            "path",
+            "authority_refs",
+            "status"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "authority_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "status": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "rainbow_road": {
+          "type": "object",
+          "required": [
+            "path",
+            "authority_refs",
+            "status"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "authority_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "status": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "guardian": {
+          "type": "object",
+          "required": [
+            "path",
+            "authority_refs",
+            "status"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "authority_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "status": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

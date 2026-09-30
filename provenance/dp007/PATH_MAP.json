@@ -1,0 +1,36 @@
+{
+  "policy": "logical mounts; no physical source moves or deletions; all historical paths retained",
+  "mappings": [
+    {
+      "old": "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+      "new": "genesis/domains/state",
+      "kind": "domain_navigation_mount"
+    },
+    {
+      "old": "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+      "new": "genesis/domains/nexus",
+      "kind": "domain_navigation_mount"
+    },
+    {
+      "old": "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+      "new": "genesis/domains/shell",
+      "kind": "domain_navigation_mount"
+    },
+    {
+      "old": "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+      "new": "genesis/domains/sea",
+      "kind": "domain_navigation_mount"
+    },
+    {
+      "old": "docs/architecture/GENESIS_STATE_NEXT.md",
+      "new": "genesis/domains/state/DOMAIN.md",
+      "kind": "superseded_navigation_alias",
+      "historical_copy": "provenance/dp007/GENESIS_STATE_NEXT.original.md"
+    }
+  ],
+  "source_roots_unchanged": [
+    "language",
+    "chirality_fabric",
+    "genesis_mathematics"
+  ]
+}

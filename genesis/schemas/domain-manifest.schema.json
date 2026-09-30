@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "schema_version",
+    "id",
+    "name",
+    "symbol",
+    "dimensions",
+    "geometry",
+    "role",
+    "status",
+    "authority_refs",
+    "adjacent_domains",
+    "crosscutting_systems",
+    "documents"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "genesis.domain-manifest.v1"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "enum": [
+        "state",
+        "nexus",
+        "shell",
+        "sea"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "symbol": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "geometry": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "const": "WORKING_ARCHITECTURE_OPEN_MATHEMATICS"
+    },
+    "authority_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "adjacent_domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "crosscutting_systems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "documents": {
+      "type": "object",
+      "required": [
+        "domain",
+        "geometry",
+        "mathematics",
+        "interfaces",
+        "guardian_requirements"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "geometry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mathematics": {
+          "type": "string",
+          "minLength": 1
+        },
+        "interfaces": {
+          "type": "string",
+          "minLength": 1
+        },
+        "guardian_requirements": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

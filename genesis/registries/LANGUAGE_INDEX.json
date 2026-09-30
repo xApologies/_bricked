@@ -1,0 +1,149 @@
+{
+  "schema": "genesis.language-index.v1",
+  "architectural_domain": false,
+  "sections": [
+    {
+      "section": 1,
+      "path": "language/1 Packages",
+      "entry": "language/1 Packages/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 2,
+      "path": "language/2 Instantiation & Memory",
+      "entry": "language/2 Instantiation & Memory/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 3,
+      "path": "language/3 Transformation Engine & Geometry Forking",
+      "entry": "language/3 Transformation Engine & Geometry Forking/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 4,
+      "path": "language/4 Portal Engine",
+      "entry": "language/4 Portal Engine/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 5,
+      "path": "language/5 Rainbow Road",
+      "entry": "language/5 Rainbow Road/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 6,
+      "path": "language/6 QFT + GR Bridge",
+      "entry": "language/6 QFT + GR Bridge/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 7,
+      "path": "language/7 QIS + Effect System",
+      "entry": "language/7 QIS + Effect System/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 8,
+      "path": "language/8 Genesis VM",
+      "entry": "language/8 Genesis VM/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 9,
+      "path": "language/9 Semantic Linker",
+      "entry": "language/9 Semantic Linker/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 10,
+      "path": "language/10 Genesis Surface Language",
+      "entry": "language/10 Genesis Surface Language/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 11,
+      "path": "language/11 Genesis Optimization & Backend",
+      "entry": "language/11 Genesis Optimization & Backend/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 12,
+      "path": "language/12 Genesis Library",
+      "entry": "language/12 Genesis Library/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 13,
+      "path": "language/13 Callable Abstractions, Functions & Generics",
+      "entry": "language/13 Callable Abstractions, Functions & Generics/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 14,
+      "path": "language/14 Control Flow & Data Algebra",
+      "entry": "language/14 Control Flow & Data Algebra/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 15,
+      "path": "language/15 Recursion & Recursive Topology Execution",
+      "entry": "language/15 Recursion & Recursive Topology Execution/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 16,
+      "path": "language/16 Concurrency & Scheduling & Resource Coordination",
+      "entry": "language/16 Concurrency & Scheduling & Resource Coordination/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 17,
+      "path": "language/17 System I-O & BLACKGLASS-BRANE Interface",
+      "entry": "language/17 System I-O & BLACKGLASS-BRANE Interface/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 18,
+      "path": "language/18 Compiler Toolchain & Diagnostics & Debugging",
+      "entry": "language/18 Compiler Toolchain & Diagnostics & Debugging/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 19,
+      "path": "language/19 Genesis Bootstrap & Self-Hosting Path",
+      "entry": "language/19 Genesis Bootstrap & Self-Hosting Path/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    },
+    {
+      "section": 20,
+      "path": "language/20 GENESIS",
+      "entry": "language/20 GENESIS/00_START_HERE/README.md",
+      "classification": "canonical_section_with_reference_realization",
+      "vendor_policy": "preserve frozen dependencies at supplied import locations"
+    }
+  ],
+  "structural_source": "language/_lang",
+  "duplicate_audit": "provenance/dp007/LANGUAGE_DUPLICATES.json",
+  "source_inventory": "language/provenance/RECOVERED_FILES.json"
+}

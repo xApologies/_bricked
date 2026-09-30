@@ -1,0 +1,70 @@
+{
+  "schema": "genesis.domain-registry.v1",
+  "domain_count": 4,
+  "topology": [
+    "sea",
+    "shell",
+    "nexus",
+    "state"
+  ],
+  "adjacency": [
+    [
+      "sea",
+      "shell"
+    ],
+    [
+      "shell",
+      "nexus"
+    ],
+    [
+      "nexus",
+      "state"
+    ]
+  ],
+  "domains": {
+    "state": {
+      "symbol": "R5",
+      "dimensions": [
+        5
+      ],
+      "geometry": "five-dimensional sphere",
+      "role": "authoritative native state geometry",
+      "path": "genesis/domains/state",
+      "manifest": "genesis/domains/state/MANIFEST.json"
+    },
+    "nexus": {
+      "symbol": "H6",
+      "dimensions": [
+        6
+      ],
+      "geometry": "six-dimensional hypercube",
+      "role": "read/write mediation and realization geometry",
+      "path": "genesis/domains/nexus",
+      "manifest": "genesis/domains/nexus/MANIFEST.json"
+    },
+    "shell": {
+      "symbol": "Sigma7:8",
+      "dimensions": [
+        7,
+        8
+      ],
+      "geometry": "coupled shell",
+      "role": "command and interaction geometry",
+      "path": "genesis/domains/shell",
+      "manifest": "genesis/domains/shell/MANIFEST.json"
+    },
+    "sea": {
+      "symbol": "S9:11",
+      "dimensions": [
+        9,
+        10,
+        11
+      ],
+      "geometry": "coupled sea",
+      "role": "containing/environment geometry",
+      "path": "genesis/domains/sea",
+      "manifest": "genesis/domains/sea/MANIFEST.json"
+    }
+  },
+  "schema_version": "1.0.0"
+}

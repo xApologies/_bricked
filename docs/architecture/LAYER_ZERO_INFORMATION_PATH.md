@@ -60,3 +60,7 @@ Exact embedding maps, Shell coupling, Sea phase coupling, and the Sea–Shell in
 ## DP-006 named mediation
 
 `Sea <-> Shell <-> Nexus <-> State` names the same mandatory adjacent path. Nexus = H6 and State = R5. Shell cannot silently bypass Nexus to mutate State. Guardian system-wide potential authority also requires the appropriate Road/Nexus/closure path and witnesses; it is not invisible bypass authority. Exact realization remains OPEN; see [Shell/Nexus direction](SHELL_NEXUS_DIRECTION.md) and [DP-006](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).
+
+## DP-007 navigation
+
+Current discovery: [four-domain registry](../../genesis/registries/DOMAIN_REGISTRY.json) and [authority map](../../genesis/AUTHORITY_MAP.md). This navigation update preserves the working source definitions and OPEN mathematics above. Historical checkpoint statements are not current implementation claims.

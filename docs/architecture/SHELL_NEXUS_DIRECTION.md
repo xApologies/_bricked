@@ -11,3 +11,7 @@ Neither Shell nor Sea silently bypasses Nexus to mutate State. Guardian writes f
 The existing [three interface contracts](LAYER_ZERO_INFORMATION_PATH.md) retain direction, admissibility, Chirality constraints, Resolution, Bandwidth, authority, failure behavior and provenance requirements. Exact Sea/Shell coupling, Shell/Nexus requests and Nexus/State realization maps remain OPEN. The arrows are accepted relationships, not embedding proofs.
 
 Source: DP-006 02/07/09; [decision](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).
+
+## DP-007 navigation
+
+Current discovery: [four-domain registry](../../genesis/registries/DOMAIN_REGISTRY.json) and [authority map](../../genesis/AUTHORITY_MAP.md). This navigation update preserves the working source definitions and OPEN mathematics above. Historical checkpoint statements are not current implementation claims.

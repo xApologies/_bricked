@@ -1,0 +1,38 @@
+{
+  "existing_checks": {
+    "bootstrap": 0,
+    "fabric": 0,
+    "mathematics": 0,
+    "language": 0
+  },
+  "language_domain_suites": 20,
+  "language_unittest_counts": [
+    14,
+    18,
+    23,
+    40,
+    40,
+    44,
+    46,
+    42,
+    50,
+    48,
+    62,
+    60,
+    64,
+    80,
+    77,
+    48,
+    63
+  ],
+  "note": "Sections 4/5/6 use custom test runners; see recorded log for their assertion counts",
+  "new_navigation": "PASS: schemas, four manifests, references, adjacency, 72 current docs, <=2 hops, registry-only crawler",
+  "negative_and_positive_contract_tests": 8,
+  "source_preservation": "All baseline language/, chirality_fabric/, genesis_mathematics/ and existing provenance blobs preserved",
+  "log_sha256": {
+    "language-tests.log": "ab7887e356b0fbeed418c40762563df60cbb984a7bc7d256e738b661b253639f",
+    "bootstrap-tests.log": "1884b2761af4c9484bf5dbb8874f7a51c97d7fabb7bf2dcf41c2a6790966af87",
+    "fabric-tests.log": "b195bee171da83787c1e461c191bd5e5917e14e370c358c984ec4549b8c86e9b",
+    "mathematics-tests.log": "8e31e1b255f1fa8049b93efed4c82e93527a576766b06355667f688c6929d73d"
+  }
+}

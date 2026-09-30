@@ -1,0 +1,40 @@
+{
+  "schema": "genesis.domain-manifest.v1",
+  "schema_version": "1.0.0",
+  "id": "state",
+  "name": "Genesis State",
+  "symbol": "R5",
+  "dimensions": [
+    5
+  ],
+  "geometry": "five-dimensional sphere",
+  "role": "authoritative native state geometry",
+  "status": "WORKING_ARCHITECTURE_OPEN_MATHEMATICS",
+  "authority_refs": [
+    "docs/architecture/LAYER_ZERO_FOUR_OBJECT_MODEL.md",
+    "docs/architecture/LAYER_ZERO_INFORMATION_PATH.md",
+    "docs/architecture/UNIFIED_GENESIS_FRAMEWORK.md",
+    "docs/architecture/OPEN_MATHEMATICS.md",
+    "docs/genesis/GEOMETRIC.md",
+    "docs/genesis/CHIRALITY_BYTE_R62_RECONCILIATION.md",
+    "docs/architecture/BINARY_COMPATIBILITY.md",
+    "chirality_fabric/R62/01_CANON/CANONICAL_STATE_R62.md",
+    "genesis_mathematics/README.md",
+    "docs/genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md"
+  ],
+  "adjacent_domains": [
+    "nexus"
+  ],
+  "crosscutting_systems": [
+    "chirality_fabric",
+    "rainbow_road",
+    "guardian"
+  ],
+  "documents": {
+    "domain": "genesis/domains/state/DOMAIN.md",
+    "geometry": "genesis/domains/state/GEOMETRY.md",
+    "mathematics": "genesis/domains/state/MATHEMATICS.md",
+    "interfaces": "genesis/domains/state/INTERFACES.md",
+    "guardian_requirements": "genesis/domains/state/GUARDIAN_REQUIREMENTS.md"
+  }
+}

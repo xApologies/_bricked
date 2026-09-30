@@ -62,3 +62,7 @@ See the [computation model](GENESIS_COMPUTATION_MODEL.md), [Sea fiber working mo
 Guardian is the top-level adaptive management/intelligence authority of the instantiated environment, with system-wide potential write reach constrained by mathematics. Mathematical validity precedes present admissibility and actor authorization. See the [Guardian framework](../genesis/GUARDIAN_INTELLIGENCE_FRAMEWORK.md). All statuses and unresolved laws are recorded in the [OPEN ledger](OPEN_MATHEMATICS.md).
 
 Source: [DP-006 decision](../../provenance/decisions/0007-dp006-cumulative-genesis-architecture.md).
+
+## DP-007 navigation
+
+Current discovery: [four-domain registry](../../genesis/registries/DOMAIN_REGISTRY.json) and [authority map](../../genesis/AUTHORITY_MAP.md). This navigation update preserves the working source definitions and OPEN mathematics above. Historical checkpoint statements are not current implementation claims.
